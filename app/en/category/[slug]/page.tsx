@@ -150,9 +150,9 @@ export default async function CategoryPageEN({ params }: CategoryPageProps) {
               <p className="sidebar-cta-text">
                 Operational efficiency and patient experience on one platform.
               </p>
-              <Link href="/en/demo" className="sidebar-cta-btn">
+              <a href="https://graftscope.com" className="sidebar-cta-btn">
                 Request Demo
-              </Link>
+              </a>
             </div>
           </aside>
         </div>
