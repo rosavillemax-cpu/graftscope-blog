@@ -127,7 +127,20 @@ body {
   font-weight: 700;
   color: var(--ink);
   text-decoration: none;
-  letter-spacing: 0.02em;
+  display: block;
+  line-height: 1.2;
+}
+
+.masthead-tagline {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--muted);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0.25rem;
+  line-height: 1.4;
 }
 .masthead-logo:hover { color: var(--accent); }
 

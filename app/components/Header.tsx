@@ -113,6 +113,9 @@ export default function Header() {
           <Link href={homeHref} className="masthead-logo">
             Graftscope
           </Link>
+          <div className="masthead-tagline">
+            {isEnglishPage ? "Hair Restoration Insights" : "Saç Ekimi Klinikleri İçin Rehber"}
+          </div>
         </div>
         <nav className="editorial-nav">
           <div className="editorial-nav-inner">
