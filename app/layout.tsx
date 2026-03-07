@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
+import Footer from "./components/Footer";
 
 const SITE_URL = "https://graftscope.org";
 
@@ -113,6 +114,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         {children}
+        <Footer />
       </body>
     </html>
   );
