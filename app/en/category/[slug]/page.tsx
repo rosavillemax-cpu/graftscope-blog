@@ -62,12 +62,6 @@ export default async function CategoryPageEN({ params }: CategoryPageProps) {
 
       <main className="home-main">
         <section className="category-hero">
-          <header className="category-hero-header">
-            <h1 className="category-hero-title">{categoryName}</h1>
-            <p className="category-hero-count">
-              {articles.length} {articles.length === 1 ? "Article" : "Articles"}
-            </p>
-          </header>
           {featured && (
             <article className="category-hero-featured">
               <span className="article-card-category">

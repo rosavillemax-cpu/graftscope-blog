@@ -92,12 +92,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
       <main className="home-main">
         <section className="category-hero">
-          <header className="category-hero-header">
-            <h1 className="category-hero-title">{categoryName}</h1>
-            <p className="category-hero-count">
-              {count} {count === 1 ? "Makale" : "Makale"}
-            </p>
-          </header>
           {featured && (
             <article className="category-hero-featured">
               <span className="article-card-category">
@@ -128,6 +122,11 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                 <span className="meta-sep">·</span>
                 <span>{featured.frontmatter.readTime} dk</span>
               </footer>
+              <div className="article-card-action">
+                <Link href={`/articles/${featured.slug}`} className="article-card-link">
+                  Devamını Oku →
+                </Link>
+              </div>
             </article>
           )}
           {count === 0 && (
