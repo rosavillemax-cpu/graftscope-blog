@@ -143,6 +143,10 @@ body {
   padding: 0.25rem 0.75rem;
   border-radius: 999px;
 }
+.editorial-nav-link-active:hover {
+  background: var(--accent-dark);
+  color: #fff !important;
+}
 
 /* ========== Ticker ========== */
 .ticker-wrap {
@@ -221,10 +225,14 @@ body {
 }
 .hero-featured-title {
   font-family: var(--font-heading);
-  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.75rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
 }
 .hero-featured-title a {
   color: var(--ink);
