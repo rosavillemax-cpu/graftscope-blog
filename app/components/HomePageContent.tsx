@@ -59,17 +59,6 @@ export default function HomePageContent({ articles }: HomePageContentProps) {
           )}
         </div>
         <aside className="content-sidebar">
-          <div className="sidebar-cta">
-            <h3 className="sidebar-cta-title">
-              Kliniğinizi Yapay Zeka ile Yönetin
-            </h3>
-            <p className="sidebar-cta-text">
-              Operasyonel verimlilik ve hasta deneyimi için tek platform.
-            </p>
-            <Link href="/demo" className="sidebar-cta-btn">
-              Demo Al
-            </Link>
-          </div>
         </aside>
       </div>
     </main>

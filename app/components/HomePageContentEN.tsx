@@ -59,17 +59,6 @@ export default function HomePageContentEN({ articles }: HomePageContentProps) {
           )}
         </div>
         <aside className="content-sidebar">
-          <div className="sidebar-cta">
-            <h3 className="sidebar-cta-title">
-              Manage Your Clinic with AI
-            </h3>
-            <p className="sidebar-cta-text">
-              Operational efficiency and patient experience on one platform.
-            </p>
-            <Link href="/en/demo" className="sidebar-cta-btn">
-              Request Demo
-            </Link>
-          </div>
         </aside>
       </div>
     </main>

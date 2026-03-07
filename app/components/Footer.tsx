@@ -11,14 +11,10 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-content">
         <div className="footer-section footer-brand">
-          <h3 className="footer-logo">Graftscope</h3>
-          <div className="footer-logo-insights">insights</div>
-          <p className="footer-tagline">
-            {isEnglishPage 
-              ? "Hair Transplant Clinic Management Guide"
-              : "Saç Ekim Klinikleri İçin Rehber"
-            }
-          </p>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+            <span style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1.8rem', color: '#0f0f0f' }}>Graftscope</span>
+            <span style={{ fontFamily: 'Playfair Display, serif', fontStyle: 'italic', fontSize: '0.9rem', color: '#1a6b4a', marginTop: '-4px' }}>insights</span>
+          </div>
         </div>
         
         <div className="footer-section footer-links">
