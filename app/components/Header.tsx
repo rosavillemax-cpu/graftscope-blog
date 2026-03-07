@@ -44,12 +44,9 @@ export default function Header() {
             Sektör Rehberi
           </Link>
           <span className="top-bar-btn-sep" aria-hidden />
-          <a
-            href="mailto:contact@graftscope.com"
-            className="header-btn header-btn-solid"
-          >
+          <Link href="/demo" className="header-btn header-btn-solid">
             Bize Ulaşın
-          </a>
+          </Link>
         </div>
       </div>
       <div className="masthead-brand">

@@ -126,10 +126,10 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           <h2 className="cta-heading">Kliniğinizi bir üst seviyeye taşımaya hazır mısınız?</h2>
           <p className="cta-subtext">Yapay zeka destekli klinik yönetimi, randevu sistemi ve hasta takibi — tek platformda.</p>
           <div className="cta-buttons">
-            <a href="https://graftscope.com" className="cta-button cta-button-solid">
+            <a href="/demo" className="cta-button cta-button-solid">
               Ücretsiz Demo Al
             </a>
-            <a href="https://graftscope.com" className="cta-button cta-button-outline">
+            <a href="/demo" className="cta-button cta-button-outline">
               Nasıl Çalışır?
             </a>
           </div>

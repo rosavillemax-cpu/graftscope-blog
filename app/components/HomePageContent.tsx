@@ -115,14 +115,9 @@ export default function HomePageContent({ articles }: HomePageContentProps) {
             <p className="sidebar-cta-text">
               Operasyonel verimlilik ve hasta deneyimi için tek platform.
             </p>
-            <a
-              href="https://graftscope.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="sidebar-cta-btn"
-            >
+            <Link href="/demo" className="sidebar-cta-btn">
               Demo Al
-            </a>
+            </Link>
           </div>
           <div className="sidebar-section">
             <h4 className="sidebar-heading">Pazar</h4>
