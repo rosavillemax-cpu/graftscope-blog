@@ -90,6 +90,8 @@ export default function RootLayout({
   return (
     <html lang="tr" className={`${playfair.variable} ${dmSans.variable}`}>
       <head>
+        <link rel="alternate" hrefLang="tr" href="https://www.graftscope.org" />
+        <link rel="alternate" hrefLang="en" href="https://www.graftscope.org/en" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

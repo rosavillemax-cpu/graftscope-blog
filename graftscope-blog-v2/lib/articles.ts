@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 
 const ARTICLES_DIR = path.join(process.cwd(), "content/articles");
+const EN_ARTICLES_DIR = path.join(process.cwd(), "content/en/articles");
 
 export interface ArticleFrontmatter {
   title: string;
@@ -57,6 +58,39 @@ export function getAllArticles(): Article[] {
   );
 }
 
+// English article functions
+export function getEnglishArticleSlugs(): string[] {
+  if (!fs.existsSync(EN_ARTICLES_DIR)) return [];
+  const files = fs.readdirSync(EN_ARTICLES_DIR);
+  return files
+    .filter((f) => f.endsWith(".md"))
+    .map((f) => getSlugFromFilename(f));
+}
+
+export function getEnglishArticleBySlug(slug: string): Article | null {
+  const fullPath = path.join(EN_ARTICLES_DIR, `${slug}.md`);
+  if (!fs.existsSync(fullPath)) return null;
+  const raw = fs.readFileSync(fullPath, "utf-8");
+  const { data, content } = matter(raw);
+  return {
+    slug,
+    frontmatter: data as ArticleFrontmatter,
+    content,
+  };
+}
+
+export function getAllEnglishArticles(): Article[] {
+  const slugs = getEnglishArticleSlugs();
+  const articles = slugs
+    .map((slug) => getEnglishArticleBySlug(slug))
+    .filter((a): a is Article => a !== null);
+  return articles.sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).getTime() -
+      new Date(a.frontmatter.date).getTime()
+  );
+}
+
 /** URL slug → frontmatter category name (for nav and /kategori/[slug]) */
 export const CATEGORY_SLUG_TO_NAME: Record<string, string> = {
   "klinik-yonetimi": "Klinik Yönetimi",
@@ -67,8 +101,22 @@ export const CATEGORY_SLUG_TO_NAME: Record<string, string> = {
   global: "Global",
 };
 
+/** English URL slug → frontmatter category name (for nav and /en/category/[slug]) */
+export const EN_CATEGORY_SLUG_TO_NAME: Record<string, string> = {
+  "clinic-management": "Clinic Management",
+  "patient-growth": "Patient Growth",
+  "technology": "Technology",
+  "market-analysis": "Market Analysis",
+  "turkey": "Turkey Market",
+  "global": "Global",
+};
+
 export function getCategoryNameBySlug(slug: string): string | null {
   return CATEGORY_SLUG_TO_NAME[slug] ?? null;
+}
+
+export function getEnglishCategoryNameBySlug(slug: string): string | null {
+  return EN_CATEGORY_SLUG_TO_NAME[slug] ?? null;
 }
 
 export function getArticlesByCategory(categoryName: string): Article[] {
@@ -77,6 +125,16 @@ export function getArticlesByCategory(categoryName: string): Article[] {
   );
 }
 
+export function getEnglishArticlesByCategory(categoryName: string): Article[] {
+  return getAllEnglishArticles().filter(
+    (a) => a.frontmatter.category === categoryName
+  );
+}
+
 export function getCategorySlugs(): string[] {
   return Object.keys(CATEGORY_SLUG_TO_NAME);
+}
+
+export function getEnglishCategorySlugs(): string[] {
+  return Object.keys(EN_CATEGORY_SLUG_TO_NAME);
 }
