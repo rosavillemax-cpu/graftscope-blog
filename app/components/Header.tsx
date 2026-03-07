@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
+import SearchModal from "./SearchModal";
 
 const TR_NAV_ITEMS: { label: string; href: string; slug: string | null }[] = [
   { label: "Tümü", href: "/", slug: null },
@@ -27,6 +29,7 @@ export default function Header() {
   const pathname = usePathname();
   const isEnglishPage = pathname?.startsWith("/en");
   const isTurkishPage = !isEnglishPage;
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   
   const isCategoryPage = isEnglishPage 
     ? pathname?.startsWith("/en/category/")
@@ -56,71 +59,81 @@ export default function Header() {
   const contactBtnText = isEnglishPage ? "Contact Us" : "Bize Ulaşın";
 
   return (
-    <header className="editorial-header">
-      <div className="top-bar">
-        <div className="top-bar-inner">
-          <span className="top-bar-date">{currentDate}</span>
-          <span className="top-bar-lang">
-            <Link 
-              href="/" 
-              className={`lang-link ${isTurkishPage ? "lang-active" : ""}`}
-              aria-label="Turkish"
-            >
-              TR
-            </Link>
-            <span className="lang-sep">·</span>
-            <Link 
-              href="/en" 
-              className={`lang-link ${isEnglishPage ? "lang-active" : ""}`}
-              aria-label="English"
-            >
-              EN
-            </Link>
-            <span className="lang-sep">·</span>
-            <a 
-              href="/de" 
-              className="lang-link" 
-              aria-label="Deutsch"
-              style={{ opacity: 0.5, cursor: "not-allowed" }}
-            >
-              DE
-            </a>
-          </span>
-          <span className="top-bar-tagline">
-            {tagline}
-          </span>
-          <Link href={homeHref} className="header-btn header-btn-outline">
-            {guideBtnText}
-          </Link>
-          <span className="top-bar-btn-sep" aria-hidden />
-          <Link href={demoHref} className="header-btn header-btn-solid">
-            {contactBtnText}
-          </Link>
-        </div>
-      </div>
-      <div className="masthead-brand">
-        <Link href={homeHref} className="masthead-logo">
-          Graftscope
-        </Link>
-      </div>
-      <nav className="editorial-nav">
-        <div className="editorial-nav-inner">
-          {navItems.map((item) => {
-            const isActive =
-              (item.slug === null && (isEnglishPage ? pathname === "/en" : pathname === "/")) ||
-              (item.slug !== null && activeSlug === item.slug);
-            return (
-              <Link
-                key={item.label}
-                href={item.href}
-                className={`editorial-nav-link ${isActive ? "editorial-nav-link-active" : ""}`}
+    <>
+      <header className="editorial-header">
+        <div className="top-bar">
+          <div className="top-bar-inner">
+            <span className="top-bar-date">{currentDate}</span>
+            <span className="top-bar-lang">
+              <Link 
+                href="/" 
+                className={`lang-link ${isTurkishPage ? "lang-active" : ""}`}
+                aria-label="Turkish"
               >
-                {item.label}
+                TR
               </Link>
-            );
-          })}
+              <span className="lang-sep">·</span>
+              <Link 
+                href="/en" 
+                className={`lang-link ${isEnglishPage ? "lang-active" : ""}`}
+                aria-label="English"
+              >
+                EN
+              </Link>
+              <span className="lang-sep">·</span>
+              <a 
+                href="/de" 
+                className="lang-link" 
+                aria-label="Deutsch"
+                style={{ opacity: 0.5, cursor: "not-allowed" }}
+              >
+                DE
+              </a>
+            </span>
+            <span className="top-bar-tagline">
+              {tagline}
+            </span>
+            <button 
+              className="header-search-btn" 
+              onClick={() => setIsSearchOpen(true)}
+              aria-label="Search"
+            >
+              🔍
+            </button>
+            <Link href={homeHref} className="header-btn header-btn-outline">
+              {guideBtnText}
+            </Link>
+            <span className="top-bar-btn-sep" aria-hidden />
+            <Link href={demoHref} className="header-btn header-btn-solid">
+              {contactBtnText}
+            </Link>
+          </div>
         </div>
-      </nav>
-    </header>
+        <div className="masthead-brand">
+          <Link href={homeHref} className="masthead-logo">
+            Graftscope
+          </Link>
+        </div>
+        <nav className="editorial-nav">
+          <div className="editorial-nav-inner">
+            {navItems.map((item) => {
+              const isActive =
+                (item.slug === null && (isEnglishPage ? pathname === "/en" : pathname === "/")) ||
+                (item.slug !== null && activeSlug === item.slug);
+              return (
+                <Link
+                  key={item.label}
+                  href={item.href}
+                  className={`editorial-nav-link ${isActive ? "editorial-nav-link-active" : ""}`}
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
+          </div>
+        </nav>
+      </header>
+      <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+    </>
   );
 }
