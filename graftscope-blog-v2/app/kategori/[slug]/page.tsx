@@ -156,14 +156,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               <p className="sidebar-cta-text">
                 Operasyonel verimlilik ve hasta deneyimi için tek platform.
               </p>
-              <a
-                href="https://graftscope.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="sidebar-cta-btn"
-              >
+              <Link href="/demo" className="sidebar-cta-btn">
                 Demo Al
-              </a>
+              </Link>
             </div>
 
             <div className="sidebar-section">
