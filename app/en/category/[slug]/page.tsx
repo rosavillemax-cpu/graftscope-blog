@@ -98,6 +98,11 @@ export default async function CategoryPageEN({ params }: CategoryPageProps) {
                 <span className="meta-sep">·</span>
                 <span>{featured.frontmatter.readTime} min</span>
               </footer>
+              <div className="article-card-action">
+                <Link href={`/en/articles/${featured.slug}`} className="article-card-link">
+                  Continue Reading →
+                </Link>
+              </div>
             </article>
           )}
           {articles.length === 0 && (
@@ -132,6 +137,11 @@ export default async function CategoryPageEN({ params }: CategoryPageProps) {
                         <span className="meta-sep">·</span>
                         <span>{article.frontmatter.readTime} min</span>
                       </footer>
+                      <div className="article-card-action">
+                        <Link href={`/en/articles/${article.slug}`} className="article-card-link">
+                          Continue Reading →
+                        </Link>
+                      </div>
                     </article>
                   ))}
                 </div>

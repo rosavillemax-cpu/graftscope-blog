@@ -26,6 +26,11 @@ function ArticleCard({ article }: { article: Article }) {
         <span className="meta-sep">·</span>
         <span>{frontmatter.readTime} min</span>
       </footer>
+      <div className="article-card-action">
+        <Link href={`/en/articles/${slug}`} className="article-card-link">
+          Continue Reading →
+        </Link>
+      </div>
     </article>
   );
 }

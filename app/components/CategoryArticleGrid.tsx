@@ -52,6 +52,11 @@ export default function CategoryArticleGrid({
                 <span className="meta-sep">·</span>
                 <span>{frontmatter.readTime} dk</span>
               </footer>
+              <div className="article-card-action">
+                <Link href={`/articles/${slug}`} className="article-card-link">
+                  Devamını Oku →
+                </Link>
+              </div>
             </article>
           );
         })}

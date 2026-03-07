@@ -373,6 +373,23 @@ body {
 }
 .category-page-title a { color: inherit; }
 
+/* Article card action buttons */
+.article-card-action {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--rule);
+}
+.article-card-link {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+}
+.article-card-link:hover {
+  text-decoration: underline;
+}
+
 /* Category hero & grid */
 .category-hero {
   margin-bottom: 2.5rem;
