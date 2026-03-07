@@ -7,7 +7,7 @@ import {
   getAllEnglishArticles,
 } from "@/lib/articles";
 
-const SITE_URL = "https://graftscope.org";
+const SITE_URL = "https://www.graftscope.org";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllArticles();
@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const englishArticleSlugs = getEnglishArticleSlugs();
   const categorySlugs = getCategorySlugs();
 
+  // Dynamic Turkish article URLs
   const articleEntries: MetadataRoute.Sitemap = articleSlugs.map((slug) => {
     const article = articles.find((a) => a.slug === slug);
     return {
@@ -28,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
+  // Dynamic English article URLs
   const englishArticleEntries: MetadataRoute.Sitemap = englishArticleSlugs.map((slug) => {
     const article = englishArticles.find((a) => a.slug === slug);
     return {
@@ -40,6 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
+  // Dynamic Turkish category URLs
   const categoryEntries: MetadataRoute.Sitemap = categorySlugs.map(
     (slug) => ({
       url: `${SITE_URL}/kategori/${slug}`,
@@ -49,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  // English categories
+  // Dynamic English category URLs - generate from actual articles
   const englishCategories = new Set(englishArticles.map((a) => a.frontmatter.category));
   const englishCategoryEntries: MetadataRoute.Sitemap = Array.from(englishCategories).map((category) => {
     const slug = category.toLowerCase()
@@ -63,6 +66,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
+  // Static pages only
   return [
     {
       url: SITE_URL,
@@ -75,6 +79,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "daily" as const,
       priority: 1,
+    },
+    {
+      url: `${SITE_URL}/demo`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
+    {
+      url: `${SITE_URL}/en/demo`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
     },
     ...articleEntries,
     ...englishArticleEntries,
