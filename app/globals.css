@@ -1346,6 +1346,12 @@ body {
   letter-spacing: 0.05em;
   margin-top: -4px;
   margin-bottom: 0.5rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+  width: 100%;
 }
 
 .footer-brand p.footer-tagline {
