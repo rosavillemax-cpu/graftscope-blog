@@ -12,6 +12,7 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-section footer-brand">
           <h3 className="footer-logo">Graftscope</h3>
+          <div className="footer-logo-insights">insights</div>
           <p className="footer-tagline">
             {isEnglishPage 
               ? "Hair Transplant Clinic Management Guide"

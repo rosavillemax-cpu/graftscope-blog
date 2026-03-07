@@ -1337,6 +1337,17 @@ body {
   margin: 0 0 0.5rem 0;
 }
 
+.footer-logo-insights {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #1a6b4a;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-top: -4px;
+  margin-bottom: 0.5rem;
+}
+
 .footer-brand p.footer-tagline {
   color: var(--muted);
   font-size: 0.95rem;
