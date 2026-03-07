@@ -1139,6 +1139,60 @@ body {
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
+.search-input {
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  border: 2px solid var(--muted);
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background: var(--paper);
+  color: var(--ink);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(26, 107, 74, 0.1);
+}
+
+.search-input-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.search-input-btn {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--accent);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-input-btn:hover {
+  background: var(--accent-dark);
+}
+
+.search-results-count {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  border-bottom: 1px solid var(--paper-light);
+}
+
+.search-result-author {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
 .form-input:focus,
 .form-select:focus,
 .form-textarea:focus {
