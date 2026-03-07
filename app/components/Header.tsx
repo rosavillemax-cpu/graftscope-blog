@@ -19,7 +19,7 @@ const EN_NAV_ITEMS: { label: string; href: string; slug: string | null }[] = [
   { label: "Patient Growth", href: "/en/category/patient-growth", slug: "patient-growth" },
   { label: "Technology", href: "/en/category/technology", slug: "technology" },
   { label: "Market Analysis", href: "/en/category/market-analysis", slug: "market-analysis" },
-  { label: "Turkey", href: "/en/category/turkey", slug: "turkey" },
+  { label: "Türkiye", href: "/en/category/turkiye", slug: "turkiye" },
   { label: "Global", href: "/en/category/global", slug: "global" },
 ];
 

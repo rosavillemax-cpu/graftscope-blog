@@ -150,27 +150,6 @@ export default async function CategoryPageEN({ params }: CategoryPageProps) {
                 Request Demo
               </Link>
             </div>
-
-            <div className="sidebar-section">
-              <h4 className="sidebar-heading">Categories</h4>
-              <div className="sidebar-tags">
-                {getEnglishCategorySlugs().map((categorySlug) => {
-                  const name = getEnglishCategoryNameBySlug(categorySlug);
-                  const isActive = categorySlug === slug;
-                  return (
-                    <Link
-                      key={categorySlug}
-                      href={`/en/category/${categorySlug}`}
-                      className={`sidebar-tag ${
-                        isActive ? "sidebar-tag-active" : ""
-                      }`}
-                    >
-                      {name}
-                    </Link>
-                  );
-                })}
-              </div>
-            </div>
           </aside>
         </div>
       </main>
