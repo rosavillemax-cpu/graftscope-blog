@@ -131,6 +131,16 @@ body {
   line-height: 1.2;
 }
 
+.masthead-logo-insights {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #1a6b4a;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-top: -4px;
+}
+
 .masthead-tagline {
   font-family: var(--font-body);
   font-size: 0.75rem;

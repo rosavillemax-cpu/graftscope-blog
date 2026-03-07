@@ -28,7 +28,8 @@ const EN_NAV_ITEMS: { label: string; href: string; slug: string | null }[] = [
 export default function Header() {
   const pathname = usePathname();
   const isEnglishPage = pathname?.startsWith("/en");
-  const isTurkishPage = !isEnglishPage;
+  const isGermanPage = pathname?.startsWith("/de");
+  const isTurkishPage = !isEnglishPage && !isGermanPage;
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   
   const isCategoryPage = isEnglishPage 
@@ -42,15 +43,15 @@ export default function Header() {
     : null;
 
   const navItems = isEnglishPage ? EN_NAV_ITEMS : TR_NAV_ITEMS;
-  const currentDate = new Date().toLocaleDateString(isEnglishPage ? "en-US" : "tr-TR", {
+  const currentDate = new Date().toLocaleDateString(isEnglishPage ? "en-US" : isGermanPage ? "de-DE" : "tr-TR", {
     weekday: "long",
     year: "numeric",
     month: "long",
     day: "numeric",
   });
 
-  const homeHref = isEnglishPage ? "/en" : "/";
-  const demoHref = isEnglishPage ? "/en/demo" : "/demo";
+  const homeHref = isEnglishPage ? "/en" : isGermanPage ? "/de" : "/";
+  const demoHref = isEnglishPage ? "/en/demo" : isGermanPage ? "/de/demo" : "/demo";
   const tagline = isEnglishPage 
     ? "Hair Transplant Clinic Management Guide"
     : "Saç ekimi klinikleri için operasyonel rehber";
@@ -113,15 +114,18 @@ export default function Header() {
           <Link href={homeHref} className="masthead-logo">
             Graftscope
           </Link>
+          <div className="masthead-logo-insights">insights</div>
           <div className="masthead-tagline">
-            {isEnglishPage ? "Hair Restoration Insights" : "Saç Ekimi Klinikleri İçin Rehber"}
+            {isEnglishPage ? "Hair Transplant Clinic Management Guide" : 
+             isGermanPage ? "Leitfaden für Haartransplantationskliniken" : 
+             "Saç Ekimi Klinikleri İçin Rehber"}
           </div>
         </div>
         <nav className="editorial-nav">
           <div className="editorial-nav-inner">
             {navItems.map((item) => {
               const isActive =
-                (item.slug === null && (isEnglishPage ? pathname === "/en" : pathname === "/")) ||
+                (item.slug === null && (isEnglishPage ? pathname === "/en" : isGermanPage ? pathname === "/de" : pathname === "/")) ||
                 (item.slug !== null && activeSlug === item.slug);
               return (
                 <Link
