@@ -6,6 +6,7 @@ import {
   getEnglishCategorySlugs 
 } from "@/lib/articles";
 import Header from "@/app/components/Header";
+import Ticker from "@/app/components/Ticker";
 import type { Metadata } from "next";
 
 const SITE_URL = "https://graftscope.org";
@@ -57,63 +58,86 @@ export default async function CategoryPageEN({ params }: CategoryPageProps) {
   return (
     <div className="editorial-page">
       <Header />
+      <Ticker />
+
       <main className="home-main">
-        <div className="page-header">
-          <h1 className="page-title">{categoryName}</h1>
-          <p className="page-description">
-            Articles and insights about {categoryName} for hair transplant clinics.
-          </p>
-        </div>
+        <section className="category-hero">
+          <header className="category-hero-header">
+            <h1 className="category-hero-title">{categoryName}</h1>
+            <p className="category-hero-count">
+              {articles.length} {articles.length === 1 ? "Article" : "Articles"}
+            </p>
+          </header>
+          {featured && (
+            <article className="category-hero-featured">
+              <span className="article-card-category">
+                <span className="article-card-category-line" aria-hidden />
+                {featured.frontmatter.category}
+              </span>
+              <h2 className="category-hero-featured-title">
+                <Link href={`/en/articles/${featured.slug}`}>
+                  {featured.frontmatter.title}
+                </Link>
+              </h2>
+              <p className="category-hero-featured-excerpt">
+                {featured.frontmatter.excerpt}
+              </p>
+              <footer className="category-hero-meta">
+                <span>{featured.frontmatter.author}</span>
+                <span className="meta-sep">·</span>
+                <time dateTime={featured.frontmatter.date}>
+                  {new Date(featured.frontmatter.date).toLocaleDateString(
+                    "en-US",
+                    {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    }
+                  )}
+                </time>
+                <span className="meta-sep">·</span>
+                <span>{featured.frontmatter.readTime} min</span>
+              </footer>
+            </article>
+          )}
+          {articles.length === 0 && (
+            <p className="category-empty">
+              <span className="category-empty-icon" aria-hidden>
+                ⌛
+              </span>
+              <span>No articles yet.</span>
+            </p>
+          )}
+        </section>
 
         <div className="content-layout">
           <div className="content-main">
-            {featured && (
-              <article className="featured-article">
-                <Link href={`/en/articles/${featured.slug}`} className="featured-article-link">
-                  <div className="featured-article-content">
-                    <div className="featured-article-meta">
-                      <span className="featured-article-date">
-                        {new Date(featured.frontmatter.date).toLocaleDateString("en-US", {
-                          year: "numeric",
-                          month: "long",
-                          day: "numeric",
-                        })}
+            {restArticles.length > 0 && (
+              <section className="category-articles-section">
+                <div className="articles-grid">
+                  {restArticles.map((article) => (
+                    <article key={article.slug} className="article-card">
+                      <span className="article-card-category">
+                        <span className="article-card-category-line" aria-hidden />
+                        {article.frontmatter.category}
                       </span>
-                      <span className="featured-article-author">{featured.frontmatter.author}</span>
-                      <span className="featured-article-read-time">{featured.frontmatter.readTime} min read</span>
-                    </div>
-                    <h2 className="featured-article-title">{featured.frontmatter.title}</h2>
-                    <p className="featured-article-excerpt">{featured.frontmatter.excerpt}</p>
-                  </div>
-                </Link>
-              </article>
+                      <h2 className="article-card-title">
+                        <Link href={`/en/articles/${article.slug}`}>
+                          {article.frontmatter.title}
+                        </Link>
+                      </h2>
+                      <p className="article-card-excerpt">{article.frontmatter.excerpt}</p>
+                      <footer className="article-card-meta">
+                        <span>{article.frontmatter.author}</span>
+                        <span className="meta-sep">·</span>
+                        <span>{article.frontmatter.readTime} min</span>
+                      </footer>
+                    </article>
+                  ))}
+                </div>
+              </section>
             )}
-
-            <div className="article-list">
-              {restArticles.map((article) => (
-                <article key={article.slug} className="list-article">
-                  <Link href={`/en/articles/${article.slug}`} className="list-article-link">
-                    <div className="list-article-content">
-                      <div className="list-article-meta">
-                        <span className="list-article-date">
-                          {new Date(article.frontmatter.date).toLocaleDateString("en-US", {
-                            year: "numeric",
-                            month: "long",
-                            day: "numeric",
-                          })}
-                        </span>
-                        <span className="list-article-author">{article.frontmatter.author}</span>
-                        <span className="list-article-read-time">{article.frontmatter.readTime} min read</span>
-                      </div>
-                      <h3 className="list-article-title">{article.frontmatter.title}</h3>
-                      <p className="list-article-excerpt">{article.frontmatter.excerpt}</p>
-                    </div>
-                  </Link>
-                </article>
-              ))}
-            </div>
           </div>
-
           <aside className="content-sidebar">
             <div className="sidebar-cta">
               <h3 className="sidebar-cta-title">
