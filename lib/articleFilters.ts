@@ -23,7 +23,7 @@ export const MARKET_FILTER_OPTIONS: MarketFilterKey[] = [
 
 export const MARKET_FILTER_OPTIONS_EN: MarketFilterKey[] = [
   "All",
-  "Turkey",
+  "Türkiye",
   "UK",
   "Germany",
   "Asia",
@@ -41,8 +41,7 @@ export function articleMatchesMarket(
 
   switch (marketKey) {
     case "Türkiye":
-    case "Turkey":
-      return cat === "Türkiye Pazarı" || cat === "Turkey Market" || markets.includes("Türkiye") || markets.includes("Turkey");
+      return cat === "Türkiye Pazarı" || cat === "Turkey Market" || cat === "Türkiye" || markets.includes("Türkiye") || markets.includes("Turkey");
     case "UK":
       return markets.includes("UK");
     case "Almanya":

@@ -2,7 +2,7 @@
 title: "Hair Transplant Clinics in Antalya: The Model Combining Tourism and Medicine"
 date: "2026-02-22"
 author: "Emre Kaya"
-category: "Turkey Market"
+category: "Türkiye"
 excerpt: "Antalya is rising as an alternative to Istanbul for hair transplant tourism. How to offer sea, sun, and medical excellence together?"
 readTime: 7
 ---

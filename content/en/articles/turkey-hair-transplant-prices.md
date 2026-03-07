@@ -2,7 +2,7 @@
 title: "Hair Transplant Prices in Turkey 2026: How Should Clinics Position Themselves?"
 date: "2026-02-25"
 author: "Melisa Ozden"
-category: "Turkey Market"
+category: "Türkiye"
 excerpt: "Price competition or premium segment? Pricing strategies and clinic positioning guide in Turkey's hair transplant market."
 readTime: 6
 ---

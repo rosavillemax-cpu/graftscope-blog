@@ -125,22 +125,28 @@ export function getEnglishArticlesByCategory(categoryName: string): Article[] {
 export function getEnglishCategorySlugs(): string[] {
   const articles = getAllEnglishArticles();
   const categories = new Set(articles.map((a) => a.frontmatter.category));
-  return Array.from(categories).map((category) => 
-    category.toLowerCase()
+  return Array.from(categories).map((category) => {
+    // Special handling for Türkiye
+    if (category === "Türkiye") return "turkiye";
+    return category.toLowerCase()
       .replace(/[^a-z0-9\s-]/g, '')
-      .replace(/\s+/g, '-')
-  );
+      .replace(/\s+/g, '-');
+  });
 }
 
 export function getEnglishCategoryNameBySlug(slug: string): string | null {
   const articles = getAllEnglishArticles();
   const categoryMap = new Map(
-    Array.from(new Set(articles.map((a) => a.frontmatter.category))).map((category) => [
-      category.toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .replace(/\s+/g, '-'),
-      category
-    ])
+    Array.from(new Set(articles.map((a) => a.frontmatter.category))).map((category) => {
+      // Special handling for Türkiye
+      if (category === "Türkiye") return ["turkiye", category];
+      return [
+        category.toLowerCase()
+          .replace(/[^a-z0-9\s-]/g, '')
+          .replace(/\s+/g, '-'),
+        category
+      ];
+    })
   );
   return categoryMap.get(slug) ?? null;
 }

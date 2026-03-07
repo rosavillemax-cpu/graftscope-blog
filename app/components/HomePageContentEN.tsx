@@ -52,7 +52,7 @@ export default function HomePageContentEN({ articles }: HomePageContentProps) {
                 <span className="article-card-category-line" aria-hidden />
                 {featured.frontmatter.category}
               </span>
-              <h1 className="hero-title">
+              <h1 className="hero-featured-title">
                 <Link href={`/en/articles/${featured.slug}`}>
                   {featured.frontmatter.title}
                 </Link>

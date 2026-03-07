@@ -2,7 +2,7 @@
 title: "Hair Transplant Clinics in Istanbul: 2026 Competition Analysis and Opportunities"
 date: "2025-03-10"
 author: "Melisa Ozden"
-category: "Turkey Market"
+category: "Türkiye"
 excerpt: "Intense competition in Istanbul's hair transplant market, pricing pressure, and differentiation opportunities. Market dynamics and clinic strategies for 2026."
 readTime: 9
 ---
