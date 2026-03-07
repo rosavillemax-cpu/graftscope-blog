@@ -119,44 +119,6 @@ export default function HomePageContent({ articles }: HomePageContentProps) {
               Demo Al
             </Link>
           </div>
-          <div className="sidebar-section">
-            <h4 className="sidebar-heading">Pazar</h4>
-            <div className="sidebar-tags">
-              {MARKET_FILTER_OPTIONS.map((tag) => (
-                <button
-                  key={tag}
-                  type="button"
-                  className={`sidebar-tag ${
-                    marketFilter === tag ? "sidebar-tag-active" : ""
-                  }`}
-                  onClick={() => setMarketFilter(tag)}
-                >
-                  {tag}
-                </button>
-              ))}
-            </div>
-          </div>
-          <div className="sidebar-section">
-            <h4 className="sidebar-heading">Sektör Özeti</h4>
-            <div className="sidebar-stats">
-              <div className="sidebar-stat">
-                <span className="sidebar-stat-value">2.4K+</span>
-                <span className="sidebar-stat-label">Klinik (TR)</span>
-              </div>
-              <div className="sidebar-stat">
-                <span className="sidebar-stat-value">%15</span>
-                <span className="sidebar-stat-label">Yıllık büyüme</span>
-              </div>
-              <div className="sidebar-stat">
-                <span className="sidebar-stat-value">~400K</span>
-                <span className="sidebar-stat-label">İşlem / yıl</span>
-              </div>
-              <div className="sidebar-stat">
-                <span className="sidebar-stat-value">%62</span>
-                <span className="sidebar-stat-label">Uluslararası hasta</span>
-              </div>
-            </div>
-          </div>
         </aside>
       </div>
     </main>

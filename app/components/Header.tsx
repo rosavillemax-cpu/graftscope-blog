@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const NAV_ITEMS: { label: string; href: string; slug: string | null }[] = [
+const TR_NAV_ITEMS: { label: string; href: string; slug: string | null }[] = [
   { label: "Tümü", href: "/", slug: null },
   { label: "Klinik Yönetimi", href: "/kategori/klinik-yonetimi", slug: "klinik-yonetimi" },
   { label: "Hasta Büyümesi", href: "/kategori/hasta-buyumesi", slug: "hasta-buyumesi" },
@@ -13,52 +13,101 @@ const NAV_ITEMS: { label: string; href: string; slug: string | null }[] = [
   { label: "Global", href: "/kategori/global", slug: "global" },
 ];
 
+const EN_NAV_ITEMS: { label: string; href: string; slug: string | null }[] = [
+  { label: "All", href: "/en", slug: null },
+  { label: "Clinic Management", href: "/en/category/clinic-management", slug: "clinic-management" },
+  { label: "Patient Growth", href: "/en/category/patient-growth", slug: "patient-growth" },
+  { label: "Technology", href: "/en/category/technology", slug: "technology" },
+  { label: "Market Analysis", href: "/en/category/market-analysis", slug: "market-analysis" },
+  { label: "Turkey", href: "/en/category/turkey", slug: "turkey" },
+  { label: "Global", href: "/en/category/global", slug: "global" },
+];
+
 export default function Header() {
   const pathname = usePathname();
-  const isCategoryPage = pathname?.startsWith("/kategori/");
-  const activeSlug = isCategoryPage ? pathname?.replace("/kategori/", "") ?? null : null;
+  const isEnglishPage = pathname?.startsWith("/en");
+  const isTurkishPage = !isEnglishPage;
+  
+  const isCategoryPage = isEnglishPage 
+    ? pathname?.startsWith("/en/category/")
+    : pathname?.startsWith("/kategori/");
+  
+  const activeSlug = isCategoryPage 
+    ? (isEnglishPage 
+        ? pathname?.replace("/en/category/", "") 
+        : pathname?.replace("/kategori/", "")) ?? null
+    : null;
 
-  const today = new Date().toLocaleDateString("tr-TR", {
+  const navItems = isEnglishPage ? EN_NAV_ITEMS : TR_NAV_ITEMS;
+  const currentDate = new Date().toLocaleDateString(isEnglishPage ? "en-US" : "tr-TR", {
     weekday: "long",
     year: "numeric",
     month: "long",
     day: "numeric",
   });
 
+  const homeHref = isEnglishPage ? "/en" : "/";
+  const demoHref = isEnglishPage ? "/en/demo" : "/demo";
+  const tagline = isEnglishPage 
+    ? "Hair Transplant Clinic Management Guide"
+    : "Saç ekimi klinikleri için operasyonel rehber";
+  
+  const guideBtnText = isEnglishPage ? "Industry Guide" : "Sektör Rehberi";
+  const contactBtnText = isEnglishPage ? "Contact Us" : "Bize Ulaşın";
+
   return (
     <header className="editorial-header">
       <div className="top-bar">
         <div className="top-bar-inner">
-          <span className="top-bar-date">{today}</span>
+          <span className="top-bar-date">{currentDate}</span>
           <span className="top-bar-lang">
-            <span className="lang-active">TR</span>
+            <Link 
+              href="/" 
+              className={`lang-link ${isTurkishPage ? "lang-active" : ""}`}
+              aria-label="Turkish"
+            >
+              TR
+            </Link>
             <span className="lang-sep">·</span>
-            <a href="/en" className="lang-link" aria-label="English">EN</a>
+            <Link 
+              href="/en" 
+              className={`lang-link ${isEnglishPage ? "lang-active" : ""}`}
+              aria-label="English"
+            >
+              EN
+            </Link>
             <span className="lang-sep">·</span>
-            <a href="/de" className="lang-link" aria-label="Deutsch">DE</a>
+            <a 
+              href="/de" 
+              className="lang-link" 
+              aria-label="Deutsch"
+              style={{ opacity: 0.5, cursor: "not-allowed" }}
+            >
+              DE
+            </a>
           </span>
           <span className="top-bar-tagline">
-            Saç ekimi klinikleri için operasyonel rehber
+            {tagline}
           </span>
-          <Link href="/" className="header-btn header-btn-outline">
-            Sektör Rehberi
+          <Link href={homeHref} className="header-btn header-btn-outline">
+            {guideBtnText}
           </Link>
           <span className="top-bar-btn-sep" aria-hidden />
-          <Link href="/demo" className="header-btn header-btn-solid">
-            Bize Ulaşın
+          <Link href={demoHref} className="header-btn header-btn-solid">
+            {contactBtnText}
           </Link>
         </div>
       </div>
       <div className="masthead-brand">
-        <Link href="/" className="masthead-logo">
+        <Link href={homeHref} className="masthead-logo">
           Graftscope
         </Link>
       </div>
       <nav className="editorial-nav">
         <div className="editorial-nav-inner">
-          {NAV_ITEMS.map((item) => {
+          {navItems.map((item) => {
             const isActive =
-              (item.slug === null && pathname === "/") ||
+              (item.slug === null && (isEnglishPage ? pathname === "/en" : pathname === "/")) ||
               (item.slug !== null && activeSlug === item.slug);
             return (
               <Link
