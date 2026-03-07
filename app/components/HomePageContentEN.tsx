@@ -13,26 +13,19 @@ function ArticleCard({ article }: { article: Article }) {
   const { frontmatter, slug } = article;
   return (
     <article className="article-card">
-      <Link href={`/en/articles/${slug}`} className="article-card-link">
-        <div className="article-card-content">
-          <div className="article-card-meta">
-            <span className="article-card-category">{frontmatter.category}</span>
-            <span className="article-card-date">
-              {new Date(frontmatter.date).toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
-            </span>
-          </div>
-          <h2 className="article-card-title">{frontmatter.title}</h2>
-          <p className="article-card-excerpt">{frontmatter.excerpt}</p>
-          <div className="article-card-footer">
-            <span className="article-card-author">{frontmatter.author}</span>
-            <span className="article-card-read-time">{frontmatter.readTime} min read</span>
-          </div>
-        </div>
-      </Link>
+      <span className="article-card-category">
+        <span className="article-card-category-line" aria-hidden />
+        {frontmatter.category}
+      </span>
+      <h2 className="article-card-title">
+        <Link href={`/en/articles/${slug}`}>{frontmatter.title}</Link>
+      </h2>
+      <p className="article-card-excerpt">{frontmatter.excerpt}</p>
+      <footer className="article-card-meta">
+        <span>{frontmatter.author}</span>
+        <span className="meta-sep">·</span>
+        <span>{frontmatter.readTime} min</span>
+      </footer>
     </article>
   );
 }
@@ -50,32 +43,31 @@ export default function HomePageContentEN({ articles }: HomePageContentProps) {
   const restArticles = filteredArticles.slice(4);
 
   return (
-    <div className="home-content">
-      <section className="hero-section">
-        {featured && (
-          <article className="hero-article">
-            <Link href={`/en/articles/${featured.slug}`} className="hero-article-link">
-              <div className="hero-article-content">
-                <div className="hero-article-meta">
-                  <span className="hero-article-category">{featured.frontmatter.category}</span>
-                  <span className="hero-article-date">
-                    {new Date(featured.frontmatter.date).toLocaleDateString("en-US", {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    })}
-                  </span>
-                </div>
-                <h1 className="hero-article-title">{featured.frontmatter.title}</h1>
-                <p className="hero-article-excerpt">{featured.frontmatter.excerpt}</p>
-                <div className="hero-article-footer">
-                  <span className="hero-article-author">{featured.frontmatter.author}</span>
-                  <span className="hero-article-read-time">{featured.frontmatter.readTime} min read</span>
-                </div>
-              </div>
-            </Link>
-          </article>
-        )}
+    <main className="home-main">
+      <section className="hero">
+        <div className="hero-featured">
+          {featured ? (
+            <>
+              <span className="article-card-category">
+                <span className="article-card-category-line" aria-hidden />
+                {featured.frontmatter.category}
+              </span>
+              <h1 className="hero-title">
+                <Link href={`/en/articles/${featured.slug}`}>
+                  {featured.frontmatter.title}
+                </Link>
+              </h1>
+              <p className="hero-excerpt">{featured.frontmatter.excerpt}</p>
+              <footer className="article-card-meta">
+                <span>{featured.frontmatter.author}</span>
+                <span className="meta-sep">·</span>
+                <span>{featured.frontmatter.readTime} min</span>
+              </footer>
+            </>
+          ) : (
+            <p className="no-articles">No articles yet.</p>
+          )}
+        </div>
         <div className="hero-list">
           {heroList.map((article) => (
             <ArticleCard key={article.slug} article={article} />
@@ -83,21 +75,38 @@ export default function HomePageContentEN({ articles }: HomePageContentProps) {
         </div>
       </section>
 
-      <section className="latest-section">
-        <h2 className="section-title">Latest Articles</h2>
-        <div className="article-grid">
-          {restArticles.length > 0 ? (
-            restArticles.map((article) => (
-              <ArticleCard key={article.slug} article={article} />
-            ))
-          ) : (
-            featured === undefined &&
-            filteredArticles.length === 0 && (
-              <p className="no-articles">No articles yet.</p>
-            )
-          )}
+      <div className="content-layout">
+        <div className="content-main">
+          <section className="latest">
+            <h2 className="section-title">Latest Articles</h2>
+            <div className="article-grid">
+              {restArticles.length > 0 ? (
+                restArticles.map((article) => (
+                  <ArticleCard key={article.slug} article={article} />
+                ))
+              ) : (
+                featured === undefined &&
+                filteredArticles.length === 0 && (
+                  <p className="no-articles">No articles yet.</p>
+                )
+              )}
+            </div>
+          </section>
         </div>
-      </section>
-    </div>
+        <aside className="content-sidebar">
+          <div className="sidebar-cta">
+            <h3 className="sidebar-cta-title">
+              Kliniğinizi Yapay Zeka ile Yönetin
+            </h3>
+            <p className="sidebar-cta-text">
+              Operasyonel verimlilik ve hasta deneyimi için tek platform.
+            </p>
+            <Link href="/en/demo" className="sidebar-cta-btn">
+              Demo Al
+            </Link>
+          </div>
+        </aside>
+      </div>
+    </main>
   );
 }
