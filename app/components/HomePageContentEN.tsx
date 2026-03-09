@@ -59,16 +59,47 @@ export default function HomePageContentEN({ articles }: HomePageContentProps) {
           )}
         </div>
         <aside className="content-sidebar">
-          <div className="sidebar-cta">
-            <h3 className="sidebar-cta-title">
-              Manage Your Clinic with AI
-            </h3>
-            <p className="sidebar-cta-text">
-              Operational efficiency and patient experience on one platform.
-            </p>
-            <a href="https://graftscope.com" className="sidebar-cta-btn">
-              Request Demo
-            </a>
+          <div className="sidebar-cta-premium">
+            <div className="sidebar-cta-logo">
+              <span className="logo-main">Graftscope</span>
+              <span className="logo-sub">insights</span>
+            </div>
+            <div className="sidebar-cta-badge">AI-POWERED</div>
+            <h3 className="sidebar-cta-title">Take Your Clinic to the Digital Age</h3>
+            <ul className="sidebar-cta-features">
+              <li className="feature-item">
+                <span className="feature-check">✓</span>
+                <span>Unlimited AI Analysis</span>
+              </li>
+              <li className="feature-item">
+                <span className="feature-check">✓</span>
+                <span>Operational Calendar</span>
+              </li>
+              <li className="feature-item">
+                <span className="feature-check">✓</span>
+                <span>Professional Reporting</span>
+              </li>
+              <li className="feature-item">
+                <span className="feature-check">✓</span>
+                <span>Patient Tracking (CRM)</span>
+              </li>
+              <li className="feature-item">
+                <span className="feature-check">✓</span>
+                <span>Dynamic Appointment Management</span>
+              </li>
+              <li className="feature-item">
+                <span className="feature-check">✓</span>
+                <span>Corporate Panel</span>
+              </li>
+            </ul>
+            <div className="sidebar-cta-divider"></div>
+            <div className="sidebar-cta-social-proof">Evaluated by 2,400+ clinics</div>
+            <Link href="/en/demo" className="sidebar-cta-btn">
+              Get Free Demo →
+            </Link>
+            <Link href="/en/demo" className="sidebar-cta-secondary">
+              How does it work?
+            </Link>
           </div>
         </aside>
       </div>

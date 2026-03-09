@@ -148,16 +148,35 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             )}
           </div>
           <aside className="content-sidebar">
-            <div className="sidebar-cta">
-              <h3 className="sidebar-cta-title">
-                Kliniğinizi Yapay Zeka ile Yönetin
-              </h3>
-              <p className="sidebar-cta-text">
-                Operasyonel verimlilik ve hasta deneyimi için tek platform.
-              </p>
-              <a href="https://graftscope.com" className="sidebar-cta-btn">
-                Demo Al
-              </a>
+            <div className="sidebar-cta-premium">
+              <div className="sidebar-cta-logo">
+                <span className="logo-main">Graftscope</span>
+                <span className="logo-sub">insights</span>
+              </div>
+              <div className="sidebar-cta-badge">YAPAY ZEKA DESTEKLİ</div>
+              <h3 className="sidebar-cta-title">Kliniğinizi Dijital Çağa Taşıyın</h3>
+              <ul className="sidebar-cta-features">
+                <li className="feature-item">
+                  <span className="feature-check">✓</span>
+                  <span>Akıllı randevu yönetimi</span>
+                </li>
+                <li className="feature-item">
+                  <span className="feature-check">✓</span>
+                  <span>Hasta takip ve CRM</span>
+                </li>
+                <li className="feature-item">
+                  <span className="feature-check">✓</span>
+                  <span>Dijital onam formları</span>
+                </li>
+              </ul>
+              <div className="sidebar-cta-divider"></div>
+              <div className="sidebar-cta-social-proof">2.400+ klinik tarafından değerlendiriliyor</div>
+              <Link href="/demo" className="sidebar-cta-btn">
+                Ücretsiz Demo Al →
+              </Link>
+              <Link href="/demo" className="sidebar-cta-secondary">
+                Nasıl çalışır?
+              </Link>
             </div>
 
             <div className="sidebar-section">
