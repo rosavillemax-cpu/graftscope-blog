@@ -60,8 +60,11 @@ export default function HomePageContent({ articles }: HomePageContentProps) {
         </div>
         <aside className="content-sidebar">
           <a href="/demo" target="_blank">
-            <img src="/sidebar-banner.png" alt="GraftScope Demo" style={{ width: '100%', borderRadius: '12px', cursor: 'pointer' }} />
+            <img src="/Sİde_bar_TR.jpeg" alt="GraftScope Demo" style={{ width: '100%', borderRadius: '12px', cursor: 'pointer' }} />
           </a>
+          <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>
+            Saç ekimi kliniklerine özel geliştirildi
+          </p>
         </aside>
       </div>
     </main>
