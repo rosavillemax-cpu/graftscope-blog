@@ -11,8 +11,8 @@ export function middleware(request: NextRequest) {
     return NextResponse.next()
   }
 
-  // Get country from Vercel's geo headers
-  const country = request.geo?.country || 'TR'
+  // Get country from Vercel geo headers
+  const country = request.headers.get('x-vercel-ip-country') || 'TR'
   
   // Turkish users stay on /
   if (country === 'TR') {
