@@ -2,6 +2,7 @@ import { getAllEnglishArticles } from "@/lib/articles";
 import Header from "../components/Header";
 import Ticker from "../components/Ticker";
 import HomePageContentEN from "../components/HomePageContentEN";
+import Newsletter from "../components/Newsletter";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -28,6 +29,7 @@ export default function HomePageEN() {
       <Header />
       <Ticker />
       <HomePageContentEN articles={articles} />
+      <Newsletter />
       <footer className="site-footer">
         <div className="site-footer-inner">
           <p className="footer-logo">Graftscope</p>
