@@ -150,23 +150,33 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           <aside className="content-sidebar">
             <div className="sidebar-cta-premium">
               <div className="sidebar-cta-logo">
-                <span className="logo-main">Graftscope</span>
-                <span className="logo-sub">insights</span>
+                <img src="/graftscope-logo.png" alt="GraftScope" style={{ height: '40px', width: 'auto' }} />
               </div>
-              <div className="sidebar-cta-badge">YAPAY ZEKA DESTEKLİ</div>
               <h3 className="sidebar-cta-title">Kliniğinizi Dijital Çağa Taşıyın</h3>
               <ul className="sidebar-cta-features">
                 <li className="feature-item">
                   <span className="feature-check">✓</span>
-                  <span>Akıllı randevu yönetimi</span>
+                  <span>Sınırsız Yapay Zeka Analizi</span>
                 </li>
                 <li className="feature-item">
                   <span className="feature-check">✓</span>
-                  <span>Hasta takip ve CRM</span>
+                  <span>Operasyon Takvimi</span>
                 </li>
                 <li className="feature-item">
                   <span className="feature-check">✓</span>
-                  <span>Dijital onam formları</span>
+                  <span>Profesyonel Raporlama</span>
+                </li>
+                <li className="feature-item">
+                  <span className="feature-check">✓</span>
+                  <span>Hasta Takibi (CRM)</span>
+                </li>
+                <li className="feature-item">
+                  <span className="feature-check">✓</span>
+                  <span>Dinamik Randevu Yönetimi</span>
+                </li>
+                <li className="feature-item">
+                  <span className="feature-check">✓</span>
+                  <span>Kurumsal Panel</span>
                 </li>
               </ul>
               <div className="sidebar-cta-divider"></div>

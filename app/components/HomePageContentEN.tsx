@@ -61,10 +61,8 @@ export default function HomePageContentEN({ articles }: HomePageContentProps) {
         <aside className="content-sidebar">
           <div className="sidebar-cta-premium">
             <div className="sidebar-cta-logo">
-              <span className="logo-main">Graftscope</span>
-              <span className="logo-sub">insights</span>
+              <img src="/graftscope-logo.png" alt="GraftScope" style={{ height: '40px', width: 'auto' }} />
             </div>
-            <div className="sidebar-cta-badge">AI-POWERED</div>
             <h3 className="sidebar-cta-title">Take Your Clinic to the Digital Age</h3>
             <ul className="sidebar-cta-features">
               <li className="feature-item">
@@ -73,7 +71,7 @@ export default function HomePageContentEN({ articles }: HomePageContentProps) {
               </li>
               <li className="feature-item">
                 <span className="feature-check">✓</span>
-                <span>Operational Calendar</span>
+                <span>Operation Calendar</span>
               </li>
               <li className="feature-item">
                 <span className="feature-check">✓</span>
@@ -89,7 +87,7 @@ export default function HomePageContentEN({ articles }: HomePageContentProps) {
               </li>
               <li className="feature-item">
                 <span className="feature-check">✓</span>
-                <span>Corporate Panel</span>
+                <span>Corporate Dashboard</span>
               </li>
             </ul>
             <div className="sidebar-cta-divider"></div>

@@ -32,6 +32,11 @@ export const metadata: Metadata = {
     "CRM",
     "saç ekim yazılımı",
   ],
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png', 
+    apple: '/favicon.png',
+  },
   openGraph: {
     title: "Graftscope | Saç Ekim Klinikleri İçin Rehber",
     description:
