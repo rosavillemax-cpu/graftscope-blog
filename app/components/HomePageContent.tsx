@@ -59,46 +59,9 @@ export default function HomePageContent({ articles }: HomePageContentProps) {
           )}
         </div>
         <aside className="content-sidebar">
-          <div className="sidebar-cta-premium">
-            <div className="sidebar-cta-logo">
-              <img src="/graftscope-logo.png" alt="GraftScope" style={{ height: '40px', width: 'auto' }} />
-            </div>
-            <h3 className="sidebar-cta-title">Kliniğinizi Dijital Çağa Taşıyın</h3>
-            <ul className="sidebar-cta-features">
-              <li className="feature-item">
-                <span className="feature-check">✓</span>
-                <span>Sınırsız Yapay Zeka Analizi</span>
-              </li>
-              <li className="feature-item">
-                <span className="feature-check">✓</span>
-                <span>Operasyon Takvimi</span>
-              </li>
-              <li className="feature-item">
-                <span className="feature-check">✓</span>
-                <span>Profesyonel Raporlama</span>
-              </li>
-              <li className="feature-item">
-                <span className="feature-check">✓</span>
-                <span>Hasta Takibi (CRM)</span>
-              </li>
-              <li className="feature-item">
-                <span className="feature-check">✓</span>
-                <span>Dinamik Randevu Yönetimi</span>
-              </li>
-              <li className="feature-item">
-                <span className="feature-check">✓</span>
-                <span>Kurumsal Panel</span>
-              </li>
-            </ul>
-            <div className="sidebar-cta-divider"></div>
-            <div className="sidebar-cta-social-proof">2.400+ klinik tarafından değerlendiriliyor</div>
-            <Link href="/demo" className="sidebar-cta-btn">
-              Ücretsiz Demo Al →
-            </Link>
-            <Link href="/demo" className="sidebar-cta-secondary">
-              Nasıl çalışır?
-            </Link>
-          </div>
+          <a href="/demo" target="_blank">
+            <img src="/sidebar-banner.png" alt="GraftScope Demo" style={{ width: '100%', borderRadius: '12px', cursor: 'pointer' }} />
+          </a>
         </aside>
       </div>
     </main>
