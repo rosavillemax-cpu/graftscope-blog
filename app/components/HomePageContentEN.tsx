@@ -60,7 +60,7 @@ export default function HomePageContentEN({ articles }: HomePageContentProps) {
         </div>
         <aside className="content-sidebar">
           <a href="/en/demo" target="_blank">
-            <img src="/Sİde_bar_EN.jpeg" alt="GraftScope Demo" style={{ width: '100%', borderRadius: '12px', cursor: 'pointer' }} />
+            <img src="/sidebar-en.jpeg" alt="GraftScope Demo" style={{ width: '100%', borderRadius: '12px', cursor: 'pointer' }} />
           </a>
           <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>
             Developed exclusively for hair transplant clinics
