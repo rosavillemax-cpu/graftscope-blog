@@ -58,6 +58,7 @@ export default function Header() {
   
   const guideBtnText = isEnglishPage ? "Industry Guide" : "Sektör Rehberi";
   const contactBtnText = isEnglishPage ? "Contact Us" : "Bize Ulaşın";
+  const newsletterBtnText = isEnglishPage ? "Subscribe to Newsletter" : "Bültene Abone Ol";
 
   return (
     <>
@@ -65,6 +66,31 @@ export default function Header() {
         <div className="top-bar">
           <div className="top-bar-inner">
             <span className="top-bar-date">{currentDate}</span>
+            <a 
+              href="#newsletter" 
+              className="newsletter-header-btn"
+              style={{
+                fontSize: '0.8rem',
+                padding: '4px 12px',
+                border: '1px solid #1a6b4a',
+                color: '#1a6b4a',
+                background: 'transparent',
+                textDecoration: 'none',
+                borderRadius: '4px',
+                transition: 'all 0.2s ease',
+                cursor: 'pointer'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = '#1a6b4a';
+                e.currentTarget.style.color = '#fff';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = 'transparent';
+                e.currentTarget.style.color = '#1a6b4a';
+              }}
+            >
+              {newsletterBtnText}
+            </a>
             <span className="top-bar-lang">
               <Link 
                 href="/" 

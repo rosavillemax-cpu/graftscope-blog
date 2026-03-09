@@ -29,7 +29,9 @@ export default function HomePageEN() {
       <Header />
       <Ticker />
       <HomePageContentEN articles={articles} />
-      <Newsletter />
+      <div id="newsletter">
+        <Newsletter />
+      </div>
       <footer className="site-footer">
         <div className="site-footer-inner">
           <p className="footer-logo">Graftscope</p>
