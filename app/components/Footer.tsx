@@ -53,6 +53,9 @@ export default function Footer() {
         <p className="footer-copyright">
           © 2026 Graftscope. {isEnglishPage ? "All rights reserved." : "Tüm hakları saklıdır."}
         </p>
+        <p className="footer-software-link">
+          {isEnglishPage ? "Looking for the software?" : "Yazılımı mı arıyorsunuz?"} → <a href="https://www.graftscope.com" target="_blank" rel="noopener noreferrer" className="footer-software-url">graftscope.com</a>
+        </p>
       </div>
     </footer>
   );

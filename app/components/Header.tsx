@@ -73,7 +73,8 @@ export default function Header() {
     : "Saç ekimi klinikleri için operasyonel rehber";
   
   const guideBtnText = isEnglishPage ? "Industry Guide" : isGermanPage ? "Branchenführer" : "Sektör Rehberi";
-  const contactBtnText = isEnglishPage ? "Free Demo →" : isGermanPage ? "Kostenlose Demo →" : "Ücretsiz Demo →";
+  const pricingBtnText = isEnglishPage ? "Pricing →" : isGermanPage ? "Preise →" : "Fiyatlandırma →";
+  const demoBtnText = isEnglishPage ? "Free Demo →" : isGermanPage ? "Kostenlose Demo →" : "Ücretsiz Demo →";
   const newsletterBtnText = isEnglishPage ? "Subscribe to Newsletter" : isGermanPage ? "Newsletter abonnieren" : "Bültene Abone Ol";
 
   return (
@@ -146,9 +147,23 @@ export default function Header() {
               {guideBtnText}
             </Link>
             <span className="top-bar-btn-sep" aria-hidden />
-            <Link href={demoHref} className="header-btn header-btn-solid">
-              {contactBtnText}
-            </Link>
+            <a 
+              href="https://www.graftscope.com/pricing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="header-btn header-btn-outline"
+            >
+              {pricingBtnText}
+            </a>
+            <span className="top-bar-btn-sep" aria-hidden />
+            <a 
+              href="https://www.graftscope.com/demo" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="header-btn header-btn-solid"
+            >
+              {demoBtnText}
+            </a>
           </div>
         </div>
         <div className="masthead-brand">

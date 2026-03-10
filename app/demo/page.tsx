@@ -2,6 +2,23 @@
 
 import { useState } from "react";
 import Header from "@/app/components/Header";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Free Demo – Hair Transplant Clinic CRM & Software | GraftScope",
+  description: "Request a free demo of GraftScope - the all-in-one hair transplant clinic management software with CRM, AI analysis, appointment system and enterprise dashboard.",
+  openGraph: {
+    title: "Free Demo – Hair Transplant Clinic CRM & Software | GraftScope",
+    description: "Request a free demo of GraftScope - the all-in-one hair transplant clinic management software with CRM, AI analysis, appointment system and enterprise dashboard.",
+    url: "https://www.graftscope.org/demo",
+    siteName: "Graftscope",
+    locale: "tr_TR",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://www.graftscope.org/demo",
+  },
+};
 
 interface FormData {
   name: string;

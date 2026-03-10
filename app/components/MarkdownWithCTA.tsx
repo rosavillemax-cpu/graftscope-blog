@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import InlineCTA from "./InlineCTA";
+import AutoLink from "./AutoLink";
+import { usePathname } from "next/navigation";
 
 interface MarkdownWithCTAProps {
   content: string;
@@ -9,6 +11,11 @@ interface MarkdownWithCTAProps {
 
 export default function MarkdownWithCTA({ content }: MarkdownWithCTAProps) {
   const [paragraphCount, setParagraphCount] = useState(0);
+  const pathname = usePathname();
+
+  // Auto-detect language
+  const language = pathname?.startsWith("/en") ? "en" : 
+                   pathname?.startsWith("/de") ? "de" : "tr";
 
   // Split content by paragraphs and reconstruct with CTA
   const paragraphs = content.split('\n\n').filter(p => p.trim());
@@ -20,7 +27,7 @@ export default function MarkdownWithCTA({ content }: MarkdownWithCTAProps) {
         
         return (
           <div key={index}>
-            <p>{paragraph}</p>
+            <AutoLink content={paragraph} language={language} />
             {isThirdParagraph && <InlineCTA paragraphIndex={index} />}
           </div>
         );

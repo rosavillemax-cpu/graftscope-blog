@@ -11,6 +11,7 @@ import Header from "@/app/components/Header";
 import Ticker from "@/app/components/Ticker";
 import CategoryArticleGrid from "@/app/components/CategoryArticleGrid";
 import MiniNewsletter from "@/app/components/MiniNewsletter";
+import SidebarBanner from "@/app/components/SidebarBanner";
 
 const SITE_URL = "https://graftscope.org";
 
@@ -155,6 +156,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>
               Saç ekimi kliniklerine özel geliştirildi
             </p>
+            <SidebarBanner />
             <MiniNewsletter />
 
             <div className="sidebar-section">

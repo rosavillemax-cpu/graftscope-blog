@@ -5,6 +5,7 @@ import Header from "@/app/components/Header";
 import Ticker from "@/app/components/Ticker";
 import CategoryArticleGrid from "@/app/components/CategoryArticleGrid";
 import MiniNewsletter from "@/app/components/MiniNewsletter";
+import SidebarBanner from "@/app/components/SidebarBanner";
 import type { Metadata } from "next";
 import React from "react";
 
@@ -143,6 +144,7 @@ export default async function CategoryPageDE({ params }: CategoryPageProps) {
             <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>
               Exklusiv für Haartransplantationskliniken entwickelt
             </p>
+            <SidebarBanner />
             <MiniNewsletter />
             <div className="sidebar-section">
               <h4 className="sidebar-heading">Autoren in dieser Kategorie</h4>

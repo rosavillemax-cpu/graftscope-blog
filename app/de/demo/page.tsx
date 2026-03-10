@@ -2,11 +2,11 @@ import Header from "@/app/components/Header";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Graftscope | Demo Anfordern",
-  description: "Fordern Sie eine persönliche Demo für Klinikmanagement-Software für Haartransplantationskliniken.",
+  title: "Free Demo – Hair Transplant Clinic CRM & Software | GraftScope",
+  description: "Request a free demo of GraftScope - the all-in-one hair transplant clinic management software with CRM, AI analysis, appointment system and enterprise dashboard.",
   openGraph: {
-    title: "Graftscope | Demo Anfordern",
-    description: "Fordern Sie eine persönliche Demo für Klinikmanagement-Software für Haartransplantationskliniken.",
+    title: "Free Demo – Hair Transplant Clinic CRM & Software | GraftScope",
+    description: "Request a free demo of GraftScope - the all-in-one hair transplant clinic management software with CRM, AI analysis, appointment system and enterprise dashboard.",
     url: "https://www.graftscope.org/de/demo",
     siteName: "Graftscope",
     locale: "de_DE",

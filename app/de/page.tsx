@@ -6,10 +6,10 @@ import Newsletter from "../components/Newsletter";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Graftscope | Leitfaden für Haartransplantationskliniken",
+  title: "Haartransplantation Klinik Software | GraftScope",
   description: "Klinikmanagement, Patientenwachstum und Marktanalysen für Haartransplantationskliniken. Experteninhalte für Türkei, UK und Deutschland.",
   openGraph: {
-    title: "Graftscope | Leitfaden für Haartransplantationskliniken",
+    title: "Haartransplantation Klinik Software | GraftScope",
     description: "Klinikmanagement, Patientenwachstum und Marktanalysen für Haartransplantationskliniken. Experteninhalte für Türkei, UK und Deutschland.",
     url: "https://www.graftscope.org/de",
     siteName: "Graftscope",
@@ -29,18 +29,39 @@ export default function HomePageDE() {
       <Header />
       <Ticker />
       
-      {/* Hero Banner Section */}
-      <div className="hero-banner-section">
-        <div className="hero-banner-container">
-          <a href="https://www.graftscope.com" target="_blank" rel="noopener noreferrer" className="hero-banner-link">
-            <img 
-              src="/Banner.png" 
-              alt="GraftScope" 
-              className="hero-banner-image"
-            />
-          </a>
+      {/* Hero Section */}
+      <section className="hero-section">
+        <div className="hero-container">
+          <div className="hero-content">
+            <h1 className="hero-title">Haartransplantation Software für Kliniken – Alles in einem System</h1>
+            <p className="hero-subtitle">
+              GraftScope kombiniert CRM, KI-Haaranalyse, Terminverwaltung und Enterprise-Dashboard — entwickelt ausschließlich für Haartransplantationskliniken.
+            </p>
+            <div className="hero-cta">
+              <a href="/de/demo" className="hero-btn-primary">Get Free Demo →</a>
+              <a href="#pricing" className="hero-btn-secondary">See Pricing</a>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+      {/* Hero Stats */}
+      <section className="hero-stats">
+        <div className="hero-stats-container">
+          <div className="hero-stat">
+            <div className="hero-stat-number">40%</div>
+            <div className="hero-stat-label">Higher Conversion Rate</div>
+          </div>
+          <div className="hero-stat">
+            <div className="hero-stat-number">60%</div>
+            <div className="hero-stat-label">Less Admin Time</div>
+          </div>
+          <div className="hero-stat">
+            <div className="hero-stat-number">15+</div>
+            <div className="hero-stat-label">Language Support</div>
+          </div>
+        </div>
+      </section>
 
       <HomePageContentDE articles={articles} />
       <div id="newsletter">

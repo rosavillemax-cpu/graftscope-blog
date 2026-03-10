@@ -4,6 +4,7 @@ import { getEnglishArticleBySlug, getEnglishArticleSlugs, getEnglishArticlesByCa
 import Header from "@/app/components/Header";
 import FloatingCTA from "@/app/components/FloatingCTA";
 import MarkdownWithCTA from "@/app/components/MarkdownWithCTA";
+import ArticleCTA from "@/app/components/ArticleCTA";
 import type { Metadata } from "next";
 
 const SITE_URL = "https://graftscope.org";
@@ -115,6 +116,8 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
           <div className="article-body">
             <MarkdownWithCTA content={content} />
           </div>
+          
+          <ArticleCTA />
 
           <div className="article-footer">
             <Link href="/en" className="article-back-link">

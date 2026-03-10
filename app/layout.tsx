@@ -20,8 +20,8 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Graftscope | Saç Ekim Klinikleri İçin Rehber",
-    template: "%s | Graftscope",
+    default: "Saç Ekimi Klinik Yönetim Yazılımı | GraftScope",
+    template: "%s | GraftScope – Hair Transplant Clinic Software",
   },
   description:
     "Saç ekim klinikleri için klinik yönetimi, hasta büyümesi ve sektör analizleri. Türkiye, UK ve Almanya pazarları için uzman içerikler.",
@@ -101,10 +101,25 @@ const blogSchema = {
   },
 };
 
+const softwareApplicationSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "GraftScope",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "description": "Hair transplant clinic management software with CRM, AI analysis, appointment system and enterprise dashboard.",
+  "offers": {
+    "@type": "Offer",
+    "price": "179",
+    "priceCurrency": "EUR"
+  }
+};
+
 const jsonLd = [
   organizationSchema,
   webSiteSchema,
   blogSchema,
+  softwareApplicationSchema,
 ];
 
 export default function RootLayout({

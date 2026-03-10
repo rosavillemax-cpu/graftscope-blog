@@ -108,10 +108,29 @@ export default function DemoFormEN() {
   return (
     <>
       <div className="demo-header">
-        <h1 className="demo-title">Request a Free Demo for Your Clinic</h1>
+        <h1 className="demo-title">See How GraftScope Transforms Your Hair Transplant Clinic</h1>
         <p className="demo-subtitle">
-          In a 30-minute introductory session, we'll show you how GraftScope can add value to your clinic.
+          In 30 minutes, we'll show you exactly how to manage patients, appointments, and growth — all in one platform.
         </p>
+      </div>
+
+      <div className="demo-features">
+        <div className="demo-feature">
+          <span className="demo-feature-icon">✓</span>
+          <span className="demo-feature-text">Free 30-minute session</span>
+        </div>
+        <div className="demo-feature">
+          <span className="demo-feature-icon">✓</span>
+          <span className="demo-feature-text">No commitment required</span>
+        </div>
+        <div className="demo-feature">
+          <span className="demo-feature-icon">✓</span>
+          <span className="demo-feature-text">Setup support included</span>
+        </div>
+        <div className="demo-feature">
+          <span className="demo-feature-icon">✓</span>
+          <span className="demo-feature-text">Available in Turkish, English, German</span>
+        </div>
       </div>
 
       <form className="demo-form" onSubmit={handleSubmit}>
@@ -244,6 +263,12 @@ export default function DemoFormEN() {
           {isSubmitting ? "Submitting..." : "Request Demo"}
         </button>
       </form>
+
+      <div className="demo-social-proof">
+        <p className="demo-social-proof-text">
+          Trusted by hair transplant clinics in Istanbul, Antalya, Dubai and Berlin
+        </p>
+      </div>
     </>
   );
 }

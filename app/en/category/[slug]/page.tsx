@@ -8,6 +8,7 @@ import {
 import Header from "@/app/components/Header";
 import Ticker from "@/app/components/Ticker";
 import MiniNewsletter from "@/app/components/MiniNewsletter";
+import SidebarBanner from "@/app/components/SidebarBanner";
 import type { Metadata } from "next";
 
 const SITE_URL = "https://graftscope.org";
@@ -150,6 +151,7 @@ export default async function CategoryPageEN({ params }: CategoryPageProps) {
             <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>
               Developed exclusively for hair transplant clinics
             </p>
+            <SidebarBanner />
             <MiniNewsletter />
           </aside>
         </div>
