@@ -48,6 +48,29 @@ export default function HomePageContentEN({ articles }: HomePageContentProps) {
     <main className="home-main">
       <div className="content-layout">
         <div className="content-main">
+          {/* About This Guide Section */}
+          <section className="about-guide-section">
+            <div className="about-guide-content">
+              <h1 className="about-guide-headline">The Complete Guide for Hair Transplant Clinic Owners</h1>
+              <p className="about-guide-subtext">Evidence-based strategies for clinic management, patient growth, and international market expansion. Updated weekly by industry experts.</p>
+              
+              <div className="about-guide-stats">
+                <div className="stat-box">
+                  <div className="stat-number">23+</div>
+                  <div className="stat-label">Expert Guides</div>
+                </div>
+                <div className="stat-box">
+                  <div className="stat-number">6</div>
+                  <div className="stat-label">Global Coverage</div>
+                </div>
+                <div className="stat-box">
+                  <div className="stat-number">3</div>
+                  <div className="stat-label">TR · EN · DE</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {filteredArticles.length > 0 ? (
             <div className="articles-grid">
               {filteredArticles.map((article) => (
