@@ -108,7 +108,7 @@ export default async function CategoryPageDE({ params }: CategoryPageProps) {
                   )}
                 </time>
                 <span className="meta-sep">·</span>
-                <span>{featured.frontmatter.readTime} Min.</span>
+                <span>{featured.frontmatter.readTime}</span>
               </footer>
               <div className="article-card-action">
                 <Link href={`/de/articles/${featured.slug}`} className="article-card-link">

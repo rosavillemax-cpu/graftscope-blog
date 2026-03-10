@@ -120,7 +120,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                   )}
                 </time>
                 <span className="meta-sep">·</span>
-                <span>{featured.frontmatter.readTime} dk</span>
+                <span>{featured.frontmatter.readTime}</span>
               </footer>
               <div className="article-card-action">
                 <Link href={`/articles/${featured.slug}`} className="article-card-link">

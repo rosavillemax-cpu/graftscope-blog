@@ -24,7 +24,7 @@ function ArticleCard({ article }: { article: Article }) {
       <footer className="article-card-meta">
         <span>{frontmatter.author}</span>
         <span className="meta-sep">·</span>
-        <span>{frontmatter.readTime} dk</span>
+        <span>{frontmatter.readTime}</span>
       </footer>
       <div className="article-card-action">
         <Link href={`/articles/${slug}`} className="article-card-link">

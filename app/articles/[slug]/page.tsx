@@ -121,7 +121,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                   day: "numeric",
                 })}
               </time>
-              <span>{frontmatter.readTime} dk okuma</span>
+              <span>{frontmatter.readTime}</span>
             </div>
           </header>
           <div className="article-single-body prose">
@@ -156,7 +156,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                   <div className="related-article-meta">
                     <span>{relatedArticle.frontmatter.author}</span>
                     <span className="meta-sep">·</span>
-                    <span>{relatedArticle.frontmatter.readTime} dk</span>
+                    <span>{relatedArticle.frontmatter.readTime}</span>
                   </div>
                   <div className="related-article-action">
                     <Link href={`/articles/${relatedArticle.slug}`} className="related-article-link">

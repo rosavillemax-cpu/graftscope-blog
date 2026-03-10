@@ -90,7 +90,7 @@ export default async function CategoryPageEN({ params }: CategoryPageProps) {
                   )}
                 </time>
                 <span className="meta-sep">·</span>
-                <span>{featured.frontmatter.readTime} min</span>
+                <span>{featured.frontmatter.readTime}</span>
               </footer>
               <div className="article-card-action">
                 <Link href={`/en/articles/${featured.slug}`} className="article-card-link">
@@ -129,7 +129,7 @@ export default async function CategoryPageEN({ params }: CategoryPageProps) {
                       <footer className="article-card-meta">
                         <span>{article.frontmatter.author}</span>
                         <span className="meta-sep">·</span>
-                        <span>{article.frontmatter.readTime} min</span>
+                        <span>{article.frontmatter.readTime}</span>
                       </footer>
                       <div className="article-card-action">
                         <Link href={`/en/articles/${article.slug}`} className="article-card-link">

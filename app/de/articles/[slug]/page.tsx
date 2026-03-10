@@ -121,7 +121,7 @@ export default async function ArticlePageDE({ params }: ArticlePageProps) {
             <h1 className="article-title">{frontmatter.title}</h1>
             <div className="article-author-info">
               <span className="article-author">Von {frontmatter.author}</span>
-              <span className="article-read-time">{frontmatter.readTime} Min. Lesezeit</span>
+              <span className="article-read-time">{frontmatter.readTime}</span>
             </div>
           </div>
 
@@ -157,7 +157,7 @@ export default async function ArticlePageDE({ params }: ArticlePageProps) {
                     <div className="related-article-meta">
                       <span>{relatedArticle.frontmatter.author}</span>
                       <span className="meta-sep">·</span>
-                      <span>{relatedArticle.frontmatter.readTime} Min.</span>
+                      <span>{relatedArticle.frontmatter.readTime}</span>
                     </div>
                     <div className="related-article-action">
                       <Link href={`/de/articles/${relatedArticle.slug}`} className="related-article-link">
