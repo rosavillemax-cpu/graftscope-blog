@@ -69,19 +69,6 @@ export default function HomePageDE() {
       <div id="newsletter">
         <Newsletter language="de" />
       </div>
-      
-      {/* Banner Section */}
-      <div className="banner-section">
-        <div className="banner-container">
-          <a href="https://www.graftscope.com" target="_blank" rel="noopener noreferrer" className="banner-link">
-            <img 
-              src="/Banner.png" 
-              alt="GraftScope" 
-              className="banner-image"
-            />
-          </a>
-        </div>
-      </div>
 
       <footer className="site-footer">
         <div className="site-footer-inner">

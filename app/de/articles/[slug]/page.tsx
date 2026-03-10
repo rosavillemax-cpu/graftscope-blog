@@ -142,18 +142,14 @@ export default async function ArticlePageDE({ params }: ArticlePageProps) {
           </div>
         </article>
 
-        {/* Banner Section */}
-        <div className="banner-section">
-          <div className="banner-container">
-            <a href="https://www.graftscope.com" target="_blank" rel="noopener noreferrer" className="banner-link">
-              <img 
-                src="/Banner.png" 
-                alt="GraftScope" 
-                className="banner-image"
-              />
-            </a>
+        <footer className="site-footer">
+          <div className="site-footer-inner">
+            <p className="footer-logo">Graftscope</p>
+            <p className="footer-tagline">
+              Leitfaden und Einblicke für Haartransplantationskliniken.
+            </p>
           </div>
-        </div>
+        </footer>
 
         {relatedArticles.length > 0 && (
           <section className="related-articles">
@@ -189,7 +185,6 @@ export default async function ArticlePageDE({ params }: ArticlePageProps) {
             </div>
           </section>
         )}
-
         <aside className="article-sidebar">
           <div className="sidebar-cta">
             <a href="/de/demo" target="_blank">
