@@ -504,6 +504,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.graftscope.org/kategori/turkiye</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.graftscope.org/en/category/clinic-management</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -529,7 +534,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https>https://www.graftscope.org/de/category/patientenwachstum</loc>
+    <loc>https://www.graftscope.org/de/category/patientenwachstum</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
