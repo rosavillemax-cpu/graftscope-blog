@@ -13,6 +13,29 @@ import SidebarBanner from "./SidebarBanner";
 
 function ArticleCard({ article }: { article: Article }) {
   const { frontmatter, slug } = article;
+  
+  // Generate excerpt: use frontmatter.excerpt if exists, otherwise first 150-180 chars
+  const generateExcerpt = (text: string, maxLength: number = 150) => {
+    if (!text) return '';
+    
+    // If frontmatter.excerpt exists, use it
+    if (frontmatter.excerpt && frontmatter.excerpt.length > 0) {
+      return frontmatter.excerpt.length > maxLength 
+        ? frontmatter.excerpt.substring(0, maxLength) + '...'
+        : frontmatter.excerpt;
+    }
+    
+    // Otherwise, generate from title or other content
+    const sourceText = frontmatter.title || '';
+    const cleaned = sourceText.replace(/\s+/g, ' ').trim();
+    
+    if (cleaned.length <= maxLength) return cleaned;
+    
+    return cleaned.substring(0, maxLength).replace(/\s+\S*$/, '') + '...';
+  };
+  
+  const excerpt = generateExcerpt('', 150);
+  
   return (
     <article className="article-card">
       <span className="article-card-category">
@@ -22,8 +45,20 @@ function ArticleCard({ article }: { article: Article }) {
       <h2 className="article-card-title">
         <Link href={`/en/articles/${slug}`}>{frontmatter.title}</Link>
       </h2>
-      <p className="article-card-excerpt">{frontmatter.excerpt}</p>
-      <footer className="article-card-meta">
+      <p className="article-card-excerpt" style={{
+        color: "#666",
+        fontSize: "0.875rem",
+        lineHeight: "1.5",
+        marginBottom: "8px",
+        display: "-webkit-box",
+        WebkitLineClamp: "2",
+        WebkitBoxOrient: "vertical",
+        overflow: "hidden",
+        textOverflow: "ellipsis"
+      }}>
+        {excerpt}
+      </p>
+      <footer className="article-card-meta" style={{ marginBottom: "8px" }}>
         <span>{frontmatter.author}</span>
         <span className="meta-sep">·</span>
         <span>{frontmatter.readTime}</span>

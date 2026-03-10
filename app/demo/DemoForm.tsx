@@ -1,215 +1,187 @@
 "use client";
-
 import { useState } from "react";
 
 export default function DemoForm() {
   const [formData, setFormData] = useState({
-    name: "",
-    clinicName: "",
-    phone: "",
-    email: "",
-    city: "",
-    patientCount: "",
-    message: "",
+    name: "", clinicName: "", phone: "",
+    email: "", city: "", patientCount: "", message: "",
   });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-    // Add form submission logic here
-  };
 
   return (
     <div style={{
-      backgroundColor: "white",
-      borderRadius: "12px",
-      boxShadow: "0 4px 20px rgba(0, 0, 0, 0.08)",
-      padding: "40px",
-      maxWidth: "480px"
+      minHeight: "100vh",
+      backgroundColor: "#f5f0e8",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      padding: "60px 24px"
     }}>
-      <h2 style={{
-        fontSize: "24px",
-        fontWeight: "600",
-        color: "#1a1a1a",
-        marginBottom: "8px",
-        fontFamily: "var(--font-dm-sans)"
+      <div style={{
+        display: "grid",
+        gridTemplateColumns: "1fr 1fr",
+        gap: "48px",
+        maxWidth: "960px",
+        width: "100%"
       }}>
-        Request Your Free Demo
-      </h2>
-      <p style={{
-        fontSize: "14px",
-        color: "#666",
-        marginBottom: "32px",
-        fontFamily: "var(--font-dm-sans)"
-      }}>
-        We'll reach out within 24 hours
-      </p>
 
-      <form onSubmit={handleSubmit} style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "20px"
-      }}>
-        <input
-          type="text"
-          placeholder="Name"
-          required
-          value={formData.name}
-          onChange={e => setFormData({...formData, name: e.target.value})}
-          style={{
-            width: "100%",
-            padding: "14px 16px",
-            border: "1px solid #e0e0e0",
-            borderRadius: "8px",
-            fontSize: "15px",
-            fontFamily: "var(--font-dm-sans)",
-            boxSizing: "border-box"
-          }}
-        />
-        
-        <input
-          type="text"
-          placeholder="Clinic Name"
-          required
-          value={formData.clinicName}
-          onChange={e => setFormData({...formData, clinicName: e.target.value})}
-          style={{
-            width: "100%",
-            padding: "14px 16px",
-            border: "1px solid #e0e0e0",
-            borderRadius: "8px",
-            fontSize: "15px",
-            fontFamily: "var(--font-dm-sans)",
-            boxSizing: "border-box"
-          }}
-        />
+        {/* SOL KOLON */}
+        <div style={{
+          backgroundColor: "#1a4d2e",
+          borderRadius: "16px",
+          padding: "48px 40px",
+          color: "white",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center"
+        }}>
+          <h1 style={{ fontSize: "28px", fontWeight: "700", marginBottom: "12px", lineHeight: "1.3" }}>
+            See GraftScope in Action
+          </h1>
+          <p style={{ fontSize: "15px", opacity: 0.8, marginBottom: "36px" }}>
+            Join 100+ hair transplant clinics already using GraftScope
+          </p>
 
-        <input
-          type="tel"
-          placeholder="Phone"
-          required
-          value={formData.phone}
-          onChange={e => setFormData({...formData, phone: e.target.value})}
-          style={{
-            width: "100%",
-            padding: "14px 16px",
-            border: "1px solid #e0e0e0",
-            borderRadius: "8px",
-            fontSize: "15px",
-            fontFamily: "var(--font-dm-sans)",
-            boxSizing: "border-box"
-          }}
-        />
+          <div style={{ display: "flex", flexDirection: "column", gap: "16px", marginBottom: "40px" }}>
+            {[
+              "30-minute personalized demo",
+              "No commitment required",
+              "Setup support included",
+              "Available in TR · EN · DE"
+            ].map((item) => (
+              <div key={item} style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                <span style={{
+                  width: "22px", height: "22px",
+                  backgroundColor: "rgba(255,255,255,0.2)",
+                  borderRadius: "50%",
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                  fontSize: "12px", flexShrink: 0
+                }}>✓</span>
+                <span style={{ fontSize: "15px" }}>{item}</span>
+              </div>
+            ))}
+          </div>
 
-        <input
-          type="email"
-          placeholder="Email"
-          required
-          value={formData.email}
-          onChange={e => setFormData({...formData, email: e.target.value})}
-          style={{
-            width: "100%",
-            padding: "14px 16px",
-            border: "1px solid #e0e0e0",
-            borderRadius: "8px",
-            fontSize: "15px",
-            fontFamily: "var(--font-dm-sans)",
-            boxSizing: "border-box"
-          }}
-        />
+          <div style={{ borderTop: "1px solid rgba(255,255,255,0.2)", paddingTop: "32px" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "16px", marginBottom: "24px" }}>
+              {[
+                { value: "40%", label: "Higher conversion" },
+                { value: "60%", label: "Less admin time" },
+                { value: "35%", label: "Better satisfaction" }
+              ].map((stat) => (
+                <div key={stat.label} style={{ textAlign: "center" }}>
+                  <div style={{ fontSize: "24px", fontWeight: "700", color: "#4ade80" }}>{stat.value}</div>
+                  <div style={{ fontSize: "11px", opacity: 0.7, marginTop: "4px" }}>{stat.label}</div>
+                </div>
+              ))}
+            </div>
+            <p style={{ fontSize: "12px", opacity: 0.6, textAlign: "center" }}>
+              Trusted by clinics in Istanbul, Antalya, Dubai and Berlin
+            </p>
+          </div>
+        </div>
 
-        <input
-          type="text"
-          placeholder="City"
-          required
-          value={formData.city}
-          onChange={e => setFormData({...formData, city: e.target.value})}
-          style={{
-            width: "100%",
-            padding: "14px 16px",
-            border: "1px solid #e0e0e0",
-            borderRadius: "8px",
-            fontSize: "15px",
-            fontFamily: "var(--font-dm-sans)",
-            boxSizing: "border-box"
-          }}
-        />
+        {/* SAĞ KOLON */}
+        <div style={{
+          backgroundColor: "white",
+          borderRadius: "16px",
+          padding: "40px 36px",
+          boxShadow: "0 4px 24px rgba(0,0,0,0.08)"
+        }}>
+          <h2 style={{ fontSize: "22px", fontWeight: "700", marginBottom: "6px" }}>
+            Request Your Free Demo
+          </h2>
+          <p style={{ fontSize: "14px", color: "#888", marginBottom: "28px" }}>
+            We'll reach out within 24 hours
+          </p>
 
-        <select
-          required
-          value={formData.patientCount}
-          onChange={e => setFormData({...formData, patientCount: e.target.value})}
-          style={{
-            width: "100%",
-            padding: "14px 16px",
-            border: "1px solid #e0e0e0",
-            borderRadius: "8px",
-            fontSize: "15px",
-            fontFamily: "var(--font-dm-sans)",
-            boxSizing: "border-box",
-            color: formData.patientCount ? "#1a1a1a" : "#999"
-          }}
-        >
-          <option value="" style={{ color: "#999" }}>Monthly patient count</option>
-          <option value="1-20">1-20</option>
-          <option value="20-50">20-50</option>
-          <option value="50-100">50-100</option>
-          <option value="100+">100+</option>
-        </select>
+          <form style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            {[
+              { placeholder: "Name *", type: "text", key: "name" },
+              { placeholder: "Clinic Name *", type: "text", key: "clinicName" },
+              { placeholder: "Phone *", type: "tel", key: "phone" },
+              { placeholder: "Email *", type: "email", key: "email" },
+              { placeholder: "City *", type: "text", key: "city" },
+            ].map((field) => (
+              <input
+                key={field.key}
+                type={field.type}
+                placeholder={field.placeholder}
+                required
+                style={{
+                  width: "100%",
+                  padding: "12px 16px",
+                  border: "1px solid #e0e0e0",
+                  borderRadius: "8px",
+                  fontSize: "14px",
+                  outline: "none",
+                  boxSizing: "border-box"
+                }}
+                onChange={e => setFormData({...formData, [field.key]: e.target.value})}
+              />
+            ))}
 
-        <textarea
-          placeholder="Your Message"
-          value={formData.message}
-          onChange={e => setFormData({...formData, message: e.target.value})}
-          rows={3}
-          style={{
-            width: "100%",
-            padding: "14px 16px",
-            border: "1px solid #e0e0e0",
-            borderRadius: "8px",
-            fontSize: "15px",
-            fontFamily: "var(--font-dm-sans)",
-            boxSizing: "border-box",
-            resize: "vertical",
-            minHeight: "90px"
-          }}
-        />
+            <select
+              required
+              style={{
+                width: "100%",
+                padding: "12px 16px",
+                border: "1px solid #e0e0e0",
+                borderRadius: "8px",
+                fontSize: "14px",
+                outline: "none",
+                backgroundColor: "white",
+                boxSizing: "border-box"
+              }}
+              onChange={e => setFormData({...formData, patientCount: e.target.value})}
+            >
+              <option value="">Monthly patient count *</option>
+              <option value="1-20">1-20</option>
+              <option value="20-50">20-50</option>
+              <option value="50-100">50-100</option>
+              <option value="100+">100+</option>
+            </select>
 
-        <button
-          type="submit"
-          style={{
-            width: "100%",
-            backgroundColor: "#1a4d2e",
-            color: "white",
-            padding: "16px",
-            borderRadius: "8px",
-            fontSize: "16px",
-            fontWeight: "600",
-            fontFamily: "var(--font-dm-sans)",
-            border: "none",
-            cursor: "pointer",
-            transition: "background-color 0.2s ease"
-          }}
-          onMouseOver={(e) => {
-            e.currentTarget.style.backgroundColor = "#2a5d3e";
-          }}
-          onMouseOut={(e) => {
-            e.currentTarget.style.backgroundColor = "#1a4d2e";
-          }}
-        >
-          Request Free Demo →
-        </button>
-      </form>
+            <textarea
+              placeholder="Your Message"
+              rows={3}
+              style={{
+                width: "100%",
+                padding: "12px 16px",
+                border: "1px solid #e0e0e0",
+                borderRadius: "8px",
+                fontSize: "14px",
+                outline: "none",
+                resize: "vertical",
+                boxSizing: "border-box"
+              }}
+              onChange={e => setFormData({...formData, message: e.target.value})}
+            />
 
-      <p style={{
-        fontSize: "12px",
-        color: "#999",
-        textAlign: "center",
-        marginTop: "20px",
-        fontFamily: "var(--font-dm-sans)"
-      }}>
-        🔒 Your information is kept confidential
-      </p>
+            <button
+              type="submit"
+              style={{
+                width: "100%",
+                padding: "14px",
+                backgroundColor: "#1a4d2e",
+                color: "white",
+                border: "none",
+                borderRadius: "8px",
+                fontSize: "15px",
+                fontWeight: "600",
+                cursor: "pointer",
+                marginTop: "4px"
+              }}
+            >
+              Request Free Demo →
+            </button>
+
+            <p style={{ textAlign: "center", fontSize: "12px", color: "#aaa", margin: 0 }}>
+              🔒 Your information is kept confidential
+            </p>
+          </form>
+        </div>
+
+      </div>
     </div>
   );
 }
