@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Ticker from "../components/Ticker";
 import HomePageContentEN from "../components/HomePageContentEN";
 import Newsletter from "../components/Newsletter";
+import { getPricingUrl } from "@/lib/getPricingUrl";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
 
 export default function HomePageEN() {
   const articles = getAllEnglishArticles();
+  const pricingUrl = getPricingUrl("en");
 
   return (
     <div className="editorial-page">
@@ -39,7 +41,7 @@ export default function HomePageEN() {
             </p>
             <div className="hero-cta">
               <a href="/en/demo" className="hero-btn-primary">Get Free Demo →</a>
-              <a href="#pricing" className="hero-btn-secondary">See Pricing</a>
+              <a href={pricingUrl} target="_blank" rel="noopener noreferrer" className="hero-btn-secondary">See Pricing</a>
             </div>
           </div>
         </div>

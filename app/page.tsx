@@ -4,9 +4,11 @@ import Ticker from "./components/Ticker";
 import HomePageContent from "./components/HomePageContent";
 import Newsletter from "./components/Newsletter";
 import SidebarBanner from "./components/SidebarBanner";
+import { getPricingUrl } from "@/lib/getPricingUrl";
 
 export default function HomePage() {
   const articles = getAllArticles();
+  const pricingUrl = getPricingUrl("tr");
 
   return (
     <div className="editorial-page">
@@ -23,7 +25,7 @@ export default function HomePage() {
             </p>
             <div className="hero-cta">
               <a href="/demo" className="hero-btn-primary">Get Free Demo →</a>
-              <a href="#pricing" className="hero-btn-secondary">See Pricing</a>
+              <a href={pricingUrl} target="_blank" rel="noopener noreferrer" className="hero-btn-secondary">See Pricing</a>
             </div>
           </div>
         </div>

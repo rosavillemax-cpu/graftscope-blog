@@ -19,7 +19,7 @@ export default function DemoForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4">
       <input type="text" placeholder="Name *" required
         className="w-full border p-2 rounded"
         onChange={e => setFormData({...formData, name: e.target.value})} />

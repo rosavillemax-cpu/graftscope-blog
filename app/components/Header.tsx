@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import SearchModal from "./SearchModal";
+import { getPricingUrl } from "@/lib/getPricingUrl";
 
 const TR_NAV_ITEMS: { label: string; href: string; slug: string | null }[] = [
   { label: "Tümü", href: "/", slug: null },
@@ -66,6 +67,7 @@ export default function Header() {
 
   const homeHref = isEnglishPage ? "/en" : isGermanPage ? "/de" : "/";
   const demoHref = isEnglishPage ? "/en/demo" : isGermanPage ? "/de/demo" : "/demo";
+  const pricingHref = getPricingUrl(isEnglishPage ? "en" : isGermanPage ? "de" : "tr");
   const tagline = isEnglishPage 
     ? "Hair Transplant Clinic Management Guide"
     : isGermanPage
@@ -148,7 +150,7 @@ export default function Header() {
             </Link>
             <span className="top-bar-btn-sep" aria-hidden />
             <a 
-              href="https://www.graftscope.com/pricing" 
+              href={pricingHref} 
               target="_blank" 
               rel="noopener noreferrer"
               className="header-btn header-btn-outline"
