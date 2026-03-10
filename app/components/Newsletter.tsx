@@ -4,7 +4,7 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 
 interface NewsletterProps {
-  language?: "tr" | "en";
+  language?: "tr" | "en" | "de";
 }
 
 export default function Newsletter({ language }: NewsletterProps) {
@@ -14,7 +14,7 @@ export default function Newsletter({ language }: NewsletterProps) {
   const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
 
   // Auto-detect language from pathname if not provided
-  const currentLanguage = language || (pathname.startsWith("/en") ? "en" : "tr");
+  const currentLanguage = language || (pathname.startsWith("/en") ? "en" : pathname.startsWith("/de") ? "de" : "tr");
 
   const content = {
     tr: {
@@ -36,6 +36,16 @@ export default function Newsletter({ language }: NewsletterProps) {
       disclaimer: "For clinic owners and managers only. No spam.",
       success: "Thank you! You're subscribed.",
       error: "An error occurred, please try again."
+    },
+    de: {
+      eyebrow: "WÖCHENTLICHER NEWSLETTER",
+      headline: "Klinik-Management-Einblicke direkt in Ihren Posteingang",
+      subtext: "Wöchentliche Strategien, Marktanalysen und operative Tipps für Haartransplantationskliniken.",
+      placeholder: "klinik@email.com",
+      button: "Abonnieren",
+      disclaimer: "Nur für Klinikinhaber und -manager. Kein Spam.",
+      success: "Vielen Dank! Sie haben sich angemeldet.",
+      error: "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut."
     }
   };
 

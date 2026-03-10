@@ -73,7 +73,7 @@ export default function Header() {
     : "Saç ekimi klinikleri için operasyonel rehber";
   
   const guideBtnText = isEnglishPage ? "Industry Guide" : isGermanPage ? "Branchenführer" : "Sektör Rehberi";
-  const contactBtnText = isEnglishPage ? "Contact Us" : isGermanPage ? "Kontakt" : "Bize Ulaşın";
+  const contactBtnText = isEnglishPage ? "Free Demo →" : isGermanPage ? "Kostenlose Demo →" : "Ücretsiz Demo →";
   const newsletterBtnText = isEnglishPage ? "Subscribe to Newsletter" : isGermanPage ? "Newsletter abonnieren" : "Bültene Abone Ol";
 
   return (

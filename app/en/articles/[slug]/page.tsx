@@ -2,8 +2,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getEnglishArticleBySlug, getEnglishArticleSlugs, getEnglishArticlesByCategory } from "@/lib/articles";
 import Header from "@/app/components/Header";
+import FloatingCTA from "@/app/components/FloatingCTA";
+import MarkdownWithCTA from "@/app/components/MarkdownWithCTA";
 import type { Metadata } from "next";
-import ReactMarkdown from "react-markdown";
 
 const SITE_URL = "https://graftscope.org";
 
@@ -112,7 +113,7 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
           </div>
 
           <div className="article-body">
-            <ReactMarkdown>{content}</ReactMarkdown>
+            <MarkdownWithCTA content={content} />
           </div>
 
           <div className="article-footer">
@@ -171,6 +172,8 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
           </div>
         </aside>
       </main>
+
+      <FloatingCTA />
 
       <footer className="site-footer">
         <div className="site-footer-inner">

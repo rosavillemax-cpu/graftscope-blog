@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 import { getArticleBySlug, getArticleSlugs, getArticlesByCategory } from "@/lib/articles";
 import Header from "@/app/components/Header";
+import FloatingCTA from "@/app/components/FloatingCTA";
+import MarkdownWithCTA from "@/app/components/MarkdownWithCTA";
 import type { Metadata } from "next";
 
 const SITE_URL = "https://graftscope.org";
@@ -125,7 +125,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             </div>
           </header>
           <div className="article-single-body prose">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+            <MarkdownWithCTA content={content} />
           </div>
         </article>
         <p className="back-link-wrap">
@@ -185,6 +185,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           </div>
         </div>
       </section>
+
+      <FloatingCTA />
 
       <footer className="site-footer">
         <div className="site-footer-inner">

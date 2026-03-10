@@ -2062,3 +2062,144 @@ body {
     font-size: 0.75rem;
   }
 }
+
+/* ========== Floating CTA Bar ========== */
+.floating-cta-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1a6b4a;
+  z-index: 1000;
+  transform: translateY(100%);
+  animation: slideUpFloating 0.3s ease-out forwards;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes slideUpFloating {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.floating-cta-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.floating-cta-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem 0;
+  transition: opacity 0.2s ease;
+}
+
+.floating-cta-link:hover {
+  opacity: 0.9;
+}
+
+.floating-cta-close {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  margin-left: 1rem;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+  line-height: 1;
+}
+
+.floating-cta-close:hover {
+  opacity: 1;
+}
+
+/* Mobile responsive for Floating CTA */
+@media (max-width: 768px) {
+  .floating-cta-content {
+    padding: 0.875rem 1rem;
+  }
+  
+  .floating-cta-link {
+    font-size: 0.875rem;
+  }
+  
+  .floating-cta-close {
+    margin-left: 0.75rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-cta-content {
+    padding: 0.75rem 0.875rem;
+  }
+  
+  .floating-cta-link {
+    font-size: 0.8125rem;
+  }
+  
+  .floating-cta-close {
+    margin-left: 0.5rem;
+    font-size: 1.125rem;
+  }
+}
+
+/* ========== Inline CTA ========== */
+.inline-cta {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  background: #e8f5ee;
+  border-left: 3px solid #1a6b4a;
+  border-radius: 0 8px 8px 0;
+}
+
+.inline-cta-link {
+  color: #1a6b4a;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: block;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.inline-cta-link:hover {
+  color: #145238;
+  opacity: 0.9;
+}
+
+/* Responsive for Inline CTA */
+@media (max-width: 768px) {
+  .inline-cta {
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+  }
+  
+  .inline-cta-link {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .inline-cta {
+    margin: 1rem 0;
+    padding: 0.875rem 1rem;
+  }
+  
+  .inline-cta-link {
+    font-size: 0.8125rem;
+  }
+}
