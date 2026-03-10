@@ -140,7 +140,30 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
             <div className="related-articles-container">
               <h2 className="related-articles-title">You Might Also Like</h2>
               <div className="related-articles-grid">
-                {relatedArticles.map((relatedArticle) => (
+                {relatedArticles.map((relatedArticle) => {
+                // Generate excerpt for related article
+                const generateExcerpt = (frontmatter: any, maxLength: number = 150) => {
+                  if (!frontmatter) return '';
+                  
+                  // If frontmatter.excerpt exists, use it
+                  if (frontmatter.excerpt && frontmatter.excerpt.length > 0) {
+                    return frontmatter.excerpt.length > maxLength 
+                      ? frontmatter.excerpt.substring(0, maxLength) + '...'
+                      : frontmatter.excerpt;
+                  }
+                  
+                  // Otherwise, generate from title or other content
+                  const sourceText = frontmatter.title || '';
+                  const cleaned = sourceText.replace(/\s+/g, ' ').trim();
+                  
+                  if (cleaned.length <= maxLength) return cleaned;
+                  
+                  return cleaned.substring(0, maxLength).replace(/\s+\S*$/, '') + '...';
+                };
+                
+                const excerpt = generateExcerpt(relatedArticle.frontmatter, 150);
+
+                return (
                   <article key={relatedArticle.slug} className="related-article-card">
                     <span className="related-article-category">
                       {relatedArticle.frontmatter.category}
@@ -150,8 +173,18 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
                         {relatedArticle.frontmatter.title}
                       </Link>
                     </h3>
-                    <p className="related-article-excerpt">
-                      {relatedArticle.frontmatter.excerpt}
+                    <p className="related-article-excerpt" style={{
+                      fontSize: "14px",
+                      color: "#666",
+                      lineHeight: "1.6",
+                      marginTop: "8px",
+                      marginBottom: "8px",
+                      display: "-webkit-box",
+                      WebkitLineClamp: "2",
+                      WebkitBoxOrient: "vertical",
+                      overflow: "hidden"
+                    }}>
+                      {excerpt}
                     </p>
                     <div className="related-article-meta">
                       <span>{relatedArticle.frontmatter.author}</span>
@@ -164,7 +197,8 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
                       </Link>
                     </div>
                   </article>
-                ))}
+                );
+              })}
               </div>
             </div>
           </section>
