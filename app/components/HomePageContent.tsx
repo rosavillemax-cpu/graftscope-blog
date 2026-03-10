@@ -8,6 +8,7 @@ import {
   MARKET_FILTER_OPTIONS,
   type MarketFilterKey,
 } from "@/lib/articleFilters";
+import MiniNewsletter from "./MiniNewsletter";
 
 function ArticleCard({ article }: { article: Article }) {
   const { frontmatter, slug } = article;
@@ -65,6 +66,7 @@ export default function HomePageContent({ articles }: HomePageContentProps) {
           <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>
             Saç ekimi kliniklerine özel geliştirildi
           </p>
+          <MiniNewsletter />
         </aside>
       </div>
     </main>
