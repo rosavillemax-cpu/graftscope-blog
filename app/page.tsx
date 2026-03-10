@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Ticker from "./components/Ticker";
 import HomePageContent from "./components/HomePageContent";
 import Newsletter from "./components/Newsletter";
+import SidebarBanner from "./components/SidebarBanner";
 
 export default function HomePage() {
   const articles = getAllArticles();
@@ -49,6 +50,13 @@ export default function HomePage() {
       <HomePageContent articles={articles} />
       <div id="newsletter">
         <Newsletter />
+      </div>
+      
+      {/* Bottom Banner Section */}
+      <div className="bottom-banner-section">
+        <div className="bottom-banner-container">
+          <SidebarBanner />
+        </div>
       </div>
       
       {/* Banner Section */}
