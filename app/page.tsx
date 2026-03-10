@@ -11,33 +11,38 @@ export default function HomePage() {
     <div className="editorial-page">
       <Header />
       <Ticker />
-      {/* About This Guide Section */}
-      <section className="about-guide-section">
-        <div className="about-guide-content">
-          <h1 className="about-guide-headline">Saç Ekim Kliniği Sahipleri İçin Kapsamlı Rehber</h1>
-          <p className="about-guide-subtext">Klinik yönetimi, hasta büyümesi ve uluslararası pazar genişlemesi için kanıta dayalı Stratejiler. Sektör uzmanları tarafından haftalık güncellenir.</p>
-          
-          <div className="about-guide-stats">
-            <div className="stat-box">
-              <div className="stat-number">30+</div>
-              <div className="stat-label">UZMAN REHBER</div>
-            </div>
-            <div className="stat-box">
-              <div className="stat-number">6</div>
-              <div className="stat-label">GLOBAL PAZAR</div>
-            </div>
-            <div className="stat-box">
-              <div className="stat-number">3</div>
-              <div className="stat-label">TR · EN · DE</div>
-            </div>
-          </div>
+      
+      {/* Hero Banner Section */}
+      <div className="hero-banner-section">
+        <div className="hero-banner-container">
+          <a href="https://www.graftscope.com" target="_blank" rel="noopener noreferrer" className="hero-banner-link">
+            <img 
+              src="/Banner.png" 
+              alt="GraftScope" 
+              className="hero-banner-image"
+            />
+          </a>
         </div>
-      </section>
+      </div>
 
       <HomePageContent articles={articles} />
       <div id="newsletter">
         <Newsletter />
       </div>
+      
+      {/* Banner Section */}
+      <div className="banner-section">
+        <div className="banner-container">
+          <a href="https://www.graftscope.com" target="_blank" rel="noopener noreferrer" className="banner-link">
+            <img 
+              src="/Banner.png" 
+              alt="GraftScope" 
+              className="banner-image"
+            />
+          </a>
+        </div>
+      </div>
+
       <footer className="site-footer">
         <div className="site-footer-inner">
           <p className="footer-logo">Graftscope</p>

@@ -3,7 +3,7 @@ import { Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
 
-const SITE_URL = "https://graftscope.org";
+const SITE_URL = "https://www.graftscope.org";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -63,9 +63,28 @@ const organizationSchema = {
   "@type": "Organization",
   name: "Graftscope",
   url: SITE_URL,
-  logo: `${SITE_URL}/og-image.jpg`,
+  logo: `${SITE_URL}/graftscope-logo.png`,
   description:
     "Saç ekim klinikleri için klinik yönetimi, hasta büyümesi ve sektör analizleri.",
+  sameAs: [
+    "https://www.instagram.com/graftscope",
+    "https://www.linkedin.com/company/graftscope",
+    "https://www.facebook.com/graftscope"
+  ]
+};
+
+const webSiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Graftscope Insights",
+  url: SITE_URL,
+  description: "Saç ekim klinikleri için klinik yönetimi, hasta büyümesi ve sektör analizleri.",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: `${SITE_URL}/?q={search_term_string}`,
+    "query-input": "required name=search_term_string"
+  },
+  "inLanguage": ["tr", "en", "de"]
 };
 
 const blogSchema = {
@@ -84,6 +103,7 @@ const blogSchema = {
 
 const jsonLd = [
   organizationSchema,
+  webSiteSchema,
   blogSchema,
 ];
 

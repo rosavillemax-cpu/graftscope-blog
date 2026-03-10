@@ -2311,3 +2311,135 @@ body {
     padding: 7px 10px;
   }
 }
+
+/* ========== Hero Banner Section ========== */
+.hero-banner-section {
+  margin: 0;
+  margin-bottom: 48px;
+  width: 100%;
+}
+
+.hero-banner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.hero-banner-link {
+  display: block;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.hero-banner-link:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+.hero-banner-image {
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease;
+}
+
+.hero-banner-image:hover {
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Responsive for Hero Banner */
+@media (max-width: 768px) {
+  .hero-banner-section {
+    margin-bottom: 40px;
+  }
+  
+  .hero-banner-container {
+    padding: 0 16px;
+  }
+  
+  .hero-banner-image {
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-banner-section {
+    margin-bottom: 32px;
+  }
+  
+  .hero-banner-container {
+    padding: 0 12px;
+  }
+  
+  .hero-banner-image {
+    border-radius: 6px;
+  }
+}
+
+/* ========== Banner Section ========== */
+.banner-section {
+  margin-top: 48px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.banner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.banner-link {
+  display: block;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.banner-link:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+.banner-image {
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease;
+}
+
+.banner-image:hover {
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Responsive for Banner */
+@media (max-width: 768px) {
+  .banner-section {
+    margin-top: 40px;
+  }
+  
+  .banner-container {
+    padding: 0 16px;
+  }
+  
+  .banner-image {
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-section {
+    margin-top: 32px;
+  }
+  
+  .banner-container {
+    padding: 0 12px;
+  }
+  
+  .banner-image {
+    border-radius: 6px;
+  }
+}

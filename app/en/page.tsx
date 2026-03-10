@@ -28,10 +28,25 @@ export default function HomePageEN() {
     <div className="editorial-page">
       <Header />
       <Ticker />
+      
+      {/* Hero Banner Section */}
+      <div className="hero-banner-section">
+        <div className="hero-banner-container">
+          <a href="https://www.graftscope.com" target="_blank" rel="noopener noreferrer" className="hero-banner-link">
+            <img 
+              src="/Banner.png" 
+              alt="GraftScope" 
+              className="hero-banner-image"
+            />
+          </a>
+        </div>
+      </div>
+
       <HomePageContentEN articles={articles} />
       <div id="newsletter">
         <Newsletter />
       </div>
+      
       <footer className="site-footer">
         <div className="site-footer-inner">
           <p className="footer-logo">Graftscope</p>

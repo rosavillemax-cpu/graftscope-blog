@@ -73,20 +73,20 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
     "@type": "Article",
     headline: frontmatter.title,
     description: frontmatter.excerpt,
-    image: `${SITE_URL}/og-image.jpg`,
-    datePublished: frontmatter.date,
     author: {
       "@type": "Person",
       name: frontmatter.author,
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Graftscope",
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE_URL}/og-image.jpg`,
-      },
+    publisher: { 
+      "@type": "Organization", 
+      name: "Graftscope", 
+      logo: "https://www.graftscope.org/graftscope-logo.png" 
     },
+    datePublished: frontmatter.date,
+    dateModified: frontmatter.date,
+    url: `https://www.graftscope.org/en/articles/${slug}`,
+    "inLanguage": "en",
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.graftscope.org/en/articles/${slug}` }
   };
 
   return (
@@ -122,6 +122,19 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
             </Link>
           </div>
         </article>
+
+        {/* Banner Section */}
+        <div className="banner-section">
+          <div className="banner-container">
+            <a href="https://www.graftscope.com" target="_blank" rel="noopener noreferrer" className="banner-link">
+              <img 
+                src="/Banner.png" 
+                alt="GraftScope" 
+                className="banner-image"
+              />
+            </a>
+          </div>
+        </div>
 
         {relatedArticles.length > 0 && (
           <section className="related-articles">
