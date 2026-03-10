@@ -14,12 +14,17 @@ export function middleware(request: NextRequest) {
   // Get country from Vercel geo headers
   const country = request.headers.get('x-vercel-ip-country') || 'TR'
   
-  // Turkish users stay on /
+  // German-speaking countries -> /de
+  if (['DE', 'AT', 'CH'].includes(country)) {
+    return NextResponse.redirect(new URL('/de' + pathname, request.url))
+  }
+  
+  // Turkey -> /
   if (country === 'TR') {
     return NextResponse.next()
   }
   
-  // Everyone else redirect to /en
+  // Everyone else -> /en
   return NextResponse.redirect(new URL('/en' + pathname, request.url))
 }
 

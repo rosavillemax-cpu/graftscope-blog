@@ -97,6 +97,7 @@ export default function RootLayout({
       <head>
         <link rel="alternate" hrefLang="tr" href="https://www.graftscope.org" />
         <link rel="alternate" hrefLang="en" href="https://www.graftscope.org/en" />
+        <link rel="alternate" hrefLang="de" href="https://www.graftscope.org/de" />
         <link rel="alternate" hrefLang="x-default" href="https://www.graftscope.org" />
         <script
           async

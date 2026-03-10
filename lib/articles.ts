@@ -82,7 +82,46 @@ export function getCategorySlugs(): string[] {
   return Object.keys(CATEGORY_SLUG_TO_NAME);
 }
 
-// English article functions
+// German article functions
+export function getGermanArticleSlugs(): string[] {
+  if (!fs.existsSync(EN_ARTICLES_DIR)) return [];
+  const DE_ARTICLES_DIR = path.join(process.cwd(), "content/de/articles");
+  const files = fs.readdirSync(DE_ARTICLES_DIR);
+  return files
+    .filter((f) => f.endsWith(".md"))
+    .map((f) => getSlugFromFilename(f));
+}
+
+export function getGermanArticleBySlug(slug: string): Article | null {
+  const DE_ARTICLES_DIR = path.join(process.cwd(), "content/de/articles");
+  const fullPath = path.join(DE_ARTICLES_DIR, `${slug}.md`);
+  if (!fs.existsSync(fullPath)) return null;
+  const raw = fs.readFileSync(fullPath, "utf-8");
+  const { data, content } = matter(raw);
+  return {
+    slug,
+    frontmatter: data as ArticleFrontmatter,
+    content,
+  };
+}
+
+export function getAllGermanArticles(): Article[] {
+  const slugs = getGermanArticleSlugs();
+  const articles = slugs
+    .map((slug) => getGermanArticleBySlug(slug))
+    .filter((a): a is Article => a !== null);
+  return articles.sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).getTime() -
+      new Date(a.frontmatter.date).getTime()
+  );
+}
+
+export function getGermanArticlesByCategory(categoryName: string): Article[] {
+  return getAllGermanArticles().filter(
+    (a) => a.frontmatter.category === categoryName
+  );
+}
 export function getEnglishArticleSlugs(): string[] {
   if (!fs.existsSync(EN_ARTICLES_DIR)) return [];
   const files = fs.readdirSync(EN_ARTICLES_DIR);
@@ -136,6 +175,36 @@ export function getEnglishCategorySlugs(): string[] {
 
 export function getEnglishCategoryNameBySlug(slug: string): string | null {
   const articles = getAllEnglishArticles();
+  const categoryMap = new Map(
+    Array.from(new Set(articles.map((a) => a.frontmatter.category))).map((category) => {
+      // Special handling for Türkiye
+      if (category === "Türkiye") return ["turkiye", category];
+      return [
+        category.toLowerCase()
+          .replace(/[^a-z0-9\s-]/g, '')
+          .replace(/\s+/g, '-'),
+        category
+      ];
+    })
+  );
+  return categoryMap.get(slug) ?? null;
+}
+
+// German category functions
+export function getGermanCategorySlugs(): string[] {
+  const articles = getAllGermanArticles();
+  const categories = new Set(articles.map((a) => a.frontmatter.category));
+  return Array.from(categories).map((category) => {
+    // Special handling for Türkiye
+    if (category === "Türkiye") return "turkiye";
+    return category.toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-');
+  });
+}
+
+export function getGermanCategoryNameBySlug(slug: string): string | null {
+  const articles = getAllGermanArticles();
   const categoryMap = new Map(
     Array.from(new Set(articles.map((a) => a.frontmatter.category))).map((category) => {
       // Special handling for Türkiye

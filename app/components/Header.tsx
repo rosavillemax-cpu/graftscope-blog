@@ -25,6 +25,16 @@ const EN_NAV_ITEMS: { label: string; href: string; slug: string | null }[] = [
   { label: "Global", href: "/en/category/global", slug: "global" },
 ];
 
+const DE_NAV_ITEMS: { label: string; href: string; slug: string | null }[] = [
+  { label: "Alle", href: "/de", slug: null },
+  { label: "Klinik Management", href: "/de/category/klinik-management", slug: "klinik-management" },
+  { label: "Patientenwachstum", href: "/de/category/patientenwachstum", slug: "patientenwachstum" },
+  { label: "Technologie", href: "/de/category/technologie", slug: "technologie" },
+  { label: "Marktanalyse", href: "/de/category/marktanalyse", slug: "marktanalyse" },
+  { label: "Türkiye", href: "/de/category/turkiye", slug: "turkiye" },
+  { label: "Global", href: "/de/category/global", slug: "global" },
+];
+
 export default function Header() {
   const pathname = usePathname();
   const isEnglishPage = pathname?.startsWith("/en");
@@ -34,15 +44,19 @@ export default function Header() {
   
   const isCategoryPage = isEnglishPage 
     ? pathname?.startsWith("/en/category/")
+    : isGermanPage
+    ? pathname?.startsWith("/de/category/")
     : pathname?.startsWith("/kategori/");
   
   const activeSlug = isCategoryPage 
     ? (isEnglishPage 
         ? pathname?.replace("/en/category/", "") 
+        : isGermanPage
+        ? pathname?.replace("/de/category/", "")
         : pathname?.replace("/kategori/", "")) ?? null
     : null;
 
-  const navItems = isEnglishPage ? EN_NAV_ITEMS : TR_NAV_ITEMS;
+  const navItems = isEnglishPage ? EN_NAV_ITEMS : isGermanPage ? DE_NAV_ITEMS : TR_NAV_ITEMS;
   const currentDate = new Date().toLocaleDateString(isEnglishPage ? "en-US" : isGermanPage ? "de-DE" : "tr-TR", {
     weekday: "long",
     year: "numeric",
@@ -54,11 +68,13 @@ export default function Header() {
   const demoHref = isEnglishPage ? "/en/demo" : isGermanPage ? "/de/demo" : "/demo";
   const tagline = isEnglishPage 
     ? "Hair Transplant Clinic Management Guide"
+    : isGermanPage
+    ? "Leitfaden für Haartransplantationskliniken"
     : "Saç ekimi klinikleri için operasyonel rehber";
   
-  const guideBtnText = isEnglishPage ? "Industry Guide" : "Sektör Rehberi";
-  const contactBtnText = isEnglishPage ? "Contact Us" : "Bize Ulaşın";
-  const newsletterBtnText = isEnglishPage ? "Subscribe to Newsletter" : "Bültene Abone Ol";
+  const guideBtnText = isEnglishPage ? "Industry Guide" : isGermanPage ? "Branchenführer" : "Sektör Rehberi";
+  const contactBtnText = isEnglishPage ? "Contact Us" : isGermanPage ? "Kontakt" : "Bize Ulaşın";
+  const newsletterBtnText = isEnglishPage ? "Subscribe to Newsletter" : isGermanPage ? "Newsletter abonnieren" : "Bültene Abone Ol";
 
   return (
     <>
@@ -110,9 +126,8 @@ export default function Header() {
               <span className="lang-sep">·</span>
               <a 
                 href="/de" 
-                className="lang-link" 
+                className={`lang-link ${isGermanPage ? "lang-active" : ""}`}
                 aria-label="Deutsch"
-                style={{ opacity: 0.5, cursor: "not-allowed" }}
               >
                 DE
               </a>

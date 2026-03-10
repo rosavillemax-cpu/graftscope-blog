@@ -5,6 +5,9 @@ import {
   getAllArticles,
   getEnglishArticleSlugs,
   getAllEnglishArticles,
+  getGermanArticleSlugs,
+  getAllGermanArticles,
+  getGermanCategorySlugs,
 } from "@/lib/articles";
 
 const SITE_URL = "https://www.graftscope.org";
@@ -12,9 +15,12 @@ const SITE_URL = "https://www.graftscope.org";
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllArticles();
   const englishArticles = getAllEnglishArticles();
+  const germanArticles = getAllGermanArticles();
   const articleSlugs = getArticleSlugs();
   const englishArticleSlugs = getEnglishArticleSlugs();
+  const germanArticleSlugs = getGermanArticleSlugs();
   const categorySlugs = getCategorySlugs();
+  const germanCategorySlugs = getGermanCategorySlugs();
 
   // Dynamic Turkish article URLs
   const articleEntries: MetadataRoute.Sitemap = articleSlugs.map((slug) => {
@@ -66,6 +72,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
+  // Dynamic German article URLs
+  const germanArticleEntries: MetadataRoute.Sitemap = germanArticleSlugs.map((slug) => {
+    const article = germanArticles.find((a) => a.slug === slug);
+    return {
+      url: `${SITE_URL}/de/articles/${slug}`,
+      lastModified: article
+        ? new Date(article.frontmatter.date)
+        : new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    };
+  });
+
+  // Dynamic German category URLs
+  const germanCategoryEntries: MetadataRoute.Sitemap = germanCategorySlugs.map(
+    (slug) => ({
+      url: `${SITE_URL}/de/category/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })
+  );
+
   // Static pages only
   return [
     {
@@ -76,6 +105,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/en`,
+      lastModified: new Date(),
+      changeFrequency: "daily" as const,
+      priority: 1,
+    },
+    {
+      url: `${SITE_URL}/de`,
       lastModified: new Date(),
       changeFrequency: "daily" as const,
       priority: 1,
@@ -92,9 +127,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.9,
     },
+    {
+      url: `${SITE_URL}/de/demo`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    },
     ...articleEntries,
     ...englishArticleEntries,
+    ...germanArticleEntries,
     ...categoryEntries,
     ...englishCategoryEntries,
+    ...germanCategoryEntries,
   ];
 }

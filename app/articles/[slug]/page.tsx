@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { getArticleBySlug, getArticleSlugs } from "@/lib/articles";
+import { getArticleBySlug, getArticleSlugs, getArticlesByCategory } from "@/lib/articles";
 import Header from "@/app/components/Header";
 import type { Metadata } from "next";
 
@@ -65,6 +65,21 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const { frontmatter, content } = article;
   const articleUrl = `${SITE_URL}/articles/${slug}`;
 
+  // Get related articles from the same category
+  const relatedArticles = getArticlesByCategory(frontmatter.category)
+    .filter(a => a.slug !== slug) // Exclude current article
+    .slice(0, 3); // Get max 3 articles
+
+  // If less than 3 articles, fill with random articles
+  if (relatedArticles.length < 3) {
+    const allArticles = getArticleSlugs().map(s => getArticleBySlug(s)).filter(a => a !== null);
+    const randomArticles = allArticles
+      .filter(a => a.slug !== slug && a.frontmatter.category !== frontmatter.category)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 3 - relatedArticles.length);
+    relatedArticles.push(...randomArticles);
+  }
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -119,6 +134,41 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           </Link>
         </p>
       </main>
+
+      {relatedArticles.length > 0 && (
+        <section className="related-articles">
+          <div className="related-articles-container">
+            <h2 className="related-articles-title">Bunları da Okuyun</h2>
+            <div className="related-articles-grid">
+              {relatedArticles.map((relatedArticle) => (
+                <article key={relatedArticle.slug} className="related-article-card">
+                  <span className="related-article-category">
+                    {relatedArticle.frontmatter.category}
+                  </span>
+                  <h3 className="related-article-title">
+                    <Link href={`/articles/${relatedArticle.slug}`}>
+                      {relatedArticle.frontmatter.title}
+                    </Link>
+                  </h3>
+                  <p className="related-article-excerpt">
+                    {relatedArticle.frontmatter.excerpt}
+                  </p>
+                  <div className="related-article-meta">
+                    <span>{relatedArticle.frontmatter.author}</span>
+                    <span className="meta-sep">·</span>
+                    <span>{relatedArticle.frontmatter.readTime} dk</span>
+                  </div>
+                  <div className="related-article-action">
+                    <Link href={`/articles/${relatedArticle.slug}`} className="related-article-link">
+                      Devamını Oku →
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="cta-section">
         <div className="cta-content">

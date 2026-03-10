@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getEnglishArticleBySlug, getEnglishArticleSlugs, getEnglishArticlesByCategory } from "@/lib/articles";
+import { getGermanArticleBySlug, getGermanArticleSlugs, getGermanArticlesByCategory } from "@/lib/articles";
 import Header from "@/app/components/Header";
 import type { Metadata } from "next";
 import ReactMarkdown from "react-markdown";
@@ -12,7 +12,7 @@ interface ArticlePageProps {
 }
 
 export async function generateStaticParams() {
-  const slugs = getEnglishArticleSlugs();
+  const slugs = getGermanArticleSlugs();
   return slugs.map((slug) => ({ slug }));
 }
 
@@ -20,15 +20,16 @@ export async function generateMetadata({
   params,
 }: ArticlePageProps): Promise<Metadata> {
   const { slug } = await params;
-  const article = getEnglishArticleBySlug(slug);
-  if (!article) return { title: "Article Not Found" };
+  const article = getGermanArticleBySlug(slug);
+  if (!article) return { title: "Artikel nicht gefunden" };
 
   const { frontmatter } = article;
-  const url = `${SITE_URL}/en/articles/${slug}`;
+  const url = `${SITE_URL}/de/articles/${slug}`;
 
   return {
     title: `${frontmatter.title} | Graftscope`,
     description: frontmatter.excerpt,
+    authors: [{ name: frontmatter.author }],
     openGraph: {
       title: `${frontmatter.title} | Graftscope`,
       description: frontmatter.excerpt,
@@ -37,29 +38,39 @@ export async function generateMetadata({
       type: "article",
       publishedTime: frontmatter.date,
       authors: [frontmatter.author],
+      tags: [frontmatter.category],
+      images: [{ url: `${SITE_URL}/og-image.jpg`, alt: frontmatter.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
     },
     alternates: {
       canonical: url,
     },
+    other: {
+      "article:published_time": frontmatter.date,
+      "article:section": frontmatter.category,
+      "article:author": frontmatter.author,
+    },
   };
 }
 
-export default async function ArticlePageEN({ params }: ArticlePageProps) {
+export default async function ArticlePageDE({ params }: ArticlePageProps) {
   const { slug } = await params;
-  const article = getEnglishArticleBySlug(slug);
+  const article = getGermanArticleBySlug(slug);
   if (!article) notFound();
 
   const { frontmatter, content } = article;
-  const articleUrl = `${SITE_URL}/en/articles/${slug}`;
+  const articleUrl = `${SITE_URL}/de/articles/${slug}`;
 
   // Get related articles from the same category
-  const relatedArticles = getEnglishArticlesByCategory(frontmatter.category)
+  const relatedArticles = getGermanArticlesByCategory(frontmatter.category)
     .filter(a => a.slug !== slug) // Exclude current article
     .slice(0, 3); // Get max 3 articles
 
   // If less than 3 articles, fill with random articles
   if (relatedArticles.length < 3) {
-    const allArticles = getEnglishArticleSlugs().map(s => getEnglishArticleBySlug(s)).filter(a => a !== null);
+    const allArticles = getGermanArticleSlugs().map(s => getGermanArticleBySlug(s)).filter(a => a !== null);
     const randomArticles = allArticles
       .filter(a => a.slug !== slug && a.frontmatter.category !== frontmatter.category)
       .sort(() => Math.random() - 0.5)
@@ -72,32 +83,35 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
     "@type": "Article",
     headline: frontmatter.title,
     description: frontmatter.excerpt,
-    image: `${SITE_URL}/og-image.jpg`,
-    datePublished: frontmatter.date,
     author: {
       "@type": "Person",
       name: frontmatter.author,
     },
+    datePublished: frontmatter.date,
     publisher: {
       "@type": "Organization",
       name: "Graftscope",
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE_URL}/og-image.jpg`,
-      },
+      url: SITE_URL,
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/og-image.jpg` },
     },
+    mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
   };
 
   return (
     <div className="editorial-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Header />
+      
       <main className="article-main">
         <article className="article-content">
           <div className="article-header">
             <div className="article-meta">
               <span className="article-category">{frontmatter.category}</span>
               <span className="article-date">
-                {new Date(frontmatter.date).toLocaleDateString("en-US", {
+                {new Date(frontmatter.date).toLocaleDateString("de-DE", {
                   year: "numeric",
                   month: "long",
                   day: "numeric",
@@ -106,8 +120,8 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
             </div>
             <h1 className="article-title">{frontmatter.title}</h1>
             <div className="article-author-info">
-              <span className="article-author">By {frontmatter.author}</span>
-              <span className="article-read-time">{frontmatter.readTime} min read</span>
+              <span className="article-author">Von {frontmatter.author}</span>
+              <span className="article-read-time">{frontmatter.readTime} Min. Lesezeit</span>
             </div>
           </div>
 
@@ -116,8 +130,8 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
           </div>
 
           <div className="article-footer">
-            <Link href="/en" className="article-back-link">
-              ← All Articles
+            <Link href="/de" className="article-back-link">
+              ← Alle Artikel
             </Link>
           </div>
         </article>
@@ -125,7 +139,7 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
         {relatedArticles.length > 0 && (
           <section className="related-articles">
             <div className="related-articles-container">
-              <h2 className="related-articles-title">You Might Also Like</h2>
+              <h2 className="related-articles-title">Das könnten Sie auch interessieren</h2>
               <div className="related-articles-grid">
                 {relatedArticles.map((relatedArticle) => (
                   <article key={relatedArticle.slug} className="related-article-card">
@@ -133,7 +147,7 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
                       {relatedArticle.frontmatter.category}
                     </span>
                     <h3 className="related-article-title">
-                      <Link href={`/en/articles/${relatedArticle.slug}`}>
+                      <Link href={`/de/articles/${relatedArticle.slug}`}>
                         {relatedArticle.frontmatter.title}
                       </Link>
                     </h3>
@@ -143,11 +157,11 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
                     <div className="related-article-meta">
                       <span>{relatedArticle.frontmatter.author}</span>
                       <span className="meta-sep">·</span>
-                      <span>{relatedArticle.frontmatter.readTime} min</span>
+                      <span>{relatedArticle.frontmatter.readTime} Min.</span>
                     </div>
                     <div className="related-article-action">
-                      <Link href={`/en/articles/${relatedArticle.slug}`} className="related-article-link">
-                        Continue Reading →
+                      <Link href={`/de/articles/${relatedArticle.slug}`} className="related-article-link">
+                        Weiterlesen →
                       </Link>
                     </div>
                   </article>
@@ -159,15 +173,12 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
 
         <aside className="article-sidebar">
           <div className="sidebar-cta">
-            <h3 className="sidebar-cta-title">
-              Ready to take your clinic to the next level?
-            </h3>
-            <p className="sidebar-cta-text">
-              Operational efficiency and patient experience on one platform.
+            <a href="/de/demo" target="_blank">
+              <img src="/sidebar-de.jpeg" alt="GraftScope Demo" style={{ width: '100%', borderRadius: '12px', cursor: 'pointer' }} />
+            </a>
+            <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>
+              Exklusiv für Haartransplantationskliniken entwickelt
             </p>
-            <Link href="/en/demo" className="sidebar-cta-btn">
-              Request Demo
-            </Link>
           </div>
         </aside>
       </main>
@@ -176,15 +187,10 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
         <div className="site-footer-inner">
           <p className="footer-logo">Graftscope</p>
           <p className="footer-tagline">
-            Insights and guides for hair transplant clinics.
+            Leitfaden und Einblicke für Haartransplantationskliniken.
           </p>
         </div>
       </footer>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
     </div>
   );
 }
