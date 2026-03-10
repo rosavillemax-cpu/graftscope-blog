@@ -142,7 +142,6 @@ export default async function CategoryPageDE({ params }: CategoryPageProps) {
             <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>
               Exklusiv für Haartransplantationskliniken entwickelt
             </p>
-
             <div className="sidebar-section">
               <h4 className="sidebar-heading">Autoren in dieser Kategorie</h4>
               {authors.length === 0 ? (

@@ -1,7 +1,6 @@
 import { getAllGermanArticles } from "@/lib/articles";
 import Header from "../components/Header";
-import Ticker from "../components/Ticker";
-import HomePageContent from "../components/HomePageContent";
+import HomePageContentDE from "../components/HomePageContentDE";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -26,8 +25,7 @@ export default function HomePageDE() {
   return (
     <div className="editorial-page">
       <Header />
-      <Ticker />
-      <HomePageContent articles={articles} />
+      <HomePageContentDE articles={articles} />
       <footer className="site-footer">
         <div className="site-footer-inner">
           <p className="footer-logo">Graftscope</p>
