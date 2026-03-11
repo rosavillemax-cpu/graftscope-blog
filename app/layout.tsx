@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
+import SchemaMarkup from "./components/SchemaMarkup";
+import CookieConsent from "./components/CookieConsent";
+import { generateOrganizationSchema } from "@/lib/schema";
 
 const SITE_URL = "https://www.graftscope.org";
 
@@ -148,13 +151,11 @@ export default function RootLayout({
             `,
           }}
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <SchemaMarkup schema={generateOrganizationSchema()} />
       </head>
       <body className="antialiased">
         {children}
+        <CookieConsent />
         <Footer />
       </body>
     </html>

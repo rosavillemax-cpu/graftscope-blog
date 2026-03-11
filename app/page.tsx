@@ -5,6 +5,8 @@ import HomePageContent from "./components/HomePageContent";
 import Newsletter from "./components/Newsletter";
 import SidebarBanner from "./components/SidebarBanner";
 import { getPricingUrl } from "@/lib/getPricingUrl";
+import SchemaMarkup from "./components/SchemaMarkup";
+import { generateWebsiteSchema } from "@/lib/schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -29,6 +31,7 @@ export default function HomePage() {
 
   return (
     <div className="editorial-page">
+      <SchemaMarkup schema={generateWebsiteSchema("tr")} />
       <Header />
       <Ticker />
       

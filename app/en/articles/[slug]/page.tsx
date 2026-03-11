@@ -6,6 +6,8 @@ import FloatingCTA from "@/app/components/FloatingCTA";
 import MarkdownWithCTA from "@/app/components/MarkdownWithCTA";
 import ArticleCTA from "@/app/components/ArticleCTA";
 import RelatedArticles from "@/app/components/RelatedArticles";
+import SchemaMarkup from "@/app/components/SchemaMarkup";
+import { generateArticleSchema, generateArticleBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 
 const SITE_URL = "https://graftscope.org";
@@ -93,6 +95,8 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
 
   return (
     <div className="editorial-page">
+      <SchemaMarkup schema={generateArticleSchema(article, "en")} />
+      <SchemaMarkup schema={generateArticleBreadcrumbs(article, "en")} />
       <Header />
       <main className="article-main">
         <article className="article-content">
@@ -234,11 +238,6 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
           </p>
         </div>
       </footer>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
     </div>
   );
 }

@@ -12,6 +12,8 @@ import Ticker from "@/app/components/Ticker";
 import CategoryArticleGrid from "@/app/components/CategoryArticleGrid";
 import MiniNewsletter from "@/app/components/MiniNewsletter";
 import SidebarBanner from "@/app/components/SidebarBanner";
+import SchemaMarkup from "@/app/components/SchemaMarkup";
+import { generateCategoryBreadcrumbs } from "@/lib/schema";
 
 const SITE_URL = "https://graftscope.org";
 
@@ -89,6 +91,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
   return (
     <div className="editorial-page">
+      <SchemaMarkup schema={generateCategoryBreadcrumbs(categoryName, "tr")} />
       <Header />
       <Ticker />
 

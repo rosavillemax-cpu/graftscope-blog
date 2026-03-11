@@ -6,6 +6,8 @@ import Ticker from "@/app/components/Ticker";
 import CategoryArticleGrid from "@/app/components/CategoryArticleGrid";
 import MiniNewsletter from "@/app/components/MiniNewsletter";
 import SidebarBanner from "@/app/components/SidebarBanner";
+import SchemaMarkup from "@/app/components/SchemaMarkup";
+import { generateCategoryBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 import React from "react";
 
@@ -77,6 +79,7 @@ export default async function CategoryPageDE({ params }: CategoryPageProps) {
 
   return (
     <div className="editorial-page">
+      <SchemaMarkup schema={generateCategoryBreadcrumbs(categoryName, "de")} />
       <Header />
       <Ticker />
 

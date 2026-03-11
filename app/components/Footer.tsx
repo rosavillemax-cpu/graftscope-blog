@@ -6,6 +6,38 @@ import Link from "next/link";
 export default function Footer() {
   const pathname = usePathname();
   const isEnglishPage = pathname?.startsWith("/en");
+  const isGermanPage = pathname?.startsWith("/de");
+
+  const getLanguage = () => {
+    if (isEnglishPage) return "en";
+    if (isGermanPage) return "de";
+    return "tr";
+  };
+
+  const language = getLanguage();
+
+  const legalLinks = {
+    tr: {
+      privacy: "/gizlilik-politikasi",
+      terms: "/kullanim-kosullari",
+      privacyText: "Gizlilik Politikası",
+      termsText: "Kullanım Koşulları"
+    },
+    en: {
+      privacy: "/privacy-policy",
+      terms: "/terms",
+      privacyText: "Privacy Policy",
+      termsText: "Terms of Use"
+    },
+    de: {
+      privacy: "/datenschutz",
+      terms: "/nutzungsbedingungen",
+      privacyText: "Datenschutz",
+      termsText: "Nutzungsbedingungen"
+    }
+  };
+
+  const currentLinks = legalLinks[language];
 
   return (
     <footer className="site-footer">
@@ -36,7 +68,7 @@ export default function Footer() {
         
         <div className="footer-section footer-contact">
           <h4 className="footer-heading">
-            {isEnglishPage ? "Contact Info" : "İletişim Bilgileri"}
+            {isEnglishPage ? "Contact Info" : isGermanPage ? "Kontakt" : "İletişim Bilgileri"}
           </h4>
           <div className="footer-contact-info">
             <a href="mailto:contact@graftscope.com" className="footer-contact-link">
@@ -47,11 +79,25 @@ export default function Footer() {
             </a>
           </div>
         </div>
+        
+        <div className="footer-section footer-legal">
+          <h4 className="footer-heading">
+            {isEnglishPage ? "Legal" : isGermanPage ? "Rechtliches" : "Yasal"}
+          </h4>
+          <nav className="footer-nav">
+            <Link href={currentLinks.privacy} className="footer-link">
+              {currentLinks.privacyText}
+            </Link>
+            <Link href={currentLinks.terms} className="footer-link">
+              {currentLinks.termsText}
+            </Link>
+          </nav>
+        </div>
       </div>
       
       <div className="footer-bottom">
         <p className="footer-copyright">
-          © 2026 Graftscope. {isEnglishPage ? "All rights reserved." : "Tüm hakları saklıdır."}
+          © 2026 Graftscope. {isEnglishPage ? "All rights reserved." : isGermanPage ? "Alle Rechte vorbehalten." : "Tüm hakları saklıdır."}
         </p>
         <p className="footer-software-link">
           {isEnglishPage ? "Looking for the software?" : "Yazılımı mı arıyorsunuz?"} → <a href="https://www.graftscope.com" target="_blank" rel="noopener noreferrer" className="footer-software-url">graftscope.com</a>
