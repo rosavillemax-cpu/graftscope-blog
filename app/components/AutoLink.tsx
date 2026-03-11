@@ -57,7 +57,7 @@ export default function AutoLink({ content, language = "en" }: AutoLinkProps) {
           });
         });
 
-        return <p {...props} dangerouslySetInnerHTML={{ __html: processedText }} />;
+        return <p dangerouslySetInnerHTML={{ __html: processedText }} />;
       }
       return <p {...props}>{children}</p>;
     },
