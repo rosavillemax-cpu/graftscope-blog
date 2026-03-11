@@ -8,10 +8,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Hair Transplant Clinic Software & CRM | GraftScope",
-  description: "GraftScope is the all-in-one clinic management software built for hair transplant clinics. CRM, AI analysis, appointment system and enterprise dashboard. Start with a free demo.",
+  description: "GraftScope is the all-in-one management software for hair transplant clinics. CRM, AI analysis, appointment system and enterprise dashboard. Start free.",
   openGraph: {
     title: "Hair Transplant Clinic Software & CRM | GraftScope",
-    description: "GraftScope is the all-in-one clinic management software built for hair transplant clinics. CRM, AI analysis, appointment system and enterprise dashboard. Start with a free demo.",
+    description: "GraftScope is the all-in-one management software for hair transplant clinics. CRM, AI analysis, appointment system and enterprise dashboard. Start free.",
     url: "https://www.graftscope.org/en",
     siteName: "Graftscope",
     locale: "en_US",
@@ -35,7 +35,7 @@ export default function HomePageEN() {
       <section className="hero-section">
         <div className="hero-container">
           <div className="hero-content">
-            <h1 className="hero-title">Hair Transplant Clinic Software That Runs Your Entire Operation</h1>
+            <h1 className="hero-title">Hair Transplant Clinic Software Built for Growth</h1>
             <p className="hero-subtitle">
               GraftScope combines CRM, AI hair analysis, appointment management, and enterprise dashboard — built exclusively for hair transplant clinics.
             </p>

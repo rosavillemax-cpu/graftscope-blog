@@ -7,11 +7,11 @@ import { getPricingUrl } from "@/lib/getPricingUrl";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Haartransplantation Klinik Software | GraftScope",
-  description: "Klinikmanagement, Patientenwachstum und Marktanalysen für Haartransplantationskliniken. Experteninhalte für Türkei, UK und Deutschland.",
+  title: "Haartransplantation Klinik Software & CRM | GraftScope",
+  description: "GraftScope ist die All-in-One-Software für Haartransplantationskliniken. CRM, KI-Analyse, Terminverwaltung und Enterprise-Dashboard. Kostenlose Demo.",
   openGraph: {
-    title: "Haartransplantation Klinik Software | GraftScope",
-    description: "Klinikmanagement, Patientenwachstum und Marktanalysen für Haartransplantationskliniken. Experteninhalte für Türkei, UK und Deutschland.",
+    title: "Haartransplantation Klinik Software & CRM | GraftScope",
+    description: "GraftScope ist die All-in-One-Software für Haartransplantationskliniken. CRM, KI-Analyse, Terminverwaltung und Enterprise-Dashboard. Kostenlose Demo.",
     url: "https://www.graftscope.org/de",
     siteName: "Graftscope",
     locale: "de_DE",
@@ -35,7 +35,7 @@ export default function HomePageDE() {
       <section className="hero-section">
         <div className="hero-container">
           <div className="hero-content">
-            <h1 className="hero-title">Haartransplantation Software für Kliniken – Alles in einem System</h1>
+            <h1 className="hero-title">Haartransplantation Software für wachsende Kliniken</h1>
             <p className="hero-subtitle">
               GraftScope kombiniert CRM, KI-Haaranalyse, Terminverwaltung und Enterprise-Dashboard — entwickelt ausschließlich für Haartransplantationskliniken.
             </p>

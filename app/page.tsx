@@ -5,6 +5,23 @@ import HomePageContent from "./components/HomePageContent";
 import Newsletter from "./components/Newsletter";
 import SidebarBanner from "./components/SidebarBanner";
 import { getPricingUrl } from "@/lib/getPricingUrl";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Saç Ekimi Klinik Yönetim Yazılımı | GraftScope",
+  description: "GraftScope ile saç ekimi kliniğinizi tek platformdan yönetin. CRM, yapay zeka analizi, randevu sistemi ve enterprise dashboard. Ücretsiz demo alın.",
+  openGraph: {
+    title: "Saç Ekimi Klinik Yönetim Yazılımı | GraftScope",
+    description: "GraftScope ile saç ekimi kliniğinizi tek platformdan yönetin. CRM, yapay zeka analizi, randevu sistemi ve enterprise dashboard. Ücretsiz demo alın.",
+    url: "https://www.graftscope.org",
+    siteName: "Graftscope",
+    locale: "tr_TR",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://www.graftscope.org",
+  },
+};
 
 export default function HomePage() {
   const articles = getAllArticles();
@@ -19,7 +36,7 @@ export default function HomePage() {
       <section className="hero-section">
         <div className="hero-container">
           <div className="hero-content">
-            <h1 className="hero-title">Saç Ekimi Klinik Yönetim Yazılımı – Tüm Operasyonunuz Tek Platformda</h1>
+            <h1 className="hero-title">Saç Ekimi Kliniklerine Özel Yönetim Yazılımı</h1>
             <p className="hero-subtitle">
               GraftSize CRM, yapay zeka saç analizi, randevu yönetimi ve kurumsal paneli bir arada sunar — tamamen saç ekimi klinikleri için geliştirildi.
             </p>

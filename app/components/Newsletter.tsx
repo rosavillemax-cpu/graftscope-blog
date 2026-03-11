@@ -3,6 +3,13 @@
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 
+// Declare gtag function for TypeScript
+declare global {
+  interface Window {
+    gtag?: (command: string, eventName: string, parameters?: Record<string, any>) => void;
+  }
+}
+
 interface NewsletterProps {
   language?: "tr" | "en" | "de";
 }
@@ -74,6 +81,14 @@ export default function Newsletter({ language }: NewsletterProps) {
       const data = await response.json();
 
       if (response.ok && data.success) {
+        // Send Google Analytics event on successful newsletter subscription
+        if (typeof window !== 'undefined' && window.gtag) {
+          window.gtag('event', 'newsletter_signup', {
+            'event_category': 'conversion',
+            'event_label': 'newsletter_form_submit'
+          });
+        }
+        
         setStatus("success");
         setEmail("");
       } else {

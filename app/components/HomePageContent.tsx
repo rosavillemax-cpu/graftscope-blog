@@ -47,14 +47,14 @@ function ArticleCard({ article }: { article: Article }) {
       </h2>
       <p className="article-card-excerpt" style={{
         color: "#666",
-        fontSize: "0.875rem",
-        lineHeight: "1.5",
+        fontSize: "14px",
+        lineHeight: "1.6",
+        marginTop: "8px",
         marginBottom: "8px",
+        overflow: "hidden",
         display: "-webkit-box",
         WebkitLineClamp: "2",
-        WebkitBoxOrient: "vertical",
-        overflow: "hidden",
-        textOverflow: "ellipsis"
+        WebkitBoxOrient: "vertical"
       }}>
         {excerpt}
       </p>

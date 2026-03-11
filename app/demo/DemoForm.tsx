@@ -1,11 +1,33 @@
 "use client";
 import { useState } from "react";
 
+// Declare gtag function for TypeScript
+declare global {
+  interface Window {
+    gtag?: (command: string, eventName: string, parameters?: Record<string, any>) => void;
+  }
+}
+
 export default function DemoForm() {
   const [formData, setFormData] = useState({
     name: "", clinicName: "", phone: "",
     email: "", city: "", patientCount: "", message: "",
   });
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    // Send Google Analytics event on successful form submission
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'demo_request', {
+        'event_category': 'conversion',
+        'event_label': 'demo_form_submit'
+      });
+    }
+    
+    console.log("Form submitted:", formData);
+    // Add form submission logic here (e.g., send to backend API)
+  };
 
   return (
     <div style={{
@@ -94,7 +116,7 @@ export default function DemoForm() {
             We'll reach out within 24 hours
           </p>
 
-          <form style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+          <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
             {[
               { placeholder: "Name *", type: "text", key: "name" },
               { placeholder: "Clinic Name *", type: "text", key: "clinicName" },

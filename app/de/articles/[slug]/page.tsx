@@ -5,6 +5,7 @@ import Header from "@/app/components/Header";
 import FloatingCTA from "@/app/components/FloatingCTA";
 import MarkdownWithCTA from "@/app/components/MarkdownWithCTA";
 import ArticleCTA from "@/app/components/ArticleCTA";
+import RelatedArticles from "@/app/components/RelatedArticles";
 import type { Metadata } from "next";
 
 const SITE_URL = "https://graftscope.org";
@@ -134,6 +135,11 @@ export default async function ArticlePageDE({ params }: ArticlePageProps) {
           </div>
           
           <ArticleCTA />
+          <RelatedArticles 
+            category={frontmatter.category}
+            currentSlug={slug}
+            language="de"
+          />
 
           <div className="article-footer">
             <Link href="/de" className="article-back-link">
