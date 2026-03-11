@@ -24,6 +24,7 @@ body {
   font-family: var(--font-body);
   font-weight: 400;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 /* ========== Editorial header ========== */
@@ -2844,10 +2845,12 @@ body {
 /* ========== Bottom Banner Section ========== */
 .bottom-banner-section {
   width: 100%;
-  max-height: 120px;
+  min-height: 120px;
   background: linear-gradient(135deg, #1a6b4a 0%, #145238 100%);
-  margin: 48px 0;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
 }
 
 .bottom-banner-container {

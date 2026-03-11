@@ -154,9 +154,11 @@ export default function RootLayout({
         <SchemaMarkup schema={generateOrganizationSchema()} />
       </head>
       <body className="antialiased">
-        {children}
-        <CookieConsent />
-        <Footer />
+        <div style={{ overflowX: 'hidden' }}>
+          {children}
+          <CookieConsent />
+          <Footer />
+        </div>
       </body>
     </html>
   );
