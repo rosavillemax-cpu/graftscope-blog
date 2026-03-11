@@ -10,6 +10,30 @@ const nextConfig: NextConfig = {
         destination: '/articles/yapay-zeka-sac-analizi',
         permanent: true,
       },
+      {
+        source: '/',
+        destination: 'https://graftscope.com/blog',
+        permanent: true,
+        has: [{ type: 'host', value: 'www.graftscope.org' }]
+      },
+      {
+        source: '/en',
+        destination: 'https://graftscope.com/blog/en',
+        permanent: true,
+        has: [{ type: 'host', value: 'www.graftscope.org' }]
+      },
+      {
+        source: '/de',
+        destination: 'https://graftscope.com/blog/de',
+        permanent: true,
+        has: [{ type: 'host', value: 'www.graftscope.org' }]
+      },
+      {
+        source: '/:path*',
+        destination: 'https://graftscope.com/blog/:path*',
+        permanent: true,
+        has: [{ type: 'host', value: 'www.graftscope.org' }]
+      },
     ];
   },
 };
