@@ -56,15 +56,15 @@ export default function HomePage() {
         <div className="hero-stats-container">
           <div className="hero-stat">
             <div className="hero-stat-number">40%</div>
-            <div className="hero-stat-label">Higher Conversion Rate</div>
+            <div className="hero-stat-label">Daha Yüksek Dönüşüm Oranı</div>
           </div>
           <div className="hero-stat">
             <div className="hero-stat-number">60%</div>
-            <div className="hero-stat-label">Less Admin Time</div>
+            <div className="hero-stat-label">Daha Az Yönetim Süresi</div>
           </div>
           <div className="hero-stat">
-            <div className="hero-stat-number">15+</div>
-            <div className="hero-stat-label">Language Support</div>
+            <div className="hero-stat-number">5+</div>
+            <div className="hero-stat-label">Dil Desteği</div>
           </div>
         </div>
       </section>

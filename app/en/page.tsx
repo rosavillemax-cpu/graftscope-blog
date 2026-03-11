@@ -62,7 +62,7 @@ export default function HomePageEN() {
             <div className="hero-stat-label">Less Admin Time</div>
           </div>
           <div className="hero-stat">
-            <div className="hero-stat-number">15+</div>
+            <div className="hero-stat-number">5+</div>
             <div className="hero-stat-label">Language Support</div>
           </div>
         </div>

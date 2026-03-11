@@ -55,15 +55,15 @@ export default function HomePageDE() {
         <div className="hero-stats-container">
           <div className="hero-stat">
             <div className="hero-stat-number">40%</div>
-            <div className="hero-stat-label">Higher Conversion Rate</div>
+            <div className="hero-stat-label">Höhere Konversionsrate</div>
           </div>
           <div className="hero-stat">
             <div className="hero-stat-number">60%</div>
-            <div className="hero-stat-label">Less Admin Time</div>
+            <div className="hero-stat-label">Weniger Verwaltungszeit</div>
           </div>
           <div className="hero-stat">
-            <div className="hero-stat-number">15+</div>
-            <div className="hero-stat-label">Language Support</div>
+            <div className="hero-stat-number">5+</div>
+            <div className="hero-stat-label">Sprachunterstützung</div>
           </div>
         </div>
       </section>
