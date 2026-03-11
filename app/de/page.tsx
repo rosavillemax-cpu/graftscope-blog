@@ -43,8 +43,8 @@ export default function HomePageDE() {
               GraftScope kombiniert CRM, KI-Haaranalyse, Terminverwaltung und Enterprise-Dashboard — entwickelt ausschließlich für Haartransplantationskliniken.
             </p>
             <div className="hero-cta">
-              <a href="/de/demo" className="hero-btn-primary">Get Free Demo →</a>
-              <a href="https://www.graftscope.com/pricing" target="_blank" rel="noopener noreferrer" className="hero-btn-secondary">See Pricing</a>
+              <a href="/de/demo" className="hero-btn-primary">Kostenlose Demo →</a>
+              <a href="https://www.graftscope.com/pricing" target="_blank" rel="noopener noreferrer" className="hero-btn-secondary">Preise ansehen</a>
             </div>
           </div>
         </div>

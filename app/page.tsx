@@ -44,8 +44,8 @@ export default function HomePage() {
               GraftSize CRM, yapay zeka saç analizi, randevu yönetimi ve kurumsal paneli bir arada sunar — tamamen saç ekimi klinikleri için geliştirildi.
             </p>
             <div className="hero-cta">
-              <a href="/demo" className="hero-btn-primary">Get Free Demo →</a>
-              <a href={pricingUrl} target="_blank" rel="noopener noreferrer" className="hero-btn-secondary">See Pricing</a>
+              <a href="/demo" className="hero-btn-primary">Ücretsiz Demo Al →</a>
+              <a href={pricingUrl} target="_blank" rel="noopener noreferrer" className="hero-btn-secondary">Fiyatları Gör</a>
             </div>
           </div>
         </div>
