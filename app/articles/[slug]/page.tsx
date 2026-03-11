@@ -117,7 +117,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             <span className="article-single-category">{frontmatter.category}</span>
             <h1 className="article-single-title">{frontmatter.title}</h1>
             <div className="article-single-meta">
-              <span>{frontmatter.author}</span>
               <time dateTime={frontmatter.date}>
                 {new Date(frontmatter.date).toLocaleDateString("tr-TR", {
                   year: "numeric",
@@ -125,7 +124,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                   day: "numeric",
                 })}
               </time>
-              <span>{frontmatter.readTime}</span>
+              <span className="meta-sep">·</span>
+              <span>{String(frontmatter.readTime).replace('min', 'dk')}</span>
             </div>
           </header>
           <div className="article-single-body prose">

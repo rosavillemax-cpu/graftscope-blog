@@ -103,6 +103,9 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
           <div className="article-header">
             <div className="article-meta">
               <span className="article-category">{frontmatter.category}</span>
+            </div>
+            <h1 className="article-title">{frontmatter.title}</h1>
+            <div className="article-author-info">
               <span className="article-date">
                 {new Date(frontmatter.date).toLocaleDateString("en-US", {
                   year: "numeric",
@@ -110,11 +113,10 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
                   day: "numeric",
                 })}
               </span>
-            </div>
-            <h1 className="article-title">{frontmatter.title}</h1>
-            <div className="article-author-info">
-              <span className="article-author">By {frontmatter.author}</span>
-              <span className="article-read-time">{frontmatter.readTime}</span>
+              <span className="meta-sep">·</span>
+              <span className="article-category">{frontmatter.category}</span>
+              <span className="meta-sep">·</span>
+              <span className="article-read-time">{String(frontmatter.readTime)}</span>
             </div>
           </div>
 

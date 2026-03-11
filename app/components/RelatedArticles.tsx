@@ -141,9 +141,14 @@ export default function RelatedArticles({ category, currentSlug, language }: Rel
                 alignItems: "center",
                 gap: "4px"
               }}>
-                <span>{frontmatter.author}</span>
+                <span>{new Date(frontmatter.date).toLocaleDateString(
+                  language === 'tr' ? 'tr-TR' : language === 'de' ? 'de-DE' : 'en-US',
+                  { day: 'numeric', month: 'long', year: 'numeric' }
+                )}</span>
                 <span>·</span>
-                <span>{frontmatter.readTime} {readTimeText[language]}</span>
+                <span>{frontmatter.category}</span>
+                <span>·</span>
+                <span>{String(frontmatter.readTime).replace('min', language === 'tr' ? ' dk' : language === 'de' ? ' Min.' : ' min')}</span>
               </div>
             </div>
           );

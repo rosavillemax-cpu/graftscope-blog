@@ -59,9 +59,11 @@ function ArticleCard({ article }: { article: Article }) {
         {excerpt}
       </p>
       <footer className="article-card-meta" style={{ marginBottom: "8px" }}>
-        <span>{frontmatter.author}</span>
+        <span>{new Date(frontmatter.date).toLocaleDateString("tr-TR", { day: 'numeric', month: 'long', year: 'numeric' })}</span>
         <span className="meta-sep">·</span>
-        <span>{frontmatter.readTime}</span>
+        <span>{frontmatter.category}</span>
+        <span className="meta-sep">·</span>
+        <span>{String(frontmatter.readTime).replace('min', 'dk')}</span>
       </footer>
       <div className="article-card-action">
         <Link href={`/articles/${slug}`} className="article-card-link">
