@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Footer from "./components/Footer";
 import SchemaMarkup from "./components/SchemaMarkup";
@@ -62,7 +63,7 @@ export const metadata: Metadata = {
       'tr': `${SITE_URL}/`,
       'en': `${SITE_URL}/en`,
       'de': `${SITE_URL}/de`,
-      'x-default': `${SITE_URL}/en`,
+      'x-default': SITE_URL,
     }
   },
 };
@@ -138,24 +139,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr" className={`${playfair.variable} ${dmSans.variable}`}>
-      <head>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-2J0631XKKF"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-2J0631XKKF');
-            `,
-          }}
-        />
-        <SchemaMarkup schema={generateOrganizationSchema()} />
-      </head>
       <body className="antialiased">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-2J0631XKKF"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2J0631XKKF');
+          `}
+        </Script>
+        <SchemaMarkup schema={generateOrganizationSchema()} />
         <div style={{ overflowX: 'hidden' }}>
           {children}
           <CookieConsent />
