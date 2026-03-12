@@ -14,13 +14,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hair Transplant Clinic Software & CRM | GraftScope",
     description: "GraftScope is the all-in-one management software for hair transplant clinics. CRM, AI analysis, appointment system and enterprise dashboard. Start free.",
-    url: "https://graftscope.com/blog/en",
+    url: "https://www.graftscope.com/blog/en",
     siteName: "Graftscope",
     locale: "en_US",
     type: "website",
   },
   alternates: {
-    canonical: "https://graftscope.com/blog/en",
+    canonical: "https://www.graftscope.com/blog/en",
+    languages: {
+      'tr': 'https://www.graftscope.com/blog',
+      'en': 'https://www.graftscope.com/blog/en',
+      'de': 'https://www.graftscope.com/blog/de',
+      'x-default': 'https://www.graftscope.com/blog',
+    },
   },
 };
 
@@ -43,7 +49,7 @@ export default function HomePageEN() {
               GraftScope combines CRM, AI hair analysis, appointment management, and enterprise dashboard — built exclusively for hair transplant clinics.
             </p>
             <div className="hero-cta">
-              <a href="/en/demo" className="hero-btn-primary">Get Free Demo →</a>
+              <a href="/blog/en/demo" className="hero-btn-primary">Get Free Demo →</a>
               <a href={pricingUrl} target="_blank" rel="noopener noreferrer" className="hero-btn-secondary">See Pricing</a>
             </div>
           </div>

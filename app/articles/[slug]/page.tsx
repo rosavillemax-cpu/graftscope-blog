@@ -10,7 +10,7 @@ import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateArticleSchema, generateArticleBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://graftscope.com/blog";
+const SITE_URL = "https://www.graftscope.com/blog";
 const OG_IMAGE = `${SITE_URL}/og-image.jpg`;
 
 interface ArticlePageProps {
@@ -56,7 +56,7 @@ export async function generateMetadata({
         'tr': `${SITE_URL}/articles/${slug}`,
         'en': `${SITE_URL}/en/articles/${slug}`,
         'de': `${SITE_URL}/de/articles/${slug}`,
-        'x-default': `${SITE_URL}/en/articles/${slug}`,
+        'x-default': `${SITE_URL}/articles/${slug}`,
       },
     },
     other: {
@@ -102,13 +102,13 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     publisher: { 
       "@type": "Organization", 
       name: "Graftscope", 
-      logo: "https://www.graftscope.org/graftscope-logo.png" 
+      logo: "https://www.graftscope.com/blog/graftscope-logo.png" 
     },
     datePublished: frontmatter.date,
     dateModified: frontmatter.date,
-    url: `https://www.graftscope.org/articles/${slug}`,
+    url: `https://www.graftscope.com/blog/articles/${slug}`,
     "inLanguage": "tr",
-    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.graftscope.org/articles/${slug}` }
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.graftscope.com/blog/articles/${slug}` }
   };
 
   return (

@@ -11,7 +11,7 @@ import { generateCategoryBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 import React from "react";
 
-const SITE_URL = "https://graftscope.com/blog";
+const SITE_URL = "https://www.graftscope.com/blog";
 
 const CATEGORY_SLUG_TO_NAME: Record<string, string> = {
   "klinik-management": "Klinik Management",
@@ -141,7 +141,7 @@ export default async function CategoryPageDE({ params }: CategoryPageProps) {
             )}
           </div>
           <aside className="content-sidebar">
-            <a href="/de/demo" target="_blank">
+            <a href="/blog/de/demo" target="_blank">
               <img src="/sidebar-de.jpeg" alt="GraftScope Demo" style={{ width: '100%', borderRadius: '12px', cursor: 'pointer' }} />
             </a>
             <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>

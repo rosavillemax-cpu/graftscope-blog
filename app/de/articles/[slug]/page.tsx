@@ -10,7 +10,7 @@ import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateArticleSchema, generateArticleBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://graftscope.com/blog";
+const SITE_URL = "https://www.graftscope.com/blog";
 
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
@@ -101,13 +101,13 @@ export default async function ArticlePageDE({ params }: ArticlePageProps) {
     publisher: { 
       "@type": "Organization", 
       name: "Graftscope", 
-      logo: "https://www.graftscope.org/graftscope-logo.png" 
+      logo: "https://www.graftscope.com/blog/graftscope-logo.png" 
     },
     datePublished: frontmatter.date,
     dateModified: frontmatter.date,
-    url: `https://www.graftscope.org/de/articles/${slug}`,
+    url: `https://www.graftscope.com/blog/de/articles/${slug}`,
     "inLanguage": "de",
-    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.graftscope.org/de/articles/${slug}` }
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.graftscope.com/blog/de/articles/${slug}` }
   };
 
   return (
@@ -235,7 +235,7 @@ export default async function ArticlePageDE({ params }: ArticlePageProps) {
         )}
         <aside className="article-sidebar">
           <div className="sidebar-cta">
-            <a href="/de/demo" target="_blank">
+            <a href="/blog/de/demo" target="_blank">
               <img src="/sidebar-de.jpeg" alt="GraftScope Demo" style={{ width: '100%', borderRadius: '12px', cursor: 'pointer' }} />
             </a>
             <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>

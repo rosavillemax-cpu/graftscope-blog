@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Free Demo – Hair Transplant Clinic CRM & Software | GraftScope",
     description: "Request a free demo of GraftScope - the all-in-one hair transplant clinic management software with CRM, AI analysis, appointment system and enterprise dashboard.",
-    url: "https://www.graftscope.org/de/demo",
+    url: "https://www.graftscope.com/blog/de/demo",
     siteName: "Graftscope",
     locale: "de_DE",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.graftscope.org/de/demo",
+    canonical: "https://www.graftscope.com/blog/de/demo",
   },
 };
 

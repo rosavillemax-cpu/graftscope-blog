@@ -15,13 +15,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Saç Ekimi Klinik Yönetim Yazılımı | GraftScope",
     description: "GraftScope ile saç ekimi kliniğinizi tek platformdan yönetin. CRM, yapay zeka analizi, randevu sistemi ve enterprise dashboard. Ücretsiz demo alın.",
-    url: "https://graftscope.com/blog",
+    url: "https://www.graftscope.com/blog",
     siteName: "Graftscope",
     locale: "tr_TR",
     type: "website",
   },
   alternates: {
-    canonical: "https://graftscope.com/blog",
+    canonical: "https://www.graftscope.com/blog",
+    languages: {
+      'tr': 'https://www.graftscope.com/blog',
+      'en': 'https://www.graftscope.com/blog/en',
+      'de': 'https://www.graftscope.com/blog/de',
+      'x-default': 'https://www.graftscope.com/blog',
+    },
   },
 };
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gizlilik Politikası | GraftScope",
     description: "GraftScope'un gizlilik politikası - kişisel verilerinizin korunması ve kullanımı hakkında bilgi.",
-    url: "https://www.graftscope.org/gizlilik-politikasi",
+    url: "https://www.graftscope.com/blog/gizlilik-politikasi",
   },
 };
 
@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
           </h2>
           <p style={{ marginBottom: "1.5rem" }}>
             GraftScope ("biz"), kişisel verilerinizin korunmasından sorumludur. Bu gizlilik politikası, 
-            www.graftscope.org web sitesi ("Site") üzerinden topladığımız kişisel verilerin nasıl 
+            www.graftscope.com/blog web sitesi ("Site") üzerinden topladığımız kişisel verilerin nasıl 
             işlendiğini, korunduğunu ve kullanıldığını açıklamaktadır.
           </p>
 
@@ -122,7 +122,7 @@ export default function PrivacyPolicy() {
           </p>
           <p style={{ marginBottom: "1.5rem" }}>
             <strong>E-posta:</strong> <a href="mailto:contact@graftscope.com" style={{ color: "#1a4d2e" }}>contact@graftscope.com</a><br />
-            <strong>Web Sitesi:</strong> <a href="https://www.graftscope.org" style={{ color: "#1a4d2e" }}>www.graftscope.org</a>
+            <strong>Web Sitesi:</strong> <a href="https://www.graftscope.com/blog" style={{ color: "#1a4d2e" }}>www.graftscope.com/blog</a>
           </p>
 
           <h2 style={{ fontSize: "1.5rem", fontWeight: "600", marginTop: "2.5rem", marginBottom: "1rem", color: "#1a4d2e" }}>

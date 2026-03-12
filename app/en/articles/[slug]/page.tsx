@@ -10,7 +10,7 @@ import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateArticleSchema, generateArticleBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://graftscope.com/blog";
+const SITE_URL = "https://www.graftscope.com/blog";
 
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
@@ -90,13 +90,13 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
     publisher: { 
       "@type": "Organization", 
       name: "Graftscope", 
-      logo: "https://www.graftscope.org/graftscope-logo.png" 
+      logo: "https://www.graftscope.com/blog/graftscope-logo.png" 
     },
     datePublished: frontmatter.date,
     dateModified: frontmatter.date,
-    url: `https://www.graftscope.org/en/articles/${slug}`,
+    url: `https://www.graftscope.com/blog/en/articles/${slug}`,
     "inLanguage": "en",
-    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.graftscope.org/en/articles/${slug}` }
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.graftscope.com/blog/en/articles/${slug}` }
   };
 
   return (

@@ -14,8 +14,8 @@ interface Article {
   content: string;
 }
 
-const SITE_URL = "https://www.graftscope.org";
-const LOGO_URL = "https://www.graftscope.org/graftscope-logo.png";
+const SITE_URL = "https://www.graftscope.com/blog";
+const LOGO_URL = "https://www.graftscope.com/blog/graftscope-logo.png";
 
 export function generateOrganizationSchema() {
   return {

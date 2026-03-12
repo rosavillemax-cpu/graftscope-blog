@@ -2,7 +2,7 @@ import { getAllArticles, getArticleSlugs } from "@/lib/articles";
 import fs from "fs";
 import path from "path";
 
-const SITE_URL = "https://graftscope.com/blog";
+const SITE_URL = "https://www.graftscope.com/blog";
 const ARTICLES_DIR = path.join(process.cwd(), "content/articles");
 const EN_ARTICLES_DIR = path.join(process.cwd(), "content/en/articles");
 const DE_ARTICLES_DIR = path.join(process.cwd(), "content/de/articles");

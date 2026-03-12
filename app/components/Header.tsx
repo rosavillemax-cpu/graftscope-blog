@@ -87,7 +87,7 @@ export default function Header() {
             <span className="top-bar-date">{currentDate}</span>
             <span className="top-bar-lang">
               <Link 
-                href="/" 
+                href="/blog" 
                 className={`lang-link ${isTurkishPage ? "lang-active" : ""}`}
                 aria-label="Turkish"
               >
@@ -95,20 +95,20 @@ export default function Header() {
               </Link>
               <span className="lang-sep">·</span>
               <Link 
-                href="/en" 
+                href="/blog/en" 
                 className={`lang-link ${isEnglishPage ? "lang-active" : ""}`}
                 aria-label="English"
               >
                 EN
               </Link>
               <span className="lang-sep">·</span>
-              <a 
-                href="/de" 
+              <Link 
+                href="/blog/de" 
                 className={`lang-link ${isGermanPage ? "lang-active" : ""}`}
                 aria-label="Deutsch"
               >
                 DE
-              </a>
+              </Link>
             </span>
             <span className="top-bar-tagline">
               {tagline}

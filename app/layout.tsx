@@ -6,7 +6,7 @@ import SchemaMarkup from "./components/SchemaMarkup";
 import CookieConsent from "./components/CookieConsent";
 import { generateOrganizationSchema } from "@/lib/schema";
 
-const SITE_URL = "https://graftscope.com/blog";
+const SITE_URL = "https://www.graftscope.com/blog";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",

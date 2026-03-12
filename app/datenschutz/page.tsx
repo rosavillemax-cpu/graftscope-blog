@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Datenschutz | GraftScope",
     description: "GraftScope's Datenschutzrichtlinie - Informationen über die Erhebung, Verarbeitung und Schutz Ihrer personenbezogenen Daten.",
-    url: "https://www.graftscope.org/datenschutz",
+    url: "https://www.graftscope.com/blog/datenschutz",
   },
 };
 
@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
           <p style={{ marginBottom: "1.5rem" }}>
             GraftScope ("wir", "uns" oder "unser") ist der für den Schutz Ihrer personenbezogenen Daten 
             verantwortliche Stelle. Diese Datenschutzrichtlinie erklärt, wie wir personenbezogene Daten 
-            über unsere Website www.graftscope.org (die "Website") erheben, verarbeiten und schützen.
+            über unsere Website www.graftscope.com/blog (die "Website") erheben, verarbeiten und schützen.
           </p>
 
           <h2 style={{ fontSize: "1.5rem", fontWeight: "600", marginTop: "2.5rem", marginBottom: "1rem", color: "#1a4d2e" }}>
@@ -123,7 +123,7 @@ export default function PrivacyPolicy() {
           </p>
           <p style={{ marginBottom: "1.5rem" }}>
             <strong>E-Mail:</strong> <a href="mailto:contact@graftscope.com" style={{ color: "#1a4d2e" }}>contact@graftscope.com</a><br />
-            <strong>Website:</strong> <a href="https://www.graftscope.org" style={{ color: "#1a4d2e" }}>www.graftscope.org</a>
+            <strong>Website:</strong> <a href="https://www.graftscope.com/blog" style={{ color: "#1a4d2e" }}>www.graftscope.com/blog</a>
           </p>
 
           <h2 style={{ fontSize: "1.5rem", fontWeight: "600", marginTop: "2.5rem", marginBottom: "1rem", color: "#1a4d2e" }}>

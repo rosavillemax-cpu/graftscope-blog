@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kullanım Koşulları | GraftScope",
     description: "GraftScope web sitesinin kullanım koşulları - hizmetlerimizle ilgili kurallar ve şartlar.",
-    url: "https://www.graftscope.org/kullanim-kosullari",
+    url: "https://www.graftscope.com/blog/kullanim-kosullari",
   },
 };
 
@@ -27,7 +27,7 @@ export default function TermsOfUse() {
             1. Kabul Edilme
           </h2>
           <p style={{ marginBottom: "1.5rem" }}>
-            www.graftscope.org web sitesine ("Site") erişerek veya kullanarak, bu kullanım koşullarını 
+            www.graftscope.com/blog web sitesine ("Site") erişerek veya kullanarak, bu kullanım koşullarını 
             ve gizlilik politikamızı kabul etmiş sayılırsınız. Bu koşulları kabul etmiyorsanız, 
             Site'yi kullanmamalısınız.
           </p>
@@ -117,7 +117,7 @@ export default function TermsOfUse() {
           </p>
           <p style={{ marginBottom: "1.5rem" }}>
             <strong>E-posta:</strong> <a href="mailto:contact@graftscope.com" style={{ color: "#1a4d2e" }}>contact@graftscope.com</a><br />
-            <strong>Web Sitesi:</strong> <a href="https://www.graftscope.org" style={{ color: "#1a4d2e" }}>www.graftscope.org</a>
+            <strong>Web Sitesi:</strong> <a href="https://www.graftscope.com/blog" style={{ color: "#1a4d2e" }}>www.graftscope.com/blog</a>
           </p>
         </div>
       </div>
