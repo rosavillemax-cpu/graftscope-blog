@@ -64,6 +64,12 @@ export async function generateMetadata({
     },
     alternates: {
       canonical: url,
+      languages: {
+        'tr': `${SITE_URL}/kategori/${slug}`,
+        'en': `${SITE_URL}/en/category/${slug}`,
+        'de': `${SITE_URL}/de/category/${slug}`,
+        'x-default': `${SITE_URL}/kategori/${slug}`,
+      },
     },
   };
 }

@@ -55,7 +55,7 @@ export async function generateMetadata({
         'tr': `${SITE_URL}/articles/${slug}`,
         'en': `${SITE_URL}/en/articles/${slug}`,
         'de': `${SITE_URL}/de/articles/${slug}`,
-        'x-default': `${SITE_URL}/en/articles/${slug}`,
+        'x-default': `${SITE_URL}/articles/${slug}`,
       },
     },
     other: {
