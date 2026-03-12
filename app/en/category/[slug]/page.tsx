@@ -13,7 +13,7 @@ import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateCategoryBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://graftscope.org";
+const SITE_URL = "https://graftscope.com/blog";
 
 interface CategoryPageProps {
   params: Promise<{ slug: string }>;

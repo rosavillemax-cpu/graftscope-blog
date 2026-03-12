@@ -10,7 +10,7 @@ import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateArticleSchema, generateArticleBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://graftscope.org";
+const SITE_URL = "https://graftscope.com/blog";
 
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
@@ -45,6 +45,12 @@ export async function generateMetadata({
     },
     alternates: {
       canonical: url,
+      languages: {
+        'tr': `${SITE_URL}/articles/${slug}`,
+        'en': `${SITE_URL}/en/articles/${slug}`,
+        'de': `${SITE_URL}/de/articles/${slug}`,
+        'x-default': `${SITE_URL}/en/articles/${slug}`,
+      },
     },
   };
 }

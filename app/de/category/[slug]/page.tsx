@@ -11,7 +11,7 @@ import { generateCategoryBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 import React from "react";
 
-const SITE_URL = "https://graftscope.org";
+const SITE_URL = "https://graftscope.com/blog";
 
 const CATEGORY_SLUG_TO_NAME: Record<string, string> = {
   "klinik-management": "Klinik Management",

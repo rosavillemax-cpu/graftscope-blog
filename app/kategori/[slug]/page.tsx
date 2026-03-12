@@ -15,7 +15,7 @@ import SidebarBanner from "@/app/components/SidebarBanner";
 import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateCategoryBreadcrumbs } from "@/lib/schema";
 
-const SITE_URL = "https://graftscope.org";
+const SITE_URL = "https://graftscope.com/blog";
 
 const CATEGORY_DESCRIPTIONS: Record<string, string> = {
   "klinik-yonetimi":

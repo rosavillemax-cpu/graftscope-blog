@@ -6,7 +6,7 @@ import SchemaMarkup from "./components/SchemaMarkup";
 import CookieConsent from "./components/CookieConsent";
 import { generateOrganizationSchema } from "@/lib/schema";
 
-const SITE_URL = "https://www.graftscope.org";
+const SITE_URL = "https://graftscope.com/blog";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -133,10 +133,10 @@ export default function RootLayout({
   return (
     <html lang="tr" className={`${playfair.variable} ${dmSans.variable}`}>
       <head>
-        <link rel="alternate" hrefLang="tr" href="https://www.graftscope.org" />
-        <link rel="alternate" hrefLang="en" href="https://www.graftscope.org/en" />
-        <link rel="alternate" hrefLang="de" href="https://www.graftscope.org/de" />
-        <link rel="alternate" hrefLang="x-default" href="https://www.graftscope.org" />
+        <link rel="alternate" hrefLang="tr" href="https://graftscope.com/blog/" />
+        <link rel="alternate" hrefLang="en" href="https://graftscope.com/blog/en" />
+        <link rel="alternate" hrefLang="de" href="https://graftscope.com/blog/de" />
+        <link rel="alternate" hrefLang="x-default" href="https://graftscope.com/blog/en" />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-2J0631XKKF"
