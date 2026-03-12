@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: "Saç Ekimi Klinik Yönetim Yazılımı | GraftScope",
-    template: "%s | GraftScope – Hair Transplant Clinic Software",
+    template: "%s | GraftScope Blog",
   },
   description:
     "Saç ekim klinikleri için klinik yönetimi, hasta büyümesi ve sektör analizleri. Türkiye, UK ve Almanya pazarları için uzman içerikler.",
