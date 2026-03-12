@@ -58,6 +58,12 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: SITE_URL,
+    languages: {
+      'tr': `${SITE_URL}/`,
+      'en': `${SITE_URL}/en`,
+      'de': `${SITE_URL}/de`,
+      'x-default': `${SITE_URL}/en`,
+    }
   },
 };
 
