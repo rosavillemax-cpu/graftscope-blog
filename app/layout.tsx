@@ -139,10 +139,6 @@ export default function RootLayout({
   return (
     <html lang="tr" className={`${playfair.variable} ${dmSans.variable}`}>
       <head>
-        <link rel="alternate" hrefLang="tr" href="https://graftscope.com/blog/" />
-        <link rel="alternate" hrefLang="en" href="https://graftscope.com/blog/en" />
-        <link rel="alternate" hrefLang="de" href="https://graftscope.com/blog/de" />
-        <link rel="alternate" hrefLang="x-default" href="https://graftscope.com/blog/en" />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-2J0631XKKF"
