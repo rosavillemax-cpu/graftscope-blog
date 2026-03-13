@@ -6,6 +6,7 @@ import FloatingCTA from "@/app/components/FloatingCTA";
 import MarkdownWithCTA from "@/app/components/MarkdownWithCTA";
 import ArticleCTA from "@/app/components/ArticleCTA";
 import RelatedArticles from "@/app/components/RelatedArticles";
+import SidebarBanner from "@/app/components/SidebarBanner";
 import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateArticleSchema, generateArticleBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
@@ -234,14 +235,7 @@ export default async function ArticlePageDE({ params }: ArticlePageProps) {
           </section>
         )}
         <aside className="article-sidebar">
-          <div className="sidebar-cta">
-            <a href="/de/demo" target="_blank">
-              <img src="/blog/sidebar-de.jpeg" alt="GraftScope Demo" style={{ width: '100%', borderRadius: '12px', cursor: 'pointer' }} />
-            </a>
-            <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>
-              Exklusiv für Haartransplantationskliniken entwickelt
-            </p>
-          </div>
+          <SidebarBanner lang="de" />
         </aside>
       </main>
 

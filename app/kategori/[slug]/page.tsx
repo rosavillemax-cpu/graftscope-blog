@@ -159,13 +159,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             )}
           </div>
           <aside className="content-sidebar">
-            <a href="/demo" target="_blank">
-              <img src="/blog/sidebar-tr.jpeg" alt="GraftScope Demo" style={{ width: '100%', borderRadius: '12px', cursor: 'pointer' }} />
-            </a>
-            <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>
-              Saç ekimi kliniklerine özel geliştirildi
-            </p>
-            <SidebarBanner />
+            <SidebarBanner lang="tr" />
             <MiniNewsletter />
 
             <div className="sidebar-section">
