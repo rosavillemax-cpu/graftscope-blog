@@ -99,13 +99,14 @@ function ArticleCard({ article }: { article: Article }) {
           <span style={{ fontSize: '12px', color: '#999' }}>
             {new Date(frontmatter.date).toLocaleDateString("tr-TR", { 
               day: 'numeric', month: 'long', year: 'numeric' 
-            })} · {frontmatter.readTime} dk
+            })} · {String(frontmatter.readTime).replace(' dk', '').replace('dk', '')} dk
           </span>
           <Link href={`/articles/${slug}`} style={{ 
             fontSize: '13px', 
             color: color.text,
             fontWeight: '500',
-            textDecoration: 'none'
+            textDecoration: 'none',
+            whiteSpace: 'nowrap'
           }}>
             Devamını oku →
           </Link>

@@ -99,13 +99,14 @@ function ArticleCard({ article }: { article: Article }) {
           <span style={{ fontSize: '12px', color: '#999' }}>
             {new Date(frontmatter.date).toLocaleDateString("de-DE", { 
               day: 'numeric', month: 'long', year: 'numeric' 
-            })} · {frontmatter.readTime} Min. Lesezeit
+            })} · {String(frontmatter.readTime).replace(' Min.', '').replace('Min.', '')} Min. Lesezeit
           </span>
           <Link href={`/de/articles/${slug}`} style={{ 
             fontSize: '13px', 
             color: color.text,
             fontWeight: '500',
-            textDecoration: 'none'
+            textDecoration: 'none',
+            whiteSpace: 'nowrap'
           }}>
             Weiterlesen →
           </Link>
