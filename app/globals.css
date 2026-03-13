@@ -1296,8 +1296,12 @@ body {
   font-size: 1.15rem;
   font-weight: 600;
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;   /* 0.5rem'den 0.75rem'e */
   color: var(--ink);
+}
+
+.prose h3 + ul {
+  margin-top: 0.25rem;
 }
 
 .prose ul {
