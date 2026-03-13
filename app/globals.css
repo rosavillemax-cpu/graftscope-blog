@@ -350,15 +350,27 @@ body {
 
 /* Article cards (with green line before category) */
 .articles-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
 }
 .article-card {
-  padding-bottom: 2rem;
-  border-bottom: 1px solid var(--rule);
+  border-bottom: none;
+  padding-bottom: 0;
 }
-.article-card:last-child { border-bottom: none; }
 
 .article-card-category {
   display: inline-flex;
