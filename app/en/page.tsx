@@ -88,14 +88,6 @@ export default function HomePageEN() {
         <Newsletter />
       </div>
       
-      <footer className="site-footer">
-        <div className="site-footer-inner">
-          <p className="footer-logo">Graftscope</p>
-          <p className="footer-tagline">
-            Insights and guides for hair transplant clinics.
-          </p>
-        </div>
-      </footer>
-    </div>
+      </div>
   );
 }

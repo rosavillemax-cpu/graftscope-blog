@@ -87,14 +87,6 @@ export default function HomePage() {
         </div>
       </div>
 
-      <footer className="site-footer">
-        <div className="site-footer-inner">
-          <p className="footer-logo">Graftscope</p>
-          <p className="footer-tagline">
-            Saç ekimi klinikleri için içgörüler ve rehberler.
-          </p>
-        </div>
-      </footer>
-    </div>
+      </div>
   );
 }

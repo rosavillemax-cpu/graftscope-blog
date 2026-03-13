@@ -79,14 +79,6 @@ export default function HomePageDE() {
         <Newsletter language="de" />
       </div>
 
-      <footer className="site-footer">
-        <div className="site-footer-inner">
-          <p className="footer-logo">Graftscope</p>
-          <p className="footer-tagline">
-            Leitfaden und Einblicke für Haartransplantationskliniken.
-          </p>
-        </div>
-      </footer>
-    </div>
+      </div>
   );
 }
