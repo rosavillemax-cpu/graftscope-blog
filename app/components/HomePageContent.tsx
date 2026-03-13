@@ -27,7 +27,7 @@ const defaultColor = { from: '#444441', to: '#888780', badge: '#F1EFE8', text: '
 function ArticleCard({ article }: { article: Article }) {
   const { frontmatter, slug } = article;
   const color = categoryColors[frontmatter.category] || defaultColor;
-  const excerpt = frontmatter.excerpt || '';
+  const excerpt = frontmatter.excerpt ?? '';
 
   return (
     <article className="article-card" style={{ 
@@ -40,7 +40,7 @@ function ArticleCard({ article }: { article: Article }) {
     }}>
       <Link href={`/articles/${slug}`} style={{ textDecoration: 'none' }}>
         <div style={{
-          height: '120px',
+          height: '80px',
           background: `linear-gradient(135deg, ${color.from}, ${color.to})`,
           display: 'flex',
           alignItems: 'flex-end',
@@ -71,21 +71,19 @@ function ArticleCard({ article }: { article: Article }) {
             {frontmatter.title}
           </Link>
         </h2>
-        {excerpt && (
-          <p style={{
-            fontSize: '13px',
-            color: '#666',
-            lineHeight: '1.6',
-            margin: '0 0 12px',
-            overflow: 'hidden',
-            display: '-webkit-box',
-            WebkitLineClamp: 2,
-            WebkitBoxOrient: 'vertical',
-            flex: 1,
-          }}>
-            {excerpt}
-          </p>
-        )}
+        <p style={{
+          fontSize: '13px',
+          color: '#666',
+          lineHeight: '1.6',
+          margin: '0 0 12px',
+          overflow: 'hidden',
+          display: '-webkit-box',
+          WebkitLineClamp: 2,
+          WebkitBoxOrient: 'vertical',
+          flex: 1,
+        }}>
+          {excerpt || 'Devamını okumak için tıklayın.'}
+        </p>
         <div style={{ 
           display: 'flex', 
           alignItems: 'center', 
