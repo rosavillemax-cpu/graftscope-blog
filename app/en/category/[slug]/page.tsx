@@ -148,7 +148,7 @@ export default async function CategoryPageEN({ params }: CategoryPageProps) {
             )}
           </div>
           <aside className="content-sidebar">
-            <a href="/blog/en/demo" target="_blank">
+            <a href="/en/demo" target="_blank">
               <img src="/blog/sidebar-en.jpeg" alt="GraftScope Demo" style={{ width: '100%', borderRadius: '12px', cursor: 'pointer' }} />
             </a>
             <p style={{ fontSize: '0.75rem', color: '#7a7060', textAlign: 'center', marginTop: '8px', fontStyle: 'italic' }}>

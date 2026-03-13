@@ -1,16 +1,113 @@
-export default function SidebarBanner() {
+export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'de' }) {
+  const content = {
+    tr: {
+      badge: 'Yazılım',
+      title: 'Kliniğinizi Daha Akıllı Yönetin',
+      subtitle: 'CRM · Yapay Zeka Analizi · Dashboard',
+      features: ['Yapay Zeka Analizi', 'Randevu Yönetimi', 'Hasta Takibi (CRM)', 'Kurumsal Panel'],
+      cta: 'GraftScope\'u Keşfet →',
+    },
+    en: {
+      badge: 'Software',
+      title: 'Run Your Clinic Smarter',
+      subtitle: 'CRM · AI Analysis · Dashboard',
+      features: ['AI Hair Analysis', 'Appointment System', 'Patient CRM', 'Enterprise Panel'],
+      cta: 'Explore GraftScope →',
+    },
+    de: {
+      badge: 'Software',
+      title: 'Führen Sie Ihre Klinik intelligenter',
+      subtitle: 'CRM · KI-Analyse · Dashboard',
+      features: ['KI-Analyse', 'Terminverwaltung', 'Patienten-CRM', 'Dashboard'],
+      cta: 'GraftScope entdecken →',
+    },
+  };
+  const t = content[lang];
+
   return (
-    <div className="sidebar-banner">
-      <div className="sidebar-banner-content">
-        <h4 className="sidebar-banner-title">Run your clinic smarter</h4>
-        <p className="sidebar-banner-subtitle">CRM · AI Analysis · Dashboard</p>
+    <div style={{
+      borderRadius: '12px',
+      overflow: 'hidden',
+      border: '0.5px solid #e5e5e5',
+      background: '#fff',
+      marginTop: '16px',
+    }}>
+      <div style={{
+        background: 'linear-gradient(135deg, #0F6E56, #1D9E75)',
+        padding: '20px',
+        textAlign: 'center',
+      }}>
+        <p style={{
+          color: 'rgba(255,255,255,0.8)',
+          fontSize: '11px',
+          fontWeight: '500',
+          letterSpacing: '0.08em',
+          textTransform: 'uppercase',
+          margin: '0 0 8px',
+        }}>
+          {t.badge}
+        </p>
+        <h4 style={{
+          color: '#fff',
+          fontSize: '16px',
+          fontWeight: '700',
+          margin: '0 0 6px',
+          lineHeight: '1.3',
+        }}>
+          {t.title}
+        </h4>
+        <p style={{
+          color: 'rgba(255,255,255,0.75)',
+          fontSize: '12px',
+          margin: '0',
+        }}>
+          {t.subtitle}
+        </p>
+      </div>
+      <div style={{ padding: '16px' }}>
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr',
+          gap: '8px',
+          marginBottom: '14px',
+        }}>
+          {t.features.map((feature) => (
+            <div key={feature} style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              fontSize: '11px',
+              color: '#444',
+            }}>
+              <span style={{
+                width: '6px',
+                height: '6px',
+                borderRadius: '50%',
+                background: '#1D9E75',
+                flexShrink: 0,
+              }} />
+              {feature}
+            </div>
+          ))}
+        </div>
+        
         <a 
-          href="https://www.graftscope.com" 
-          target="_blank" 
+          href="https://www.graftscope.com"
+          target="_blank"
           rel="noopener noreferrer"
-          className="sidebar-banner-btn"
+          style={{
+            display: 'block',
+            background: '#1D9E75',
+            color: '#fff',
+            textAlign: 'center',
+            padding: '10px',
+            borderRadius: '8px',
+            fontSize: '13px',
+            fontWeight: '500',
+            textDecoration: 'none',
+          }}
         >
-          See GraftScope →
+          {t.cta}
         </a>
       </div>
     </div>
