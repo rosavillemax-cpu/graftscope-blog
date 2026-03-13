@@ -24,9 +24,38 @@ const categoryColors: Record<string, { from: string; to: string; badge: string; 
 };
 const defaultColor = { from: '#444441', to: '#888780', badge: '#F1EFE8', text: '#444441' };
 
+const categoryImages: Record<string, string> = {
+  // TR
+  'Klinik Yönetimi': 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=800&q=80',
+  'Teknoloji': 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
+  'Pazar Analizi': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
+  'Hasta Büyümesi': 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80',
+  'Türkiye': 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80',
+  'Global': 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80',
+  'Hasta Deneyimi': 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80',
+  'Uluslararası Pazarlama': 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80',
+  // EN
+  'Clinic Management': 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=800&q=80',
+  'Technology': 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
+  'Market Analysis': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
+  'Patient Growth': 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80',
+  'Turkey': 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80',
+  'Patient Experience': 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80',
+  'International Marketing': 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80',
+  // DE
+  'Klinikmanagement': 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=800&q=80',
+  'Technologie': 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
+  'Marktanalyse': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
+  'Patientenwachstum': 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80',
+  'Türkei': 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80',
+  'Patientenerfahrung': 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80',
+  'Internationales Marketing': 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80',
+};
+
 function ArticleCard({ article }: { article: Article }) {
   const { frontmatter, slug } = article;
   const color = categoryColors[frontmatter.category] || defaultColor;
+  const imgUrl = categoryImages[frontmatter.category] || 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80';
   const excerpt = frontmatter.excerpt && frontmatter.excerpt.length > 0
   ? frontmatter.excerpt
   : article.content
@@ -44,19 +73,23 @@ function ArticleCard({ article }: { article: Article }) {
     }}>
       <Link href={`/de/articles/${slug}`} style={{ textDecoration: 'none' }}>
         <div style={{
-          height: '80px',
-          background: `linear-gradient(135deg, ${color.from}, ${color.to})`,
+          height: '140px',
+          background: `linear-gradient(to bottom, rgba(0,0,0,0.15), rgba(0,0,0,0.55)), url(${imgUrl})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          borderRadius: '10px 10px 0 0',
           display: 'flex',
           alignItems: 'flex-end',
-          padding: '16px',
+          padding: '12px 14px',
         }}>
           <span style={{
-            background: 'rgba(255,255,255,0.2)',
+            background: 'rgba(255,255,255,0.18)',
+            backdropFilter: 'blur(6px)',
             color: '#fff',
             fontSize: '11px',
-            fontWeight: '500',
+            fontWeight: '600',
             padding: '4px 10px',
-            borderRadius: '6px',
+            borderRadius: '20px',
             letterSpacing: '0.03em',
           }}>
             {frontmatter.category}
