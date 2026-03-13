@@ -43,7 +43,7 @@ function ArticleCard({ article }: { article: Article }) {
       display: 'flex',
       flexDirection: 'column'
     }}>
-      <Link href={`/articles/${slug}`} style={{ textDecoration: 'none' }}>
+      <Link href={`/en/articles/${slug}`} style={{ textDecoration: 'none' }}>
         <div style={{
           height: '140px',
           background: `linear-gradient(135deg, ${color.from}, ${color.to})`,
