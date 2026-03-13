@@ -40,36 +40,96 @@ export default function HomePageDE() {
       <Header />
       <Ticker />
       
-      {/* Hero Section */}
-      <section className="hero-section">
-        <div className="hero-container">
-          <div className="hero-content">
-            <h1 className="hero-title">Haartransplantation Software für wachsende Kliniken</h1>
-            <p className="hero-subtitle">
-              GraftScope kombiniert CRM, KI-Haaranalyse, Terminverwaltung und Enterprise-Dashboard — entwickelt ausschließlich für Haartransplantationskliniken.
-            </p>
-            <div className="hero-cta">
-              <a href="/blog/de/demo" className="hero-btn-primary">Kostenlose Demo →</a>
-              <a href="https://www.graftscope.com/pricing" target="_blank" rel="noopener noreferrer" className="hero-btn-secondary">Preise ansehen</a>
-            </div>
+      <section className="hero-split" style={{
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr',
+        background: '#fff',
+        borderBottom: '0.5px solid #e5e5e5',
+      }}>
+        <div style={{
+          padding: '40px 48px',
+          borderRight: '0.5px solid #e5e5e5',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+        }}>
+          <div style={{
+            display: 'inline-block',
+            background: '#E1F5EE',
+            color: '#0F6E56',
+            fontSize: '11px',
+            fontWeight: '500',
+            padding: '4px 12px',
+            borderRadius: '20px',
+            marginBottom: '16px',
+            width: 'fit-content',
+          }}>
+            Für Haartransplantationskliniken
+          </div>
+          <h1 style={{
+            fontSize: 'clamp(20px, 2.5vw, 26px)',
+            fontWeight: '700',
+            margin: '0 0 12px',
+            lineHeight: '1.35',
+            color: '#1a1a1a',
+          }}>
+            Klinikmanagement & Patientenwachstum Leitfaden
+          </h1>
+          <p style={{
+            fontSize: '14px',
+            color: '#666',
+            margin: '0 0 20px',
+            lineHeight: '1.6',
+          }}>
+            Wöchentliche Strategien, Marktanalysen und operative Tipps.
+          </p>
+          <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+            <a href="#newsletter" style={{
+              background: '#1D9E75',
+              color: 'white',
+              padding: '10px 20px',
+              borderRadius: '8px',
+              fontSize: '13px',
+              fontWeight: '500',
+              textDecoration: 'none',
+            }}>
+              Newsletter abonnieren →
+            </a>
+            <a href="https://www.graftscope.com/demo" style={{
+              border: '0.5px solid #ccc',
+              color: '#1a1a1a',
+              padding: '10px 20px',
+              borderRadius: '8px',
+              fontSize: '13px',
+              fontWeight: '500',
+              textDecoration: 'none',
+            }}>
+              Kostenlose Demo
+            </a>
           </div>
         </div>
-      </section>
-
-      {/* Hero Stats */}
-      <section className="hero-stats">
-        <div className="hero-stats-container">
-          <div className="hero-stat">
-            <div className="hero-stat-number">40%</div>
-            <div className="hero-stat-label">Höhere Konversionsrate</div>
+        <div style={{
+          padding: '40px 48px',
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr',
+          gap: '12px',
+          alignContent: 'center',
+        }}>
+          <div style={{ background: '#E1F5EE', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
+            <p style={{ fontSize: '24px', fontWeight: '700', color: '#0F6E56', margin: '0' }}>40%</p>
+            <p style={{ fontSize: '11px', color: '#0F6E56', margin: '4px 0 0', lineHeight: '1.4' }}>Höhere Konversion</p>
           </div>
-          <div className="hero-stat">
-            <div className="hero-stat-number">60%</div>
-            <div className="hero-stat-label">Weniger Verwaltungszeit</div>
+          <div style={{ background: '#E6F1FB', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
+            <p style={{ fontSize: '24px', fontWeight: '700', color: '#185FA5', margin: '0' }}>60%</p>
+            <p style={{ fontSize: '11px', color: '#185FA5', margin: '4px 0 0', lineHeight: '1.4' }}>Weniger Verwaltung</p>
           </div>
-          <div className="hero-stat">
-            <div className="hero-stat-number">5+</div>
-            <div className="hero-stat-label">Sprachunterstützung</div>
+          <div style={{ background: '#EEEDFE', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
+            <p style={{ fontSize: '24px', fontWeight: '700', color: '#3C3489', margin: '0' }}>5+</p>
+            <p style={{ fontSize: '11px', color: '#3C3489', margin: '4px 0 0', lineHeight: '1.4' }}>Sprachunterstützung</p>
+          </div>
+          <div style={{ background: '#FAEEDA', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
+            <p style={{ fontSize: '24px', fontWeight: '700', color: '#854F0B', margin: '0' }}>25+</p>
+            <p style={{ fontSize: '11px', color: '#854F0B', margin: '4px 0 0', lineHeight: '1.4' }}>Artikel</p>
           </div>
         </div>
       </section>
