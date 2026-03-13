@@ -5,70 +5,109 @@ import Link from "next/link";
 import type { Article } from "@/lib/articles";
 import {
   filterArticlesByMarket,
-  MARKET_FILTER_OPTIONS_EN,
+  MARKET_FILTER_OPTIONS,
   type MarketFilterKey,
 } from "@/lib/articleFilters";
 import MiniNewsletter from "./MiniNewsletter";
 import SidebarBanner from "./SidebarBanner";
 
+const categoryColors: Record<string, { from: string; to: string; badge: string; text: string }> = {
+  'Clinic Management':    { from: '#0F6E56', to: '#1D9E75', badge: '#E1F5EE', text: '#0F6E56' },
+  'Technology':           { from: '#185FA5', to: '#378ADD', badge: '#E6F1FB', text: '#185FA5' },
+  'Market Analysis':      { from: '#854F0B', to: '#EF9F27', badge: '#FAEEDA', text: '#854F0B' },
+  'Patient Growth':       { from: '#3C3489', to: '#7F77DD', badge: '#EEEDFE', text: '#3C3489' },
+  'Turkey':               { from: '#993C1D', to: '#D85A30', badge: '#FAECE7', text: '#993C1D' },
+  'Turkey Market':        { from: '#993C1D', to: '#D85A30', badge: '#FAECE7', text: '#993C1D' },
+  'Global':               { from: '#3B6D11', to: '#639922', badge: '#EAF3DE', text: '#3B6D11' },
+  'Patient Experience':   { from: '#72243E', to: '#D4537E', badge: '#FBEAF0', text: '#72243E' },
+  'International Marketing': { from: '#444441', to: '#888780', badge: '#F1EFE8', text: '#444441' },
+};
+const defaultColor = { from: '#444441', to: '#888780', badge: '#F1EFE8', text: '#444441' };
+
 function ArticleCard({ article }: { article: Article }) {
   const { frontmatter, slug } = article;
-  
-  // Generate excerpt: use frontmatter.excerpt if exists, otherwise first 150-180 chars
-  const generateExcerpt = (text: string, maxLength: number = 150) => {
-    if (!text) return '';
-    
-    // If frontmatter.excerpt exists, use it
-    if (frontmatter.excerpt && frontmatter.excerpt.length > 0) {
-      return frontmatter.excerpt.length > maxLength 
-        ? frontmatter.excerpt.substring(0, maxLength) + '...'
-        : frontmatter.excerpt;
-    }
-    
-    // Otherwise, generate from title or other content
-    const sourceText = frontmatter.title || '';
-    const cleaned = sourceText.replace(/\s+/g, ' ').trim();
-    
-    if (cleaned.length <= maxLength) return cleaned;
-    
-    return cleaned.substring(0, maxLength).replace(/\s+\S*$/, '') + '...';
-  };
-  
-  const excerpt = generateExcerpt('', 150);
-  
+  const color = categoryColors[frontmatter.category] || defaultColor;
+  const excerpt = frontmatter.excerpt || '';
+
   return (
-    <article className="article-card">
-      <span className="article-card-category">
-        <span className="article-card-category-line" aria-hidden />
-        {frontmatter.category}
-      </span>
-      <h2 className="article-card-title">
-        <Link href={`/en/articles/${slug}`}>{frontmatter.title}</Link>
-      </h2>
-      <p className="article-card-excerpt" style={{
-        color: "#666",
-        fontSize: "14px",
-        lineHeight: "1.6",
-        marginTop: "8px",
-        marginBottom: "8px",
-        overflow: "hidden",
-        display: "-webkit-box",
-        WebkitLineClamp: "2",
-        WebkitBoxOrient: "vertical"
-      }}>
-        {excerpt}
-      </p>
-      <footer className="article-card-meta" style={{ marginBottom: "8px" }}>
-        <span>{new Date(frontmatter.date).toLocaleDateString("en-US", { day: 'numeric', month: 'long', year: 'numeric' })}</span>
-        <span className="meta-sep">·</span>
-        <span>{frontmatter.category}</span>
-        <span className="meta-sep">·</span>
-        <span>{String(frontmatter.readTime)}</span>
-      </footer>
-      <div className="article-card-action">
-        <Link href={`/en/articles/${slug}`} className="article-card-link">
-          Continue Reading →
-        </Link>
+    <article className="article-card" style={{ 
+      borderRadius: '12px', 
+      overflow: 'hidden', 
+      border: '0.5px solid #e5e5e5',
+      background: '#fff',
+      display: 'flex',
+      flexDirection: 'column'
+    }}>
+      <Link href={`/en/articles/${slug}`} style={{ textDecoration: 'none' }}>
+        <div style={{
+          height: '120px',
+          background: `linear-gradient(135deg, ${color.from}, ${color.to})`,
+          display: 'flex',
+          alignItems: 'flex-end',
+          padding: '16px',
+        }}>
+          <span style={{
+            background: 'rgba(255,255,255,0.2)',
+            color: '#fff',
+            fontSize: '11px',
+            fontWeight: '500',
+            padding: '4px 10px',
+            borderRadius: '6px',
+            letterSpacing: '0.03em',
+          }}>
+            {frontmatter.category}
+          </span>
+        </div>
+      </Link>
+      <div style={{ padding: '16px', flex: 1, display: 'flex', flexDirection: 'column' }}>
+        <h2 style={{ 
+          fontSize: '16px', 
+          fontWeight: '500', 
+          margin: '0 0 10px', 
+          lineHeight: '1.4',
+          color: '#1a1a1a'
+        }}>
+          <Link href={`/en/articles/${slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+            {frontmatter.title}
+          </Link>
+        </h2>
+        {excerpt && (
+          <p style={{
+            fontSize: '13px',
+            color: '#666',
+            lineHeight: '1.6',
+            margin: '0 0 12px',
+            overflow: 'hidden',
+            display: '-webkit-box',
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: 'vertical',
+            flex: 1,
+          }}>
+            {excerpt}
+          </p>
+        )}
+        <div style={{ 
+          display: 'flex', 
+          alignItems: 'center', 
+          justifyContent: 'space-between',
+          borderTop: '0.5px solid #eee',
+          paddingTop: '12px',
+          marginTop: 'auto'
+        }}>
+          <span style={{ fontSize: '12px', color: '#999' }}>
+            {new Date(frontmatter.date).toLocaleDateString("en-US", { 
+              day: 'numeric', month: 'long', year: 'numeric' 
+            })} · {String(frontmatter.readTime)} min read
+          </span>
+          <Link href={`/en/articles/${slug}`} style={{ 
+            fontSize: '13px', 
+            color: color.text,
+            fontWeight: '500',
+            textDecoration: 'none'
+          }}>
+            Read more →
+          </Link>
+        </div>
       </div>
     </article>
   );
