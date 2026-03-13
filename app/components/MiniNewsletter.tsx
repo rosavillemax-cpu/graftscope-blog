@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 
 export default function MiniNewsletter() {
@@ -8,9 +8,13 @@ export default function MiniNewsletter() {
   const [isLoading, setIsLoading] = useState(false);
   const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
   const pathname = usePathname();
+  const [language, setLanguage] = useState<"tr" | "en" | "de">("tr");
 
-  // Auto-detect language
-  const language = pathname?.startsWith("/en") ? "en" : pathname?.startsWith("/de") ? "de" : "tr";
+  useEffect(() => {
+    const lang = pathname?.startsWith("/en") ? "en" : 
+                 pathname?.startsWith("/de") ? "de" : "tr";
+    setLanguage(lang);
+  }, [pathname]);
   
   const content = {
     tr: {

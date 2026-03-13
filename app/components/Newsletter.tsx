@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 
 // Declare gtag function for TypeScript
@@ -19,9 +19,12 @@ export default function Newsletter({ language }: NewsletterProps) {
   const [email, setEmail] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
+  const [currentLanguage, setCurrentLanguage] = useState<"tr" | "en" | "de">("tr");
 
-  // Auto-detect language from pathname if not provided
-  const currentLanguage = language || (pathname.startsWith("/en") ? "en" : pathname.startsWith("/de") ? "de" : "tr");
+  useEffect(() => {
+    const lang = language || (pathname?.startsWith("/en") ? "en" : pathname?.startsWith("/de") ? "de" : "tr");
+    setCurrentLanguage(lang);
+  }, [pathname, language]);
 
   const content = {
     tr: {
