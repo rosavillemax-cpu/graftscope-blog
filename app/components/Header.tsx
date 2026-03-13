@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SearchModal from "./SearchModal";
 import { getPricingUrl } from "@/lib/getPricingUrl";
 
@@ -58,12 +58,15 @@ export default function Header() {
     : null;
 
   const navItems = isEnglishPage ? EN_NAV_ITEMS : isGermanPage ? DE_NAV_ITEMS : TR_NAV_ITEMS;
-  const currentDate = new Date().toLocaleDateString(isEnglishPage ? "en-US" : isGermanPage ? "de-DE" : "tr-TR", {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
+  
+  const [currentDate, setCurrentDate] = useState("");
+
+  useEffect(() => {
+    setCurrentDate(new Date().toLocaleDateString(
+      isEnglishPage ? "en-US" : isGermanPage ? "de-DE" : "tr-TR", 
+      { weekday: "long", year: "numeric", month: "long", day: "numeric" }
+    ));
+  }, [isEnglishPage, isGermanPage]);
 
   const homeHref = isEnglishPage ? "/en" : isGermanPage ? "/de" : "/";
   const demoHref = isEnglishPage ? "/en/demo" : isGermanPage ? "/de/demo" : "/demo";
