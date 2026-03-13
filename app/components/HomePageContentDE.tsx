@@ -27,7 +27,11 @@ const defaultColor = { from: '#444441', to: '#888780', badge: '#F1EFE8', text: '
 function ArticleCard({ article }: { article: Article }) {
   const { frontmatter, slug } = article;
   const color = categoryColors[frontmatter.category] || defaultColor;
-  const excerpt = frontmatter.excerpt ?? '';
+  const excerpt = frontmatter.excerpt && frontmatter.excerpt.length > 0
+  ? frontmatter.excerpt
+  : article.content
+    ? article.content.replace(/#{1,6}\s/g, '').replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\n/g, ' ').trim().substring(0, 160) + '...'
+    : '';
 
   return (
     <article className="article-card" style={{ 
@@ -95,7 +99,7 @@ function ArticleCard({ article }: { article: Article }) {
           <span style={{ fontSize: '12px', color: '#999' }}>
             {new Date(frontmatter.date).toLocaleDateString("de-DE", { 
               day: 'numeric', month: 'long', year: 'numeric' 
-            })} · {String(frontmatter.readTime)} Min. Lesezeit
+            })} · {frontmatter.readTime} Min. Lesezeit
           </span>
           <Link href={`/de/articles/${slug}`} style={{ 
             fontSize: '13px', 
