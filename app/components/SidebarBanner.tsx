@@ -1,24 +1,45 @@
 export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'de' }) {
   const content = {
     tr: {
-      badge: 'Yazılım',
+      badge: 'GraftScope Klinik Zekası OS',
       title: 'Kliniğinizi Daha Akıllı Yönetin',
       subtitle: 'CRM · Yapay Zeka Analizi · Dashboard',
-      features: ['Yapay Zeka Analizi', 'Randevu Yönetimi', 'Hasta Takibi (CRM)', 'Kurumsal Panel'],
+      features: [
+        'Yapay Zeka Analizi',
+        'Randevu Yönetimi', 
+        'Hasta Takibi (CRM)',
+        'Kurumsal Panel',
+        'Operasyon Yönetimi',
+        'Profesyonel Raporlama',
+      ],
       cta: 'GraftScope\'u Keşfet →',
     },
     en: {
-      badge: 'Software',
+      badge: 'GraftScope Clinic Intelligence OS',
       title: 'Run Your Clinic Smarter',
       subtitle: 'CRM · AI Analysis · Dashboard',
-      features: ['AI Hair Analysis', 'Appointment System', 'Patient CRM', 'Enterprise Panel'],
+      features: [
+        'AI Hair Analysis',
+        'Appointment System',
+        'Patient CRM',
+        'Enterprise Panel',
+        'Operations Management',
+        'Professional Reporting',
+      ],
       cta: 'Explore GraftScope →',
     },
     de: {
-      badge: 'Software',
+      badge: 'GraftScope Klinik Intelligenz OS',
       title: 'Führen Sie Ihre Klinik intelligenter',
       subtitle: 'CRM · KI-Analyse · Dashboard',
-      features: ['KI-Analyse', 'Terminverwaltung', 'Patienten-CRM', 'Dashboard'],
+      features: [
+        'KI-Analyse',
+        'Terminverwaltung',
+        'Patienten-CRM',
+        'Dashboard',
+        'Operationsmanagement',
+        'Professionelles Reporting',
+      ],
       cta: 'GraftScope entdecken →',
     },
   };
