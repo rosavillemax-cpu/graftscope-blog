@@ -127,7 +127,7 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
           </div>
 
           <div className="article-single-body prose">
-            <MarkdownWithCTA content={content} />
+            <MarkdownWithCTA content={content.replace(/^#[^\n]*\n\n?/, '')} />
           </div>
           <ArticleCTA />
           <RelatedArticles 

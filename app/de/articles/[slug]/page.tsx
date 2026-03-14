@@ -140,7 +140,7 @@ export default async function ArticlePageDE({ params }: ArticlePageProps) {
           </div>
 
           <div className="article-body">
-            <MarkdownWithCTA content={content} />
+            <MarkdownWithCTA content={content.replace(/^#[^\n]*\n\n?/, '')} />
           </div>
           
           <ArticleCTA />
