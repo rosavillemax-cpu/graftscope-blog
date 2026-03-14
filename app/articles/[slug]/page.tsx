@@ -11,7 +11,6 @@ import { generateArticleSchema, generateArticleBreadcrumbs } from "@/lib/schema"
 import type { Metadata } from "next";
 
 const SITE_URL = "https://www.graftscope.com/blog";
-const OG_IMAGE = `${SITE_URL}/og-image.jpg`;
 
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
@@ -45,7 +44,6 @@ export async function generateMetadata({
       publishedTime: frontmatter.date,
       authors: [frontmatter.author],
       tags: [frontmatter.category],
-      images: [{ url: OG_IMAGE, alt: frontmatter.title }],
     },
     twitter: {
       card: "summary_large_image",
