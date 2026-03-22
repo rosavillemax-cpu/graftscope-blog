@@ -10,23 +10,23 @@ import { generateWebsiteSchema } from "@/lib/schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Saç Ekimi Klinik Yönetim Yazılımı | GraftScope",
-  description: "GraftScope ile saç ekimi kliniğinizi tek platformdan yönetin. CRM, yapay zeka analizi, randevu sistemi ve enterprise dashboard. Ücretsiz demo alın.",
+  title: "Saç Ekimi Klinik Yönetim Yazılımı | ClinixGlow",
+  description: "ClinixGlow ile saç ekimi kliniğinizi tek platformdan yönetin. CRM, yapay zeka analizi, randevu sistemi ve enterprise dashboard. Ücretsiz demo alın.",
   openGraph: {
-    title: "Saç Ekimi Klinik Yönetim Yazılımı | GraftScope",
-    description: "GraftScope ile saç ekimi kliniğinizi tek platformdan yönetin. CRM, yapay zeka analizi, randevu sistemi ve enterprise dashboard. Ücretsiz demo alın.",
-    url: "https://www.graftscope.com/blog",
-    siteName: "Graftscope",
+    title: "Saç Ekimi Klinik Yönetim Yazılımı | ClinixGlow",
+    description: "ClinixGlow ile saç ekimi kliniğinizi tek platformdan yönetin. CRM, yapay zeka analizi, randevu sistemi ve enterprise dashboard. Ücretsiz demo alın.",
+    url: "https://www.clinixglow.com/blog",
+    siteName: "Clinixglow",
     locale: "tr_TR",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.graftscope.com/blog",
+    canonical: "https://www.clinixglow.com/blog",
     languages: {
-      'tr': 'https://www.graftscope.com/blog',
-      'en': 'https://www.graftscope.com/blog/en',
-      'de': 'https://www.graftscope.com/blog/de',
-      'x-default': 'https://www.graftscope.com/blog',
+      'tr': 'https://www.clinixglow.com/blog',
+      'en': 'https://www.clinixglow.com/blog/en',
+      'de': 'https://www.clinixglow.com/blog/de',
+      'x-default': 'https://www.clinixglow.com/blog',
     },
   },
 };
@@ -56,8 +56,8 @@ export default function HomePage() {
         }}>
           <div style={{
             display: 'inline-block',
-            background: '#E1F5EE',
-            color: '#0F6E56',
+            background: '#F3E8F5',
+            color: '#4A1559',
             fontSize: '11px',
             fontWeight: '500',
             padding: '4px 12px',
@@ -86,7 +86,7 @@ export default function HomePage() {
           </p>
           <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
             <a href="#newsletter" style={{
-              background: '#1D9E75',
+              background: '#631D76',
               color: 'white',
               padding: '10px 20px',
               borderRadius: '8px',
@@ -96,7 +96,7 @@ export default function HomePage() {
             }}>
               Bültene Abone Ol →
             </a>
-            <a href="https://www.graftscope.com/demo" style={{
+            <a href="https://www.clinixglow.com/demo" style={{
               border: '0.5px solid #ccc',
               color: '#1a1a1a',
               padding: '10px 20px',
@@ -116,9 +116,9 @@ export default function HomePage() {
           gap: '12px',
           alignContent: 'center',
         }}>
-          <div style={{ background: '#E1F5EE', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
-            <p style={{ fontSize: '24px', fontWeight: '700', color: '#0F6E56', margin: '0' }}>40%</p>
-            <p style={{ fontSize: '11px', color: '#0F6E56', margin: '4px 0 0', lineHeight: '1.4' }}>Daha Yüksek Dönüşüm</p>
+          <div style={{ background: '#F3E8F5', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
+            <p style={{ fontSize: '24px', fontWeight: '700', color: '#4A1559', margin: '0' }}>40%</p>
+            <p style={{ fontSize: '11px', color: '#4A1559', margin: '4px 0 0', lineHeight: '1.4' }}>Daha Yüksek Dönüşüm</p>
           </div>
           <div style={{ background: '#E6F1FB', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
             <p style={{ fontSize: '24px', fontWeight: '700', color: '#185FA5', margin: '0' }}>60%</p>

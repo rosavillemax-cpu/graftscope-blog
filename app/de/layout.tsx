@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
-const SITE_URL = "https://www.graftscope.com/blog";
+const SITE_URL = "https://www.clinixglow.com/blog";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Haartransplantations-Software | GraftScope",
-    template: "%s | GraftScope Blog",
+    default: "Haartransplantations-Software | ClinixGlow",
+    template: "%s | ClinixGlow Blog",
   },
   description: "Haartransplantations-Klinikmanagement-Software mit CRM, KI-Analyse, Terminsystem und Enterprise-Dashboard.",
   alternates: {

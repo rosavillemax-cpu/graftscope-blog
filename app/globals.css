@@ -6,9 +6,9 @@
   --ink: #0f0f0f;
   --paper: #f5f0e8;
   --cream: #ede8dc;
-  --accent: #1a6b4a;
-  --accent-light: #2d9966;
-  --accent-dark: #145238;
+  --accent: #631D76;
+  --accent-light: #8B2FA8;
+  --accent-dark: #4A1559;
   --gold: #c9a84c;
   --muted: #7a7060;
   --rule: #d4cfc4;
@@ -136,7 +136,7 @@ body {
   font-family: var(--font-heading);
   font-style: italic;
   font-size: 0.9rem;
-  color: #1a6b4a;
+  color: #631D76;
   text-align: center;
   letter-spacing: 0.05em;
   margin-top: -4px;
@@ -739,7 +739,7 @@ body {
   color: #fff;
   padding: 1.5rem;
   border-radius: 12px;
-  border-top: 3px solid #1a6b4a;
+  border-top: 3px solid #631D76;
   position: relative;
 }
 
@@ -762,13 +762,13 @@ body {
   font-style: italic;
   font-weight: 400;
   font-size: 1rem;
-  color: #1a6b4a;
+  color: #631D76;
   display: block;
   margin-top: 0.25rem;
 }
 
 .sidebar-cta-badge {
-  background: #1a6b4a;
+  background: #631D76;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 600;
@@ -804,7 +804,7 @@ body {
 }
 
 .feature-check {
-  color: #1a6b4a;
+  color: #631D76;
   font-weight: 700;
   margin-right: 0.75rem;
   font-size: 1rem;
@@ -827,7 +827,7 @@ body {
 .sidebar-cta-premium .sidebar-cta-btn {
   display: block;
   width: 100%;
-  background: #1a6b4a;
+  background: #631D76;
   color: #fff;
   padding: 0.75rem 1.25rem;
   font-size: 0.875rem;
@@ -840,7 +840,7 @@ body {
 }
 
 .sidebar-cta-premium .sidebar-cta-btn:hover {
-  background: #2d9966;
+  background: #8B2FA8;
 }
 
 .sidebar-cta-secondary {
@@ -1323,7 +1323,7 @@ body {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #1D9E75;
+  background: #631D76;
 }
 
 .prose ol {
@@ -1384,7 +1384,7 @@ body {
 
 /* ========== CTA Section ========== */
 .cta-section {
-  background: #1a6b4a;
+  background: #631D76;
   background-image: 
     radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
     radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.02) 0%, transparent 50%),
@@ -1462,7 +1462,7 @@ body {
 
 .cta-button-solid {
   background: #ffffff;
-  color: #1a6b4a;
+  color: #631D76;
   border: none;
 }
 
@@ -1480,7 +1480,7 @@ body {
 
 .cta-button-outline:hover {
   background: #ffffff;
-  color: #1a6b4a;
+  color: #631D76;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
@@ -1787,7 +1787,7 @@ body {
   font-family: var(--font-heading);
   font-style: italic;
   font-size: 0.9rem;
-  color: #1a6b4a;
+  color: #631D76;
   text-align: center;
   letter-spacing: 0.05em;
   margin-top: -4px;
@@ -2126,7 +2126,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #1a6b4a;
+  background: #631D76;
   z-index: 1000;
   transform: translateY(100%);
   animation: slideUpFloating 0.3s ease-out forwards;
@@ -2220,12 +2220,12 @@ body {
   margin: 2rem 0;
   padding: 1.25rem 1.5rem;
   background: #e8f5ee;
-  border-left: 3px solid #1a6b4a;
+  border-left: 3px solid #631D76;
   border-radius: 0 8px 8px 0;
 }
 
 .inline-cta-link {
-  color: #1a6b4a;
+  color: #631D76;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
@@ -2234,7 +2234,7 @@ body {
 }
 
 .inline-cta-link:hover {
-  color: #145238;
+  color: #4A1559;
   opacity: 0.9;
 }
 
@@ -2273,7 +2273,7 @@ body {
 .mini-newsletter-eyebrow {
   font-size: 0.75rem;
   font-weight: 600;
-  color: #1a6b4a;
+  color: #631D76;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-bottom: 8px;
@@ -2303,7 +2303,7 @@ body {
 }
 
 .mini-newsletter-input:focus {
-  border-color: #1a6b4a;
+  border-color: #631D76;
 }
 
 .mini-newsletter-input:disabled {
@@ -2314,7 +2314,7 @@ body {
 .mini-newsletter-button {
   width: 100%;
   padding: 8px 12px;
-  background: #1a6b4a;
+  background: #631D76;
   color: white;
   border: none;
   border-radius: 4px;
@@ -2325,7 +2325,7 @@ body {
 }
 
 .mini-newsletter-button:hover:not(:disabled) {
-  background: #145238;
+  background: #4A1559;
 }
 
 .mini-newsletter-button:disabled {
@@ -2336,7 +2336,7 @@ body {
 .mini-newsletter-success {
   padding: 12px;
   text-align: center;
-  color: #1a6b4a;
+  color: #631D76;
   font-weight: 500;
   font-size: 0.875rem;
 }
@@ -2372,7 +2372,7 @@ body {
 /* ========== Hero Stats ========== */
 .hero-stats {
   padding: 30px 20px;
-  background: #1a6b4a;
+  background: #631D76;
   color: white;
 }
 
@@ -2415,7 +2415,7 @@ body {
 
 /* ========== Article CTA Block ========== */
 .article-cta-block {
-  background: linear-gradient(135deg, #1a6b4a 0%, #145238 100%);
+  background: linear-gradient(135deg, #631D76 0%, #4A1559 100%);
   border-radius: 12px;
   padding: 32px;
   margin: 48px 0;
@@ -2462,7 +2462,7 @@ body {
 
 .article-cta-btn-solid {
   background: white;
-  color: #1a6b4a;
+  color: #631D76;
 }
 
 .article-cta-btn-solid:hover {
@@ -2478,7 +2478,7 @@ body {
 
 .article-cta-btn-outline:hover {
   background: white;
-  color: #1a6b4a;
+  color: #631D76;
   transform: translateY(-2px);
 }
 
@@ -2521,7 +2521,7 @@ body {
 }
 
 .powered-by-link {
-  color: #1a6b4a;
+  color: #631D76;
   text-decoration: none;
   font-weight: 600;
 }
@@ -2538,7 +2538,7 @@ body {
 }
 
 .footer-software-url {
-  color: #1a6b4a;
+  color: #631D76;
   text-decoration: none;
   font-weight: 600;
 }
@@ -2549,7 +2549,7 @@ body {
 
 /* ========== Sidebar Banner ========== */
 .sidebar-banner {
-  background: linear-gradient(135deg, #1a6b4a 0%, #145238 100%);
+  background: linear-gradient(135deg, #631D76 0%, #4A1559 100%);
   border-radius: 8px;
   padding: 20px;
   margin-top: 16px;
@@ -2574,7 +2574,7 @@ body {
 .sidebar-banner-btn {
   display: inline-block;
   background: white;
-  color: #1a6b4a;
+  color: #631D76;
   padding: 8px 16px;
   border-radius: 6px;
   text-decoration: none;
@@ -2643,7 +2643,7 @@ body {
 
 /* ========== Auto Links ========== */
 .auto-link {
-  color: #1a6b4a;
+  color: #631D76;
   text-decoration: none;
   font-weight: 600;
   border-bottom: 1px solid transparent;
@@ -2651,7 +2651,7 @@ body {
 }
 
 .auto-link:hover {
-  border-bottom-color: #1a6b4a;
+  border-bottom-color: #631D76;
 }
 
 /* ========== Demo Features ========== */
@@ -2673,7 +2673,7 @@ body {
 }
 
 .demo-feature-icon {
-  color: #1a6b4a;
+  color: #631D76;
   font-weight: 700;
   font-size: 1.125rem;
   flex-shrink: 0;
@@ -2753,7 +2753,7 @@ body {
 .bottom-banner-section {
   width: 100%;
   min-height: 120px;
-  background: linear-gradient(135deg, #1a6b4a 0%, #145238 100%);
+  background: linear-gradient(135deg, #631D76 0%, #4A1559 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2790,7 +2790,7 @@ body {
 
 .bottom-banner-section .sidebar-banner-btn {
   background: white;
-  color: #1a6b4a;
+  color: #631D76;
   padding: 12px 24px;
   font-size: 1rem;
 }

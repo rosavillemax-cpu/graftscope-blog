@@ -1,7 +1,7 @@
 export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'de' }) {
   const content = {
     tr: {
-      badge: 'GraftScope Klinik Zekası OS',
+      badge: 'ClinixGlow Klinik Zekası OS',
       title: 'Kliniğinizi Daha Akıllı Yönetin',
       subtitle: 'CRM · Yapay Zeka Analizi · Dashboard',
       features: [
@@ -12,10 +12,10 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
         'Operasyon Yönetimi',
         'Profesyonel Raporlama',
       ],
-      cta: 'GraftScope\'u Keşfet →',
+      cta: 'ClinixGlow\'u Keşfet →',
     },
     en: {
-      badge: 'GraftScope Clinic Intelligence OS',
+      badge: 'ClinixGlow Clinic Intelligence OS',
       title: 'Run Your Clinic Smarter',
       subtitle: 'CRM · AI Analysis · Dashboard',
       features: [
@@ -26,10 +26,10 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
         'Operations Management',
         'Professional Reporting',
       ],
-      cta: 'Explore GraftScope →',
+      cta: 'Explore ClinixGlow →',
     },
     de: {
-      badge: 'GraftScope Klinik Intelligenz OS',
+      badge: 'ClinixGlow Klinik Intelligenz OS',
       title: 'Führen Sie Ihre Klinik intelligenter',
       subtitle: 'CRM · KI-Analyse · Dashboard',
       features: [
@@ -40,7 +40,7 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
         'Operationsmanagement',
         'Professionelles Reporting',
       ],
-      cta: 'GraftScope entdecken →',
+      cta: 'ClinixGlow entdecken →',
     },
   };
   const t = content[lang];
@@ -54,7 +54,7 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
       marginTop: '16px',
     }}>
       <div style={{
-        background: 'linear-gradient(135deg, #0F6E56, #1D9E75)',
+        background: 'linear-gradient(135deg, #4A1559, #631D76)',
         padding: '20px',
         textAlign: 'center',
       }}>
@@ -104,7 +104,7 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
                 width: '6px',
                 height: '6px',
                 borderRadius: '50%',
-                background: '#1D9E75',
+                background: '#631D76',
                 flexShrink: 0,
               }} />
               {feature}
@@ -113,12 +113,12 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
         </div>
         
         <a 
-          href="https://www.graftscope.com"
+          href="https://www.clinixglow.com"
           target="_blank"
           rel="noopener noreferrer"
           style={{
             display: 'block',
-            background: '#1D9E75',
+            background: '#631D76',
             color: '#fff',
             textAlign: 'center',
             padding: '10px',

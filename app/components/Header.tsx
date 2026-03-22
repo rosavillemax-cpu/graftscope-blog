@@ -129,8 +129,8 @@ export default function Header() {
               style={{
                 fontSize: '0.8rem',
                 padding: '4px 12px',
-                border: '1px solid #1a6b4a',
-                color: '#1a6b4a',
+                border: '1px solid #631D76',
+                color: '#631D76',
                 background: 'transparent',
                 textDecoration: 'none',
                 borderRadius: '4px',
@@ -138,12 +138,12 @@ export default function Header() {
                 cursor: 'pointer'
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.background = '#1a6b4a';
+                e.currentTarget.style.background = '#631D76';
                 e.currentTarget.style.color = '#fff';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.background = 'transparent';
-                e.currentTarget.style.color = '#1a6b4a';
+                e.currentTarget.style.color = '#631D76';
               }}
             >
               {newsletterBtnText}
@@ -162,7 +162,7 @@ export default function Header() {
             </a>
             <span className="top-bar-btn-sep" aria-hidden />
             <a 
-              href="https://www.graftscope.com/demo" 
+              href="https://www.clinixglow.com/demo" 
               target="_blank" 
               rel="noopener noreferrer"
               className="header-btn header-btn-solid"
@@ -173,7 +173,7 @@ export default function Header() {
         </div>
         <div className="masthead-brand">
           <Link href={homeHref} className="masthead-logo">
-            Graftscope
+            Clinixglow
           </Link>
           <div className="masthead-logo-insights">insights</div>
           <div className="masthead-tagline">

@@ -11,7 +11,7 @@ Potential patients always research what others say about you before making decis
 
 ## The Review Economy: Why Reviews Matter
 
-In today's digital world, online reviews have become the new word-of-mouth. **GraftScope** research shows that 92% of potential hair transplant patients read online reviews before choosing a clinic, and 88% trust reviews as much as personal recommendations.
+In today's digital world, online reviews have become the new word-of-mouth. **ClinixGlow** research shows that 92% of potential hair transplant patients read online reviews before choosing a clinic, and 88% trust reviews as much as personal recommendations.
 
 The impact extends beyond patient acquisition—reviews directly affect your clinic's visibility, credibility, and conversion rates. Clinics with 4.5+ star ratings receive 3x more inquiries than those with lower ratings, and positive reviews can increase consultation conversion by up to 40%.
 
@@ -341,7 +341,7 @@ Prepare for technological advances:
 
 Online reviews are no longer optional—they're essential for hair transplant clinic success. The clinics that thrive in the coming years will be those that master review generation, management, and optimization as strategic growth tools.
 
-**GraftScope** provides the tools and insights needed to implement comprehensive review strategies, from automated review requests to detailed analytics and competitive intelligence.
+**ClinixGlow** provides the tools and insights needed to implement comprehensive review strategies, from automated review requests to detailed analytics and competitive intelligence.
 
 Remember: every review is an opportunity—to learn, to improve, to build trust, and to grow your practice. Treat reviews as the strategic assets they are, and they'll become one of your most powerful patient acquisition and retention tools.
 

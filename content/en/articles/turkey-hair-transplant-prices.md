@@ -11,7 +11,7 @@ Hair transplant prices in Turkey vary across a wide spectrum. From low-cost "eco
 
 ## Market Overview: The Turkish Price Landscape
 
-Turkey's hair transplant market offers one of the world's most diverse pricing ranges, from $1,500 to $15,000 per procedure. This price spectrum reflects varying quality levels, service standards, and target markets. **GraftScope** analysis shows that price segmentation is becoming increasingly pronounced, with clear gaps emerging between different market tiers.
+Turkey's hair transplant market offers one of the world's most diverse pricing ranges, from $1,500 to $15,000 per procedure. This price spectrum reflects varying quality levels, service standards, and target markets. **ClinixGlow** analysis shows that price segmentation is becoming increasingly pronounced, with clear gaps emerging between different market tiers.
 
 The market's price diversity stems from Turkey's unique position as both a value destination and a quality hub. International patients can find budget-friendly options while still accessing medical expertise that exceeds many Western standards. This creates a complex pricing environment where clinics must carefully position themselves to attract their target patients.
 
@@ -443,7 +443,7 @@ Track pricing effectiveness:
 
 Success in Turkey's diverse hair transplant market requires sophisticated pricing strategies and clear market positioning. The opportunities span multiple segments, each requiring different approaches to pricing, service delivery, and brand development.
 
-**GraftScope** provides the tools and insights needed for pricing strategy success, from market analysis to competitive positioning and performance optimization.
+**ClinixGlow** provides the tools and insights needed for pricing strategy success, from market analysis to competitive positioning and performance optimization.
 
 Remember: pricing is not just about numbers—it's about positioning, value communication, and strategic market differentiation. The right pricing strategy creates sustainable competitive advantages, while poor pricing leads to constant pressure and margin erosion.
 

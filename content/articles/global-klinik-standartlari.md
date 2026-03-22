@@ -1,7 +1,7 @@
 ---
 title: "Dünya Standartlarında Klinik Yönetimi: Global Benchmark Rehberi"
 date: "2025-03-18"
-author: "Graftscope Editör"
+author: "Clinixglow Editör"
 category: "Global"
 excerpt: "Uluslararası saç ekimi kliniklerinde operasyonel standartlar, hasta güvenliği ve yönetim modelleri. Global benchmark ve uygulama önerileri."
 readTime: 7

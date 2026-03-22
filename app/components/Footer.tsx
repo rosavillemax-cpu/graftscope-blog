@@ -44,8 +44,8 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-section footer-brand">
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-            <span style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1.8rem', color: '#0f0f0f' }}>Graftscope</span>
-            <span style={{ fontFamily: 'Playfair Display, serif', fontStyle: 'italic', fontSize: '0.9rem', color: '#1a6b4a', marginTop: '-4px' }}>insights</span>
+            <span style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1.8rem', color: '#0f0f0f' }}>Clinixglow</span>
+            <span style={{ fontFamily: 'Playfair Display, serif', fontStyle: 'italic', fontSize: '0.9rem', color: '#631D76', marginTop: '-4px' }}>insights</span>
           </div>
         </div>
         
@@ -71,11 +71,11 @@ export default function Footer() {
             {isEnglishPage ? "Contact Info" : isGermanPage ? "Kontakt" : "İletişim Bilgileri"}
           </h4>
           <div className="footer-contact-info">
-            <a href="mailto:contact@graftscope.com" className="footer-contact-link">
-              contact@graftscope.com
+            <a href="mailto:contact@clinixglow.com" className="footer-contact-link">
+              contact@clinixglow.com
             </a>
-            <a href="https://www.graftscope.com" target="_blank" rel="noopener noreferrer" className="footer-contact-link">
-              www.graftscope.com
+            <a href="https://www.clinixglow.com" target="_blank" rel="noopener noreferrer" className="footer-contact-link">
+              www.clinixglow.com
             </a>
           </div>
         </div>
@@ -97,10 +97,10 @@ export default function Footer() {
       
       <div className="footer-bottom">
         <p className="footer-copyright">
-          © 2026 Graftscope. {isEnglishPage ? "All rights reserved." : isGermanPage ? "Alle Rechte vorbehalten." : "Tüm hakları saklıdır."}
+          © 2026 Clinixglow. {isEnglishPage ? "All rights reserved." : isGermanPage ? "Alle Rechte vorbehalten." : "Tüm hakları saklıdır."}
         </p>
         <p className="footer-software-link">
-          {isEnglishPage ? "Looking for the software?" : "Yazılımı mı arıyorsunuz?"} → <a href="https://www.graftscope.com" target="_blank" rel="noopener noreferrer" className="footer-software-url">graftscope.com</a>
+          {isEnglishPage ? "Looking for the software?" : "Yazılımı mı arıyorsunuz?"} → <a href="https://www.clinixglow.com" target="_blank" rel="noopener noreferrer" className="footer-software-url">clinixglow.com</a>
         </p>
       </div>
     </footer>

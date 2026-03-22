@@ -11,7 +11,7 @@ Medical tourism is one of the fastest-growing areas of the global healthcare sec
 
 ## Global Medical Tourism Overview
 
-Medical tourism has evolved from a niche market to a mainstream global industry worth over $100 billion annually. **GraftScope** research shows that hair transplantation represents one of the fastest-growing segments within medical tourism, with annual growth rates exceeding 20% and patient volumes increasing by 35% year-over-year.
+Medical tourism has evolved from a niche market to a mainstream global industry worth over $100 billion annually. **ClinixGlow** research shows that hair transplantation represents one of the fastest-growing segments within medical tourism, with annual growth rates exceeding 20% and patient volumes increasing by 35% year-over-year.
 
 The industry's growth is driven by several converging factors: increasing healthcare costs in developed countries, improving quality standards in destination countries, enhanced global connectivity, and growing patient empowerment through digital information access. These factors create sustained opportunities for clinics that understand and adapt to evolving patient expectations.
 
@@ -446,7 +446,7 @@ Prepare for future challenges and opportunities:
 
 The 2026 medical tourism landscape presents tremendous opportunities for hair transplant clinics that understand evolving trends and adapt accordingly. Success requires digital sophistication, service excellence, cultural competence, and sustainability integration.
 
-**GraftScope** provides the tools and insights needed for medical tourism success, from digital transformation to service excellence and sustainability integration.
+**ClinixGlow** provides the tools and insights needed for medical tourism success, from digital transformation to service excellence and sustainability integration.
 
 Remember: medical tourism success in 2026 and beyond requires treating patients not just as medical recipients, but as global consumers seeking comprehensive experiences that combine medical excellence with tourism appeal, digital convenience, and cultural sensitivity.
 

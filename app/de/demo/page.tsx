@@ -2,18 +2,18 @@ import Header from "@/app/components/Header";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Demo – Hair Transplant Clinic CRM & Software | GraftScope",
-  description: "Request a free demo of GraftScope - the all-in-one hair transplant clinic management software with CRM, AI analysis, appointment system and enterprise dashboard.",
+  title: "Free Demo – Hair Transplant Clinic CRM & Software | ClinixGlow",
+  description: "Request a free demo of ClinixGlow - the all-in-one hair transplant clinic management software with CRM, AI analysis, appointment system and enterprise dashboard.",
   openGraph: {
-    title: "Free Demo – Hair Transplant Clinic CRM & Software | GraftScope",
-    description: "Request a free demo of GraftScope - the all-in-one hair transplant clinic management software with CRM, AI analysis, appointment system and enterprise dashboard.",
-    url: "https://www.graftscope.com/blog/de/demo",
-    siteName: "Graftscope",
+    title: "Free Demo – Hair Transplant Clinic CRM & Software | ClinixGlow",
+    description: "Request a free demo of ClinixGlow - the all-in-one hair transplant clinic management software with CRM, AI analysis, appointment system and enterprise dashboard.",
+    url: "https://www.clinixglow.com/blog/de/demo",
+    siteName: "Clinixglow",
     locale: "de_DE",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.graftscope.com/blog/de/demo",
+    canonical: "https://www.clinixglow.com/blog/de/demo",
   },
 };
 
@@ -139,7 +139,7 @@ export default function DemoPageDE() {
 
       <footer className="site-footer">
         <div className="site-footer-inner">
-          <p className="footer-logo">Graftscope</p>
+          <p className="footer-logo">Clinixglow</p>
           <p className="footer-tagline">
             Leitfaden und Einblicke für Haartransplantationskliniken.
           </p>

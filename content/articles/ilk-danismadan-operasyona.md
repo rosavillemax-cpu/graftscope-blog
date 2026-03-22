@@ -1,7 +1,7 @@
 ---
 title: "İlk Danışmadan Operasyona: Mükemmel Hasta Yolculuğu"
 date: "2025-03-01"
-author: "Graftscope Editör"
+author: "Clinixglow Editör"
 category: "Hasta Deneyimi"
 excerpt: "Saç ekimi kliniklerinde hasta yolculuğunu ilk temas noktasından operasyon sonrasına kadar nasıl kurgulayacağınızı adım adım ele alıyoruz."
 readTime: 5

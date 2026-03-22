@@ -366,4 +366,4 @@ Orta Doğu'dan Türkiye'ye saç ekim turizmi 2026'da güçlü bir büyüme göst
 - Teknolojik entegrasyon zorunluluğu
 - Premium segment büyümesi
 
-Bu pazar, doğru strateji ve kültürel hassasiyetle önemli fırsatlar sunuyor. Klinikler, **GraftScope** gibi modern klinik yönetim sistemleri kullanarak çok dilli hizmetler, kültürel uyum ve VIP deneyimleri sunarak bu büyüyen pazardan tam olarak faydalanabilirler.
+Bu pazar, doğru strateji ve kültürel hassasiyetle önemli fırsatlar sunuyor. Klinikler, **ClinixGlow** gibi modern klinik yönetim sistemleri kullanarak çok dilli hizmetler, kültürel uyum ve VIP deneyimleri sunarak bu büyüyen pazardan tam olarak faydalanabilirler.

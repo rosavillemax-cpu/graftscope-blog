@@ -3,7 +3,7 @@ title: "2026 Hair Transplant Trends: From Clinic Management to Medical Tourism"
 excerpt: "Hair transplant industry goes digital in 2026. Hair transplant CRM, medical tourism software, and new trends transforming clinics."
 date: "2026-03-21"
 category: "Market Analysis"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 5
 featured: true
 ---
@@ -78,11 +78,11 @@ Clinics not investing in technology in 2026 are rapidly losing market share. You
 - Providing **50% higher** patient satisfaction
 - Attracting **3x more** international patients
 
-## GraftScope: Integrated Solution Platform
+## ClinixGlow: Integrated Solution Platform
 
-**GraftScope** stands at the center of this technological transformation, offering an integrated solution that meets all needs in a single platform:
+**ClinixGlow** stands at the center of this technological transformation, offering an integrated solution that meets all needs in a single platform:
 
-**Advantages offered by GraftScope:**
+**Advantages offered by ClinixGlow:**
 
 - **Fully integrated hair transplant clinic management software:** Managing all processes together
 - **Smart hair transplant CRM:** Automated patient relationship management
@@ -90,7 +90,7 @@ Clinics not investing in technology in 2026 are rapidly losing market share. You
 - **AI-powered analytics:** Data-driven decision making
 - **Multi-language and currency support:** Adapting to global markets
 
-**With GraftScope, clinics achieve:**
+**With ClinixGlow, clinics achieve:**
 
 1. **40% increase in operational efficiency**
 2. **50% improvement in patient conversion rates**
@@ -110,6 +110,6 @@ The digital transformation starting in 2026 will accelerate in coming years. Cli
 
 2026 hair transplant trends show that investing in technology is no longer optional. **Hair transplant clinic management software**, **hair transplant CRM**, and **medical tourism software** integration have become common features of successful clinics.
 
-**GraftScope** offers clinics the opportunity to lead this technological transformation. Its integrated platform brings together all modern technologies, ensuring clinics are ready for the future.
+**ClinixGlow** offers clinics the opportunity to lead this technological transformation. Its integrated platform brings together all modern technologies, ensuring clinics are ready for the future.
 
-The future is here, and with **GraftScope**, your clinic will be the leader of this future.
+The future is here, and with **ClinixGlow**, your clinic will be the leader of this future.

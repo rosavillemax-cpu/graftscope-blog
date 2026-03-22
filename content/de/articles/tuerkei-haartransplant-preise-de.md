@@ -414,4 +414,4 @@ Die Türkei bietet exzellente Haartransplant-Preise bei hoher Qualität:
 
 Die Türkei bleibt die beste Wahl für Patienten, die exzellente Haartransplant-Ergebnisse zu wettbewerbsfähigen Preisen suchen. Die Kombination aus hoher Qualität, moderner Technologie und attraktiven Preisen macht die Türkei zum weltweit führenden Ziel für Haartransplantationen.
 
-Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der transparenten Preisgestaltung und helfen Patienten, informierte Entscheidungen durch detaillierte Kosten-Analysen und Wert-Vergleiche.
+Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der transparenten Preisgestaltung und helfen Patienten, informierte Entscheidungen durch detaillierte Kosten-Analysen und Wert-Vergleiche.

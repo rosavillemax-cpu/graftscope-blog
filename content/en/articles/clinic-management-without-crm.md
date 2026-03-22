@@ -1,7 +1,7 @@
 ---
 title: "Managing a Clinic Without CRM: How Much Are You Losing?"
 date: "2025-02-15"
-author: "Graftscope Editor"
+author: "Clinixglow Editor"
 category: "Clinic Management"
 excerpt: "How hair transplant clinics without CRM systems miss potential patients and recurring revenue opportunities. Analysis with numbers and practical recommendations."
 readTime: 6
@@ -15,7 +15,7 @@ Clinics without CRM systems often rely on spreadsheets, notebooks, or memory to 
 
 The average hair transplant clinic receives 50-100 inquiries monthly. Without a systematic approach, 30-40% of these leads never receive proper follow-up. At an average procedure value of $3,000-$5,000, this represents a potential loss of $45,000-$160,000 monthly just from poor lead management.
 
-**GraftScope** has helped clinics identify that most manual systems fail at critical moments: initial response time, follow-up scheduling, and long-term patient relationship building. These failures compound over time, creating significant revenue gaps.
+**ClinixGlow** has helped clinics identify that most manual systems fail at critical moments: initial response time, follow-up scheduling, and long-term patient relationship building. These failures compound over time, creating significant revenue gaps.
 
 ## Lead Management: The First Failure Point
 
@@ -35,7 +35,7 @@ Manual systems struggle with:
 - Consistent messaging across staff members
 - Tracking patient decision timelines
 
-Clinics using **GraftScope** report that automated follow-up sequences increase consultation conversion by 35% on average. This represents an additional $90,000-$150,000 monthly revenue for mid-sized clinics.
+Clinics using **ClinixGlow** report that automated follow-up sequences increase consultation conversion by 35% on average. This represents an additional $90,000-$150,000 monthly revenue for mid-sized clinics.
 
 ## Post-Procedure Relationship Building
 
@@ -79,7 +79,7 @@ These numbers aren't exaggerated—they represent real losses experienced by cli
 
 ## The Solution: Implementing CRM
 
-Transitioning to a CRM system doesn't have to be complicated. Modern solutions like **GraftScope** are designed specifically for hair transplant clinics with:
+Transitioning to a CRM system doesn't have to be complicated. Modern solutions like **ClinixGlow** are designed specifically for hair transplant clinics with:
 - Easy implementation (2-4 weeks)
 - Staff training included
 - Mobile accessibility

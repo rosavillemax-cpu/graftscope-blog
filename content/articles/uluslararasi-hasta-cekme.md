@@ -1,7 +1,7 @@
 ---
 title: "Uluslararası Hasta Çekmenin 7 Yolu: Saç Ekim Turizmi Rehberi"
 date: "2025-02-01"
-author: "Graftscope Editör"
+author: "Clinixglow Editör"
 category: "Uluslararası Pazarlama"
 excerpt: "Saç ekimi turizmi büyüyen bir pazar. Yurt dışından hasta çekmek için web sitesi, dil, paketler ve güven oluşturma stratejilerine dair 7 somut yol."
 readTime: 6

@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
         LANGUAGE: language,
         SOURCE: 'graftscope-blog'
       },
-      listIds: [2], // Graftscope Blog list ID - you may need to create this list in Brevo and get the correct ID
+      listIds: [2], // Clinixglow Blog list ID - you may need to create this list in Brevo and get the correct ID
       updateEnabled: true
     };
 
@@ -63,14 +63,14 @@ export async function POST(request: NextRequest) {
 
     const emailData = {
       sender: {
-        name: 'GraftScope Insights',
-        email: 'contact@graftscope.com'
+        name: 'ClinixGlow Insights',
+        email: 'contact@clinixglow.com'
       },
       to: [{
-        email: 'contact@graftscope.com',
-        name: 'GraftScope Team'
+        email: 'contact@clinixglow.com',
+        name: 'ClinixGlow Team'
       }],
-      subject: 'Yeni Newsletter Abonesi - GraftScope Insights',
+      subject: 'Yeni Newsletter Abonesi - ClinixGlow Insights',
       htmlContent: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #1a6b4a; margin-bottom: 20px;">Yeni Newsletter Abonesi</h2>
@@ -83,7 +83,7 @@ export async function POST(request: NextRequest) {
           </div>
           
           <p style="margin-top: 30px; font-size: 14px; color: #666;">
-            GraftScope Insights
+            ClinixGlow Insights
           </p>
         </div>
       `,
@@ -93,7 +93,7 @@ Email: ${email}
 Dil: ${language}
 Tarih: ${currentDateTime}
 
-GraftScope Insights`
+ClinixGlow Insights`
     };
 
     const emailResponse = await fetch(`${BREVO_API_URL}/smtp/email`, {

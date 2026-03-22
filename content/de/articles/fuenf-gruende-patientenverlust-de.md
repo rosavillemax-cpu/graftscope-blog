@@ -462,4 +462,4 @@ Patientenverlust vermeiden erfordert einen proaktiven, ganzheitlichen Ansatz:
 
 Investitionen in Patientenbindung und Service-Qualität zahlen sich mehrfach aus: durch höhere Konversionsraten, bessere Ergebnisse, stärkere Weiterempfehlungen und letztendlich größeren Klinik-Erfolg.
 
-Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der Vermeidung von Patientenverlust durch automatisierte Kommunikation, personalisierte Betreuung und umfassende Patienten-Tracking-Funktionen.
+Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der Vermeidung von Patientenverlust durch automatisierte Kommunikation, personalisierte Betreuung und umfassende Patienten-Tracking-Funktionen.

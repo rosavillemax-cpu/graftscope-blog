@@ -12,7 +12,7 @@ import MiniNewsletter from "./MiniNewsletter";
 import SidebarBanner from "./SidebarBanner";
 
 const categoryColors: Record<string, { from: string; to: string; badge: string; text: string }> = {
-  'Klinik Yönetimi':        { from: '#0F6E56', to: '#1D9E75', badge: '#E1F5EE', text: '#0F6E56' },
+  'Klinik Yönetimi':        { from: '#4A1559', to: '#631D76', badge: '#F3E8F5', text: '#4A1559' },
   'Teknoloji':              { from: '#185FA5', to: '#378ADD', badge: '#E6F1FB', text: '#185FA5' },
   'Pazar Analizi':          { from: '#854F0B', to: '#EF9F27', badge: '#FAEEDA', text: '#854F0B' },
   'Hasta Büyümesi':         { from: '#3C3489', to: '#7F77DD', badge: '#EEEDFE', text: '#3C3489' },

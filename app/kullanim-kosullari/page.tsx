@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kullanım Koşulları | GraftScope",
-  description: "GraftScope web sitesinin kullanım koşulları - hizmetlerimizle ilgili kurallar ve şartlar.",
+  title: "Kullanım Koşulları | ClinixGlow",
+  description: "ClinixGlow web sitesinin kullanım koşulları - hizmetlerimizle ilgili kurallar ve şartlar.",
   openGraph: {
-    title: "Kullanım Koşulları | GraftScope",
-    description: "GraftScope web sitesinin kullanım koşulları - hizmetlerimizle ilgili kurallar ve şartlar.",
-    url: "https://www.graftscope.com/blog/kullanim-kosullari",
+    title: "Kullanım Koşulları | ClinixGlow",
+    description: "ClinixGlow web sitesinin kullanım koşulları - hizmetlerimizle ilgili kurallar ve şartlar.",
+    url: "https://www.clinixglow.com/blog/kullanim-kosullari",
   },
 };
 
@@ -27,7 +27,7 @@ export default function TermsOfUse() {
             1. Kabul Edilme
           </h2>
           <p style={{ marginBottom: "1.5rem" }}>
-            www.graftscope.com/blog web sitesine ("Site") erişerek veya kullanarak, bu kullanım koşullarını 
+            www.clinixglow.com/blog web sitesine ("Site") erişerek veya kullanarak, bu kullanım koşullarını 
             ve gizlilik politikamızı kabul etmiş sayılırsınız. Bu koşulları kabul etmiyorsanız, 
             Site'yi kullanmamalısınız.
           </p>
@@ -36,7 +36,7 @@ export default function TermsOfUse() {
             2. Hizmetlerin Tanımı
           </h2>
           <p style={{ marginBottom: "1.5rem" }}>
-            GraftScope, saç ekimi klinikleri için yönetim yazılımı çözümleri sunmaktadır. Site üzerinden 
+            ClinixGlow, saç ekimi klinikleri için yönetim yazılımı çözümleri sunmaktadır. Site üzerinden 
             demo talepleri, bülten abonelikleri ve bilgilendirici içerikler sunulmaktadır.
           </p>
 
@@ -57,7 +57,7 @@ export default function TermsOfUse() {
             4. Fikri Mülkiyet Hakları
           </h2>
           <p style={{ marginBottom: "1.5rem" }}>
-            Site'deki tüm içerikler (metinler, görseller, logolar, tasarım) GraftScope'a ait veya 
+            Site'deki tüm içerikler (metinler, görseller, logolar, tasarım) ClinixGlow'a ait veya 
             lisanslıdır. Bu içerikler izinsiz kopyalanamaz, dağıtılamaz veya kullanılamaz.
           </p>
 
@@ -73,7 +73,7 @@ export default function TermsOfUse() {
             6. Sorumluluğun Sınırlandırılması
           </h2>
           <p style={{ marginBottom: "1.5rem" }}>
-            GraftScope, Site'nin kullanımından kaynaklanan dolaylı veya arızi zararlardan sorumlu 
+            ClinixGlow, Site'nin kullanımından kaynaklanan dolaylı veya arızi zararlardan sorumlu 
             değildir. Yasal olarak izin verilen maksimum ölçüde sorumluluğumuzu sınırlıyoruz.
           </p>
 
@@ -116,8 +116,8 @@ export default function TermsOfUse() {
             Kullanım koşulları hakkında sorularınız için bizimle iletişime geçebilirsiniz:
           </p>
           <p style={{ marginBottom: "1.5rem" }}>
-            <strong>E-posta:</strong> <a href="mailto:contact@graftscope.com" style={{ color: "#1a4d2e" }}>contact@graftscope.com</a><br />
-            <strong>Web Sitesi:</strong> <a href="https://www.graftscope.com/blog" style={{ color: "#1a4d2e" }}>www.graftscope.com/blog</a>
+            <strong>E-posta:</strong> <a href="mailto:contact@clinixglow.com" style={{ color: "#1a4d2e" }}>contact@clinixglow.com</a><br />
+            <strong>Web Sitesi:</strong> <a href="https://www.clinixglow.com/blog" style={{ color: "#1a4d2e" }}>www.clinixglow.com/blog</a>
           </p>
         </div>
       </div>

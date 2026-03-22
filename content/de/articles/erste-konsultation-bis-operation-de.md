@@ -505,4 +505,4 @@ Eine optimierte Patienten-Journey von der ersten Konsultation bis zur Operation 
 
 Investitionen in die Optimierung der Patienten-Journey zahlen sich mehrfach aus: durch höhere Konversionsraten, verbesserte Patientenergebnisse, stärkere Markenbindung und letztendlich größeren Klinik-Erfolg.
 
-Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der Gestaltung einer exzellenten Patienten-Journey durch automatisierte Prozesse, personalisierte Kommunikation und umfassende Dokumentation.
+Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der Gestaltung einer exzellenten Patienten-Journey durch automatisierte Prozesse, personalisierte Kommunikation und umfassende Dokumentation.

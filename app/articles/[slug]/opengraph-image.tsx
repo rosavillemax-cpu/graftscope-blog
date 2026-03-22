@@ -9,7 +9,7 @@ export function generateStaticParams() {
 }
 
 const categoryColors: Record<string, { from: string; to: string }> = {
-  'Klinik Yönetimi':        { from: '#0F6E56', to: '#1D9E75' },
+  'Klinik Yönetimi':        { from: '#4A1559', to: '#631D76' },
   'Teknoloji':              { from: '#185FA5', to: '#378ADD' },
   'Pazar Analizi':          { from: '#854F0B', to: '#EF9F27' },
   'Hasta Büyümesi':         { from: '#3C3489', to: '#7F77DD' },
@@ -19,7 +19,7 @@ const categoryColors: Record<string, { from: string; to: string }> = {
   'Hasta Deneyimi':         { from: '#72243E', to: '#D4537E' },
   'Uluslararası Pazarlama': { from: '#444441', to: '#888780' },
 };
-const defaultColor = { from: '#0F6E56', to: '#1D9E75' };
+const defaultColor = { from: '#4A1559', to: '#631D76' };
 
 export default async function Image({ params }: { params: { slug: string } }) {
   const article = getArticleBySlug(params.slug);
@@ -83,7 +83,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
             fontSize: '20px',
             fontWeight: '700',
           }}>
-            GraftScope Insights
+            ClinixGlow Insights
           </div>
         </div>
       </div>

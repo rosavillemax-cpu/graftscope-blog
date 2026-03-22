@@ -585,4 +585,4 @@ Ein gut strukturiertes Referenzprogramm ist entscheidend für nachhaltiges Klini
 
 Investitionen in Referenzprogramme zahlen sich mehrfach aus: durch höhere Konversionsraten, niedrigere Marketingkosten, stärkere Markenbindung und letztendlich nachhaltiges Wachstum.
 
-Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der Implementierung erfolgreicher Referenzprogramme durch integrierte Tracking-Funktionen, automatisierte Prozesse und umfassende Analytics-Tools.
+Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der Implementierung erfolgreicher Referenzprogramme durch integrierte Tracking-Funktionen, automatisierte Prozesse und umfassende Analytics-Tools.

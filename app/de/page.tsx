@@ -9,23 +9,23 @@ import { generateWebsiteSchema } from "@/lib/schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Haartransplantation Klinik Software & CRM | GraftScope",
-  description: "GraftScope ist die All-in-One-Software für Haartransplantationskliniken. CRM, KI-Analyse, Terminverwaltung und Enterprise-Dashboard. Kostenlose Demo.",
+  title: "Haartransplantation Klinik Software & CRM | ClinixGlow",
+  description: "ClinixGlow ist die All-in-One-Software für Haartransplantationskliniken. CRM, KI-Analyse, Terminverwaltung und Enterprise-Dashboard. Kostenlose Demo.",
   openGraph: {
-    title: "Haartransplantation Klinik Software & CRM | GraftScope",
-    description: "GraftScope ist die All-in-One-Software für Haartransplantationskliniken. CRM, KI-Analyse, Terminverwaltung und Enterprise-Dashboard. Kostenlose Demo.",
-    url: "https://www.graftscope.com/blog/de",
-    siteName: "Graftscope",
+    title: "Haartransplantation Klinik Software & CRM | ClinixGlow",
+    description: "ClinixGlow ist die All-in-One-Software für Haartransplantationskliniken. CRM, KI-Analyse, Terminverwaltung und Enterprise-Dashboard. Kostenlose Demo.",
+    url: "https://www.clinixglow.com/blog/de",
+    siteName: "Clinixglow",
     locale: "de_DE",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.graftscope.com/blog/de",
+    canonical: "https://www.clinixglow.com/blog/de",
     languages: {
-      'tr': 'https://www.graftscope.com/blog',
-      'en': 'https://www.graftscope.com/blog/en',
-      'de': 'https://www.graftscope.com/blog/de',
-      'x-default': 'https://www.graftscope.com/blog',
+      'tr': 'https://www.clinixglow.com/blog',
+      'en': 'https://www.clinixglow.com/blog/en',
+      'de': 'https://www.clinixglow.com/blog/de',
+      'x-default': 'https://www.clinixglow.com/blog',
     },
   },
 };
@@ -55,8 +55,8 @@ export default function HomePageDE() {
         }}>
           <div style={{
             display: 'inline-block',
-            background: '#E1F5EE',
-            color: '#0F6E56',
+            background: '#F3E8F5',
+            color: '#4A1559',
             fontSize: '11px',
             fontWeight: '500',
             padding: '4px 12px',
@@ -85,7 +85,7 @@ export default function HomePageDE() {
           </p>
           <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
             <a href="#newsletter" style={{
-              background: '#1D9E75',
+              background: '#631D76',
               color: 'white',
               padding: '10px 20px',
               borderRadius: '8px',
@@ -95,7 +95,7 @@ export default function HomePageDE() {
             }}>
               Newsletter abonnieren →
             </a>
-            <a href="https://www.graftscope.com/demo" style={{
+            <a href="https://www.clinixglow.com/demo" style={{
               border: '0.5px solid #ccc',
               color: '#1a1a1a',
               padding: '10px 20px',
@@ -115,9 +115,9 @@ export default function HomePageDE() {
           gap: '12px',
           alignContent: 'center',
         }}>
-          <div style={{ background: '#E1F5EE', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
-            <p style={{ fontSize: '24px', fontWeight: '700', color: '#0F6E56', margin: '0' }}>40%</p>
-            <p style={{ fontSize: '11px', color: '#0F6E56', margin: '4px 0 0', lineHeight: '1.4' }}>Höhere Konversion</p>
+          <div style={{ background: '#F3E8F5', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
+            <p style={{ fontSize: '24px', fontWeight: '700', color: '#4A1559', margin: '0' }}>40%</p>
+            <p style={{ fontSize: '11px', color: '#4A1559', margin: '4px 0 0', lineHeight: '1.4' }}>Höhere Konversion</p>
           </div>
           <div style={{ background: '#E6F1FB', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
             <p style={{ fontSize: '24px', fontWeight: '700', color: '#185FA5', margin: '0' }}>60%</p>

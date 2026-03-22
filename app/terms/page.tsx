@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Use | GraftScope",
-  description: "GraftScope website terms of use - rules and conditions for using our services.",
+  title: "Terms of Use | ClinixGlow",
+  description: "ClinixGlow website terms of use - rules and conditions for using our services.",
   openGraph: {
-    title: "Terms of Use | GraftScope",
-    description: "GraftScope website terms of use - rules and conditions for using our services.",
-    url: "https://www.graftscope.com/blog/terms",
+    title: "Terms of Use | ClinixGlow",
+    description: "ClinixGlow website terms of use - rules and conditions for using our services.",
+    url: "https://www.clinixglow.com/blog/terms",
   },
 };
 
@@ -27,7 +27,7 @@ export default function TermsOfUse() {
             1. Acceptance
           </h2>
           <p style={{ marginBottom: "1.5rem" }}>
-            By accessing or using the www.graftscope.com/blog website (the "Site"), you accept and agree 
+            By accessing or using the www.clinixglow.com/blog website (the "Site"), you accept and agree 
             to be bound by these terms of use and our privacy policy. If you do not agree to these 
             terms, you should not use the Site.
           </p>
@@ -36,7 +36,7 @@ export default function TermsOfUse() {
             2. Description of Services
           </h2>
           <p style={{ marginBottom: "1.5rem" }}>
-            GraftScope provides management software solutions for hair transplant clinics. Through 
+            ClinixGlow provides management software solutions for hair transplant clinics. Through 
             the Site, we offer demo requests, newsletter subscriptions, and informational content.
           </p>
 
@@ -58,7 +58,7 @@ export default function TermsOfUse() {
           </h2>
           <p style={{ marginBottom: "1.5rem" }}>
             All content on the Site (text, images, logos, design) is owned by or licensed to 
-            GraftScope. This content may not be copied, distributed, or used without permission.
+            ClinixGlow. This content may not be copied, distributed, or used without permission.
           </p>
 
           <h2 style={{ fontSize: "1.5rem", fontWeight: "600", marginTop: "2.5rem", marginBottom: "1rem", color: "#1a4d2e" }}>
@@ -73,7 +73,7 @@ export default function TermsOfUse() {
             6. Limitation of Liability
           </h2>
           <p style={{ marginBottom: "1.5rem" }}>
-            GraftScope is not liable for indirect or incidental damages arising from the use of 
+            ClinixGlow is not liable for indirect or incidental damages arising from the use of 
             the Site. We limit our liability to the maximum extent permitted by law.
           </p>
 
@@ -116,8 +116,8 @@ export default function TermsOfUse() {
             For questions about these terms of use, please contact us:
           </p>
           <p style={{ marginBottom: "1.5rem" }}>
-            <strong>Email:</strong> <a href="mailto:contact@graftscope.com" style={{ color: "#1a4d2e" }}>contact@graftscope.com</a><br />
-            <strong>Website:</strong> <a href="https://www.graftscope.com/blog" style={{ color: "#1a4d2e" }}>www.graftscope.com/blog</a>
+            <strong>Email:</strong> <a href="mailto:contact@clinixglow.com" style={{ color: "#1a4d2e" }}>contact@clinixglow.com</a><br />
+            <strong>Website:</strong> <a href="https://www.clinixglow.com/blog" style={{ color: "#1a4d2e" }}>www.clinixglow.com/blog</a>
           </p>
         </div>
       </div>

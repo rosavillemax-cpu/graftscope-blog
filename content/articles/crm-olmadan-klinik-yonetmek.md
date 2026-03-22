@@ -1,7 +1,7 @@
 ---
 title: "CRM Olmadan Klinik Yönetmek: Ne Kadar Kaybediyorsunuz?"
 date: "2025-02-15"
-author: "Graftscope Editör"
+author: "Clinixglow Editör"
 category: "Klinik Yönetimi"
 excerpt: "CRM kullanmadan çalışan saç ekimi klinikleri, potansiyel hastaları ve tekrarlayan gelir fırsatlarını nasıl kaçırıyor? Sayılarla ve pratik önerilerle inceliyoruz."
 readTime: 6
