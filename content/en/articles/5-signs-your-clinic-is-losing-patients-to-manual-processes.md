@@ -8,8 +8,6 @@ readTime: 5
 featured: true
 ---
 
-# 5 Signs Your Clinic Is Losing Patients to Manual Processes
-
 In today's competitive hair transplant market, manual processes aren't just inefficient—they're actively costing you patients. While you're drowning in paperwork, your competitors are scaling with smart automation. Here are five critical warning signs that your clinic is losing patients to outdated manual workflows.
 
 ## 1. Double Bookings and Scheduling Chaos
