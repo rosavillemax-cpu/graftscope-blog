@@ -129,8 +129,8 @@ export default function Header() {
               style={{
                 fontSize: '0.8rem',
                 padding: '4px 12px',
-                border: '1px solid #631D76',
-                color: '#631D76',
+                border: '1px solid #1a4d2e',
+                color: '#1a4d2e',
                 background: 'transparent',
                 textDecoration: 'none',
                 borderRadius: '4px',
@@ -138,12 +138,12 @@ export default function Header() {
                 cursor: 'pointer'
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.background = '#631D76';
+                e.currentTarget.style.background = '#1a4d2e';
                 e.currentTarget.style.color = '#fff';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.background = 'transparent';
-                e.currentTarget.style.color = '#631D76';
+                e.currentTarget.style.color = '#1a4d2e';
               }}
             >
               {newsletterBtnText}

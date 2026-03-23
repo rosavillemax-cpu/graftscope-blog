@@ -14,14 +14,14 @@ interface Article {
   content: string;
 }
 
-const SITE_URL = "https://www.clinixglow.com/blog";
-const LOGO_URL = "https://www.clinixglow.com/blog/graftscope-logo.png";
+const SITE_URL = "https://www.graftscope.com/blog";
+const LOGO_URL = "https://www.graftscope.com/blog/graftscope-logo.png";
 
 export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "ClinixGlow",
+    "name": "GraftScope",
     "url": SITE_URL,
     "logo": {
       "@type": "ImageObject",
@@ -53,7 +53,7 @@ export function generateWebsiteSchema(language: string = "en") {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "ClinixGlow",
+    "name": "GraftScope",
     "url": SITE_URL,
     "description": language === "tr" 
       ? "Saç ekimi klinikleri için yönetim yazılımı"
@@ -71,7 +71,7 @@ export function generateWebsiteSchema(language: string = "en") {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "ClinixGlow",
+      "name": "GraftScope",
       "url": SITE_URL
     }
   };
@@ -98,7 +98,7 @@ export function generateArticleSchema(
     },
     "publisher": {
       "@type": "Organization",
-      "name": "ClinixGlow",
+      "name": "GraftScope",
       "logo": {
         "@type": "ImageObject",
         "url": LOGO_URL
@@ -111,7 +111,7 @@ export function generateArticleSchema(
     "inLanguage": language,
     "isPartOf": {
       "@type": "WebSite",
-      "name": "ClinixGlow",
+      "name": "GraftScope",
       "url": SITE_URL
     },
     "mainEntityOfPage": {

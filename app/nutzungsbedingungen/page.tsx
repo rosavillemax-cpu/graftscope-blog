@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Nutzungsbedingungen | ClinixGlow",
-  description: "ClinixGlow Website Nutzungsbedingungen - Regeln und Bedingungen für die Nutzung unserer Dienstleistungen.",
+  title: "Nutzungsbedingungen | GraftScope",
+  description: "GraftScope Website Nutzungsbedingungen - Regeln und Bedingungen für die Nutzung unserer Dienstleistungen.",
   openGraph: {
-    title: "Nutzungsbedingungen | ClinixGlow",
-    description: "ClinixGlow Website Nutzungsbedingungen - Regeln und Bedingungen für die Nutzung unserer Dienstleistungen.",
-    url: "https://www.clinixglow.com/blog/nutzungsbedingungen",
+    title: "Nutzungsbedingungen | GraftScope",
+    description: "GraftScope Website Nutzungsbedingungen - Regeln und Bedingungen für die Nutzung unserer Dienstleistungen.",
+    url: "https://www.graftscope.com/blog/nutzungsbedingungen",
   },
 };
 

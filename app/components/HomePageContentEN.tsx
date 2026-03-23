@@ -12,7 +12,7 @@ import MiniNewsletter from "./MiniNewsletter";
 import SidebarBanner from "./SidebarBanner";
 
 const categoryColors: Record<string, { from: string; to: string; badge: string; text: string }> = {
-  'Clinic Management':    { from: '#4A1559', to: '#631D76', badge: '#F3E8F5', text: '#4A1559' },
+  'Clinic Management':    { from: '#1a4d2e', to: '#2d6b4a', badge: '#e8f5ee', text: '#1a4d2e' },
   'Technology':           { from: '#185FA5', to: '#378ADD', badge: '#E6F1FB', text: '#185FA5' },
   'Market Analysis':      { from: '#854F0B', to: '#EF9F27', badge: '#FAEEDA', text: '#854F0B' },
   'Patient Growth':       { from: '#3C3489', to: '#7F77DD', badge: '#EEEDFE', text: '#3C3489' },
