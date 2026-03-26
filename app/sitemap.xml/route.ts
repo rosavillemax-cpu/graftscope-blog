@@ -2,7 +2,7 @@ import { getAllArticles, getArticleSlugs } from "@/lib/articles";
 import fs from "fs";
 import path from "path";
 
-const SITE_URL = "https://www.clinixglow.com/blog";
+const SITE_URL = "https://www.graftscope.com/blog";
 const ARTICLES_DIR = path.join(process.cwd(), "content/articles");
 const EN_ARTICLES_DIR = path.join(process.cwd(), "content/en/articles");
 const DE_ARTICLES_DIR = path.join(process.cwd(), "content/de/articles");
@@ -167,8 +167,7 @@ export async function GET() {
         "0.8",
         [
           { href: `${SITE_URL}/articles/${slug}`, hreflang: "tr" },
-          { href: `${SITE_URL}/en/articles/${slug}`, hreflang: "en" },
-          { href: `${SITE_URL}/de/articles/${slug}`, hreflang: "de" },
+          { href: `${SITE_URL}/articles/${slug}`, hreflang: "x-default" },
         ]
       )
     );
@@ -184,9 +183,7 @@ export async function GET() {
         "weekly",
         "0.8",
         [
-          { href: `${SITE_URL}/articles/${slug}`, hreflang: "tr" },
           { href: `${SITE_URL}/en/articles/${slug}`, hreflang: "en" },
-          { href: `${SITE_URL}/de/articles/${slug}`, hreflang: "de" },
         ]
       )
     );
@@ -202,8 +199,6 @@ export async function GET() {
         "weekly",
         "0.8",
         [
-          { href: `${SITE_URL}/articles/${slug}`, hreflang: "tr" },
-          { href: `${SITE_URL}/en/articles/${slug}`, hreflang: "en" },
           { href: `${SITE_URL}/de/articles/${slug}`, hreflang: "de" },
         ]
       )
