@@ -23,7 +23,7 @@ Klinikler, fiyatlandırmayı şeffaf tutarak güven oluşturabilir. Gizli maliye
 
 ## Veri Odaklı Fiyatlandırma
 
-Fiyatlandırma kararları veriye dayanmalıdır. Hangi pazarlardan hangi fiyat segmentine hasta geliyor? Dönüşüm oranları, iptal oranları ve hasta geri bildirimleri fiyat stratejisini şekillendirir. **ClinixGlow** CRM ve dashboard ile klinikler, hasta kaynağı, fiyat segmenti ve kârlılık analizini takip edebilir; böylece fiyatlandırma kararları veriye dayalı hale gelir.
+Fiyatlandırma kararları veriye dayanmalıdır. Hangi pazarlardan hangi fiyat segmentine hasta geliyor? Dönüşüm oranları, iptal oranları ve hasta geri bildirimleri fiyat stratejisini şekillendirir. **GraftScope** CRM ve dashboard ile klinikler, hasta kaynağı, fiyat segmenti ve kârlılık analizini takip edebilir; böylece fiyatlandırma kararları veriye dayalı hale gelir.
 
 ## Konumlandırma Önerileri
 

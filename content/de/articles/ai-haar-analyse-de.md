@@ -88,7 +88,7 @@ Visualisierte KI-Ergebnisse helfen Patienten, ihren Zustand besser zu verstehen:
 
 ### Software-Integration
 
-Moderne KI-Systeme wie **ClinixGlow** bieten:
+Moderne KI-Systeme wie **GraftScope** bieten:
 - Nahtlose Integration mit bestehenden Klinik-Systemen
 - Automatische Daten-Synchronisation
 - Cloud-basierte Analyse-Plattformen

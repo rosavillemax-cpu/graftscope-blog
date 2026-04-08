@@ -15,15 +15,15 @@ export default function InlineCTA({ paragraphIndex }: InlineCTAProps) {
   
   const content = {
     tr: {
-      text: "💡 ClinixGlow ile kliniğinizi dijitalleştirin — Ücretsiz demo için tıklayın",
+      text: "💡 GraftScope ile kliniğinizi dijitalleştirin — Ücretsiz demo için tıklayın",
       href: "/demo"
     },
     en: {
-      text: "💡 Digitize your clinic with ClinixGlow — Click for a free demo",
+      text: "💡 Digitize your clinic with GraftScope — Click for a free demo",
       href: "/en/demo"
     },
     de: {
-      text: "💡 Digitalisieren Sie Ihre Klinik mit ClinixGlow — Klicken Sie für eine kostenlose Demo",
+      text: "💡 Digitalisieren Sie Ihre Klinik mit GraftScope — Klicken Sie für eine kostenlose Demo",
       href: "/de/demo"
     }
   };

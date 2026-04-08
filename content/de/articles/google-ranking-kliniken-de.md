@@ -484,4 +484,4 @@ Google Ranking für Kliniken erfordert einen umfassenden SEO-Ansatz:
 
 Investitionen in SEO zahlen sich mehrfach aus: durch bessere Sichtbarkeit, mehr qualifizierte Leads, höhere Konversionsraten und letztendlich größeren Klinik-Erfolg.
 
-Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der SEO-Optimierung durch strukturierte Datenerfassung, lokale Präsenz und Content-Management-Funktionen.
+Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der SEO-Optimierung durch strukturierte Datenerfassung, lokale Präsenz und Content-Management-Funktionen.

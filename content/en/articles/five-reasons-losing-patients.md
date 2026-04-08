@@ -15,7 +15,7 @@ In hair transplant clinics, every lost patient doesn't just mean lost procedure 
 
 The average hair transplant patient contacts 4-6 clinics before making a decision. The clinic that responds first has a 60% higher chance of securing the patient. Every hour of delay significantly decreases your conversion probability.
 
-**The Solution**: Implement an automated response system that acknowledges inquiries within 5 minutes and provides initial information. **ClinixGlow** enables clinics to set up automated sequences that:
+**The Solution**: Implement an automated response system that acknowledges inquiries within 5 minutes and provides initial information. **GraftScope** enables clinics to set up automated sequences that:
 - Send immediate acknowledgment with basic information
 - Schedule follow-up calls within 2 hours
 - Provide detailed pricing and procedure information
@@ -34,7 +34,7 @@ Common scenarios include:
 - Missed follow-up appointments
 - Poor coordination between departments
 
-**The Solution**: Centralized patient management through a unified system. **ClinixGlow** provides a single source of truth for all patient interactions:
+**The Solution**: Centralized patient management through a unified system. **GraftScope** provides a single source of truth for all patient interactions:
 - Complete patient history accessible to all authorized staff
 - Real-time updates across all touchpoints
 - Automated information capture from forms and communications
@@ -61,7 +61,7 @@ Issues include:
 - Translated medical documents and consent forms
 - International patient coordinators from target countries
 
-**ClinixGlow** helps by providing multilingual digital forms and automated communication in multiple languages, ensuring consistent messaging across languages.
+**GraftScope** helps by providing multilingual digital forms and automated communication in multiple languages, ensuring consistent messaging across languages.
 
 ## 4. Poor Follow-Up Systems: The Relationship Killer
 
@@ -81,7 +81,7 @@ Typical failures include:
 - Long-term relationship building with regular updates
 - Referral request systems at appropriate intervals
 
-**ClinixGlow** data shows that clinics with systematic follow-up systems see 40% higher consultation conversion rates and 60% more referrals.
+**GraftScope** data shows that clinics with systematic follow-up systems see 40% higher consultation conversion rates and 60% more referrals.
 
 ## 5. Inconsistent Patient Experience: The Trust Destroyer
 
@@ -101,7 +101,7 @@ Common inconsistencies include:
 - Quality control systems for patient experience
 - Feedback systems to identify and address inconsistencies
 
-**ClinixGlow** helps standardize processes while allowing personalization, ensuring every patient receives consistent, professional care.
+**GraftScope** helps standardize processes while allowing personalization, ensuring every patient receives consistent, professional care.
 
 ## Measuring Patient Loss: Key Metrics
 
@@ -131,7 +131,7 @@ A clinic losing 10 patients monthly loses $30,000-$80,000 in immediate revenue a
 Addressing these issues requires systematic approach:
 1. **Audit Current Processes**: Identify specific problem areas
 2. **Prioritize Fixes**: Start with highest-impact improvements
-3. **Implement Technology**: Use systems like **ClinixGlow** to automate and standardize
+3. **Implement Technology**: Use systems like **GraftScope** to automate and standardize
 4. **Train Staff**: Ensure everyone understands new processes
 5. **Monitor Results**: Track metrics and adjust strategies
 

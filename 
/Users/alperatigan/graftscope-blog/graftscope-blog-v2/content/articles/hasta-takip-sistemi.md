@@ -19,7 +19,7 @@ Genel kabul gören bir çerçeve şöyle olabilir: **1. hafta** kısa bir “nas
 
 ## Tek Merkezden Yönetim: CRM ve Hatırlatmalar
 
-Takibi “herkes kendi listesinde” şeklinde yürütmek unutulan hastalara ve tutarsız deneyime yol açar. **Tüm operasyon geçmişi ve takip aşamaları tek bir CRM’de toplanmalı.** Böylece hangi hastanın ne zaman kontrole çağrılacağı, kimin fotoğraf paylaştığı veya kimin ikinci işlem için uygun olduğu net görülür. ClinixGlow CRM ve takip özellikleri tam da bu noktada devreye girer: hasta kaydı, operasyon tarihi ve takip aşamaları tek ekranda; hatırlatma ve görev atamaları ile hiçbir hasta atlanmaz. Follow-up süreçleri standartlaştığında hem geri dönüşüm hem hasta memnuniyeti ölçülebilir şekilde artar.
+Takibi “herkes kendi listesinde” şeklinde yürütmek unutulan hastalara ve tutarsız deneyime yol açar. **Tüm operasyon geçmişi ve takip aşamaları tek bir CRM’de toplanmalı.** Böylece hangi hastanın ne zaman kontrole çağrılacağı, kimin fotoğraf paylaştığı veya kimin ikinci işlem için uygun olduğu net görülür. GraftScope CRM ve takip özellikleri tam da bu noktada devreye girer: hasta kaydı, operasyon tarihi ve takip aşamaları tek ekranda; hatırlatma ve görev atamaları ile hiçbir hasta atlanmaz. Follow-up süreçleri standartlaştığında hem geri dönüşüm hem hasta memnuniyeti ölçülebilir şekilde artar.
 
 ## Referans ve İkinci İşlem Fırsatları
 
@@ -31,4 +31,4 @@ Sistemin etkisini görmek için takip öncesi ve sonrası metrikleri karşılaş
 
 ## Özet: Takip = Büyüme
 
-Operasyon sonrası hasta takibi, “ekstra bir iş” değil; hasta büyümesi stratejisinin temel taşıdır. Zamanlaması net, içeriği uyarlanabilir ve CRM ile tek merkezden yönetilen bir sistem kurduğunuzda geri dönüşüm, referans ve ikinci işlem fırsatları belirgin şekilde artar. ClinixGlow gibi CRM ve follow-up odaklı araçlar bu süreci standartlaştırıp ölçeklendirmenize yardımcı olur; böylece her hasta uzun vadeli ilişkinin bir parçası haline gelir.
+Operasyon sonrası hasta takibi, “ekstra bir iş” değil; hasta büyümesi stratejisinin temel taşıdır. Zamanlaması net, içeriği uyarlanabilir ve CRM ile tek merkezden yönetilen bir sistem kurduğunuzda geri dönüşüm, referans ve ikinci işlem fırsatları belirgin şekilde artar. GraftScope gibi CRM ve follow-up odaklı araçlar bu süreci standartlaştırıp ölçeklendirmenize yardımcı olur; böylece her hasta uzun vadeli ilişkinin bir parçası haline gelir.

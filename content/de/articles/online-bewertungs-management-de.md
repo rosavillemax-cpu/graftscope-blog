@@ -592,4 +592,4 @@ Online-Bewertungs-Management ist entscheidend für den Klinik-Erfolg:
 
 Investitionen in Online-Bewertungs-Management zahlen sich mehrfach aus: durch verbesserte Patientenerfahrungen, stärkere Markenbindung, höhere Konversionsraten und letztendlich größeren Klinik-Erfolg.
 
-Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der effektiven Verwaltung von Online-Bewertungen durch integrierte Feedback-Systeme, automatisierte Prozesse und umfassende Analytik-Funktionen.
+Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der effektiven Verwaltung von Online-Bewertungen durch integrierte Feedback-Systeme, automatisierte Prozesse und umfassende Analytik-Funktionen.

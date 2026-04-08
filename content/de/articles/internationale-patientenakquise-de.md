@@ -501,4 +501,4 @@ Internationale Patientenakquise erfordert einen umfassenden, kulturell sensiblen
 
 Investitionen in internationale Patientenakquise zahlen sich mehrfach aus: durch höhere Einnahmen, bessere Auslastung, stärkere Markenbindung und globale Anerkennung.
 
-Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der internationalen Expansion durch mehrsprachige Funktionen, kulturelle Anpassung und umfassende Patienten-Management-Tools.
+Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der internationalen Expansion durch mehrsprachige Funktionen, kulturelle Anpassung und umfassende Patienten-Management-Tools.

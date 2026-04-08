@@ -526,4 +526,4 @@ Der europäische Haartransplant-Markt bietet erhebliche Chancen und Herausforder
 - Konsolidierungstendenzen
 - Professionalisierung der Branche
 
-Kliniken, die jetzt in Technologie, Qualität und Personal investieren, werden sich als Marktführer positionieren und von dem starken Wachstum profitieren. Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der digitalen Transformation und helfen, die Wettbewerbsfähigkeit in diesem dynamischen Markt zu sichern.
+Kliniken, die jetzt in Technologie, Qualität und Personal investieren, werden sich als Marktführer positionieren und von dem starken Wachstum profitieren. Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der digitalen Transformation und helfen, die Wettbewerbsfähigkeit in diesem dynamischen Markt zu sichern.

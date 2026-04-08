@@ -13,7 +13,7 @@ One of the biggest cost centers in hair transplant clinics is unused operational
 
 Empty appointment slots represent more than just lost revenue. They create a cascade of negative effects throughout your clinic operation. A single empty procedure slot can cost $2,000-$8,000 in immediate revenue, plus the lifetime value of referrals and repeat treatments.
 
-**ClinixGlow** analysis shows that the average hair transplant clinic operates at 65-70% capacity, leaving 30-35% of potential revenue on the table. For a clinic performing 50 procedures monthly at $4,000 average, this represents $60,000-$84,000 in monthly lost revenue.
+**GraftScope** analysis shows that the average hair transplant clinic operates at 65-70% capacity, leaving 30-35% of potential revenue on the table. For a clinic performing 50 procedures monthly at $4,000 average, this represents $60,000-$84,000 in monthly lost revenue.
 
 Beyond direct revenue loss, empty appointments create:
 - Reduced staff utilization and motivation
@@ -69,7 +69,7 @@ Advanced scheduling considers multiple variables:
 - Patient preferences and constraints
 - Historical pattern data
 
-**ClinixGlow** provides AI-powered scheduling that optimizes these factors automatically, increasing fill rates by 25-40%.
+**GraftScope** provides AI-powered scheduling that optimizes these factors automatically, increasing fill rates by 25-40%.
 
 ## Proactive Fill Strategies
 
@@ -298,6 +298,6 @@ Appointment optimization isn't a one-time fix—it's an ongoing process requirin
 
 The investment in appointment optimization pays immediate dividends through increased revenue and improved operational efficiency. More importantly, it creates sustainable competitive advantages that compound over time.
 
-**ClinixGlow** provides the tools and insights needed to implement these strategies effectively, helping clinics achieve 90%+ fill rates and maximize their operational potential.
+**GraftScope** provides the tools and insights needed to implement these strategies effectively, helping clinics achieve 90%+ fill rates and maximize their operational potential.
 
 Remember: every empty seat represents not just lost revenue, but a missed opportunity to help a patient and grow your practice. The systematic approach to appointment optimization ensures you're making the most of every opportunity that comes your way.

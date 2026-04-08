@@ -1,7 +1,7 @@
 export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'de' }) {
   const content = {
     tr: {
-      badge: 'ClinixGlow Klinik Zekası OS',
+      badge: 'GraftScope Klinik Zekası OS',
       title: 'Kliniğinizi Daha Akıllı Yönetin',
       subtitle: 'CRM · Yapay Zeka Analizi · Dashboard',
       features: [
@@ -12,10 +12,10 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
         'Operasyon Yönetimi',
         'Profesyonel Raporlama',
       ],
-      cta: 'ClinixGlow\'u Keşfet →',
+      cta: 'GraftScope\'u Keşfet →',
     },
     en: {
-      badge: 'ClinixGlow Clinic Intelligence OS',
+      badge: 'GraftScope Clinic Intelligence OS',
       title: 'Run Your Clinic Smarter',
       subtitle: 'CRM · AI Analysis · Dashboard',
       features: [
@@ -26,10 +26,10 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
         'Operations Management',
         'Professional Reporting',
       ],
-      cta: 'Explore ClinixGlow →',
+      cta: 'Explore GraftScope →',
     },
     de: {
-      badge: 'ClinixGlow Klinik Intelligenz OS',
+      badge: 'GraftScope Klinik Intelligenz OS',
       title: 'Führen Sie Ihre Klinik intelligenter',
       subtitle: 'CRM · KI-Analyse · Dashboard',
       features: [
@@ -40,7 +40,7 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
         'Operationsmanagement',
         'Professionelles Reporting',
       ],
-      cta: 'ClinixGlow entdecken →',
+      cta: 'GraftScope entdecken →',
     },
   };
   const t = content[lang];
@@ -113,7 +113,7 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
         </div>
         
         <a 
-          href="https://www.clinixglow.com"
+          href="https://www.graftscope.com"
           target="_blank"
           rel="noopener noreferrer"
           style={{

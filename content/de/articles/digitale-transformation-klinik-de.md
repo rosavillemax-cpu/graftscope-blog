@@ -500,6 +500,6 @@ Die digitale Transformation ist für Haartransplantationskliniken keine Option m
 - Zukunftsorientierte Positionierung
 - Nachhaltige Profitabilität
 
-Moderne Klinik-Management-Systeme wie **ClinixGlow** bieten integrierte Lösungen für die digitale Transformation, die es Kliniken ermöglichen, alle Aspekte der Digitalisierung effizient umzusetzen und von den Vorteilen der Technologie zu profitieren.
+Moderne Klinik-Management-Systeme wie **GraftScope** bieten integrierte Lösungen für die digitale Transformation, die es Kliniken ermöglichen, alle Aspekte der Digitalisierung effizient umzusetzen und von den Vorteilen der Technologie zu profitieren.
 
 Investieren Sie jetzt in die digitale Zukunft Ihrer Klinik und sichern Sie sich den Wettbewerbsvorteil für die kommenden Jahre.

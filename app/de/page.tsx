@@ -9,23 +9,23 @@ import { generateWebsiteSchema } from "@/lib/schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Haartransplantation Klinik Software & CRM | ClinixGlow",
-  description: "ClinixGlow ist die All-in-One-Software für Haartransplantationskliniken. CRM, KI-Analyse, Terminverwaltung und Enterprise-Dashboard. Kostenlose Demo.",
+  title: "Haartransplantation Klinik Software & CRM | GraftScope",
+  description: "GraftScope ist die All-in-One-Software für Haartransplantationskliniken. CRM, KI-Analyse, Terminverwaltung und Enterprise-Dashboard. Kostenlose Demo.",
   openGraph: {
-    title: "Haartransplantation Klinik Software & CRM | ClinixGlow",
-    description: "ClinixGlow ist die All-in-One-Software für Haartransplantationskliniken. CRM, KI-Analyse, Terminverwaltung und Enterprise-Dashboard. Kostenlose Demo.",
-    url: "https://www.clinixglow.com/blog/de",
-    siteName: "Clinixglow",
+    title: "Haartransplantation Klinik Software & CRM | GraftScope",
+    description: "GraftScope ist die All-in-One-Software für Haartransplantationskliniken. CRM, KI-Analyse, Terminverwaltung und Enterprise-Dashboard. Kostenlose Demo.",
+    url: "https://www.graftscope.com/blog/de",
+    siteName: "GraftScope",
     locale: "de_DE",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.clinixglow.com/blog/de",
+    canonical: "https://www.graftscope.com/blog/de",
     languages: {
-      'tr': 'https://www.clinixglow.com/blog',
-      'en': 'https://www.clinixglow.com/blog/en',
-      'de': 'https://www.clinixglow.com/blog/de',
-      'x-default': 'https://www.clinixglow.com/blog',
+      'tr': 'https://www.graftscope.com/blog',
+      'en': 'https://www.graftscope.com/blog/en',
+      'de': 'https://www.graftscope.com/blog/de',
+      'x-default': 'https://www.graftscope.com/blog',
     },
   },
 };
@@ -95,7 +95,7 @@ export default function HomePageDE() {
             }}>
               Newsletter abonnieren →
             </a>
-            <a href="https://www.clinixglow.com/demo" style={{
+            <a href="https://www.graftscope.com/demo" style={{
               border: '0.5px solid #ccc',
               color: '#1a1a1a',
               padding: '10px 20px',

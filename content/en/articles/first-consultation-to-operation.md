@@ -1,7 +1,7 @@
 ---
 title: "From First Consultation to Operation: The Perfect Patient Journey"
 date: "2025-03-01"
-author: "Clinixglow Editor"
+author: "GraftScope Editor"
 category: "Patient Growth"
 excerpt: "Step-by-step guide to designing the patient journey in hair transplant clinics from first contact to post-operation."
 readTime: 5
@@ -11,7 +11,7 @@ The key to success in hair transplant clinics lies in creating a consistent and 
 
 ## The First Touchpoint: Digital First Impression
 
-Today's patient journey begins long before the physical visit. Your website, social media presence, and online reviews form the first impression. A professional, informative website with clear pricing information and authentic patient testimonials builds trust before the first contact. **ClinixGlow** helps clinics track these digital touchpoints and understand which channels bring the most qualified leads.
+Today's patient journey begins long before the physical visit. Your website, social media presence, and online reviews form the first impression. A professional, informative website with clear pricing information and authentic patient testimonials builds trust before the first contact. **GraftScope** helps clinics track these digital touchpoints and understand which channels bring the most qualified leads.
 
 Your online booking system should be seamless, allowing patients to schedule consultations at their convenience. Immediate confirmation and pre-consultation information packets demonstrate professionalism and respect for the patient's time.
 
@@ -41,7 +41,7 @@ Most successful clinics implement a 7-day, 30-day, and 90-day follow-up system. 
 
 ## Technology Integration: Streamlining the Journey
 
-Modern patient journey management requires sophisticated technology. **ClinixGlow** enables clinics to automate many touchpoints while maintaining personal connections. From automated reminders to digital consent forms, technology enhances efficiency without sacrificing the human touch.
+Modern patient journey management requires sophisticated technology. **GraftScope** enables clinics to automate many touchpoints while maintaining personal connections. From automated reminders to digital consent forms, technology enhances efficiency without sacrificing the human touch.
 
 Real-time communication platforms allow patients to reach out with questions between appointments. Digital photo tracking helps document progress and creates compelling visual stories for marketing purposes. Integration with payment systems removes friction from the financial aspects of care.
 

@@ -366,4 +366,4 @@ Hair transplant tourism from the Middle East to Turkey shows strong growth in 20
 - Mandatory technology integration
 - Premium segment growth
 
-This market offers significant opportunities with the right strategy and cultural sensitivity. Clinics can fully benefit from this growing market by using modern clinic management systems like **ClinixGlow** to provide multilingual services, cultural compatibility, and VIP experiences.
+This market offers significant opportunities with the right strategy and cultural sensitivity. Clinics can fully benefit from this growing market by using modern clinic management systems like **GraftScope** to provide multilingual services, cultural compatibility, and VIP experiences.

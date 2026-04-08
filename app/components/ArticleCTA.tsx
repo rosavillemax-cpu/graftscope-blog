@@ -22,7 +22,7 @@ export default function ArticleCTA() {
             rel="noopener noreferrer"
             className="article-cta-btn article-cta-btn-outline"
           >
-            Explore ClinixGlow Pro →
+            Explore GraftScope Pro →
           </a>
           <a 
             href={locale === "en" ? "/en/demo" : locale === "de" ? "/de/demo" : "/demo"}

@@ -108,7 +108,7 @@ export default function DemoFormEN() {
   return (
     <>
       <div className="demo-header">
-        <h1 className="demo-title">See How ClinixGlow Transforms Your Hair Transplant Clinic</h1>
+        <h1 className="demo-title">See How GraftScope Transforms Your Hair Transplant Clinic</h1>
         <p className="demo-subtitle">
           In 30 minutes, we'll show you exactly how to manage patients, appointments, and growth — all in one platform.
         </p>

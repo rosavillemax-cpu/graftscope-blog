@@ -15,7 +15,7 @@ Her rolün net bir tanımı olmalı: danışman, operasyon asistanı, hasta koor
 
 ## Onboarding ve Sürekli Eğitim
 
-Yeni ekip üyeleri ilk haftalarda klinik süreçlerini, protokolleri ve yazılım araçlarını öğrenmelidir. Standart bir onboarding programı hazırlayın: hasta yolculuğu, randevu akışı, bilgilendirme formları ve acil durum prosedürleri. Periyodik eğitimlerle teknik güncellemeleri ve hasta iletişimi becerilerini güçlendirin. ClinixGlow gibi modüler sistemler, ekip üyelerinin kendi rollerine odaklanmasını sağlayarak öğrenme süresini kısaltır.
+Yeni ekip üyeleri ilk haftalarda klinik süreçlerini, protokolleri ve yazılım araçlarını öğrenmelidir. Standart bir onboarding programı hazırlayın: hasta yolculuğu, randevu akışı, bilgilendirme formları ve acil durum prosedürleri. Periyodik eğitimlerle teknik güncellemeleri ve hasta iletişimi becerilerini güçlendirin. GraftScope gibi modüler sistemler, ekip üyelerinin kendi rollerine odaklanmasını sağlayarak öğrenme süresini kısaltır.
 
 ## Net Sorumluluklar ve İletişim Kanalları
 

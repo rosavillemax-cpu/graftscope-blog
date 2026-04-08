@@ -592,4 +592,4 @@ Globale Klinik-Standards sind entscheidend für den internationalen Erfolg:
 
 Investitionen in globale Standards zahlen sich mehrfach aus: durch höhere Patientenzufriedenheit, stärkere Wettbewerbsposition, bessere Skalierbarkeit und letztendlich größeren internationalen Erfolg.
 
-Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der Implementierung globaler Standards durch standardisierte Prozesse, automatisierte Qualitätssicherung und internationale Konformität.
+Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der Implementierung globaler Standards durch standardisierte Prozesse, automatisierte Qualitätssicherung und internationale Konformität.

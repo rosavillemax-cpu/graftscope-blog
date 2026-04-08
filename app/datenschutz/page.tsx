@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Datenschutz | ClinixGlow",
-  description: "ClinixGlow's Datenschutzrichtlinie - Informationen über die Erhebung, Verarbeitung und Schutz Ihrer personenbezogenen Daten.",
+  title: "Datenschutz | GraftScope",
+  description: "GraftScope's Datenschutzrichtlinie - Informationen über die Erhebung, Verarbeitung und Schutz Ihrer personenbezogenen Daten.",
   openGraph: {
-    title: "Datenschutz | ClinixGlow",
-    description: "ClinixGlow's Datenschutzrichtlinie - Informationen über die Erhebung, Verarbeitung und Schutz Ihrer personenbezogenen Daten.",
-    url: "https://www.clinixglow.com/blog/datenschutz",
+    title: "Datenschutz | GraftScope",
+    description: "GraftScope's Datenschutzrichtlinie - Informationen über die Erhebung, Verarbeitung und Schutz Ihrer personenbezogenen Daten.",
+    url: "https://www.graftscope.com/blog/datenschutz",
   },
 };
 
@@ -27,9 +27,9 @@ export default function PrivacyPolicy() {
             1. Verantwortliche Stelle
           </h2>
           <p style={{ marginBottom: "1.5rem" }}>
-            ClinixGlow ("wir", "uns" oder "unser") ist der für den Schutz Ihrer personenbezogenen Daten 
+            GraftScope ("wir", "uns" oder "unser") ist der für den Schutz Ihrer personenbezogenen Daten 
             verantwortliche Stelle. Diese Datenschutzrichtlinie erklärt, wie wir personenbezogene Daten 
-            über unsere Website www.clinixglow.com/blog (die "Website") erheben, verarbeiten und schützen.
+            über unsere Website www.graftscope.com/blog (die "Website") erheben, verarbeiten und schützen.
           </p>
 
           <h2 style={{ fontSize: "1.5rem", fontWeight: "600", marginTop: "2.5rem", marginBottom: "1rem", color: "#1a4d2e" }}>
@@ -122,8 +122,8 @@ export default function PrivacyPolicy() {
             Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte:
           </p>
           <p style={{ marginBottom: "1.5rem" }}>
-            <strong>E-Mail:</strong> <a href="mailto:contact@clinixglow.com" style={{ color: "#1a4d2e" }}>contact@clinixglow.com</a><br />
-            <strong>Website:</strong> <a href="https://www.clinixglow.com/blog" style={{ color: "#1a4d2e" }}>www.clinixglow.com/blog</a>
+            <strong>E-Mail:</strong> <a href="mailto:contact@graftscope.com" style={{ color: "#1a4d2e" }}>contact@graftscope.com</a><br />
+            <strong>Website:</strong> <a href="https://www.graftscope.com/blog" style={{ color: "#1a4d2e" }}>www.graftscope.com/blog</a>
           </p>
 
           <h2 style={{ fontSize: "1.5rem", fontWeight: "600", marginTop: "2.5rem", marginBottom: "1rem", color: "#1a4d2e" }}>

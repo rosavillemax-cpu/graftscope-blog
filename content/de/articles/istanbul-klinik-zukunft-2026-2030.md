@@ -386,6 +386,6 @@ Die Zukunft der Haartransplantationskliniken in Istanbul wird im Zeitraum 2026-2
 - Talent-Management
 - Regulatorische Veränderungen
 
-Erfolgreiche Kliniken werden in Technologie investieren, Patientenerlebnisse priorisieren und eine Kultur kontinuierlicher Innovation schaffen. Moderne Klinik-Management-Systeme wie **ClinixGlow** werden bei dieser Transformation eine Schlüsselrolle spielen und Kliniken den Wettbewerbsvorteil sichern helfen.
+Erfolgreiche Kliniken werden in Technologie investieren, Patientenerlebnisse priorisieren und eine Kultur kontinuierlicher Innovation schaffen. Moderne Klinik-Management-Systeme wie **GraftScope** werden bei dieser Transformation eine Schlüsselrolle spielen und Kliniken den Wettbewerbsvorteil sichern helfen.
 
 Mit den richtigen Strategien wird Istanbul seine Führungsposition im globalen Haartransplantationsmarkt bis 2030 behaupten und signifikantes Wachstumspotenzial bieten.

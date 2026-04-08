@@ -15,7 +15,7 @@ Saç ekim klinikleri için dijital dönüşüm artık bir tercih değil, rekabet
 
 ## Öncelik 1: Merkezi Hasta Yönetimi (CRM)
 
-Tüm hasta bilgileri, iletişim geçmişi ve randevu bilgileri tek bir sistemde toplanmalıdır. CRM olmadan hasta takibi, referans programları ve pazarlama otomasyonu verimli çalışmaz. ClinixGlow gibi klinik odaklı CRM çözümleri, randevu merkezi ve Kanban ile entegre çalışarak operasyonel süreçleri tek elden yönetmenizi sağlar.
+Tüm hasta bilgileri, iletişim geçmişi ve randevu bilgileri tek bir sistemde toplanmalıdır. CRM olmadan hasta takibi, referans programları ve pazarlama otomasyonu verimli çalışmaz. GraftScope gibi klinik odaklı CRM çözümleri, randevu merkezi ve Kanban ile entegre çalışarak operasyonel süreçleri tek elden yönetmenizi sağlar.
 
 ## Öncelik 2: Dijital Randevu ve Onay
 

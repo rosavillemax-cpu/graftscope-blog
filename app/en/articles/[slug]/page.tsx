@@ -10,7 +10,7 @@ import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateArticleSchema, generateArticleBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://www.clinixglow.com/blog";
+const SITE_URL = "https://www.graftscope.com/blog";
 
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
@@ -32,13 +32,13 @@ export async function generateMetadata({
   const url = `${SITE_URL}/en/articles/${slug}`;
 
   return {
-    title: `${frontmatter.title} | Clinixglow`,
+    title: `${frontmatter.title} | GraftScope`,
     description: frontmatter.excerpt,
     openGraph: {
-      title: `${frontmatter.title} | Clinixglow`,
+      title: `${frontmatter.title} | GraftScope`,
       description: frontmatter.excerpt,
       url,
-      siteName: "Clinixglow",
+      siteName: "GraftScope",
       type: "article",
       publishedTime: frontmatter.date,
       authors: [frontmatter.author],
@@ -89,14 +89,14 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
     },
     publisher: { 
       "@type": "Organization", 
-      name: "Clinixglow", 
-      logo: "https://www.clinixglow.com/blog/graftscope-logo.png" 
+      name: "GraftScope", 
+      logo: "https://www.graftscope.com/blog/graftscope-logo.png" 
     },
     datePublished: frontmatter.date,
     dateModified: frontmatter.date,
-    url: `https://www.clinixglow.com/blog/en/articles/${slug}`,
+    url: `https://www.graftscope.com/blog/en/articles/${slug}`,
     "inLanguage": "en",
-    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.clinixglow.com/blog/en/articles/${slug}` }
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.graftscope.com/blog/en/articles/${slug}` }
   };
 
   return (
@@ -145,7 +145,7 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
 
         <footer className="site-footer">
           <div className="site-footer-inner">
-            <p className="footer-logo">Clinixglow</p>
+            <p className="footer-logo">GraftScope</p>
             <p className="footer-tagline">
               Insights and guides for hair transplant clinics.
             </p>
@@ -240,7 +240,7 @@ export default async function ArticlePageEN({ params }: ArticlePageProps) {
 
       <footer className="site-footer">
         <div className="site-footer-inner">
-          <p className="footer-logo">Clinixglow</p>
+          <p className="footer-logo">GraftScope</p>
           <p className="footer-tagline">
             Insights and guides for hair transplant clinics.
           </p>

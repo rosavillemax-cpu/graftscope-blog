@@ -150,5 +150,5 @@ The right system transforms how you manage patients, schedule procedures, and tr
 ---
 
 "Managing your clinic efficiently starts with the right tools."
-[Explore ClinixGlow Pro →] → /en/pricing
+[Explore GraftScope Pro →] → /en/pricing
 [Request a Free Demo →] → /en/demo

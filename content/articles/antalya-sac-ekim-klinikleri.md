@@ -13,7 +13,7 @@ Antalya, Türkiye'nin saç ekim turizmi haritasında giderek daha önemli bir ko
 
 Antalya, yıl boyunca milyonlarca turist ağırlayan bir destinasyondur. Saç ekimi için gelen hastalar, operasyon öncesi veya sonrası tatil yaparak seyahatlerini maksimize edebilir. Bu "medical + leisure" modeli, özellikle Avrupa'dan gelen hastalar için caziptir.
 
-Havaalanı bağlantıları, otel altyapısı ve transfer hizmetleri Antalya'da gelişmiştir. Klinikler, hastalarına paket programlar (uçuş, konaklama, transfer, operasyon) sunarak tek noktadan çözüm sağlayabilir. **ClinixGlow** gibi randevu merkezi ve CRM araçları, Antalya'daki kliniklerin uluslararası hastaları koordine etmesini kolaylaştırır.
+Havaalanı bağlantıları, otel altyapısı ve transfer hizmetleri Antalya'da gelişmiştir. Klinikler, hastalarına paket programlar (uçuş, konaklama, transfer, operasyon) sunarak tek noktadan çözüm sağlayabilir. **GraftScope** gibi randevu merkezi ve CRM araçları, Antalya'daki kliniklerin uluslararası hastaları koordine etmesini kolaylaştırır.
 
 ## Mevcut Klinik Manzarası
 

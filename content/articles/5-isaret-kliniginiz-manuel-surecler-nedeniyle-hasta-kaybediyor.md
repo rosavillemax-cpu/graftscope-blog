@@ -3,7 +3,7 @@ title: "Kliniğiniz Manuel Süreçler Nedeniyle Hasta Kaybediyor mu? 5 İşaret"
 excerpt: "Manuel süreçler kliniğinizin büyümesini sessizce öldürüyor. Çok geç olmadan bu uyarı işaretlerini tanıyın."
 date: "2026-03-14"
 category: "Klinik Yönetimi"
-author: "ClinixGlow Team"
+author: "GraftScope Team"
 readTime: 5
 featured: true
 ---

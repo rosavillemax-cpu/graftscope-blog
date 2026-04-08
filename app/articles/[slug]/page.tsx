@@ -10,7 +10,7 @@ import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateArticleSchema, generateArticleBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://www.clinixglow.com/blog";
+const SITE_URL = "https://www.graftscope.com/blog";
 
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
@@ -39,7 +39,7 @@ export async function generateMetadata({
       title: frontmatter.title,
       description: frontmatter.excerpt,
       url,
-      siteName: "Clinixglow",
+      siteName: "GraftScope",
       type: "article",
       publishedTime: frontmatter.date,
       authors: [frontmatter.author],
@@ -99,14 +99,14 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     },
     publisher: { 
       "@type": "Organization", 
-      name: "Clinixglow", 
-      logo: "https://www.clinixglow.com/blog/graftscope-logo.png" 
+      name: "GraftScope", 
+      logo: "https://www.graftscope.com/blog/graftscope-logo.png" 
     },
     datePublished: frontmatter.date,
     dateModified: frontmatter.date,
-    url: `https://www.clinixglow.com/blog/articles/${slug}`,
+    url: `https://www.graftscope.com/blog/articles/${slug}`,
     "inLanguage": "tr",
-    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.clinixglow.com/blog/articles/${slug}` }
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.graftscope.com/blog/articles/${slug}` }
   };
 
   return (
@@ -151,7 +151,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
       <footer className="site-footer">
         <div className="site-footer-inner">
-          <p className="footer-logo">Clinixglow</p>
+          <p className="footer-logo">GraftScope</p>
           <p className="footer-tagline">
             Saç ekimi klinikleri için içgörüler ve rehberler.
           </p>
@@ -247,7 +247,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
       <footer className="site-footer">
         <div className="site-footer-inner">
-          <p className="footer-logo">Clinixglow</p>
+          <p className="footer-logo">GraftScope</p>
           <p className="footer-tagline">
             Saç ekimi klinikleri için içgörüler ve rehberler.
           </p>

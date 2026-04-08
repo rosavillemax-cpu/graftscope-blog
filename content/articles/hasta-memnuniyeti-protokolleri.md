@@ -30,7 +30,7 @@ Her hastanın ihtiyacı farklıdır. Standart yaklaşımlar yerine kişiselleşt
 
 ## 3. Teknolojik Altyapı ve Verimlilik
 
-Modern teknolojiyi kullanarak hasta deneyimini iyileştirin. **ClinixGlow** gibi gelişmiş klinik yönetim sistemleri, hasta verilerini güvenli bir şekilde yönetmenize ve operasyonel verimliliği artırmanıza olanak tanır. Dijital randevu sistemi, online hasta portalı gibi teknolojik çözümler sunun.
+Modern teknolojiyi kullanarak hasta deneyimini iyileştirin. **GraftScope** gibi gelişmiş klinik yönetim sistemleri, hasta verilerini güvenli bir şekilde yönetmenize ve operasyonel verimliliği artırmanıza olanak tanır. Dijital randevu sistemi, online hasta portalı gibi teknolojik çözümler sunun.
 
 **Teknolojik çözümler:**
 - Dijital randevu sistemi

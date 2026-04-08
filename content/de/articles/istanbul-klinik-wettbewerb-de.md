@@ -533,4 +533,4 @@ Der Istanbul-Wettbewerb erfordert eine umfassende Wettbewerbsstrategie:
 
 Investitionen in Qualität, Technologie und Service zahlen sich im Istanbul-Wettbewerb mehrfach aus: durch höhere Patientenzahlen, bessere Ergebnisse, stärkere Markenbindung und letztendlich Marktführerschaft.
 
-Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der Wettbewerbs-Optimierung durch effiziente Prozesse, umfassende Patienten-Management-Tools und datengestützte Entscheidungsfindung.
+Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der Wettbewerbs-Optimierung durch effiziente Prozesse, umfassende Patienten-Management-Tools und datengestützte Entscheidungsfindung.

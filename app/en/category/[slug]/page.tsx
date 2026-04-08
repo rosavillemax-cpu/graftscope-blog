@@ -13,7 +13,7 @@ import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateCategoryBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://www.clinixglow.com/blog";
+const SITE_URL = "https://www.graftscope.com/blog";
 
 interface CategoryPageProps {
   params: Promise<{ slug: string }>;
@@ -34,12 +34,12 @@ export async function generateMetadata({
   const url = `${SITE_URL}/en/category/${slug}`;
 
   return {
-    title: `${categoryName} Articles | Clinixglow`,
+    title: `${categoryName} Articles | GraftScope`,
     openGraph: {
-      title: `${categoryName} Articles | Clinixglow`,
+      title: `${categoryName} Articles | GraftScope`,
       description: `Articles and insights about ${categoryName} for hair transplant clinics.`,
       url,
-      siteName: "Clinixglow",
+      siteName: "GraftScope",
       type: "website",
     },
     alternates: {
@@ -156,7 +156,7 @@ export default async function CategoryPageEN({ params }: CategoryPageProps) {
 
       <footer className="site-footer">
         <div className="site-footer-inner">
-          <p className="footer-logo">Clinixglow</p>
+          <p className="footer-logo">GraftScope</p>
           <p className="footer-tagline">
             Insights and guides for hair transplant clinics.
           </p>

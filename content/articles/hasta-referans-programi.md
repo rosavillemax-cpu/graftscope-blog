@@ -15,7 +15,7 @@ Referans getiren hasta ve yeni hasta için somut avantajlar sunun. Örnek: refer
 
 ## 2. Doğru Zamanlama
 
-En iyi referanslar, hasta sonuçları gördükten sonra gelir (6–12 ay). Bu dönemde "Arkadaşlarınızla paylaşın" mesajı ve referans linki gönderin. CRM ile hasta aşamalarını takip ederek, hangi hastalara ne zaman ulaşacağınızı planlayın. ClinixGlow'un hasta takip modülleri, referans için ideal zamanlamayı belirlemenize yardımcı olur.
+En iyi referanslar, hasta sonuçları gördükten sonra gelir (6–12 ay). Bu dönemde "Arkadaşlarınızla paylaşın" mesajı ve referans linki gönderin. CRM ile hasta aşamalarını takip ederek, hangi hastalara ne zaman ulaşacağınızı planlayın. GraftScope'un hasta takip modülleri, referans için ideal zamanlamayı belirlemenize yardımcı olur.
 
 ## 3. Kolay Paylaşım Araçları
 

@@ -1,5 +1,5 @@
 ---
-title: "Klinik Yönetiminde Excellence Standartları: ClinixGlow ile Tanışın"
+title: "Klinik Yönetiminde Excellence Standartları: GraftScope ile Tanışın"
 date: "2025-03-05"
 author: "Alex Morgan"
 category: "Teknoloji"
@@ -7,11 +7,11 @@ excerpt: "Saç ekimi klinikleri için tek platform: Enterprise Dashboard, CRM, K
 readTime: 5
 ---
 
-Saç ekimi kliniklerinde operasyonel mükemmellik, dağınık araçlar yerine **tek bir klinik işletim sistemi** ile mümkün. ClinixGlow, bu ihtiyacı merkeze alan bir **Clinic Operating System** olarak tasarlandı. Bu yazıda ClinixGlow ile tanışacak ve temel özelliklerini yapılandırılmış biçimde göreceksiniz.
+Saç ekimi kliniklerinde operasyonel mükemmellik, dağınık araçlar yerine **tek bir klinik işletim sistemi** ile mümkün. GraftScope, bu ihtiyacı merkeze alan bir **Clinic Operating System** olarak tasarlandı. Bu yazıda GraftScope ile tanışacak ve temel özelliklerini yapılandırılmış biçimde göreceksiniz.
 
-## 🎯 ClinixGlow Nedir?
+## 🎯 GraftScope Nedir?
 
-ClinixGlow, saç ekimi klinikleri için **tek çatı altında** yönetim, hasta ilişkileri ve operasyon takibini bir araya getiren bir platformdur. Kliniklerin günlük işleyişini standartlaştırırken hasta deneyimini güçlendirmeyi hedefler.
+GraftScope, saç ekimi klinikleri için **tek çatı altında** yönetim, hasta ilişkileri ve operasyon takibini bir araya getiren bir platformdur. Kliniklerin günlük işleyişini standartlaştırırken hasta deneyimini güçlendirmeyi hedefler.
 
 **Temel tanım:**
 - **Clinic Operating System** — Klinik işletim sistemi
@@ -58,7 +58,7 @@ Uluslararası hasta akışında iletişim ve dokümantasyon tek platformda.
 
 ---
 
-## ✅ Neden ClinixGlow?
+## ✅ Neden GraftScope?
 
 | Fayda | Açıklama |
 |--------|----------|
@@ -71,10 +71,10 @@ Uluslararası hasta akışında iletişim ve dokümantasyon tek platformda.
 
 ## 🚀 Özet: Excellence Standartları
 
-Klinik yönetiminde excellence; **tutarlı süreçler**, **hasta odaklı iletişim** ve **veriye dayalı karar alma** ile gelir. ClinixGlow, bu üç sacayağını tek bir Clinic Operating System altında toplar:
+Klinik yönetiminde excellence; **tutarlı süreçler**, **hasta odaklı iletişim** ve **veriye dayalı karar alma** ile gelir. GraftScope, bu üç sacayağını tek bir Clinic Operating System altında toplar:
 
 1. **Enterprise Dashboard** — Görünürlük ve kontrol  
 2. **CRM + Kanban + Randevu Merkezi** — Hasta yolculuğunun bütünlüğü  
 3. **Dijital consent + 5 dil** — Uyumluluk ve uluslararası hasta deneyimi  
 
-ClinixGlow ile tanışın; klinik operasyonlarınızı bir üst seviyeye taşıyın.
+GraftScope ile tanışın; klinik operasyonlarınızı bir üst seviyeye taşıyın.

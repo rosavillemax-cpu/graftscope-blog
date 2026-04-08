@@ -11,7 +11,7 @@ Patients who come through friend or family recommendations have the highest conv
 
 ## The Referral Advantage: Why Patient Referrals Matter
 
-Patient referrals represent the most powerful marketing channel in hair transplantation. **ClinixGlow** data shows that referred patients have 70% higher conversion rates, 40% higher lifetime value, and generate 3x more referrals themselves compared to other acquisition channels.
+Patient referrals represent the most powerful marketing channel in hair transplantation. **GraftScope** data shows that referred patients have 70% higher conversion rates, 40% higher lifetime value, and generate 3x more referrals themselves compared to other acquisition channels.
 
 The psychology behind referral effectiveness is clear: trust is already established through the personal connection. Referred patients start with confidence in your clinic, reducing sales cycles and increasing satisfaction. They also tend to be better matches for your services since their referring friends understand both your capabilities and the patient's needs.
 
@@ -238,7 +238,7 @@ Implement sophisticated referral systems:
 - Analytics and reporting integration
 - Payment and reward system automation
 
-### **ClinixGlow** Integration
+### **GraftScope** Integration
 Utilize specialized clinic management features:
 
 **Patient Journey Tracking**
@@ -349,7 +349,7 @@ Prepare for technological advances:
 
 Referral programs represent the most sustainable and cost-effective growth strategy for hair transplant clinics. When implemented systematically, they create compounding growth through the network effect of satisfied patients bringing new patients who then become referrers themselves.
 
-**ClinixGlow** provides the tools and insights needed to implement comprehensive referral strategies, from automated tracking to sophisticated analytics and optimization recommendations.
+**GraftScope** provides the tools and insights needed to implement comprehensive referral strategies, from automated tracking to sophisticated analytics and optimization recommendations.
 
 Remember: the best referral programs feel less like marketing and more like grateful patients sharing positive experiences with friends and family. Focus on creating exceptional patient experiences, make referring easy and rewarding, and your patients will become your most effective growth engine.
 

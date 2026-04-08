@@ -11,7 +11,7 @@ Potansiyel hastalar karar vermeden önce sizin hakkınızda ne söylendiğini mu
 
 ## Yorum Platformlarını Önceliklendirin
 
-Google İşletme Profili, Trustpilot, Facebook ve Instagram en sık kontrol edilen kanallardır. Önce Google'da güçlü bir profil oluşturun; arama sonuçlarında görünürlük ve yıldız puanı hasta akışını doğrudan etkiler. Diğer platformlarda da tutarlı bir varlık kurun. Tüm yorumları tek bir merkezden takip etmek zor olabilir; ClinixGlow CRM ile hasta deneyimi verilerini toplayarak hangi kanalların en çok etkilediğini görebilirsiniz.
+Google İşletme Profili, Trustpilot, Facebook ve Instagram en sık kontrol edilen kanallardır. Önce Google'da güçlü bir profil oluşturun; arama sonuçlarında görünürlük ve yıldız puanı hasta akışını doğrudan etkiler. Diğer platformlarda da tutarlı bir varlık kurun. Tüm yorumları tek bir merkezden takip etmek zor olabilir; GraftScope CRM ile hasta deneyimi verilerini toplayarak hangi kanalların en çok etkilediğini görebilirsiniz.
 
 ## Memnun Hastalardan Yorum İsteyin
 

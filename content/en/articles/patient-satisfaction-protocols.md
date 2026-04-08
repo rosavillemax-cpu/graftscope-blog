@@ -43,7 +43,7 @@ Standardized care is efficient, but personalized care creates loyalty. Tailor ev
 
 ## 4. Technology Integration for Seamless Service
 
-Modern patients expect digital convenience. Integrate technology to enhance rather than replace personal care. Advanced clinic management systems like **ClinixGlow** streamline operations while maintaining the human touch.
+Modern patients expect digital convenience. Integrate technology to enhance rather than replace personal care. Advanced clinic management systems like **GraftScope** streamline operations while maintaining the human touch.
 
 **Technology protocol:**
 - Online scheduling with real-time availability

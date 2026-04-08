@@ -2,7 +2,7 @@
   "organization": {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Clinixglow",
+    "name": "GraftScope",
     "url": "https://graftscope.org",
     "logo": "https://graftscope.org/og-image.jpg",
     "description": "Saç ekim klinikleri için klinik yönetimi, hasta büyümesi ve sektör analizleri."
@@ -10,12 +10,12 @@
   "blog": {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "name": "Clinixglow Blog",
+    "name": "GraftScope Blog",
     "description": "Saç ekim klinikleri için klinik yönetimi, hasta büyümesi ve sektör analizleri.",
     "url": "https://graftscope.org",
     "publisher": {
       "@type": "Organization",
-      "name": "Clinixglow",
+      "name": "GraftScope",
       "url": "https://graftscope.org"
     }
   }

@@ -1,7 +1,7 @@
 ---
 title: "7 Ways to Attract International Patients: Hair Transplant Tourism Guide"
 date: "2025-02-01"
-author: "Clinixglow Editor"
+author: "GraftScope Editor"
 category: "Market Analysis"
 excerpt: "Hair transplant tourism is a growing market. 7 concrete strategies for attracting international patients including website, language, packages, and trust-building."
 readTime: 6
@@ -13,7 +13,7 @@ Hair transplant tourism is a rapidly growing sector, especially in countries off
 
 International patients start their journey online. Your digital presence must speak their language—literally. A professional website with English, Arabic, German, and French versions significantly expands your reach. However, simple translation isn't enough; cultural adaptation matters.
 
-**ClinixGlow** data shows that clinics with multilingual websites receive 3x more international inquiries. Your website should include:
+**GraftScope** data shows that clinics with multilingual websites receive 3x more international inquiries. Your website should include:
 - Clear pricing in major currencies
 - Before/after galleries with diverse ethnicities
 - Virtual consultation booking
@@ -46,7 +46,7 @@ Targeted marketing in specific countries yields better results than broad approa
 
 Digital advertising on platforms popular in target countries works best. Facebook and Instagram for European markets, specialized medical forums for Middle Eastern patients, and Google Ads for broader reach.
 
-Content marketing that addresses specific concerns—like "Hair Transplant Costs for UK Patients"—attracts qualified leads. **ClinixGlow** helps clinics track which marketing channels bring the most valuable international patients.
+Content marketing that addresses specific concerns—like "Hair Transplant Costs for UK Patients"—attracts qualified leads. **GraftScope** helps clinics track which marketing channels bring the most valuable international patients.
 
 ## 4. Trust-Building Through Accreditation
 
@@ -105,7 +105,7 @@ Track these metrics to optimize your international patient strategy:
 - Referral rates from international patients
 - Repeat treatment rates
 
-**ClinixGlow** provides detailed analytics to help clinics understand which countries bring the most valuable patients and which marketing channels deliver the best ROI.
+**GraftScope** provides detailed analytics to help clinics understand which countries bring the most valuable patients and which marketing channels deliver the best ROI.
 
 ## Common Pitfalls to Avoid
 

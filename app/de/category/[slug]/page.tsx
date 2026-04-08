@@ -11,7 +11,7 @@ import { generateCategoryBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 import React from "react";
 
-const SITE_URL = "https://www.clinixglow.com/blog";
+const SITE_URL = "https://www.graftscope.com/blog";
 
 const CATEGORY_SLUG_TO_NAME: Record<string, string> = {
   "klinik-management": "Klinik Management",
@@ -41,13 +41,13 @@ export async function generateMetadata({
   const url = `${SITE_URL}/de/category/${slug}`;
 
   return {
-    title: `${categoryName} Artikel | Clinixglow`,
+    title: `${categoryName} Artikel | GraftScope`,
     description: `Artikel und Einblicke für ${categoryName} für Haartransplantationskliniken.`,
     openGraph: {
-      title: `${categoryName} Artikel | Clinixglow`,
+      title: `${categoryName} Artikel | GraftScope`,
       description: `Artikel und Einblicke für ${categoryName} für Haartransplantationskliniken.`,
       url,
-      siteName: "Clinixglow",
+      siteName: "GraftScope",
       type: "website",
     },
     alternates: {
@@ -201,7 +201,7 @@ export default async function CategoryPageDE({ params }: CategoryPageProps) {
 
       <footer className="site-footer">
         <div className="site-footer-inner">
-          <p className="footer-logo">Clinixglow</p>
+          <p className="footer-logo">GraftScope</p>
           <p className="footer-tagline">
             Leitfaden und Einblicke für Haartransplantationskliniken.
           </p>
