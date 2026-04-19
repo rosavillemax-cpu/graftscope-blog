@@ -56,8 +56,8 @@ export default function HomePage() {
         }}>
           <div style={{
             display: 'inline-block',
-            background: '#F3E8F5',
-            color: '#4A1559',
+            background: '#e0f2fe',
+            color: '#0c4a6e',
             fontSize: '11px',
             fontWeight: '500',
             padding: '4px 12px',
@@ -86,7 +86,7 @@ export default function HomePage() {
           </p>
           <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
             <a href="#newsletter" style={{
-              background: '#1a4d2e',
+              background: '#0369a1',
               color: 'white',
               padding: '10px 20px',
               borderRadius: '8px',
@@ -116,21 +116,21 @@ export default function HomePage() {
           gap: '12px',
           alignContent: 'center',
         }}>
-          <div style={{ background: '#F3E8F5', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
-            <p style={{ fontSize: '24px', fontWeight: '700', color: '#4A1559', margin: '0' }}>40%</p>
-            <p style={{ fontSize: '11px', color: '#4A1559', margin: '4px 0 0', lineHeight: '1.4' }}>Daha Yüksek Dönüşüm</p>
+          <div style={{ background: '#e0f2fe', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
+            <p style={{ fontSize: '24px', fontWeight: '700', color: '#0369a1', margin: '0' }}>40%</p>
+            <p style={{ fontSize: '11px', color: '#0369a1', margin: '4px 0 0', lineHeight: '1.4' }}>Daha Yüksek Dönüşüm</p>
           </div>
-          <div style={{ background: '#E6F1FB', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
-            <p style={{ fontSize: '24px', fontWeight: '700', color: '#185FA5', margin: '0' }}>60%</p>
-            <p style={{ fontSize: '11px', color: '#185FA5', margin: '4px 0 0', lineHeight: '1.4' }}>Daha Az Yönetim</p>
+          <div style={{ background: '#cffafe', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
+            <p style={{ fontSize: '24px', fontWeight: '700', color: '#0891b2', margin: '0' }}>60%</p>
+            <p style={{ fontSize: '11px', color: '#0891b2', margin: '4px 0 0', lineHeight: '1.4' }}>Daha Az Yönetim</p>
           </div>
-          <div style={{ background: '#EEEDFE', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
-            <p style={{ fontSize: '24px', fontWeight: '700', color: '#3C3489', margin: '0' }}>5+</p>
-            <p style={{ fontSize: '11px', color: '#3C3489', margin: '4px 0 0', lineHeight: '1.4' }}>Dil Desteği</p>
+          <div style={{ background: '#dbeafe', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
+            <p style={{ fontSize: '24px', fontWeight: '700', color: '#1d4ed8', margin: '0' }}>5+</p>
+            <p style={{ fontSize: '11px', color: '#1d4ed8', margin: '4px 0 0', lineHeight: '1.4' }}>Dil Desteği</p>
           </div>
-          <div style={{ background: '#FAEEDA', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
-            <p style={{ fontSize: '24px', fontWeight: '700', color: '#854F0B', margin: '0' }}>25+</p>
-            <p style={{ fontSize: '11px', color: '#854F0B', margin: '4px 0 0', lineHeight: '1.4' }}>Makale</p>
+          <div style={{ background: '#f0f9ff', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
+            <p style={{ fontSize: '24px', fontWeight: '700', color: '#0c4a6e', margin: '0' }}>25+</p>
+            <p style={{ fontSize: '11px', color: '#0c4a6e', margin: '4px 0 0', lineHeight: '1.4' }}>Makale</p>
           </div>
         </div>
       </section>

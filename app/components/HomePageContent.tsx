@@ -12,17 +12,17 @@ import MiniNewsletter from "./MiniNewsletter";
 import SidebarBanner from "./SidebarBanner";
 
 const categoryColors: Record<string, { from: string; to: string; badge: string; text: string }> = {
-  'Klinik Yönetimi':        { from: '#1a4d2e', to: '#2d6b4a', badge: '#e8f5ee', text: '#1a4d2e' },
-  'Teknoloji':              { from: '#185FA5', to: '#378ADD', badge: '#E6F1FB', text: '#185FA5' },
-  'Pazar Analizi':          { from: '#854F0B', to: '#EF9F27', badge: '#FAEEDA', text: '#854F0B' },
-  'Hasta Büyümesi':         { from: '#3C3489', to: '#7F77DD', badge: '#EEEDFE', text: '#3C3489' },
-  'Türkiye':                { from: '#993C1D', to: '#D85A30', badge: '#FAECE7', text: '#993C1D' },
-  'Türkiye Pazarı':         { from: '#993C1D', to: '#D85A30', badge: '#FAECE7', text: '#993C1D' },
-  'Global':                 { from: '#3B6D11', to: '#639922', badge: '#EAF3DE', text: '#3B6D11' },
-  'Hasta Deneyimi':         { from: '#72243E', to: '#D4537E', badge: '#FBEAF0', text: '#72243E' },
-  'Uluslararası Pazarlama': { from: '#444441', to: '#888780', badge: '#F1EFE8', text: '#444441' },
+  'Klinik Yönetimi':        { from: '#0369a1', to: '#0284c7', badge: '#e0f2fe', text: '#0369a1' },
+  'Teknoloji':              { from: '#0891b2', to: '#06b6d4', badge: '#cffafe', text: '#0891b2' },
+  'Pazar Analizi':          { from: '#0c4a6e', to: '#0369a1', badge: '#dbeafe', text: '#0c4a6e' },
+  'Hasta Büyümesi':         { from: '#1d4ed8', to: '#3b82f6', badge: '#eff6ff', text: '#1d4ed8' },
+  'Türkiye':                { from: '#0f766e', to: '#14b8a6', badge: '#ccfbf1', text: '#0f766e' },
+  'Türkiye Pazarı':         { from: '#0f766e', to: '#14b8a6', badge: '#ccfbf1', text: '#0f766e' },
+  'Global':                 { from: '#1e40af', to: '#2563eb', badge: '#dbeafe', text: '#1e40af' },
+  'Hasta Deneyimi':         { from: '#075985', to: '#0369a1', badge: '#e0f2fe', text: '#075985' },
+  'Uluslararası Pazarlama': { from: '#334155', to: '#64748b', badge: '#f1f5f9', text: '#334155' },
 };
-const defaultColor = { from: '#444441', to: '#888780', badge: '#F1EFE8', text: '#444441' };
+const defaultColor = { from: '#334155', to: '#64748b', badge: '#f1f5f9', text: '#334155' };
 
 
 function ArticleCard({ article }: { article: Article }) {

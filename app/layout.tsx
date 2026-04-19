@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, DM_Sans } from "next/font/google";
+import { Outfit, DM_Sans } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import Footer from "./components/Footer";
@@ -9,8 +9,8 @@ import { generateOrganizationSchema } from "@/lib/schema";
 
 const SITE_URL = "https://www.graftscope.com/blog";
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin", "latin-ext"],
   display: "swap",
 });
@@ -138,7 +138,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className={`${playfair.variable} ${dmSans.variable}`} suppressHydrationWarning>
+    <html lang="tr" className={`${outfit.variable} ${dmSans.variable}`} suppressHydrationWarning>
       <body className="antialiased" suppressHydrationWarning>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-2J0631XKKF"
