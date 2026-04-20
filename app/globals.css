@@ -2971,9 +2971,9 @@ body {
 
 /* Article card hover */
 .article-card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease;
 }
 .article-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+  transform: translateY(-4px);
+  border-color: #c0c0c0 !important;
 }

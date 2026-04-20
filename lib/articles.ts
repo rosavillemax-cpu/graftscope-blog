@@ -14,6 +14,10 @@ export interface ArticleFrontmatter {
   readTime: number;
   /** Optional region/market tags for sidebar filtering: Türkiye, UK, Almanya, Asya, Global */
   markets?: string[];
+  /** Stat displayed in card header top-left, e.g. "%87" */
+  stat?: string;
+  /** Label under the stat number, e.g. "Hasta memnuniyeti" */
+  statLabel?: string;
 }
 
 export interface Article {
