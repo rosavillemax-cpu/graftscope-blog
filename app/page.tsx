@@ -41,96 +41,202 @@ export default function HomePage() {
       <Header />
       <Ticker />
       
-      <section className="hero-split" style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        background: '#fff',
-        borderBottom: '0.5px solid #e5e5e5',
-      }}>
-        <div style={{
-          padding: '40px 48px',
-          borderRight: '0.5px solid #e5e5e5',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-        }}>
+      {/* ── Hero ── */}
+      <section className="clinic-hero">
+        {/* Left: Headline + CTAs */}
+        <div className="clinic-hero-left">
+          {/* Badge */}
           <div style={{
-            display: 'inline-block',
-            background: '#e0f2fe',
-            color: '#0c4a6e',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '7px',
+            background: '#f0f9ff',
+            color: '#0369a1',
             fontSize: '11px',
-            fontWeight: '500',
-            padding: '4px 12px',
+            fontWeight: '600',
+            padding: '5px 13px',
             borderRadius: '20px',
-            marginBottom: '16px',
             width: 'fit-content',
+            border: '0.5px solid #bae6fd',
+            letterSpacing: '0.02em',
+            marginBottom: '20px',
           }}>
+            <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#0369a1', display: 'inline-block', flexShrink: 0 }} />
             Saç Ekimi Klinikleri İçin
           </div>
+
           <h1 style={{
-            fontSize: 'clamp(20px, 2.5vw, 26px)',
+            fontSize: 'clamp(22px, 2.8vw, 30px)',
             fontWeight: '700',
-            margin: '0 0 12px',
-            lineHeight: '1.35',
-            color: '#1a1a1a',
+            margin: '0 0 14px',
+            lineHeight: '1.3',
+            color: '#0f172a',
           }}>
-            Klinik Yönetimi ve Hasta Büyümesi Rehberi
+            Klinik Yönetimi ve{' '}
+            <span style={{ color: '#0369a1' }}>Hasta Büyümesi</span>{' '}
+            Rehberi
           </h1>
+
           <p style={{
             fontSize: '14px',
-            color: '#666',
-            margin: '0 0 20px',
-            lineHeight: '1.6',
+            color: '#64748b',
+            margin: '0 0 24px',
+            lineHeight: '1.7',
+            maxWidth: '400px',
           }}>
-            Haftalık stratejiler, pazar analizleri ve operasyonel ipuçları.
+            Haftalık stratejiler, pazar analizleri ve operasyonel ipuçları. Sektörün en kapsamlı klinik yönetim rehberi.
           </p>
-          <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+
+          <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '24px' }}>
             <a href="#newsletter" style={{
               background: '#0369a1',
               color: 'white',
               padding: '10px 20px',
               borderRadius: '8px',
               fontSize: '13px',
-              fontWeight: '500',
+              fontWeight: '600',
               textDecoration: 'none',
             }}>
               Bültene Abone Ol →
             </a>
-            <a href="https://www.graftscope.com/demo" style={{
-              border: '0.5px solid #ccc',
-              color: '#1a1a1a',
+            <a href="https://www.graftscope.com/demo" target="_blank" rel="noopener noreferrer" style={{
+              border: '0.5px solid #cbd5e1',
+              color: '#0f172a',
               padding: '10px 20px',
               borderRadius: '8px',
               fontSize: '13px',
               fontWeight: '500',
               textDecoration: 'none',
+              background: '#fff',
             }}>
-              Ücretsiz Demo Al
+              Demo Talep Et
             </a>
           </div>
+
+          {/* Social proof strip */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <div style={{ display: 'flex' }}>
+              {(['#0369a1', '#0891b2', '#0f766e'] as const).map((color, i) => (
+                <div key={i} style={{
+                  width: '26px', height: '26px',
+                  borderRadius: '50%',
+                  background: color,
+                  border: '2px solid #fff',
+                  marginLeft: i > 0 ? '-8px' : 0,
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  fontSize: '9px', color: '#fff', fontWeight: '700',
+                  flexShrink: 0,
+                }}>
+                  {['K', 'H', 'T'][i]}
+                </div>
+              ))}
+            </div>
+            <span style={{ fontSize: '12px', color: '#94a3b8' }}>
+              500+ klinik profesyonelinin güvendiği rehber
+            </span>
+          </div>
         </div>
-        <div style={{
-          padding: '40px 48px',
-          display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
-          gap: '12px',
-          alignContent: 'center',
-        }}>
-          <div style={{ background: '#e0f2fe', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
-            <p style={{ fontSize: '24px', fontWeight: '700', color: '#0369a1', margin: '0' }}>40%</p>
-            <p style={{ fontSize: '11px', color: '#0369a1', margin: '4px 0 0', lineHeight: '1.4' }}>Daha Yüksek Dönüşüm</p>
-          </div>
-          <div style={{ background: '#cffafe', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
-            <p style={{ fontSize: '24px', fontWeight: '700', color: '#0891b2', margin: '0' }}>60%</p>
-            <p style={{ fontSize: '11px', color: '#0891b2', margin: '4px 0 0', lineHeight: '1.4' }}>Daha Az Yönetim</p>
-          </div>
-          <div style={{ background: '#dbeafe', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
-            <p style={{ fontSize: '24px', fontWeight: '700', color: '#1d4ed8', margin: '0' }}>5+</p>
-            <p style={{ fontSize: '11px', color: '#1d4ed8', margin: '4px 0 0', lineHeight: '1.4' }}>Dil Desteği</p>
-          </div>
-          <div style={{ background: '#f0f9ff', borderRadius: '10px', padding: '16px', textAlign: 'center' }}>
-            <p style={{ fontSize: '24px', fontWeight: '700', color: '#0c4a6e', margin: '0' }}>25+</p>
-            <p style={{ fontSize: '11px', color: '#0c4a6e', margin: '4px 0 0', lineHeight: '1.4' }}>Makale</p>
+
+        {/* Right: Dashboard Mockup */}
+        <div className="clinic-hero-right">
+          <div style={{
+            width: '100%',
+            maxWidth: '380px',
+            borderRadius: '14px',
+            overflow: 'hidden',
+            border: '0.5px solid #e2e8f0',
+            boxShadow: '0 8px 32px rgba(0,0,0,0.08)',
+            background: '#fff',
+          }}>
+            {/* Window chrome */}
+            <div style={{
+              background: '#1e293b',
+              padding: '11px 16px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '12px',
+            }}>
+              <div style={{ display: 'flex', gap: '5px' }}>
+                {['#ff5f57', '#febc2e', '#28c840'].map(c => (
+                  <div key={c} style={{ width: '9px', height: '9px', borderRadius: '50%', background: c }} />
+                ))}
+              </div>
+              <span style={{ fontSize: '11px', color: '#94a3b8', fontFamily: 'monospace', flex: 1, textAlign: 'center' }}>
+                GraftScope · Klinik Paneli
+              </span>
+              <div style={{
+                background: '#0369a1',
+                borderRadius: '4px',
+                padding: '2px 7px',
+                fontSize: '9px',
+                color: '#fff',
+                fontWeight: '600',
+                letterSpacing: '0.05em',
+              }}>
+                LIVE
+              </div>
+            </div>
+
+            {/* Dashboard body */}
+            <div style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '12px', background: '#f8fafc' }}>
+              {/* Metrics row */}
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px' }}>
+                {[
+                  { val: '+40%', lbl: 'Dönüşüm', bg: '#f0f9ff', c: '#0369a1' },
+                  { val: '-60%', lbl: 'Admin Yük', bg: '#f0fdf4', c: '#16a34a' },
+                  { val: '5+',   lbl: 'Dil', bg: '#fdf4ff', c: '#9333ea' },
+                ].map(({ val, lbl, bg, c }) => (
+                  <div key={lbl} style={{ background: bg, borderRadius: '8px', padding: '10px 8px', textAlign: 'center' }}>
+                    <p style={{ fontSize: '17px', fontWeight: '700', color: c, margin: 0 }}>{val}</p>
+                    <p style={{ fontSize: '9px', color: '#64748b', margin: '2px 0 0', lineHeight: '1.3' }}>{lbl}</p>
+                  </div>
+                ))}
+              </div>
+
+              {/* Bar chart */}
+              <div style={{ background: '#fff', borderRadius: '10px', padding: '12px', border: '0.5px solid #e2e8f0' }}>
+                <p style={{ fontSize: '10px', color: '#94a3b8', margin: '0 0 8px', fontWeight: '500' }}>
+                  Aylık Hasta Trendi
+                </p>
+                <div style={{ display: 'flex', alignItems: 'flex-end', gap: '3px', height: '44px' }}>
+                  {[35, 48, 42, 58, 52, 70, 65, 80, 75, 88, 84, 100].map((h, i) => (
+                    <div key={i} style={{
+                      flex: 1,
+                      height: `${h}%`,
+                      background: i === 11 ? '#0369a1' : i >= 9 ? '#93c5fd' : '#e0f2fe',
+                      borderRadius: '2px 2px 0 0',
+                    }} />
+                  ))}
+                </div>
+              </div>
+
+              {/* Feature chips */}
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                {['CRM', 'AI Analiz', 'Randevu', 'Raporlama'].map(f => (
+                  <span key={f} style={{
+                    background: '#fff',
+                    color: '#475569',
+                    fontSize: '10px',
+                    fontWeight: '500',
+                    padding: '4px 9px',
+                    borderRadius: '20px',
+                    border: '0.5px solid #e2e8f0',
+                  }}>
+                    {f}
+                  </span>
+                ))}
+                <span style={{
+                  background: '#0369a1',
+                  color: '#fff',
+                  fontSize: '10px',
+                  fontWeight: '600',
+                  padding: '4px 10px',
+                  borderRadius: '20px',
+                }}>
+                  +12 özellik
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </section>

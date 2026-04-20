@@ -294,6 +294,19 @@ export default function HomePageContent({ articles }: HomePageContentProps) {
     <main className="home-main">
       <div className="content-layout">
         <div className="content-main">
+          {/* ── Market filter pills ── */}
+          <div className="market-filter-bar">
+            {MARKET_FILTER_OPTIONS.map((key) => (
+              <button
+                key={key}
+                className={`market-filter-pill${marketFilter === key ? ' active' : ''}`}
+                onClick={() => setMarketFilter(key)}
+              >
+                {key}
+              </button>
+            ))}
+          </div>
+
           {filteredArticles.length > 0 ? (
             <div style={{
               display: 'grid',
