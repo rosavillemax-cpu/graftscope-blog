@@ -67,3 +67,5 @@ Manuel süreçler hasta pipeline'ınızda sessiz bir sızıntı yaratıyor. Her 
 Modern saç ekimi kliniği, randevuları otomatikleştiren, kayıtları merkezileştiren, iş akışlarını standartlaştıran ve ekibi olağanüstü hasta bakımı sunmak için güçlendiren kapsamlı yönetim yazılımını benimsiyor. Soru, yükseltmeyi karşılayıp karşılayamadığınız değil—karşılayamama maliyetinin ne kadar olduğu.
 
 **Manuel süreçlerin kliniğinizin bir sonraki hastasını kaybetmesinin neden olmasına izin vermeyin.**
+
+[CRM olmadan klinik yönetmenin sakıncaları](/articles/crm-olmadan-klinik-yonetmek) ve [envanter yönetimi verimsizlikleri](/articles/kliniklerde-envanter-yonetimi) konusunda daha fazla bilgi için diğer makalelerimizi inceleyebilirsiniz.

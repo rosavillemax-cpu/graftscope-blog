@@ -90,7 +90,7 @@ The ROI is immediate: most clinics see a 25-40% revenue increase within the firs
 
 ## Conclusion: The Cost of Inaction
 
-Managing a hair transplant clinic without CRM isn't just inefficient—it's expensive. The monthly losses compound over time, creating significant competitive disadvantages.
+Managing a hair transplant clinic without CRM isn't just inefficient—it's expensive. The monthly losses compound over time, creating significant competitive disadvantages. If you're seeing symptoms of manual process failures in your clinic, our article on [5 signs your clinic is losing patients to manual processes](/en/articles/5-signs-your-clinic-is-losing-patients-to-manual-processes) covers the warning signs in detail. You can also learn about [clinic inventory management](/en/articles/clinic-inventory-management) which compounds these losses.
 
 The question isn't whether you can afford to implement CRM—it's whether you can afford not to. In today's competitive market, systematic patient relationship management isn't optional; it's essential for survival and growth.
 

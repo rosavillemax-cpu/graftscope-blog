@@ -23,7 +23,7 @@ Online randevu formu ve dijital onay (consent) formları hem hasta deneyimini iy
 
 ## Öncelik 3: Operasyonel Görünürlük
 
-Hasta yolculuğunun hangi aşamada olduğunu tüm ekip görebilmelidir. Kanban veya pipeline görünümü ile danışma, operasyon öncesi, operasyon ve takip aşamalarını takip edin. Bu sayede tıkanıklıklar hızla tespit edilir ve hasta kaybı azalır.
+Hasta yolculuğunun hangi aşamada olduğunu tüm ekip görebilmelidir. Kanban veya pipeline görünümü ile danışma, operasyon öncesi, operasyon ve takip aşamalarını takip edin. Bu sayede tıkanıklıklar hızla tespit edilir ve hasta kaybı azalır. Ekipleriniz [CRM olmadan klinik yönetmenin sakıncaları](/articles/crm-olmadan-klinik-yonetmek) konusunda farkındaysa, bu görünürlük eksikliğininhasta kaybına nasıl dönüştüğünü de net olarak görürsünüz.
 
 ## Öncelik 4: Veri ve Raporlama
 

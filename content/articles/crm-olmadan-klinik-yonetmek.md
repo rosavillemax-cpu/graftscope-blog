@@ -27,9 +27,11 @@ CRM kullanmadan hangi pazarlama kanalından kaç hasta geldiğini, danışmadan 
 
 ## Pratik Adımlar: Nereden Başlamalı?
 
-- **Adım 1:** Tüm iletişim kanallarını (web formu, e-posta, telefon, WhatsApp) tek bir giriş noktasına bağlayın; her aday bir “kayıt” olarak CRM’e düşsün.
+- **Adım 1:** Tüm iletişim kanallarını (web formu, e-posta, telefon, WhatsApp) tek bir giriş noktasına bağlayın; her aday bir "kayıt" olarak CRM'e düşsün.
 - **Adım 2:** Danışma öncesi, danışma sonrası, operasyon tarihi belli, operasyon tamamlandı gibi aşamalar tanımlayın ve hastaları bu aşamalara taşıyın.
 - **Adım 3:** Operasyon sonrası takip için basit bir takvim ve hatırlatma kuralı koyun (örn. 1. ay, 6. ay e-posta veya arama).
 - **Adım 4:** Ayda en az bir kez rapor inceleyin: kaç yeni aday, kaç danışma, kaç operasyon, oranlar nasıl?
+
+Bu süreçlerinizde eksiklikler mi yaşıyorsunuz? [Kliniklerde kurumsal mükemmellik yolculuğu](/articles/kliniklerde-kurumsal-mukemmellik-yolculugu-stratejiden-uyulamaya) rehberimizde operasyonel mükemmellik için gerekli adımları inceleyebilirsiniz. Ayrıca [5 işaret kliniğinizin manuel süreçler nedeniyle hasta kaybettiğini](/articles/5-isaret-kliniginiz-manuel-surecler-nedeniyle-hasta-kaybediyor) ve bunların nasıl tespit edileceğini de detaylandırdık.
 
 CRM’i “ekstra bir maliyet” olarak görmek yerine, kaybedilen hastaların ve kaçan gelirin telafisi olarak düşünmek daha doğrudur. Küçük klinikler için bile basit bir CRM veya hatta iyi yapılandırılmış bir elektronik tablo ile başlanabilir; önemli olan süreci görünür ve takip edilebilir kılmaktır.

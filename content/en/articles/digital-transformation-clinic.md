@@ -362,7 +362,7 @@ Prepare for next-generation capabilities:
 
 ## Conclusion: Strategic Digital Evolution
 
-Digital transformation is not a destination but a continuous journey of evolution and adaptation. The clinics that succeed will be those that embrace change, invest in technology, and maintain focus on patient experience throughout the transformation process.
+Digital transformation is not a destination but a continuous journey of evolution and adaptation. The clinics that succeed will be those that embrace change, invest in technology, and maintain focus on patient experience throughout the transformation process. If your clinic is struggling with manual processes and patient loss, explore our guide on [5 signs your clinic is losing patients to manual processes](/en/articles/5-signs-your-clinic-is-losing-patients-to-manual-processes) and learn how [managing a clinic without CRM](/en/articles/clinic-management-without-crm) impacts your bottom line.
 
 **GraftScope** provides the foundation and tools for successful digital transformation, offering comprehensive clinic management capabilities that integrate seamlessly with your existing processes while preparing you for future innovations.
 

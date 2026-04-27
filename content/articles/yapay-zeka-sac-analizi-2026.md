@@ -38,6 +38,8 @@ Yapay zeka (YZ) teknolojisi, saç analizinde çığır açarak kliniklerin çal�
 - Tutarlı ve tekrarlanabilir sonuçlar
 - Nesnel veri tabanlı değerlendirme
 
+[Yapay zeka ile saç analizi temelleri](/articles/yapay-zeka-sac-analizi) hakkında daha fazla bilgi için temel makalemizi inceleyebilirsiniz.
+
 ## Klinikler İçin Faydalar
 
 ### Verimlilik Artışı
