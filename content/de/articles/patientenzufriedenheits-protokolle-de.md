@@ -608,4 +608,4 @@ Systematische Patientenzufriedenheits-Protokolle sind entscheidend für den Klin
 
 Investitionen in Patientenzufriedenheits-Protokolle zahlen sich mehrfach aus: durch höhere Konversionsraten, stärkere Weiterempfehlungen, bessere Mitarbeiterbindung und letztendlich größeren Klinik-Erfolg.
 
-Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der Implementierung systematischer Patientenzufriedenheits-Protokolle durch integrierte Feedback-Systeme, automatisierte Umfragen und umfassende Analyse-Funktionen.
+Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der Implementierung systematischer Patientenzufriedenheits-Protokolle durch integrierte Feedback-Systeme, automatisierte Umfragen und umfassende Analyse-Funktionen.

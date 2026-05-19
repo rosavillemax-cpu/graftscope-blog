@@ -1,9 +1,9 @@
 ---
 title: "Estetik Klinikler için Dijital Yönetim Rehberi: Operasyonel Mükemmellik Yolculu"
-excerpt: "Estetik kliniklerin dijital yönetiminde operasyonel mükemmellik yolculu. GraftScope ile estetik kliniklerin dijitallesme stratejileri ve uygulama adimlari."
+excerpt: "Estetik kliniklerin dijital yönetiminde operasyonel mükemmellik yolculu. ClinixGlow ile estetik kliniklerin dijitallesme stratejileri ve uygulama adimlari."
 date: "2026-04-08"
 category: "Dijital Dönüsüm"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 8
 featured: true
 ---
@@ -70,11 +70,11 @@ Bugün estetik klinik sektörü, dijitallesme dalgasinda en hizli büyüyen alan
 - Yatirimlar yanlis yönlendiriliyor
 - Büyüme potansiyeli sinirlaniyor
 
-## GraftScope ile Operasyonel Mükemmellik Yolculugu
+## ClinixGlow ile Operasyonel Mükemmellik Yolculugu
 
 ### Faz 1: Temel Dijitallesme (Ay 1-3)
 
-**GraftScope Temel Modüller:**
+**ClinixGlow Temel Modüller:**
 - **Hasta Yönetim Sistemi:** Tüm hasta bilgileri tek yerde
 - **Randevu Planlamasi:** Otomatik ve optimize edilme
 - **Envanter Takibi:** Gerçek zamanli stok yönetimi
@@ -82,7 +82,7 @@ Bugün estetik klinik sektörü, dijitallesme dalgasinda en hizli büyüyen alan
 
 **Uygulama Adimlari:**
 1. **Mevcut durum analizi:** Pain point'leri belirleme
-2. **Veri migrasyonu:** Mevcut verileri GraftScope'a aktarma
+2. **Veri migrasyonu:** Mevcut verileri ClinixGlow'a aktarma
 3. **Personel egitimi:** Temel kullanim egitimi
 4. **Sistem testleri:** Tüm süreçlerin dogrulanmasi
 
@@ -136,7 +136,7 @@ Bugün estetik klinik sektörü, dijitallesme dalgasinda en hizli büyüyen alan
 
 ### 1. Hasta Deneyimi Mükemmelligi
 
-**GraftScope Hata Deneyimi Özellikleri:**
+**ClinixGlow Hata Deneyimi Özellikleri:**
 - **360° hasta görüntüsü:** Tüm hasta geçmisi tek ekranda
 - **Kiþiselleþtirilmiþ iletiþim:** Otomatik hatirlatmalar ve mesajlar
 - **Online portal:** Hasta kendi bilgilerini yönetebilir
@@ -186,7 +186,7 @@ Bugün estetik klinik sektörü, dijitallesme dalgasinda en hizli büyüyen alan
 - %55 hasta memnuniyeti
 - %35 personel devri
 
-**GraftScope Implementasyonu:**
+**ClinixGlow Implementasyonu:**
 - Tam entegre hasta yönetim sistemi
 - Otomatik randevu planlamasi
 - Personel mobil uygulamasi
@@ -207,7 +207,7 @@ Bugün estetik klinik sektörü, dijitallesme dalgasinda en hizli büyüyen alan
 - Sezonel talep dalgalanmalari
 - %40 tekrar ziyaret orani
 
-**GraftScope Çözümleri:**
+**ClinixGlow Çözümleri:**
 - Çoklu dil hasta yönetimi
 - Uluslararasi ödeme sistemleri
 - Talep tahminleme
@@ -222,7 +222,7 @@ Bugün estetik klinik sektörü, dijitallesme dalgasinda en hizli büyüyen alan
 
 ## Teknolojik Altyapi
 
-### GraftScope Teknoloji Yiginlari
+### ClinixGlow Teknoloji Yiginlari
 
 **Core Platform:**
 - **Cloud-native altyapi:** %99.9 uptime
@@ -269,7 +269,7 @@ Bugün estetik klinik sektörü, dijitallesme dalgasinda en hizli büyüyen alan
 ### Kurulum Fazlari (Hafta 3-8)
 
 **Sistem Kurulumu:**
-- **GraftScope deployment:** Cloud kurulumu
+- **ClinixGlow deployment:** Cloud kurulumu
 - **Veri migrasyonu:** Mevcut verilerin aktarimi
 - **Entegrasyonlar:** Harici sistem baglantilari
 - **Özellestirmeler:** Klinik özel ayarlar
@@ -304,7 +304,7 @@ Bugün estetik klinik sektörü, dijitallesme dalgasinda en hizli büyüyen alan
 - **5G teknolojisi:** Hizli ve güvenli baglanti
 - **Kuantum bilisim:** Geliþmiþ analiz yetenekleri
 
-### GraftScope Gelecek Vizyonu
+### ClinixGlow Gelecek Vizyonu
 
 **Platform Gelismeleri:**
 - **AI-native tasarim:** Zeki otomasyon
@@ -350,12 +350,12 @@ Bugün estetik klinik sektörü, dijitallesme dalgasinda en hizli büyüyen alan
 
 ## Sonuç: Estetik Kliniklerin Gelecegi
 
-Estetik kliniklerin dijital yönetim yolculugu, sadece teknoloji yatirimi degil, stratejik bir operasyonel mükemmellik dönüsümüdür. GraftScope ile klinikler sadece verimliligini artirmakla kalmaz, ayni zamanda hasta deneyimini mükemmellestirir, finansal performansini optimize eder ve rekabet avantaji elde eder.
+Estetik kliniklerin dijital yönetim yolculugu, sadece teknoloji yatirimi degil, stratejik bir operasyonel mükemmellik dönüsümüdür. ClinixGlow ile klinikler sadece verimliligini artirmakla kalmaz, ayni zamanda hasta deneyimini mükemmellestirir, finansal performansini optimize eder ve rekabet avantaji elde eder.
 
 **Unutmayin:** Dijitallesme bir seçenek degil, bir zorunluluktur. Rakipleriniz dijitallesirken siz geri kalmamalisiniz.
 
-**GraftScope ile estetik kliniginizin gelecegini bugünden sekillendirin.**
+**ClinixGlow ile estetik kliniginizin gelecegini bugünden sekillendirin.**
 
 ---
 
-*Bu rehber, estetik kliniklerin dijital yönetim yolculugunda operasyonel mükemmellige ulasmak için GraftScope'un nasil bir stratejik partner olabilecegini detayli bir sekilde açiklamaktadir. Vaka calismalari ve implementasyon yol haritasi ile pratik bir çerçeve sunmaktadir.*
+*Bu rehber, estetik kliniklerin dijital yönetim yolculugunda operasyonel mükemmellige ulasmak için ClinixGlow'un nasil bir stratejik partner olabilecegini detayli bir sekilde açiklamaktadir. Vaka calismalari ve implementasyon yol haritasi ile pratik bir çerçeve sunmaktadir.*

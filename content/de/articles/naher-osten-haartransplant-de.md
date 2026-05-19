@@ -504,4 +504,4 @@ Der Naher Osten-Markt für Haartransplantationen bietet enormes Potenzial:
 
 Erfolg im Nahen Osten erfordert tiefes kulturelles Verständnis, religiöse Sensibilität und exzellenten Service. Kliniken, die diese Anforderungen erfüllen, werden von dem enormen Wachstumspotenzial dieser Region profitieren.
 
-Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der Bewältigung dieser spezifischen Anforderungen durch mehrsprachige Funktionen, kulturelle Anpassung und umfassende Patienten-Management-Tools.
+Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der Bewältigung dieser spezifischen Anforderungen durch mehrsprachige Funktionen, kulturelle Anpassung und umfassende Patienten-Management-Tools.

@@ -6,6 +6,6 @@ export default function PricingPage() {
 }
 
 export const metadata = {
-  title: "Pricing | GraftScope",
-  description: "GraftScope hair transplant clinic management software pricing options.",
+  title: "Pricing | ClinixGlow",
+  description: "ClinixGlow hair transplant clinic management software pricing options.",
 };

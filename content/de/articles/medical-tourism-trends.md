@@ -3,7 +3,7 @@ title: "Medical Tourism Trends: How Clinics Can Attract International Patients"
 excerpt: "Medical tourism is booming. Learn how hair transplant clinics can attract international patients with digital tools and strategies."
 date: "2026-03-30"
 category: "Market Analysis"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 6
 featured: true
 ---
@@ -108,7 +108,7 @@ Modern clinic management software should include:
 - **Travel coordination tools**
 - **Multi-language communication platforms**
 
-**GraftScope for Medical Tourism**
+**ClinixGlow for Medical Tourism**
 Our comprehensive platform includes:
 - **International patient management**
 - **Multi-language support** (TR, EN, DE)
@@ -165,9 +165,9 @@ The medical tourism boom represents a significant opportunity for hair transplan
 3. **Technology integration** for seamless operations
 4. **Trust building** through transparency and quality care
 
-**GraftScope** provides the complete technology infrastructure needed to attract and manage international patients effectively. From virtual consultations to post-operative follow-up, our platform ensures your clinic can compete in the global medical tourism market.
+**ClinixGlow** provides the complete technology infrastructure needed to attract and manage international patients effectively. From virtual consultations to post-operative follow-up, our platform ensures your clinic can compete in the global medical tourism market.
 
-Ready to expand your clinic's reach beyond borders? Contact us for a personalized demo of how **GraftScope** can transform your medical tourism strategy.
+Ready to expand your clinic's reach beyond borders? Contact us for a personalized demo of how **ClinixGlow** can transform your medical tourism strategy.
 
 ---
 

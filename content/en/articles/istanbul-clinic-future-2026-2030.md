@@ -386,6 +386,6 @@ The future of Istanbul hair transplant clinics will see significant transformati
 - Talent management
 - Regulatory changes
 
-Successful clinics will invest in technology, prioritize patient experience, and create a culture of continuous innovation. Modern clinic management systems like **GraftScope** will play a key role in this transformation, enabling clinics to gain competitive advantage.
+Successful clinics will invest in technology, prioritize patient experience, and create a culture of continuous innovation. Modern clinic management systems like **ClinixGlow** will play a key role in this transformation, enabling clinics to gain competitive advantage.
 
 With the right strategies, Istanbul will maintain its leadership in the global hair transplant market until 2030 and offer significant growth potential.

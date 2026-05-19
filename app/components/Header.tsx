@@ -162,7 +162,7 @@ export default function Header() {
             </a>
             <span className="top-bar-btn-sep" aria-hidden />
             <a 
-              href="https://www.graftscope.com/demo" 
+              href="https://www.clinixglow.com/demo" 
               target="_blank" 
               rel="noopener noreferrer"
               className="header-btn header-btn-solid"
@@ -173,7 +173,7 @@ export default function Header() {
         </div>
         <div className="masthead-brand">
           <Link href={homeHref} className="masthead-logo">
-            GraftScope
+            ClinixGlow
           </Link>
           <div className="masthead-logo-insights">insights</div>
           <div className="masthead-tagline">

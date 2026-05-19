@@ -10,23 +10,23 @@ import { generateWebsiteSchema } from "@/lib/schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Saç Ekimi Klinik Yönetim Yazılımı | GraftScope",
-  description: "GraftScope ile saç ekimi kliniğinizi tek platformdan yönetin. CRM, yapay zeka analizi, randevu sistemi ve enterprise dashboard. Ücretsiz demo alın.",
+  title: "Saç Ekimi Klinik Yönetim Yazılımı | ClinixGlow",
+  description: "ClinixGlow ile saç ekimi kliniğinizi tek platformdan yönetin. CRM, yapay zeka analizi, randevu sistemi ve enterprise dashboard. Ücretsiz demo alın.",
   openGraph: {
-    title: "Saç Ekimi Klinik Yönetim Yazılımı | GraftScope",
-    description: "GraftScope ile saç ekimi kliniğinizi tek platformdan yönetin. CRM, yapay zeka analizi, randevu sistemi ve enterprise dashboard. Ücretsiz demo alın.",
-    url: "https://www.graftscope.com/blog",
-    siteName: "GraftScope",
+    title: "Saç Ekimi Klinik Yönetim Yazılımı | ClinixGlow",
+    description: "ClinixGlow ile saç ekimi kliniğinizi tek platformdan yönetin. CRM, yapay zeka analizi, randevu sistemi ve enterprise dashboard. Ücretsiz demo alın.",
+    url: "https://www.clinixglow.com/blog",
+    siteName: "ClinixGlow",
     locale: "tr_TR",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.graftscope.com/blog",
+    canonical: "https://www.clinixglow.com/blog",
     languages: {
-      'tr': 'https://www.graftscope.com/blog',
-      'en': 'https://www.graftscope.com/blog/en',
-      'de': 'https://www.graftscope.com/blog/de',
-      'x-default': 'https://www.graftscope.com/blog',
+      'tr': 'https://www.clinixglow.com/blog',
+      'en': 'https://www.clinixglow.com/blog/en',
+      'de': 'https://www.clinixglow.com/blog/de',
+      'x-default': 'https://www.clinixglow.com/blog',
     },
   },
 };
@@ -99,7 +99,7 @@ export default function HomePage() {
             }}>
               Bültene Abone Ol →
             </a>
-            <a href="https://www.graftscope.com/demo" target="_blank" rel="noopener noreferrer" style={{
+            <a href="https://www.clinixglow.com/demo" target="_blank" rel="noopener noreferrer" style={{
               border: '0.5px solid #cbd5e1',
               color: '#0f172a',
               padding: '10px 20px',
@@ -162,7 +162,7 @@ export default function HomePage() {
                 ))}
               </div>
               <span style={{ fontSize: '11px', color: '#94a3b8', fontFamily: 'monospace', flex: 1, textAlign: 'center' }}>
-                GraftScope · Klinik Paneli
+                ClinixGlow · Klinik Paneli
               </span>
               <div style={{
                 background: '#0369a1',

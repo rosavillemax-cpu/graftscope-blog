@@ -15,7 +15,7 @@ Görüntü tabanlı AI araçları, hasta fotoğraflarından dökülme alanların
 
 ## Hasta Deneyimini Güçlendirme
 
-AI destekli ön analiz, hastanın ilk temasında "Bana özel bir değerlendirme yapıldı" hissi yaratır. Bu, güven ve profesyonellik algısını yükseltir. Bazı sistemler hasta verilerini CRM ile entegre ederek, danışma öncesi ve sonrası takibi kolaylaştırır. GraftScope gibi entegre platformlar, AI araçlarıyla uyumlu çalışarak hasta yolculuğunu uçtan uca yönetmenize olanak tanır.
+AI destekli ön analiz, hastanın ilk temasında "Bana özel bir değerlendirme yapıldı" hissi yaratır. Bu, güven ve profesyonellik algısını yükseltir. Bazı sistemler hasta verilerini CRM ile entegre ederek, danışma öncesi ve sonrası takibi kolaylaştırır. ClinixGlow gibi entegre platformlar, AI araçlarıyla uyumlu çalışarak hasta yolculuğunu uçtan uca yönetmenize olanak tanır.
 
 ## Operasyonel Verimlilik
 

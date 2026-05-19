@@ -3,7 +3,7 @@ title: "Asia Hair Transplant Tourism: Complete Guide for Clinics"
 excerpt: "Asia leads medical tourism for hair transplants. Learn how clinics can attract Asian patients and compete in this growing market."
 date: "2026-03-24"
 category: "Market Analysis"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 6
 featured: true
 ---
@@ -162,7 +162,7 @@ Medical tourism packages often include:
 
 ### Clinic Management Software
 
-**GraftScope for Asian Markets**
+**ClinixGlow for Asian Markets**
 Our platform addresses unique challenges:
 - **Multi-currency payment processing**
 - **Multi-language patient management**
@@ -360,9 +360,9 @@ The Asian hair transplant market represents tremendous opportunity for clinics t
 4. **Cultural competence** in serving international patients
 5. **Strategic partnerships** with tourism industry
 
-**GraftScope** provides the comprehensive technology platform needed to compete and win in the competitive Asian medical tourism market. From multi-language patient management to tourism package coordination, our solution enables clinics to deliver world-class experiences to international patients.
+**ClinixGlow** provides the comprehensive technology platform needed to compete and win in the competitive Asian medical tourism market. From multi-language patient management to tourism package coordination, our solution enables clinics to deliver world-class experiences to international patients.
 
-Ready to capture your share of the growing Asian medical tourism market? Contact us for a personalized demo of how **GraftScope** can transform your clinic's international patient acquisition and management capabilities.
+Ready to capture your share of the growing Asian medical tourism market? Contact us for a personalized demo of how **ClinixGlow** can transform your clinic's international patient acquisition and management capabilities.
 
 ---
 

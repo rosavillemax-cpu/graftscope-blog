@@ -3,7 +3,7 @@ title: "Kliniklerde Kurumsal Mükemmellik Yolculuğu: Stratejiden Uygulamaya"
 excerpt: "Saç ekimi kliniklerinde kurumsal mükemmellik nasıl sağlanır? Stratejik planlamadan operasyonel mükemmelliğe giden yolculuk."
 date: "2026-03-23"
 category: "Klinik Yönetimi"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 6
 featured: true
 ---
@@ -101,11 +101,11 @@ Kurumsal mükemmellik, güçlü bir marka kimliğiyle tamamlanır. Kliniklerin i
 
 Bu stratejiler, kliniklerin pazarda güvenilir bir otorite olarak konumlanmasını sağlar.
 
-## GraftScope ile Mükemmellik Ortaklığı
+## ClinixGlow ile Mükemmellik Ortaklığı
 
-Kurumsal mükemmellik yolculuğu, doğru teknoloji partneriyle çok daha kolay hale gelir. **GraftScope**, bu yolculukta kliniklere stratejik ortaklık sunuyor:
+Kurumsal mükemmellik yolculuğu, doğru teknoloji partneriyle çok daha kolay hale gelir. **ClinixGlow**, bu yolculukta kliniklere stratejik ortaklık sunuyor:
 
-**GraftScope'un mükemmellik katkıları:**
+**ClinixGlow'un mükemmellik katkıları:**
 
 - **Stratejik planlama araçları:** Vizyonu somut hedeflere dönüştürme
 - **Operasyonel otomasyon:** Süreç verimliliği ve standartizasyon
@@ -113,7 +113,7 @@ Kurumsal mükemmellik yolculuğu, doğru teknoloji partneriyle çok daha kolay h
 - **Veri odaklı karar alma:** Performans metrikleri ve analitikler
 - **Ölçeklenebilirlik:** Büyüme ile birlikte sistemin büyümesi
 
-**GraftScope işbirliği avantajları:**
+**ClinixGlow işbirliği avantajları:**
 
 1. **Tutarlı süreç yönetimi:** Her aşamada aynı kalite standardı
 2. **Verimlilik artışı:** %40 daha az kaynakla %30 daha fazla hizmet
@@ -138,6 +138,6 @@ Bu adımlar, kliniğin mükemmellik yolculuğunda sağlam bir başlangıç nokta
 
 Kurumsal mükemmellik, bir varış noktası değil, sürekli bir yolculuktur. Başarılı klinikler, her gün daha iyi olma hedefiyle hareket ederler. Bu yolculukta, doğru strateji, süreçler, teknoloji ve işbirliği kritik öneme sahiptir.
 
-**GraftScope**, bu yolculukta kliniklere sadece bir yazılım sağlamıyor; aynı zamanda stratejik bir ortak oluyor. Kliniklerin kurumsal mükemmellik hedeflerine ulaşmasına yardımcı olurken, sektörde liderlik etmelerini sağlıyor.
+**ClinixGlow**, bu yolculukta kliniklere sadece bir yazılım sağlamıyor; aynı zamanda stratejik bir ortak oluyor. Kliniklerin kurumsal mükemmellik hedeflerine ulaşmasına yardımcı olurken, sektörde liderlik etmelerini sağlıyor.
 
-Mükemmellik yolculuğunuzda **GraftScope** ile güçlü bir işbirliği kurmaya hazır mısınız? Gelecek, bugün başladığı yerde şekillenir.
+Mükemmellik yolculuğunuzda **ClinixGlow** ile güçlü bir işbirliği kurmaya hazır mısınız? Gelecek, bugün başladığı yerde şekillenir.

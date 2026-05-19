@@ -13,7 +13,7 @@ Medikal turizm, küresel sağlık sektörünün en hızlı büyüyen alanlarınd
 
 Pandemi sonrası dijitalleşme hızlandı. Hastalar artık ilk teması online kuruyor: web formu, WhatsApp, video danışma. Randevu öncesi süreç tamamen dijital yönetilebilir; bu da kliniklerin operasyonel verimliliğini artırır.
 
-Kliniklerin güçlü bir online varlığı olmalıdır: çok dilli web sitesi, kolay randevu sistemi, dijital onay formları ve operasyon sonrası takip platformu. **GraftScope** gibi Clinic Operating System çözümleri, randevu merkezi, CRM ve dijital consent formlarıyla bu süreci tek platformda yönetmeyi sağlar.
+Kliniklerin güçlü bir online varlığı olmalıdır: çok dilli web sitesi, kolay randevu sistemi, dijital onay formları ve operasyon sonrası takip platformu. **ClinixGlow** gibi Clinic Operating System çözümleri, randevu merkezi, CRM ve dijital consent formlarıyla bu süreci tek platformda yönetmeyi sağlar.
 
 ## Sürdürülebilir ve Şeffaf Fiyatlandırma
 

@@ -3,7 +3,7 @@ title: "2026 Hair Transplant Trends: From Clinic Management to Medical Tourism"
 excerpt: "Hair transplant industry goes digital in 2026. Hair transplant CRM, medical tourism software, and new trends transforming clinics."
 date: "2026-03-23"
 category: "Market Analysis"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 5
 featured: true
 ---
@@ -196,7 +196,7 @@ The hair transplant industry is experiencing a revolutionary transformation in 2
 - **Tourism industry collaborations** for comprehensive patient experiences
 - **Insurance company partnerships** expanding patient access
 
-## GraftScope: Leading the Digital Transformation
+## ClinixGlow: Leading the Digital Transformation
 
 ### Comprehensive Platform Solutions
 
@@ -324,9 +324,9 @@ The hair transplant industry in 2026 is defined by rapid digital transformation,
 4. **Global perspective** serving international patients seamlessly
 5. **Continuous innovation** adapting to emerging trends and technologies
 
-**GraftScope** provides the complete technology foundation for clinics to thrive in this evolving landscape. Our integrated platform combines **hair transplant CRM**, **medical tourism software**, AI-powered tools, and comprehensive analytics to deliver exceptional patient experiences while optimizing clinic operations.
+**ClinixGlow** provides the complete technology foundation for clinics to thrive in this evolving landscape. Our integrated platform combines **hair transplant CRM**, **medical tourism software**, AI-powered tools, and comprehensive analytics to deliver exceptional patient experiences while optimizing clinic operations.
 
-Ready to transform your clinic for the future of hair transplantation? Contact us for a personalized demonstration of how **GraftScope** can revolutionize your practice and position you for success in 2026 and beyond.
+Ready to transform your clinic for the future of hair transplantation? Contact us for a personalized demonstration of how **ClinixGlow** can revolutionize your practice and position you for success in 2026 and beyond.
 
 ---
 

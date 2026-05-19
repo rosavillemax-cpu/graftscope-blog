@@ -484,4 +484,4 @@ Der medizinische Tourismus, insbesondere der Haartransplant-Sektor, steht vor ei
 
 Die Zukunft des medizinischen Tourismus wird von Technologie, Personalisierung und internationaler Kompetenz geprägt sein. Kliniken, die jetzt in diese Trends investieren, werden sich als Marktführer positionieren und von dem enormen Wachstumspotenzial profitieren.
 
-Moderne Klinik-Management-Systeme wie **GraftScope** unterstützen bei der Bewältigung dieser Herausforderungen durch integrierte Technologie, internationale Kompetenz und datengestützte Entscheidungsfindung.
+Moderne Klinik-Management-Systeme wie **ClinixGlow** unterstützen bei der Bewältigung dieser Herausforderungen durch integrierte Technologie, internationale Kompetenz und datengestützte Entscheidungsfindung.

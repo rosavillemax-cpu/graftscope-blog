@@ -1,8 +1,8 @@
 ---
 title: "Müşteri Memnuniyeti Klinik Başarısının Anahtarı"
-excerpt: "Saç ekimi kliniklerinde müşteri memnuniyetini artırmanın stratejik yolları ve GraftScope ile operasyonel mükemmellik."
+excerpt: "Saç ekimi kliniklerinde müşteri memnuniyetini artırmanın stratejik yolları ve ClinixGlow ile operasyonel mükemmellik."
 date: "2026-04-15"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 category: "Hasta Büyümesi"
 readTime: 8
 ---
@@ -58,13 +58,13 @@ Memnuniyet, sadece hasta deneyimiyle ilgili değil, aynı zamanda operasyonel m�
 - **Standart çözüm prosedürleri:** Her sorun için hazır plan
 - **Takip sistemi:** Sorunun çözüldüğünden emin olma
 
-## GraftScope ile Daha Hızlı Operasyonlar
+## ClinixGlow ile Daha Hızlı Operasyonlar
 
-**GraftScope**, müşteri memnuniyetini artırmak için tasarlanmış entegre bir platformdur. İşte klinik operasyonlarınızı nasıl hızlandırır:
+**ClinixGlow**, müşteri memnuniyetini artırmak için tasarlanmış entegre bir platformdur. İşte klinik operasyonlarınızı nasıl hızlandırır:
 
 ### **🚀 Otomatik Hasta Takibi**
 
-**GraftScope** ile:
+**ClinixGlow** ile:
 - **Otomatik operasyon sonrası kontrol** mesajları
 - **Kişiselleştirilmiş iyileşme takvimi** gönderimi
 - **Anlık bildirimler** anormal durumlar için
@@ -74,7 +74,7 @@ Memnuniyet, sadece hasta deneyimiyle ilgili değil, aynı zamanda operasyonel m�
 
 ### **📊 Merkezi Müşteri Veritabanı**
 
-**GraftScope** sunar:
+**ClinixGlow** sunar:
 - **Tek hasta profili:** Tüm bilgiler bir yerde
 - **İletişim geçmişi:** Her konuşma kayıtlı
 - **Tıbbi notlar:** Operasyon detayları ve sonuçlar
@@ -84,7 +84,7 @@ Memnuniyet, sadece hasta deneyimiyle ilgili değil, aynı zamanda operasyonel m�
 
 ### **⚡ Anlık Bildirim ve Uyarılar**
 
-**GraftScope** ile:
+**ClinixGlow** ile:
 - **Acil durum anında** anında bildirim
 - **Randevu hatırlatmaları** otomatik olarak
 - **İlaç takip sistemi** zamanında uyarılar
@@ -94,7 +94,7 @@ Memnuniyet, sadece hasta deneyimiyle ilgili değil, aynı zamanda operasyonel m�
 
 ### **🔄 Entegre İletişim Sistemi**
 
-**GraftScope** sağlar:
+**ClinixGlow** sağlar:
 - **Merkezi mesajlaşma:** Tüm kanallar bir arayüzde
 - **Otomatik yanıtlar:** sık sorulan sorular için
 - **Kişiselleştirilmiş şablonlar:** hızlı iletişim
@@ -102,11 +102,11 @@ Memnuniyet, sadece hasta deneyimiyle ilgili değil, aynı zamanda operasyonel m�
 
 **Sonuç:** %60 daha az iletişim zamanı
 
-## GraftScope ile Müşteri Memnuniyeti Metrikleri
+## ClinixGlow ile Müşteri Memnuniyeti Metrikleri
 
 ### **Ölçülebilir Başarı**
 
-**GraftScope** dashboard'ında görebilirsiniz:
+**ClinixGlow** dashboard'ında görebilirsiniz:
 - **Memnuniyet skorları:** Anlık hasta memnuniyeti
 - **Yönlendirme oranları:** Kaç hasta yeni hasta getiriyor
 - **Tekrar ziyaret oranları:** Hasta sadakati
@@ -114,33 +114,33 @@ Memnuniyet, sadece hasta deneyimiyle ilgili değil, aynı zamanda operasyonel m�
 
 ### **Veriye Dayalı Kararlar**
 
-**GraftScope** ile:
+**ClinixGlow** ile:
 - **Trend analizi:** Hangi süreçler çalışıyor
 - **Personel performansı:** Hangi ekip üyeleri başarılı
 - **Hasta segmentasyonu:** Farklı hasta grupları için stratejiler
 - **Öngörücü analiz:** Potansiyel sorunları önceden görme
 
-## Başarı Hikayeleri: GraftScope ile Dönüşüm
+## Başarı Hikayeleri: ClinixGlow ile Dönüşüm
 
 ### **Vaka 1: İstanbul Kliniği**
 
 **Sorun:** Yüksek hasta şikayetleri (%35), düşük yönlendirme oranı
-**GraftScope çözümü:** Otomatik takip sistemi ve merkezi iletişim
+**ClinixGlow çözümü:** Otomatik takip sistemi ve merkezi iletişim
 **Sonuç:** 3 ayda %85 memnuniyet artışı, %120 yeni hasta artışı
 
 ### **Vaka 2: Antalya Kliniği**
 
 **Sorun:** Uluslararası hastalarla iletişim zorlukları
-**GraftScope çözümü:** Çoklu dil desteği ve otomatik çeviri
+**ClinixGlow çözümü:** Çoklu dil desteği ve otomatik çeviri
 **Sonuç:** %60 daha az iletişim hataları, %45 yabancı hasta artışı
 
 ### **Vaka 3: Ankara Kliniği**
 
 **Sorun:** Manuel süreçler ve gecikmiş takipler
-**GraftScope çözümü:** Tam otomasyon ve anlık bildirimler
+**ClinixGlow çözümü:** Tam otomasyon ve anlık bildirimler
 **Sonuç:** %70 daha az manuel çalışma, %95 hasta memnuniyeti
 
-## İlk Adımlar: GraftScope ile Başlangıç
+## İlk Adımlar: ClinixGlow ile Başlangıç
 
 ### **1. Demo ve Kurulum**
 
@@ -165,15 +165,15 @@ Memnuniyet, sadece hasta deneyimiyle ilgili değil, aynı zamanda operasyonel m�
 
 ## Sonuç: Müşteri Memnuniyeti Rekabet Avantajı
 
-**GraftScope** ile müşteri memnuniyeti sadece bir hedef değil, rekabet avantajı haline gelir:
+**ClinixGlow** ile müşteri memnuniyeti sadece bir hedef değil, rekabet avantajı haline gelir:
 
 - **Daha mutlu hastalar:** Sözlü pazarlama gücü
 - **Daha az sorun:** Operasyonel verimlilik
 - **Daha hızlı büyüme:** Sürdürülebilir başarı
 - **Daha iyi marka:** Sektör liderliği
 
-**Gelecek, memnun hastaların olduğu kliniklerde. GraftScope ile kliniğiniz geleceğe hazır.**
+**Gelecek, memnun hastaların olduğu kliniklerde. ClinixGlow ile kliniğiniz geleceğe hazır.**
 
 ---
 
-**[Demo İste →](https://www.graftscope.com/demo)**
+**[Demo İste →](https://www.clinixglow.com/demo)**

@@ -6,6 +6,6 @@ export default function PricingPage() {
 }
 
 export const metadata = {
-  title: "Fiyatlandırma | GraftScope",
-  description: "GraftScope saç ekimi klinik yönetim yazılımı fiyatlandırma seçenekleri.",
+  title: "Fiyatlandırma | ClinixGlow",
+  description: "ClinixGlow saç ekimi klinik yönetim yazılımı fiyatlandırma seçenekleri.",
 };

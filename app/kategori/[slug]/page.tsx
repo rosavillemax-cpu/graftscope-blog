@@ -15,7 +15,7 @@ import SidebarBanner from "@/app/components/SidebarBanner";
 import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateCategoryBreadcrumbs } from "@/lib/schema";
 
-const SITE_URL = "https://www.graftscope.com/blog";
+const SITE_URL = "https://www.clinixglow.com/blog";
 
 const CATEGORY_DESCRIPTIONS: Record<string, string> = {
   "klinik-yonetimi":
@@ -56,10 +56,10 @@ export async function generateMetadata({
     title: `${categoryName} Makaleleri`,
     description,
     openGraph: {
-      title: `${categoryName} Makaleleri | GraftScope`,
+      title: `${categoryName} Makaleleri | ClinixGlow`,
       description,
       url,
-      siteName: "GraftScope",
+      siteName: "ClinixGlow",
       type: "website",
     },
     alternates: {
@@ -220,7 +220,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
       <footer className="site-footer">
         <div className="site-footer-inner">
-          <p className="footer-logo">GraftScope</p>
+          <p className="footer-logo">ClinixGlow</p>
           <p className="footer-tagline">
             Saç ekimi klinikleri için içgörüler ve rehberler.
           </p>

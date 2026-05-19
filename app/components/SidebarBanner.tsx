@@ -1,7 +1,7 @@
 export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'de' }) {
   const content = {
     tr: {
-      badge: 'GraftScope',
+      badge: 'ClinixGlow',
       title: 'Kliniğinizi Daha Akıllı Yönetin',
       subtitle: 'Saç ekimi klinikleri için tasarlanmış\ntam kapsamlı yönetim platformu.',
       features: [
@@ -13,12 +13,12 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
         { icon: 'ops',  label: 'Operasyon Takibi' },
       ],
       cta: 'Demo Talep Et →',
-      ctaHref: 'https://www.graftscope.com/demo',
+      ctaHref: 'https://www.clinixglow.com/demo',
       stat: '+40%',
       statLabel: 'Ortalama dönüşüm artışı',
     },
     en: {
-      badge: 'GraftScope',
+      badge: 'ClinixGlow',
       title: 'Run Your Clinic Smarter',
       subtitle: 'The complete management platform\nbuilt for hair transplant clinics.',
       features: [
@@ -30,12 +30,12 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
         { icon: 'ops',  label: 'Operations Tracking' },
       ],
       cta: 'Request Demo →',
-      ctaHref: 'https://www.graftscope.com/demo',
+      ctaHref: 'https://www.clinixglow.com/demo',
       stat: '+40%',
       statLabel: 'Average conversion lift',
     },
     de: {
-      badge: 'GraftScope',
+      badge: 'ClinixGlow',
       title: 'Ihre Klinik smarter führen',
       subtitle: 'Die komplette Managementplattform\nfür Haartransplantationskliniken.',
       features: [
@@ -47,7 +47,7 @@ export default function SidebarBanner({ lang = 'tr' }: { lang?: 'tr' | 'en' | 'd
         { icon: 'ops',  label: 'Operations-Tracking' },
       ],
       cta: 'Demo anfragen →',
-      ctaHref: 'https://www.graftscope.com/demo',
+      ctaHref: 'https://www.clinixglow.com/demo',
       stat: '+40%',
       statLabel: 'Ø Konversionssteigerung',
     },

@@ -1,9 +1,9 @@
 ---
 title: "Kliniklerde Envanter Yönetimi: Verimsizliklerin Gizli Maliyetleri ve Çözümleri"
-excerpt: "Kliniklerde envanter yönetimindeki verimsizlikler sadece maliyet artmaz, hasta güvenli tehlikeye atar. GraftScope ile envanter yönetimini dijitalle ve optimize edin."
+excerpt: "Kliniklerde envanter yönetimindeki verimsizlikler sadece maliyet artmaz, hasta güvenli tehlikeye atar. ClinixGlow ile envanter yönetimini dijitalle ve optimize edin."
 date: "2026-04-08"
 category: "Klinik Yönetimi"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 7
 featured: true
 ---
@@ -84,11 +84,11 @@ Bu klinik gunumuzde sadece bir degil, onlarca benzer durumla karsilasiyor. Envan
 - Rakiplere karsi geri kalinir
 - Buyume potansiyeli sinirlanir
 
-## GraftScope ile Envanter Yönetimi Devrimi
+## ClinixGlow ile Envanter Yönetimi Devrimi
 
 ### Akilli Envanter Takip Sistemi
 
-**GraftScope'un Cözumleri:**
+**ClinixGlow'un Cözumleri:**
 - **Gerçek zamanli stok takibi:** Her an biliyorsunuz
 - **Otomatik siparis olusturma:** Stok azalinca otomatik siparis
 - **Son kullanma tarihi takibi:** Gecmeden uyari alirsiniz
@@ -182,7 +182,7 @@ Bu klinik gunumuzde sadece bir degil, onlarca benzer durumla karsilasiyor. Envan
 - Personel memnuniyetsizligi
 - Hasta sikayetleri
 
-**GraftScope Cozumu:**
+**ClinixGlow Cozumu:**
 - Akilli envanter sistemi kurulumu
 - Otomatik siparis entegrasyonu
 - Personel egitimi
@@ -202,7 +202,7 @@ Bu klinik gunumuzde sadece bir degil, onlarca benzer durumla karsilasiyor. Envan
 - Coklu depo yonetimi zorlugu
 - Maliyet kontrolu eksikligi
 
-**GraftScope Cozumu:**
+**ClinixGlow Cozumu:**
 - Talep tahminleme sistemi
 - Coklu tedarikci yonetimi
 - Merkezi depo kontrolu
@@ -263,7 +263,7 @@ Bu klinik gunumuzde sadece bir degil, onlarca benzer durumla karsilasiyor. Envan
 ### Adim 2: Sistem Kurulumu
 
 **Teknolojik Hazirlik:**
-- GraftScope kurulumu
+- ClinixGlow kurulumu
 - Donanim gereksinimleri
 - Entegrasyon ayarlari
 - Veri migrasyonu
@@ -320,12 +320,12 @@ Bu klinik gunumuzde sadece bir degil, onlarca benzer durumla karsilasiyor. Envan
 
 ## Sonuc: Kliniklerin Gelecegi
 
-Kliniklerde envanter yonetimi artik bir secenek degil, bir zorunluluktur. GraftScope ile klinikler sadece maliyetleri kontrol etmekle kalmaz, ayni zamanda hasta guvenligini artirir, personel verimliligini yukseltir ve rekabet avantaji elde ederler.
+Kliniklerde envanter yonetimi artik bir secenek degil, bir zorunluluktur. ClinixGlow ile klinikler sadece maliyetleri kontrol etmekle kalmaz, ayni zamanda hasta guvenligini artirir, personel verimliligini yukseltir ve rekabet avantaji elde ederler.
 
 **Unutmayin:** Her stok sorunu, potansiyel bir hasta guvenlik sorunudur. Her fazla stok, kayip bir yatirimdir. Her manuel islem, potansiyel bir insan hatasidir.
 
-**GraftScope ile klinik geleceginizi bugunden guvence altina alin.**
+**ClinixGlow ile klinik geleceginizi bugunden guvence altina alin.**
 
 ---
 
-*Bu makale, kliniklerde envanter yonetiminin sadece finansal degil, operasyonel ve hasta guvenligi acilarindan da onemini vurgulamaktadir. GraftScope'un kapsamli cozumleri ile kliniklerin verimsizlikleri nasil asabilecegi pratik orneklerle anlatilmaktadir.*
+*Bu makale, kliniklerde envanter yonetiminin sadece finansal degil, operasyonel ve hasta guvenligi acilarindan da onemini vurgulamaktadir. ClinixGlow'un kapsamli cozumleri ile kliniklerin verimsizlikleri nasil asabilecegi pratik orneklerle anlatilmaktadir.*

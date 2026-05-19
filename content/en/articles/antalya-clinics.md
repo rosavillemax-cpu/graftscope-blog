@@ -11,7 +11,7 @@ Antalya is becoming increasingly important in Turkey's hair transplant tourism m
 
 ## The Antalya Advantage: Tourism-Medical Synergy
 
-Antalya's unique value proposition lies in its perfect blend of medical excellence and tourism infrastructure. While Istanbul focuses on medical tourism intensity, Antalya emphasizes the healing power of vacation combined with medical procedures. **GraftScope** data shows that Antalya clinics achieve 30% higher patient satisfaction scores and 25% better recovery outcomes compared to traditional urban clinics.
+Antalya's unique value proposition lies in its perfect blend of medical excellence and tourism infrastructure. While Istanbul focuses on medical tourism intensity, Antalya emphasizes the healing power of vacation combined with medical procedures. **ClinixGlow** data shows that Antalya clinics achieve 30% higher patient satisfaction scores and 25% better recovery outcomes compared to traditional urban clinics.
 
 The city's natural beauty, world-class resorts, and established tourism infrastructure create an environment where patients can combine their medical journey with genuine vacation experiences. This "medical + leisure" model particularly appeals to European patients who value both quality medical care and relaxation opportunities.
 
@@ -392,7 +392,7 @@ Identify growth possibilities:
 
 Antalya represents a unique opportunity in Turkey's hair transplant market, combining medical excellence with tourism infrastructure to create a differentiated value proposition. Success requires understanding the tourism-medical synergy, developing strategic partnerships, and delivering exceptional patient experiences.
 
-**GraftScope** provides the tools and insights needed for Antalya market success, from tourism partnership management to patient experience optimization and performance analytics.
+**ClinixGlow** provides the tools and insights needed for Antalya market success, from tourism partnership management to patient experience optimization and performance analytics.
 
 Remember: Antalya's advantage lies not in competing with Istanbul on traditional medical tourism terms, but in creating a new category that combines healing with vacation, recovery with relaxation, and medical excellence with tourism excellence.
 

@@ -386,6 +386,6 @@ readTime: 8 dk.
 - Yetenek yönetimi
 - Regülatör değişimler
 
-Başarılı klinikler, teknolojiye yatırım yapacak, hasta deneyimini önceliklendirecek ve sürekli inovasyon kültürü oluşturacaktır. **GraftScope** gibi modern klinik yönetim sistemleri, bu dönüşümde kilit rol oynayarak kliniklerin rekabet avantajı elde etmesini sağlayacaktır.
+Başarılı klinikler, teknolojiye yatırım yapacak, hasta deneyimini önceliklendirecek ve sürekli inovasyon kültürü oluşturacaktır. **ClinixGlow** gibi modern klinik yönetim sistemleri, bu dönüşümde kilit rol oynayarak kliniklerin rekabet avantajı elde etmesini sağlayacaktır.
 
 İstanbul, doğru stratejilerle 2030'a kadar küresel saç ekim pazarının liderliğini koruyacak ve önemli büyüme potansiyeli sunacaktır.
