@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/:path*',
-        destination: 'https://www.clinixglow.com/blog/:path*',
+        destination: 'https://www.graftscope.com/blog/:path*',
         permanent: true,
       },
     ];
