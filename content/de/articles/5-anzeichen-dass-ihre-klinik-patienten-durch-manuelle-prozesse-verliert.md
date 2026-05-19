@@ -3,7 +3,7 @@ title: "5 Anzeichen, dass Ihre Klinik Patienten durch manuelle Prozesse verliert
 excerpt: "Manuelle Prozesse töten das Wachstum Ihrer Klinik im Stillen. Lernen Sie, diese Warnzeichen zu erkennen, bevor es zu spät ist."
 date: "2026-03-14"
 category: "Klinik Management"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 5
 featured: true
 ---

@@ -3,7 +3,7 @@ title: "5 Signs Your Clinic Is Losing Patients to Manual Processes"
 excerpt: "Manual processes are silently killing your clinic's growth. Learn to identify these warning signs before it's too late."
 date: "2026-03-14"
 category: "Clinic Management"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 5
 featured: true
 ---

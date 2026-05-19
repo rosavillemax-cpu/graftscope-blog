@@ -7,7 +7,7 @@ import SchemaMarkup from "./components/SchemaMarkup";
 import CookieConsent from "./components/CookieConsent";
 import { generateOrganizationSchema } from "@/lib/schema";
 
-const SITE_URL = "https://www.graftscope.com/blog";
+const SITE_URL = "https://www.clinixglow.com/blog";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -24,8 +24,8 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Saç Ekimi Klinik Yönetim Yazılımı | GraftScope",
-    template: "%s | GraftScope Blog",
+    default: "Saç Ekimi Klinik Yönetim Yazılımı | ClinixGlow",
+    template: "%s | ClinixGlow Blog",
   },
   description:
     "Saç ekim klinikleri için klinik yönetimi, hasta büyümesi ve sektör analizleri. Türkiye, UK ve Almanya pazarları için uzman içerikler.",
@@ -42,11 +42,11 @@ export const metadata: Metadata = {
     apple: '/favicon.png',
   },
   openGraph: {
-    title: "GraftScope | Saç Ekim Klinikleri İçin Rehber",
+    title: "ClinixGlow | Saç Ekim Klinikleri İçin Rehber",
     description:
       "Saç ekim klinikleri için klinik yönetimi, hasta büyümesi ve sektör analizleri. Türkiye, UK ve Almanya pazarları için uzman içerikler.",
     url: SITE_URL,
-    siteName: "GraftScope",
+    siteName: "ClinixGlow",
     locale: "tr_TR",
     type: "website",
   },
@@ -71,22 +71,22 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "GraftScope",
+  name: "ClinixGlow",
   url: SITE_URL,
-  logo: `${SITE_URL}/graftscope-logo.png`,
+  logo: `${SITE_URL}/clinixglow-logo.png`,
   description:
     "Saç ekim klinikleri için klinik yönetimi, hasta büyümesi ve sektör analizleri.",
   sameAs: [
-    "https://www.instagram.com/graftscope",
-    "https://www.linkedin.com/company/graftscope",
-    "https://www.facebook.com/graftscope"
+    "https://www.instagram.com/clinixglow",
+    "https://www.linkedin.com/company/clinixglow",
+    "https://www.facebook.com/clinixglow"
   ]
 };
 
 const webSiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "GraftScope Insights",
+  name: "ClinixGlow Insights",
   url: SITE_URL,
   description: "Saç ekim klinikleri için klinik yönetimi, hasta büyümesi ve sektör analizleri.",
   potentialAction: {
@@ -100,13 +100,13 @@ const webSiteSchema = {
 const blogSchema = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "GraftScope Blog",
+  name: "ClinixGlow Blog",
   description:
     "Saç ekim klinikleri için klinik yönetimi, hasta büyümesi ve sektör analizleri.",
   url: `${SITE_URL}`,
   publisher: {
     "@type": "Organization",
-    name: "GraftScope",
+    name: "ClinixGlow",
     url: SITE_URL,
   },
 };
@@ -114,7 +114,7 @@ const blogSchema = {
 const softwareApplicationSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "GraftScope",
+  "name": "ClinixGlow",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web",
   "description": "Hair transplant clinic management software with CRM, AI analysis, appointment system and enterprise dashboard.",

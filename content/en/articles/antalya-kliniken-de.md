@@ -3,7 +3,7 @@ title: "Antalya Hair Transplant Clinics: Complete Guide 2026"
 excerpt: "Antalya leads Turkey's hair transplant market with world-class clinics and medical tourism. Discover top clinics, pricing, and what makes Antalya special."
 date: "2026-03-15"
 category: "Turkey"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 6
 featured: true
 ---
@@ -260,7 +260,7 @@ Antalya has emerged as Turkey's premier destination for hair transplant procedur
 - **Growth factor applications**
 - **Advanced preservation** solutions
 
-### GraftScope Integration
+### ClinixGlow Integration
 
 **Clinic Management Platform**
 Our technology helps Antalya clinics:
@@ -343,7 +343,7 @@ Antalya has successfully positioned itself as the premier destination for hair t
 
 For patients seeking quality hair transplant procedures, Antalya offers the ideal combination of medical excellence, technological advancement, and Mediterranean beauty. The city's clinics continue to innovate and improve, setting new standards for the global hair transplant industry.
 
-**GraftScope** provides the technology infrastructure that enables Antalya clinics to deliver world-class experiences to international patients. From AI-powered treatment planning to comprehensive patient management, our platform helps clinics maintain their competitive edge while optimizing operations and patient satisfaction.
+**ClinixGlow** provides the technology infrastructure that enables Antalya clinics to deliver world-class experiences to international patients. From AI-powered treatment planning to comprehensive patient management, our platform helps clinics maintain their competitive edge while optimizing operations and patient satisfaction.
 
 Ready to experience the best of Antalya's hair transplant expertise? Contact us for a personalized consultation and discover how our technology-enhanced approach can deliver the results you deserve.
 

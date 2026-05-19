@@ -1,9 +1,9 @@
 ---
 title: "Klinik Inventarverwaltung: Verborgene Kosten von Ineffizienzen und Lösungen"
-excerpt: "Ineffizienzen in der Klinik-Inventarverwaltung erhöhen nicht nur die Kosten - sie gefährden die Patientensicherheit. Digitalisieren und optimieren Sie mit GraftScope."
+excerpt: "Ineffizienzen in der Klinik-Inventarverwaltung erhöhen nicht nur die Kosten - sie gefährden die Patientensicherheit. Digitalisieren und optimieren Sie mit ClinixGlow."
 date: "2026-04-08"
 category: "Klinikmanagement"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 7
 featured: true
 ---
@@ -84,11 +84,11 @@ Diese Klinik erlebt nicht eine, sondern Dutzende ähnlicher Situationen täglich
 - Wettbewerb wird verloren
 - Wachstumspotenzial wird begrenzt
 
-## Revolution der Inventarverwaltung mit GraftScope
+## Revolution der Inventarverwaltung mit ClinixGlow
 
 ### Intelligentes Inventarverfolgungssystem
 
-**GraftScope-Lösungen:**
+**ClinixGlow-Lösungen:**
 - **Echtzeit-Bestandsverfolgung:** Wissen Sie immer, was Sie haben
 - **Automatische Bestellgenerierung:** Bestellungen werden automatisch bei niedrigem Bestand ausgelöst
 - **Verfallsdatumsverfolgung:** Erhalten Sie Warnungen vor Produktablauf
@@ -182,7 +182,7 @@ Diese Klinik erlebt nicht eine, sondern Dutzende ähnlicher Situationen täglich
 - Mitarbeiterunzufriedenheit
 - Patientenbeschwerden
 
-**GraftScope-Lösung:**
+**ClinixGlow-Lösung:**
 - Installation des intelligenten Inventarsystems
 - Automatische Bestellintegration
 - Mitarbeiterschulung
@@ -202,7 +202,7 @@ Diese Klinik erlebt nicht eine, sondern Dutzende ähnlicher Situationen täglich
 - Multi-Standort-Management-Schwierigkeiten
 - Mangelnde Kostenkontrolle
 
-**GraftScope-Lösung:**
+**ClinixGlow-Lösung:**
 - Bedarfsprognosesystem
 - Multi-Lieferanten-Management
 - Zentrallagerkontrolle
@@ -263,7 +263,7 @@ Diese Klinik erlebt nicht eine, sondern Dutzende ähnlicher Situationen täglich
 ### Schritt 2: Systemeinrichtung
 
 **Technologische Vorbereitung:**
-- GraftScope-Installation
+- ClinixGlow-Installation
 - Hardware-Anforderungen
 - Integrationseinstellungen
 - Datenmigration
@@ -320,12 +320,12 @@ Diese Klinik erlebt nicht eine, sondern Dutzende ähnlicher Situationen täglich
 
 ## Fazit: Die Zukunft der Kliniken
 
-Inventarverwaltung in Kliniken ist keine Option mehr, sondern eine Notwendigkeit. Mit GraftScope kontrollieren Kliniken nicht nur Kosten, sondern verbessern auch die Patientensicherheit, steigern die Mitarbeiterproduktivität und erlangen Wettbewerbsvorteile.
+Inventarverwaltung in Kliniken ist keine Option mehr, sondern eine Notwendigkeit. Mit ClinixGlow kontrollieren Kliniken nicht nur Kosten, sondern verbessern auch die Patientensicherheit, steigern die Mitarbeiterproduktivität und erlangen Wettbewerbsvorteile.
 
 **Denken Sie daran:** Jedes Bestandsproblem ist ein potenzielles Patientensicherheitsproblem. Jeder Überbestand ist eine verlorene Investition. Jede manuelle Aufgabe ist ein potenzieller menschlicher Fehler.
 
-**Sichern Sie die Zukunft Ihrer Klinik heute mit GraftScope.**
+**Sichern Sie die Zukunft Ihrer Klinik heute mit ClinixGlow.**
 
 ---
 
-*Dieser Artikel betont die Bedeutung der Inventarverwaltung in Kliniken nicht nur finanziell, sondern auch operationell und in Bezug auf die Patientensicherheit. Er erklärt, wie Kliniken Ineffizienzen mit GraftScopes umfassenden Lösungen durch praktische Beispiele überwinden können.*
+*Dieser Artikel betont die Bedeutung der Inventarverwaltung in Kliniken nicht nur finanziell, sondern auch operationell und in Bezug auf die Patientensicherheit. Er erklärt, wie Kliniken Ineffizienzen mit ClinixGlows umfassenden Lösungen durch praktische Beispiele überwinden können.*

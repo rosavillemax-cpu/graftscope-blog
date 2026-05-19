@@ -3,7 +3,7 @@ title: "Patient Referral Program: How to Build Sustainable Growth"
 excerpt: "Referral programs are the most cost-effective patient acquisition strategy. Learn how to build and optimize referral systems for your clinic."
 date: "2026-03-21"
 category: "Clinic Management"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 6
 featured: true
 ---
@@ -111,7 +111,7 @@ Patient referral programs represent the most powerful and cost-effective growth 
 
 ### Clinic Management Software Integration
 
-**GraftScope Referral Module**
+**ClinixGlow Referral Module**
 Our comprehensive solution includes:
 - **Automated referral tracking** and attribution
 - **Multi-tier reward management** systems
@@ -388,9 +388,9 @@ Patient referral programs represent the most powerful growth strategy available 
 - **Enhanced patient loyalty** and lifetime value
 - **Competitive advantage** in crowded markets
 
-**GraftScope** provides the comprehensive technology infrastructure needed to build and scale successful referral programs. From automated tracking and attribution to multi-tier reward management, our platform enables clinics to harness the power of patient advocacy while maintaining compliance and optimizing performance.
+**ClinixGlow** provides the comprehensive technology infrastructure needed to build and scale successful referral programs. From automated tracking and attribution to multi-tier reward management, our platform enables clinics to harness the power of patient advocacy while maintaining compliance and optimizing performance.
 
-Ready to transform your patient acquisition strategy with the power of referrals? Contact us for a personalized demo of how **GraftScope** can revolutionize your clinic's growth through strategic referral program implementation.
+Ready to transform your patient acquisition strategy with the power of referrals? Contact us for a personalized demo of how **ClinixGlow** can revolutionize your clinic's growth through strategic referral program implementation.
 
 ---
 

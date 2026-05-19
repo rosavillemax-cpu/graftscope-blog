@@ -3,7 +3,7 @@ title: "Asya Saç Ekimi Turizmi: Klinikler İçin Kapsamlı Rehber"
 excerpt: "Asya, saç ekimi medikal turizminde lider konumda. Kliniklerin Asya pazarından nasıl hasta çekebileceğini ve bu büyüyen pazarda nasıl rekabet edebileceğini öğrenin."
 date: "2026-03-24"
 category: "Pazar Analizi"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 6
 featured: true
 ---
@@ -162,7 +162,7 @@ Medikal turizm paketleri genellikle şunları içerir:
 
 ### Klinik Yönetim Yazılımı
 
-**Asya Pazarları İçin GraftScope**
+**Asya Pazarları İçin ClinixGlow**
 Platformumuz benzersiz zorlukları ele alıyor:
 - **Çok para birimi ödeme işleme**
 - **Çok dilli hasta yönetimi**
@@ -360,9 +360,9 @@ Asya saç ekimi pazarı, medikal mükemmelliği turizm entegrasyonuyla etkili bi
 4. **Uluslararası hastalara hizmette kültürel yetkinlik**
 5. **Turizm endüstrisi ile stratejik ortaklıklar**
 
-**GraftScope**, rekabetçi Asya medikal turizm pazarında rekabet etmeyi ve kazanmayı sağlayan kapsamlı teknoloji platformunu sunar. Çok dilli hasta yönetiminden turizm paketi koordinasyonuna kadar, çözümümüz kliniklere uluslararası hastalara dünya standartlarında deneyimler sunma yeteneği sağlar.
+**ClinixGlow**, rekabetçi Asya medikal turizm pazarında rekabet etmeyi ve kazanmayı sağlayan kapsamlı teknoloji platformunu sunar. Çok dilli hasta yönetiminden turizm paketi koordinasyonuna kadar, çözümümüz kliniklere uluslararası hastalara dünya standartlarında deneyimler sunma yeteneği sağlar.
 
-Büyüyen Asya medikal turizm pazarından payınızı kapmaya hazır mısınız? **GraftScope**'ın klinikinizin uluslararası hasta edinme ve yönetim yeteneklerini nasıl dönüştürebileceğine ilişkin kişiselleştirilmiş demo için bizimle iletişime geçin.
+Büyüyen Asya medikal turizm pazarından payınızı kapmaya hazır mısınız? **ClinixGlow**'ın klinikinizin uluslararası hasta edinme ve yönetim yeteneklerini nasıl dönüştürebileceğine ilişkin kişiselleştirilmiş demo için bizimle iletişime geçin.
 
 ---
 

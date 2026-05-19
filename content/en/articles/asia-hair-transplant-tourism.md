@@ -12,7 +12,7 @@ The number of patients coming to Turkey from Asia for hair transplants is growin
 
 ## Market Overview: The Asian Opportunity
 
-Asia represents one of the fastest-growing segments in Turkey's medical tourism market, with annual growth rates exceeding 30%. **GraftScope** data shows that Asian patients have the highest average spend ($8,000-$12,000) and the longest average stays (10-14 days) of any international segment, making them particularly valuable for clinic growth.
+Asia represents one of the fastest-growing segments in Turkey's medical tourism market, with annual growth rates exceeding 30%. **ClinixGlow** data shows that Asian patients have the highest average spend ($8,000-$12,000) and the longest average stays (10-14 days) of any international segment, making them particularly valuable for clinic growth.
 
 The Asian market is characterized by sophisticated patients with high expectations for quality, technology, and service. These patients typically research extensively, compare multiple international options, and expect cutting-edge techniques and facilities. Their decision-making process is thorough and often involves family consultation and cultural considerations.
 
@@ -504,7 +504,7 @@ Identify Asian market growth possibilities:
 
 Success in the Asian hair transplant market requires sophisticated understanding, technological excellence, and cultural sensitivity. The opportunities are substantial, but expectations are equally high and competition is increasing.
 
-**GraftScope** provides the tools and insights needed for Asian market success, from cultural competence training to technology integration and performance analytics.
+**ClinixGlow** provides the tools and insights needed for Asian market success, from cultural competence training to technology integration and performance analytics.
 
 Remember: Asian patients are not just another international market segment—they represent sophisticated, technology-savvy customers who demand excellence in every aspect of their experience. Invest in understanding their cultures, meeting their technological expectations, and delivering superior quality, and your clinic will establish profitable, sustainable relationships in this growing, high-value market.
 

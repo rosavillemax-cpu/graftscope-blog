@@ -57,10 +57,10 @@ export default function DemoForm() {
           justifyContent: "center"
         }}>
           <h1 style={{ fontSize: "28px", fontWeight: "700", marginBottom: "12px", lineHeight: "1.3" }}>
-            See GraftScope in Action
+            See ClinixGlow in Action
           </h1>
           <p style={{ fontSize: "15px", opacity: 0.8, marginBottom: "36px" }}>
-            Join 100+ hair transplant clinics already using GraftScope
+            Join 100+ hair transplant clinics already using ClinixGlow
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "16px", marginBottom: "40px" }}>

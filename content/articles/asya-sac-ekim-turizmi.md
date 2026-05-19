@@ -32,7 +32,7 @@ Koreli hastalar genellikle detaylı önce-sonra portföyü ve bilimsel içerik t
 
 Japonya, nüfus ve gelir açısından büyük bir pazar olmasına rağmen Türkiye'ye saç ekimi turizmi henüz sınırlıdır. Bu durum fırsat sunar: Japonca içerik ve iletişim sunan klinikler, rakiplerinden öne çıkabilir. Japon hastalar titiz, detay odaklı ve uzun vadeli ilişki değer verir.
 
-**GraftScope** gibi çok dilli sistemler (TR, EN, DE, ES, FR) gelecekte Asya dillerini de kapsayabilir; modüler mimari bu genişlemeye imkân tanır. Şimdilik İngilizce iletişim, Asya pazarlarında temel gereksinimdir.
+**ClinixGlow** gibi çok dilli sistemler (TR, EN, DE, ES, FR) gelecekte Asya dillerini de kapsayabilir; modüler mimari bu genişlemeye imkân tanır. Şimdilik İngilizce iletişim, Asya pazarlarında temel gereksinimdir.
 
 ## Stratejik Öneriler
 

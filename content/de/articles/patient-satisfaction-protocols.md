@@ -3,7 +3,7 @@ title: "Patientenzufriedenheitsprotokolle: Wie man Patientenbehandlung optimiert
 excerpt: "Patientenzufriedenheit ist der Schlüssel zum Klinikerfolg. Erfahren Sie, wie wirksame Protokolle die Patientenerfahrung verbessern."
 date: "2026-03-29"
 category: "Klinik Management"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 6
 featured: true
 ---
@@ -81,7 +81,7 @@ Patientenzufriedenheit ist nicht nur ein Ziel – sie ist der Grundstein für de
 - Echtzeit-Feedback während des Klinikaufenthalts
 - Integration mit Bewertungsplattformen
 
-## GraftScope: Technologie für Patientenzufriedenheit
+## ClinixGlow: Technologie für Patientenzufriedenheit
 
 ### Unsere Lösung für optimale Patientenerfahrung
 
@@ -175,7 +175,7 @@ Patientenzufriedenheit ist nicht nur ein Ziel – sie ist der Grundstein für de
 - Inkonsistente Kommunikation
 - Fehlende Follow-up-Systeme
 
-**Lösung mit GraftScope**
+**Lösung mit ClinixGlow**
 - Implementierung der kompletten Patientenmanagement-Plattform
 - Automatisierung aller Kommunikationsprozesse
 - Einführung systematischer Follow-up-Protokolle
@@ -215,9 +215,9 @@ Patientenzufriedenheit ist kein Zufallsprodukt, sondern das Ergebnis systematisc
 - **Besseres Wachstum durch Weiterempfehlungen**
 - **Nachhaltigen Wettbewerbsvorteil**
 
-**GraftScope** bietet die technologische Grundlage für umfassende Patientenzufriedenheitsprotokolle. Von der ersten Anfrage bis zur langfristigen Nachsorge sorgt unsere Plattform für optimale Patientenerfahrungen.
+**ClinixGlow** bietet die technologische Grundlage für umfassende Patientenzufriedenheitsprotokolle. Von der ersten Anfrage bis zur langfristigen Nachsorge sorgt unsere Plattform für optimale Patientenerfahrungen.
 
-Bereit, die Patientenzufriedenheit in Ihrer Klinik zu transformieren? Kontaktieren Sie uns für eine persönliche Demo von **GraftScope** und entdecken Sie, wie wir Ihre Patientenbetreuungsprotokolle revolutionieren können.
+Bereit, die Patientenzufriedenheit in Ihrer Klinik zu transformieren? Kontaktieren Sie uns für eine persönliche Demo von **ClinixGlow** und entdecken Sie, wie wir Ihre Patientenbetreuungsprotokolle revolutionieren können.
 
 ---
 

@@ -10,7 +10,7 @@ import SchemaMarkup from "@/app/components/SchemaMarkup";
 import { generateArticleSchema, generateArticleBreadcrumbs } from "@/lib/schema";
 import type { Metadata } from "next";
 
-const SITE_URL = "https://www.graftscope.com/blog";
+const SITE_URL = "https://www.clinixglow.com/blog";
 
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
@@ -39,7 +39,7 @@ export async function generateMetadata({
       title: frontmatter.title,
       description: frontmatter.excerpt,
       url,
-      siteName: "GraftScope",
+      siteName: "ClinixGlow",
       type: "article",
       publishedTime: frontmatter.date,
       authors: [frontmatter.author],
@@ -99,14 +99,14 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     },
     publisher: { 
       "@type": "Organization", 
-      name: "GraftScope", 
-      logo: "https://www.graftscope.com/blog/graftscope-logo.png" 
+      name: "ClinixGlow", 
+      logo: "https://www.clinixglow.com/blog/clinixglow-logo.png" 
     },
     datePublished: frontmatter.date,
     dateModified: frontmatter.date,
-    url: `https://www.graftscope.com/blog/articles/${slug}`,
+    url: `https://www.clinixglow.com/blog/articles/${slug}`,
     "inLanguage": "tr",
-    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.graftscope.com/blog/articles/${slug}` }
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.clinixglow.com/blog/articles/${slug}` }
   };
 
   return (
@@ -151,7 +151,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
       <footer className="site-footer">
         <div className="site-footer-inner">
-          <p className="footer-logo">GraftScope</p>
+          <p className="footer-logo">ClinixGlow</p>
           <p className="footer-tagline">
             Saç ekimi klinikleri için içgörüler ve rehberler.
           </p>
@@ -229,7 +229,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
       <section className="cta-section">
         <div className="cta-content">
-          <p className="cta-eyebrow">GRAFTSCOPE YAZILIMI</p>
+          <p className="cta-eyebrow">CLINIXGLOW YAZILIMI</p>
           <h2 className="cta-heading">Kliniğinizi bir üst seviyeye taşımaya hazır mısınız?</h2>
           <p className="cta-subtext">Yapay zeka destekli klinik yönetimi, randevu sistemi ve hasta takibi — tek platformda.</p>
           <div className="cta-buttons">
@@ -247,7 +247,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
       <footer className="site-footer">
         <div className="site-footer-inner">
-          <p className="footer-logo">GraftScope</p>
+          <p className="footer-logo">ClinixGlow</p>
           <p className="footer-tagline">
             Saç ekimi klinikleri için içgörüler ve rehberler.
           </p>

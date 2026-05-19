@@ -17,7 +17,7 @@ readTime: 9
 
 Rekabet üç ana eksende yoğunlaşıyor: **fiyat**, **konum/ulaşım** ve **hasta deneyimi**. Fiyat tek başına belirleyici olmasa da, özellikle uluslararası hastalar için paket fiyatları (uçuş, transfer, konaklama, operasyon) karşılaştırmanın ilk kriteri. Konum olarak havalimanına yakın veya otel bölgelerinde olan klinikler, “tek gün gel-git” veya kısa konaklama arayan hastalar için öne çıkıyor. Deneyim tarafında ise iletişim hızı, çok dilli destek, dijital onam ve takip süreçleri giderek daha fazla fark yaratıyor. Burada operasyonel mükemmellik, yani randevudan operasyon sonrası takibe kadar tutarlı bir süreç sunmak, rakiplerden ayrışmanın en kalıcı yolu.
 
-**Rekabet avantajı için operasyonel araçlar da önemli.** Örneğin GraftScope gibi klinik işletim sistemleri, CRM, randevu merkezi ve çok dilli dijital formlarla hem hasta yolculuğunu standartlaştırır hem de yönetimi tek merkezden yapmayı sağlar; bu da özellikle yoğun pazarda hız ve kalite farkı yaratır.
+**Rekabet avantajı için operasyonel araçlar da önemli.** Örneğin ClinixGlow gibi klinik işletim sistemleri, CRM, randevu merkezi ve çok dilli dijital formlarla hem hasta yolculuğunu standartlaştırır hem de yönetimi tek merkezden yapmayı sağlar; bu da özellikle yoğun pazarda hız ve kalite farkı yaratır.
 
 ## Fırsat 1: Uluslararası Hasta Segmentleri
 

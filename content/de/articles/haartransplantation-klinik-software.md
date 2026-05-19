@@ -150,5 +150,5 @@ Das richtige System transformiert, wie Sie Patienten verwalten, Verfahren planen
 ---
 
 "Effizientes Klinikmanagement beginnt mit den richtigen Werkzeugen."
-[GraftScope Pro erkunden →] → /de/pricing
+[ClinixGlow Pro erkunden →] → /de/pricing
 [Kostenlose Demo anfordern →] → /de/demo

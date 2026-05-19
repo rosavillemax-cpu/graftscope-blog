@@ -1,8 +1,8 @@
 ---
 title: "Kundenzufriedenheit: Der Schlüssel zum Klinikerfolg"
-excerpt: "Strategische Wege zur Steigerung der Kundenzufriedenheit in Haartransplantationskliniken und operative Exzellenz mit GraftScope."
+excerpt: "Strategische Wege zur Steigerung der Kundenzufriedenheit in Haartransplantationskliniken und operative Exzellenz mit ClinixGlow."
 date: "2026-04-15"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 category: "Patientenwachstum"
 readTime: 8
 ---
@@ -58,13 +58,13 @@ Zufriedenheit betrifft nicht nur die Patientenerfahrung, sondern auch die operat
 - **Standardisierte Lösungsverfahren:** Fertiger Plan für jedes Problem
 - **Nachverfolgungssystem:** Sicherstellen, dass Probleme wirklich gelöst sind
 
-## Schnellere Operationen mit GraftScope
+## Schnellere Operationen mit ClinixGlow
 
-**GraftScope** ist eine integrierte Plattform, die zur Steigerung der Kundenzufriedenheit entwickelt wurde. Hier erfahren Sie, wie Sie Ihre Klinikoperationen beschleunigen können:
+**ClinixGlow** ist eine integrierte Plattform, die zur Steigerung der Kundenzufriedenheit entwickelt wurde. Hier erfahren Sie, wie Sie Ihre Klinikoperationen beschleunigen können:
 
 ### **🚀 Automatische Patientennachsorge**
 
-Mit **GraftScope**:
+Mit **ClinixGlow**:
 - **Automatische postoperative Kontrollnachrichten**
 - **Personalisierte Genesungszeitpläne**
 - **Sofortbenachrichtigungen** bei abnormalen Zuständen
@@ -74,7 +74,7 @@ Mit **GraftScope**:
 
 ### **📊 Zentrale Kundendatenbank**
 
-**GraftScope** bietet:
+**ClinixGlow** bietet:
 - **Einziges Patientenprofil:** Alle Informationen an einem Ort
 - **Kommunikationshistorie:** Jedes Gespräch protokolliert
 - **Medizinische Notizen:** Operationsdetails und Ergebnisse
@@ -84,7 +84,7 @@ Mit **GraftScope**:
 
 ### **⚡ Sofortige Benachrichtigungen und Warnungen**
 
-Mit **GraftScope**:
+Mit **ClinixGlow**:
 - **Sofortige Benachrichtigung** bei Notfällen
 - **Automatische Termineinnerungen**
 - **Medikamentenverfolgung** mit rechtzeitigen Warnungen
@@ -94,7 +94,7 @@ Mit **GraftScope**:
 
 ### **🔄 Integriertes Kommunikationssystem**
 
-**GraftScope** ermöglicht:
+**ClinixGlow** ermöglicht:
 - **Zentrale Nachrichtenverwaltung:** Alle Kanäle in einer Oberfläche
 - **Automatische Antworten:** Für häufig gestellte Fragen
 - **Personalisierte Vorlagen:** Schnelle Kommunikation
@@ -102,11 +102,11 @@ Mit **GraftScope**:
 
 **Ergebnis:** 60% weniger Kommunikationszeit
 
-## Kundenzufriedenheitsmetriken mit GraftScope
+## Kundenzufriedenheitsmetriken mit ClinixGlow
 
 ### **Messbarer Erfolg**
 
-Im **GraftScope**-Dashboard können Sie sehen:
+Im **ClinixGlow**-Dashboard können Sie sehen:
 - **Zufriedenheitswerte:** Aktuelle Patientenzufriedenheit
 - **Überweisungsraten:** Wie viele Patienten neue Patienten bringen
 - **Wiederbesuchsraten:** Patiententreue
@@ -114,33 +114,33 @@ Im **GraftScope**-Dashboard können Sie sehen:
 
 ### **Datenbasierte Entscheidungen**
 
-Mit **GraftScope**:
+Mit **ClinixGlow**:
 - **Trendanalyse:** Welche Prozesse funktionieren
 - **Personalperformance:** Welche Teammitglieder erfolgreich sind
 - **Patientensegmentierung:** Strategien für verschiedene Patientengruppen
 - **Vorhersageanalyse:** Potenzielle Probleme frühzeitig erkennen
 
-## Erfolgsgeschichten: Transformation mit GraftScope
+## Erfolgsgeschichten: Transformation mit ClinixGlow
 
 ### **Fall 1: Istanbul-Klinik**
 
 **Problem:** Hohe Patientenbeschwerden (35%), niedrige Überweisungsrate
-**GraftScope-Lösung:** Automatisches Nachverfolgungssystem und zentrale Kommunikation
+**ClinixGlow-Lösung:** Automatisches Nachverfolgungssystem und zentrale Kommunikation
 **Ergebnis:** 85% Zufriedenheitssteigerung in 3 Monaten, 120% Zunahme bei Neupatienten
 
 ### **Fall 2: Antalya-Klinik**
 
 **Problem:** Kommunikationsschwierigkeiten mit internationalen Patienten
-**GraftScope-Lösung:** Mehrsprachige Unterstützung und automatische Übersetzung
+**ClinixGlow-Lösung:** Mehrsprachige Unterstützung und automatische Übersetzung
 **Ergebnis:** 60% weniger Kommunikationsfehler, 45% Zunahme bei ausländischen Patienten
 
 ### **Fall 3: Ankara-Klinik**
 
 **Problem:** Manuelle Prozesse und verzögerte Nachverfolgung
-**GraftScope-Lösung:** Vollständige Automatisierung und sofortige Benachrichtigungen
+**ClinixGlow-Lösung:** Vollständige Automatisierung und sofortige Benachrichtigungen
 **Ergebnis:** 70% weniger manuelle Arbeit, 95% Patientenzufriedenheit
 
-## Erste Schritte: Start mit GraftScope
+## Erste Schritte: Start mit ClinixGlow
 
 ### **1. Demo und Einrichtung**
 
@@ -165,15 +165,15 @@ Mit **GraftScope**:
 
 ## Fazit: Kundenzufriedenheit als Wettbewerbsvorteil
 
-Mit **GraftScope** wird Kundenzufriedenheit nicht nur zu einem Ziel, sondern zu einem Wettbewerbsvorteil:
+Mit **ClinixGlow** wird Kundenzufriedenheit nicht nur zu einem Ziel, sondern zu einem Wettbewerbsvorteil:
 
 - **Glücklichere Patienten:** Word-of-Mouth-Marketingmacht
 - **Weniger Probleme:** Operative Effizienz
 - **Schnelleres Wachstum:** Nachhaltiger Erfolg
 - **Bessere Marke:** Branchenführerschaft
 
-**Die Zukunft gehört Kliniken mit zufriedenen Patienten. Mit GraftScope ist Ihre Klinik für die Zukunft gerüstet.**
+**Die Zukunft gehört Kliniken mit zufriedenen Patienten. Mit ClinixGlow ist Ihre Klinik für die Zukunft gerüstet.**
 
 ---
 
-**[Demo anfordern →](https://www.graftscope.com/demo)**
+**[Demo anfordern →](https://www.clinixglow.com/demo)**

@@ -1,8 +1,8 @@
 ---
 title: "Customer Satisfaction: The Key to Clinic Success"
-excerpt: "Strategic ways to increase customer satisfaction in hair transplant clinics and operational excellence with GraftScope."
+excerpt: "Strategic ways to increase customer satisfaction in hair transplant clinics and operational excellence with ClinixGlow."
 date: "2026-04-15"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 category: "Patient Growth"
 readTime: 8
 ---
@@ -58,13 +58,13 @@ Satisfaction is not just about patient experience, but also connected to operati
 - **Standardized solution procedures:** Ready plan for every issue
 - **Follow-up system:** Ensuring problems are actually resolved
 
-## Faster Operations with GraftScope
+## Faster Operations with ClinixGlow
 
-**GraftScope** is an integrated platform designed to increase customer satisfaction. Here's how it speeds up your clinic operations:
+**ClinixGlow** is an integrated platform designed to increase customer satisfaction. Here's how it speeds up your clinic operations:
 
 ### **🚀 Automated Patient Follow-up**
 
-With **GraftScope**:
+With **ClinixGlow**:
 - **Automatic post-operative check** messages
 - **Personalized recovery schedule** delivery
 - **Instant notifications** for abnormal situations
@@ -74,7 +74,7 @@ With **GraftScope**:
 
 ### **📊 Central Customer Database**
 
-**GraftScope** offers:
+**ClinixGlow** offers:
 - **Single patient profile:** All information in one place
 - **Communication history:** Every conversation logged
 - **Medical notes:** Operation details and results
@@ -84,7 +84,7 @@ With **GraftScope**:
 
 ### **⚡ Instant Notifications and Alerts**
 
-With **GraftScope**:
+With **ClinixGlow**:
 - **Emergency situation** immediate notification
 - **Appointment reminders** automatically
 - **Medication tracking system** timely alerts
@@ -94,7 +94,7 @@ With **GraftScope**:
 
 ### **🔄 Integrated Communication System**
 
-**GraftScope** provides:
+**ClinixGlow** provides:
 - **Centralized messaging:** All channels in one interface
 - **Automatic responses:** For frequently asked questions
 - **Personalized templates:** Quick communication
@@ -102,11 +102,11 @@ With **GraftScope**:
 
 **Result:** 60% less communication time
 
-## Customer Satisfaction Metrics with GraftScope
+## Customer Satisfaction Metrics with ClinixGlow
 
 ### **Measurable Success**
 
-In the **GraftScope** dashboard you can see:
+In the **ClinixGlow** dashboard you can see:
 - **Satisfaction scores:** Real-time patient satisfaction
 - **Referral rates:** How many patients bring new patients
 - **Return visit rates:** Patient loyalty
@@ -114,33 +114,33 @@ In the **GraftScope** dashboard you can see:
 
 ### **Data-Driven Decisions**
 
-With **GraftScope**:
+With **ClinixGlow**:
 - **Trend analysis:** Which processes are working
 - **Staff performance:** Which team members are successful
 - **Patient segmentation:** Strategies for different patient groups
 - **Predictive analytics:** Potential problems early detection
 
-## Success Stories: Transformation with GraftScope
+## Success Stories: Transformation with ClinixGlow
 
 ### **Case 1: Istanbul Clinic**
 
 **Problem:** High patient complaints (35%), low referral rate
-**GraftScope solution:** Automated follow-up system and centralized communication
+**ClinixGlow solution:** Automated follow-up system and centralized communication
 **Result:** 85% satisfaction increase in 3 months, 120% new patient growth
 
 ### **Case 2: Antalya Clinic**
 
 **Problem:** Communication difficulties with international patients
-**GraftScope solution:** Multi-language support and automatic translation
+**ClinixGlow solution:** Multi-language support and automatic translation
 **Result:** 60% fewer communication errors, 45% foreign patient increase
 
 ### **Case 3: Ankara Clinic**
 
 **Problem:** Manual processes and delayed follow-ups
-**GraftScope solution:** Full automation and instant notifications
+**ClinixGlow solution:** Full automation and instant notifications
 **Result:** 70% less manual work, 95% patient satisfaction
 
-## First Steps: Getting Started with GraftScope
+## First Steps: Getting Started with ClinixGlow
 
 ### **1. Demo and Setup**
 
@@ -165,15 +165,15 @@ With **GraftScope**:
 
 ## Conclusion: Customer Satisfaction as Competitive Advantage
 
-With **GraftScope**, customer satisfaction becomes not just a goal, but a competitive advantage:
+With **ClinixGlow**, customer satisfaction becomes not just a goal, but a competitive advantage:
 
 - **Happier patients:** Word-of-mouth marketing power
 - **Fewer problems:** Operational efficiency
 - **Faster growth:** Sustainable success
 - **Better brand:** Industry leadership
 
-**The future belongs to clinics with satisfied patients. With GraftScope, your clinic is ready for the future.**
+**The future belongs to clinics with satisfied patients. With ClinixGlow, your clinic is ready for the future.**
 
 ---
 
-**[Request Demo →](https://www.graftscope.com/demo)**
+**[Request Demo →](https://www.clinixglow.com/demo)**

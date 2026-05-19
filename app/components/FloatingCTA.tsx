@@ -17,15 +17,15 @@ export default function FloatingCTA() {
   
   const content = {
     tr: {
-      text: "Kliniğiniz için GraftScope'u deneyin →",
+      text: "Kliniğiniz için ClinixGlow'u deneyin →",
       href: "/demo"
     },
     en: {
-      text: "Try GraftScope for your clinic →",
+      text: "Try ClinixGlow for your clinic →",
       href: "/en/demo"
     },
     de: {
-      text: "GraftScope für Ihre Klinik testen →",
+      text: "ClinixGlow für Ihre Klinik testen →",
       href: "/de/demo"
     }
   };

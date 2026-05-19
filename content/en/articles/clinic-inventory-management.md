@@ -1,9 +1,9 @@
 ---
 title: "Clinic Inventory Management: Hidden Costs of Inefficiencies and Solutions"
-excerpt: "Inventory management inefficiencies in clinics don't just increase costs - they endanger patient safety. Digitize and optimize with GraftScope."
+excerpt: "Inventory management inefficiencies in clinics don't just increase costs - they endanger patient safety. Digitize and optimize with ClinixGlow."
 date: "2026-04-08"
 category: "Clinic Management"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 7
 featured: true
 ---
@@ -84,11 +84,11 @@ This clinic experiences not one, but dozens of similar situations daily. Invento
 - Competition is lost
 - Growth potential is limited
 
-## Revolutionizing Inventory Management with GraftScope
+## Revolutionizing Inventory Management with ClinixGlow
 
 ### Smart Inventory Tracking System
 
-**GraftScope Solutions:**
+**ClinixGlow Solutions:**
 - **Real-time stock tracking:** Always know what you have
 - **Automatic order generation:** Orders placed automatically when stock is low
 - **Expiration date tracking:** Get alerts before products expire
@@ -182,7 +182,7 @@ This clinic experiences not one, but dozens of similar situations daily. Invento
 - Staff dissatisfaction
 - Patient complaints
 
-**GraftScope Solution:**
+**ClinixGlow Solution:**
 - Smart inventory system installation
 - Automatic order integration
 - Staff training
@@ -202,7 +202,7 @@ This clinic experiences not one, but dozens of similar situations daily. Invento
 - Multi-location management difficulties
 - Lack of cost control
 
-**GraftScope Solution:**
+**ClinixGlow Solution:**
 - Demand forecasting system
 - Multi-supplier management
 - Central warehouse control
@@ -263,7 +263,7 @@ This clinic experiences not one, but dozens of similar situations daily. Invento
 ### Step 2: System Setup
 
 **Technological Preparation:**
-- GraftScope installation
+- ClinixGlow installation
 - Hardware requirements
 - Integration settings
 - Data migration
@@ -320,12 +320,12 @@ This clinic experiences not one, but dozens of similar situations daily. Invento
 
 ## Conclusion: The Future of Clinics
 
-Inventory management in clinics is no longer an option, but a necessity. With GraftScope, clinics not only control costs but also enhance patient safety, improve staff productivity, and gain competitive advantage.
+Inventory management in clinics is no longer an option, but a necessity. With ClinixGlow, clinics not only control costs but also enhance patient safety, improve staff productivity, and gain competitive advantage.
 
 **Remember:** Every stock issue is a potential patient safety problem. Every overstock is a lost investment. Every manual task is a potential human error.
 
-**Secure your clinic's future today with GraftScope.**
+**Secure your clinic's future today with ClinixGlow.**
 
 ---
 
-*This article emphasizes the importance of inventory management in clinics not just financially, but also operationally and in terms of patient safety. It explains how clinics can overcome inefficiencies with GraftScope's comprehensive solutions through practical examples.*
+*This article emphasizes the importance of inventory management in clinics not just financially, but also operationally and in terms of patient safety. It explains how clinics can overcome inefficiencies with ClinixGlow's comprehensive solutions through practical examples.*

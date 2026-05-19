@@ -1,4 +1,4 @@
-# GraftScope Blog — İç Linkleme & Dizin Durumu Raporu
+# ClinixGlow Blog — İç Linkleme & Dizin Durumu Raporu
 
 **Tarih:** 2026-04-27
 **Amaç:** Google Search Console "Keşfedildi – şu anda dizine eklenmiş değil" statüsündeki sayfaları dizine kazandırmak için iç linkleme yapısını güçlendirmek
@@ -144,7 +144,7 @@ Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
 Crawl-delay: 1
-Sitemap: https://www.graftscope.com/blog/sitemap.xml
+Sitemap: https://www.clinixglow.com/blog/sitemap.xml
 ```
 **Durum:** ✅ Sorun yok. Tüm sayfalara izin var, sitemap doğru konumda.
 
@@ -196,25 +196,25 @@ Aşağıdaki URL'ler (14 yeni linkin hedefleri) Google'a öncelikle gönderilmel
 
 ```
 TR:
-https://www.graftscope.com/blog/articles/crm-olmadan-klinik-yonetmek
-https://www.graftscope.com/blog/articles/kliniklerde-kurumsal-mukemmellik-yolculugu-stratejiden-uyulamaya
-https://www.graftscope.com/blog/articles/5-isaret-kliniginiz-manuel-surecler-nedeniyle-hasta-kaybediyor
-https://www.graftscope.com/blog/articles/yapay-zeka-sac-analizi
-https://www.graftscope.com/blog/articles/yapay-zeka-sac-analizi-2026
-https://www.graftscope.com/blog/articles/uluslararasi-hasta-cekme
-https://www.graftscope.com/blog/articles/avrupa-sac-ekim-pazari
-https://www.graftscope.com/blog/articles/orta-dogu-sac-ekim-pazari
+https://www.clinixglow.com/blog/articles/crm-olmadan-klinik-yonetmek
+https://www.clinixglow.com/blog/articles/kliniklerde-kurumsal-mukemmellik-yolculugu-stratejiden-uyulamaya
+https://www.clinixglow.com/blog/articles/5-isaret-kliniginiz-manuel-surecler-nedeniyle-hasta-kaybediyor
+https://www.clinixglow.com/blog/articles/yapay-zeka-sac-analizi
+https://www.clinixglow.com/blog/articles/yapay-zeka-sac-analizi-2026
+https://www.clinixglow.com/blog/articles/uluslararasi-hasta-cekme
+https://www.clinixglow.com/blog/articles/avrupa-sac-ekim-pazari
+https://www.clinixglow.com/blog/articles/orta-dogu-sac-ekim-pazari
 
 EN:
-https://www.graftscope.com/blog/en/articles/5-signs-your-clinic-is-losing-patients-to-manual-processes
-https://www.graftscope.com/blog/en/articles/clinic-management-without-crm
-https://www.graftscope.com/blog/en/articles/clinic-inventory-management
-https://www.graftscope.com/blog/en/articles/international-patient-acquisition
-https://www.graftscope.com/blog/en/articles/europe-hair-transplant-market
-https://www.graftscope.com/blog/en/articles/middle-east-hair-transplant
+https://www.clinixglow.com/blog/en/articles/5-signs-your-clinic-is-losing-patients-to-manual-processes
+https://www.clinixglow.com/blog/en/articles/clinic-management-without-crm
+https://www.clinixglow.com/blog/en/articles/clinic-inventory-management
+https://www.clinixglow.com/blog/en/articles/international-patient-acquisition
+https://www.clinixglow.com/blog/en/articles/europe-hair-transplant-market
+https://www.clinixglow.com/blog/en/articles/middle-east-hair-transplant
 
 DE:
-https://www.graftscope.com/blog/de/articles/5-anzeichen-dass-ihre-klinik-patienten-durch-manuelle-prozesse-verliert
+https://www.clinixglow.com/blog/de/articles/5-anzeichen-dass-ihre-klinik-patienten-durch-manuelle-prozesse-verliert
 ```
 
 ### Sonraki Adımlar

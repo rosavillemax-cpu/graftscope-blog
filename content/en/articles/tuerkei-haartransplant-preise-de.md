@@ -3,7 +3,7 @@ title: "Turkey Hair Transplant Prices 2026: Complete Cost Guide"
 excerpt: "Complete guide to hair transplant prices in Turkey 2026. Compare costs, understand value, and discover why Turkey offers the best quality-price ratio."
 date: "2026-03-15"
 category: "Turkey"
-author: "GraftScope Team"
+author: "ClinixGlow Team"
 readTime: 6
 featured: true
 ---
@@ -362,7 +362,7 @@ Turkey offers exceptional value in hair transplant procedures through:
 
 The combination of quality, technology, experience, and competitive pricing makes Turkey the undisputed leader in global hair transplant tourism. Patients receive world-class treatment at a fraction of Western costs while enjoying Turkey's hospitality and tourism attractions.
 
-**GraftScope** provides the technology platform that helps Turkish clinics maintain their competitive edge while delivering exceptional patient experiences. From AI-powered consultations to comprehensive patient management, our solutions enable clinics to optimize operations and enhance the value proposition they offer international patients.
+**ClinixGlow** provides the technology platform that helps Turkish clinics maintain their competitive edge while delivering exceptional patient experiences. From AI-powered consultations to comprehensive patient management, our solutions enable clinics to optimize operations and enhance the value proposition they offer international patients.
 
 Ready to explore your hair transplant options in Turkey? Contact us for a personalized consultation and discover how our technology-enhanced approach can deliver the results you want at a price that makes sense.
 

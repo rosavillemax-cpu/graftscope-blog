@@ -13,7 +13,7 @@ Operational excellence in a hair transplant clinic comes not just from technical
 
 A successful hair transplant clinic operates like a well-orchestrated symphony. Each section—medical staff, administrative team, patient coordinators, and support personnel—must perform their parts perfectly while maintaining harmony with others.
 
-**GraftScope** data shows that clinics with high-performance teams achieve 40% better patient outcomes, 60% higher staff retention, and 35% greater operational efficiency. These results come from understanding that team success is built on four pillars: skills, systems, culture, and leadership.
+**ClinixGlow** data shows that clinics with high-performance teams achieve 40% better patient outcomes, 60% higher staff retention, and 35% greater operational efficiency. These results come from understanding that team success is built on four pillars: skills, systems, culture, and leadership.
 
 The most successful clinics invest as much in their people as they do in their technology and facilities. This investment pays dividends through better patient experiences, higher efficiency, and sustainable growth.
 
@@ -383,7 +383,7 @@ Foster continuous improvement:
 
 High-performance clinic teams don't happen by accident—they're built through intentional strategy, continuous investment, and unwavering commitment to excellence. The clinics that succeed understand that their people are their greatest asset and competitive advantage.
 
-**GraftScope** helps clinics implement these team management strategies through integrated systems that track performance, facilitate communication, and provide insights for continuous improvement.
+**ClinixGlow** helps clinics implement these team management strategies through integrated systems that track performance, facilitate communication, and provide insights for continuous improvement.
 
 Remember: in the hair transplant industry, technical excellence can be copied, but exceptional team culture and patient service cannot. Invest in your people, and they'll invest their hearts and minds in your clinic's success.
 

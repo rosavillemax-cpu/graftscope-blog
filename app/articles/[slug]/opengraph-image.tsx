@@ -83,7 +83,7 @@ export default async function Image({ params }: { params: { slug: string } }) {
             fontSize: '20px',
             fontWeight: '700',
           }}>
-            GraftScope Insights
+            ClinixGlow Insights
           </div>
         </div>
       </div>
