@@ -19,15 +19,6 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        destination: 'https://www.clinixglow.com/blog/:path*',
-        permanent: true,
-      },
-    ];
-  },
 };
 
 export default nextConfig;
