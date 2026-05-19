@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  basePath: '/blog',
+  assetPrefix: '/blog',
   images: {
     remotePatterns: [
       {
@@ -14,6 +16,15 @@ const nextConfig: NextConfig = {
       {
         source: '/sitemap.xml',
         destination: '/sitemap.xml',
+      },
+    ];
+  },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        destination: 'https://www.clinixglow.com/blog/:path*',
+        permanent: true,
       },
     ];
   },
