@@ -3,7 +3,7 @@ export async function GET() {
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.clinixglow.com/blog/sitemap.xml
+Sitemap: https://blog.clinixglow.com/sitemap.xml
 
 # Disallow admin and API routes (if they exist)
 Disallow: /api/
